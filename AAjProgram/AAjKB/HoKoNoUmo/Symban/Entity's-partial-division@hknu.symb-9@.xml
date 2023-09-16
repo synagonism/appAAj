@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.08.29" CREATED="2000.04.11" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2000.04.11" AUTHOR="HoKoNoUmo">
+** analytic-definition:
+- ENTITY'S-PARTITION is a SET whose elements comprise the ENTITY as a whole.
+- ENTITY'S-PARTITION I call the division of an entity into PARTS that comprise all the entity.
+We can have more than one partition of an entity.
+(The division of a concept is entirly different thing).
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.08.29" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.08.29" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Entity's partial division" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.08.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Entity's partition" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2000.11.12" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="οντότητας χωρισμός" TRMrULE="rlElnTrmNnCs110" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_WHOLE LASTmOD="2000.06.07" CREATED="2000.06.07" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" LASTmOD="2000.06.07" CREATED="2000.06.07" AUTHOR="HoKoNoUmo"/>
+</REFINO_WHOLE>
+</XCONCEPT>

@@ -1,0 +1,1096 @@
+<!--
+ * LastModified: 2005.09.04
+ * Created: 2004.08.28
+ * @author HoKoNoUmo
+ *
+ * FORMAT:
+ * <SMvERB1 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,1" LGcPT="vrb1" TxEXP="trmVrb1" TXeXP1_B="I"/>
+ * <SmCONJUNCTION XCPT="att.ext.env.place.accross.mv" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2"
+ *     XCPT="corelaton.place.accross@" LGcPT="." TXeXP1_A="vbtcomplement"/>
+ * <SmNOUN6 SMaTTR="random,plu" LGcPT="p2" TXeXP1_B="special-noun" TxEXP="nmp2" TXeXP1_A="" EXMPL="most cars'..."/>
+ * <SmSPECIALNOUN# XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_NOMINATIVE="po9" TXeXP1_B="" TxEXP="any" TXeXP1_A="" EXMPL="take any of the books you like"/>
+ *
+ * WD1= first word of the concepter. (4 are the most words a concepter can have: will have been written).
+ * TXeXP1_B= first word BEFORE the concept.
+ * WD1A= first word AFTER the concepter.
+ * TXeXP_M= first word in the MIDDLE of the concepter.
+ * TXeXP1_B="." denotes any word.
+ * TXeXP1_B="" denotes no word.
+ *
+ * ABBREVIATIONS FOR LESS STORAGE:
+ * ind=indicative,
+ * imp=imperative,
+ * sub=subjunctive,
+ * pre=present,
+ * past=past,
+ * fut=future,
+ * act=active,
+ * pass=passive,
+ * iper=imperfect,
+ * per=perfect,
+ * ins=instant,
+ * int=interval,
+ * ning=noninterogative,
+ * ing=interogative,
+ * aff=affirmative,
+ * neg=negative,
+ * sin=singular,
+ * plu=plural,
+ * 1=first,
+ * 2=second,
+ * 3=third,
+ *
+ * def=definite,
+ * idef=indefinte,
+ *
+ * IF the rules are ordered per ssemasia, THEN we can have the same order
+ * in all languages. 2004.08.29
+-->
+
+<SMvERB>
+<!-- SmATTRIBUTES: mood, tense, instantness, direction, perfectiveness, interrogation, -->
+<!--              affirmation, number, person -->
+<!-- every sm_verb can have these instances -->
+<!-- PRESENT -->
+<!-- I write -->
+<SMvERB001 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,1" LGcPT="vrb001" TxEXP="trmVrb1" TXeXP1_B="I"/>
+<SMvERB002 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,2" LGcPT="vrb001" TxEXP="trmVrb1" TXeXP1_B="you"/>
+<SMvERB003 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,3" LGcPT="vrb002" TxEXP="trmVrb2" TXeXP1_B="he|she|it|S"/>
+<SMvERB004 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,1" LGcPT="vrb001" TxEXP="trmVrb1" TXeXP1_B="we"/>
+<SMvERB005 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,2" LGcPT="vrb001" TxEXP="trmVrb1" TXeXP1_B="you"/>
+<SMvERB006 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,3" LGcPT="vrb001" TxEXP="trmVrb1" TXeXP1_B="they"/>
+
+<SMvERB007 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,1" LGcPT="vrb003" TxEXP="do,not,trmVrb1" TXeXP1_B="I"/>
+<SMvERB008 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,2" LGcPT="vrb003" TxEXP="do,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB009 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,3" LGcPT="vrb004" TxEXP="does,not,trmVrb1" TXeXP1_B="he|she|it|S"/>
+<SMvERB010 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,1" LGcPT="vrb003" TxEXP="do,not,trmVrb1" TXeXP1_B="we"/>
+<SMvERB011 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,2" LGcPT="vrb003" TxEXP="do,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB012 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,3" LGcPT="vrb003" TxEXP="do,not,trmVrb1" TXeXP1_B="they"/>
+
+<SMvERB013 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,1" LGcPT="vrb005" TxEXP="do,sbj,trmVrb1?" TXeXP_M="I"/>
+<SMvERB014 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,2" LGcPT="vrb005" TxEXP="do,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB015 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,3" LGcPT="vrb006" TxEXP="does,sbj,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB016 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,1" LGcPT="vrb005" TxEXP="do,sbj,trmVrb1?" TXeXP_M="we"/>
+<SMvERB017 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,2" LGcPT="vrb005" TxEXP="do,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB018 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,3" LGcPT="vrb005" TxEXP="do,sbj,trmVrb1?" TXeXP_M="they"/>
+
+<SMvERB019 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,1" LGcPT="vrb007" TxEXP="do,sbj,not,trmVrb1?" TXeXP_M="I"/>
+<SMvERB020 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,2" LGcPT="vrb007" TxEXP="do,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB021 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,3" LGcPT="vrb008" TxEXP="does,sbj,not,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB022 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,1" LGcPT="vrb007" TxEXP="do,sbj,not,trmVrb1?" TXeXP_M="we"/>
+<SMvERB023 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,2" LGcPT="vrb007" TxEXP="do,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB024 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,3" LGcPT="vrb007" TxEXP="do,sbj,not,trmVrb1?" TXeXP_M="they"/>
+<!-- I have written -->
+<SMvERB025 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,1" LGcPT="vrb009" TxEXP="have,trmVrb3" TXeXP1_B="I"/>
+<SMvERB026 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,2" LGcPT="vrb009" TxEXP="have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB027 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,3" LGcPT="vrb010" TxEXP="has,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB028 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,1" LGcPT="vrb009" TxEXP="have,trmVrb3" TXeXP1_B="we"/>
+<SMvERB029 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,2" LGcPT="vrb009" TxEXP="have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB030 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,3" LGcPT="vrb009" TxEXP="have,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB031 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,1" LGcPT="vrb011" TxEXP="have,not,trmVrb3" TXeXP1_B="I"/>
+<SMvERB032 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,2" LGcPT="vrb011" TxEXP="have,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB033 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,3" LGcPT="vrb012" TxEXP="has,not,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB034 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,1" LGcPT="vrb011" TxEXP="have,not,trmVrb3" TXeXP1_B="we"/>
+<SMvERB035 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,2" LGcPT="vrb011" TxEXP="have,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB036 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,3" LGcPT="vrb011" TxEXP="have,not,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB037 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,1" LGcPT="vrb013" TxEXP="have,sbj,trmVrb3?" TXeXP_M="I"/>
+<SMvERB038 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,2" LGcPT="vrb013" TxEXP="have,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB039 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,3" LGcPT="vrb014" TxEXP="has,sbj,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB040 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,1" LGcPT="vrb013" TxEXP="have,sbj,trmVrb3?" TXeXP_M="we"/>
+<SMvERB041 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,2" LGcPT="vrb013" TxEXP="have,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB042 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,3" LGcPT="vrb013" TxEXP="have,sbj,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB043 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,1" LGcPT="vrb015" TxEXP="have,sbj,not,trmVrb3?" TXeXP_M="I"/>
+<SMvERB044 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,2" LGcPT="vrb015" TxEXP="have,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB045 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,3" LGcPT="vrb016" TxEXP="has,sbj,not,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB046 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,1" LGcPT="vrb015" TxEXP="have,sbj,not,trmVrb3?" TXeXP_M="we"/>
+<SMvERB047 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,2" LGcPT="vrb015" TxEXP="have,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB048 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,3" LGcPT="vrb015" TxEXP="have,sbj,not,trmVrb3?" TXeXP_M="they"/>
+<!-- I am written -->
+<SMvERB049 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb017" TxEXP="am,trmVrb3" TXeXP1_B="I"/>
+<SMvERB050 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb018" TxEXP="are,trmVrb3" TXeXP1_B="you"/>
+<SMvERB051 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb019" TxEXP="is,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB052 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb018" TxEXP="are,trmVrb3" TXeXP1_B="we"/>
+<SMvERB053 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb018" TxEXP="are,trmVrb3" TXeXP1_B="you"/>
+<SMvERB054 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb018" TxEXP="are,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB055 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb020" TxEXP="am,not,trmVrb3" TXeXP1_B="I"/>
+<SMvERB056 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb021" TxEXP="are,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB057 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb022" TxEXP="is,not,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB058 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb021" TxEXP="are,not,trmVrb3" TXeXP1_B="we"/>
+<SMvERB059 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb021" TxEXP="are,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB060 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb021" TxEXP="are,not,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB061 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb023" TxEXP="am,sbj,trmVrb3?" TXeXP_M="I"/>
+<SMvERB062 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb024" TxEXP="are,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB063 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb025" TxEXP="is,sbj,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB064 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb024" TxEXP="are,sbj,trmVrb3?" TXeXP_M="we"/>
+<SMvERB065 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb024" TxEXP="are,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB066 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb024" TxEXP="are,sbj,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB067 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb026" TxEXP="am,sbj,not,trmVrb3?" TXeXP_M="I"/>
+<SMvERB068 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb027" TxEXP="are,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB069 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb028" TxEXP="is,sbj,not,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB070 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb027" TxEXP="are,sbj,not,trmVrb3?" TXeXP_M="we"/>
+<SMvERB071 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb027" TxEXP="are,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB072 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb027" TxEXP="are,sbj,not,trmVrb3?" TXeXP_M="they"/>
+<!-- I have been written -->
+<SMvERB073 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,1" LGcPT="vrb029" TxEXP="have,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB074 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,2" LGcPT="vrb029" TxEXP="have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB075 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,3" LGcPT="vrb030" TxEXP="has,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB076 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,1" LGcPT="vrb029" TxEXP="have,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB077 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,2" LGcPT="vrb029" TxEXP="have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB078 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,3" LGcPT="vrb029" TxEXP="have,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB079 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,1" LGcPT="vrb031" TxEXP="have,not,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB080 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,2" LGcPT="vrb031" TxEXP="have,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB081 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,3" LGcPT="vrb032" TxEXP="has,not,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB082 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,1" LGcPT="vrb031" TxEXP="have,not,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB083 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,2" LGcPT="vrb031" TxEXP="have,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB084 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,3" LGcPT="vrb031" TxEXP="have,not,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB085 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,1" LGcPT="vrb033" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB086 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,2" LGcPT="vrb033" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB087 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,3" LGcPT="vrb034" TxEXP="has,sbj,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB088 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,1" LGcPT="vrb033" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB089 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,2" LGcPT="vrb033" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB090 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,3" LGcPT="vrb033" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB091 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,1" LGcPT="vrb035" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB092 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,2" LGcPT="vrb035" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB093 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,3" LGcPT="vrb036" TxEXP="has,sbj,not,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB094 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,1" LGcPT="vrb035" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB095 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,2" LGcPT="vrb035" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB096 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,3" LGcPT="vrb035" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="they"/>
+<!-- I am writting -->
+<SMvERB097 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,1" LGcPT="vrb037" TxEXP="am,trmVrb4" TXeXP1_B="I"/>
+<SMvERB098 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,2" LGcPT="vrb038" TxEXP="are,trmVrb4" TXeXP1_B="you"/>
+<SMvERB099 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,3" LGcPT="vrb039" TxEXP="is,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB100 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,1" LGcPT="vrb038" TxEXP="are,trmVrb4" TXeXP1_B="we"/>
+<SMvERB101 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,2" LGcPT="vrb038" TxEXP="are,trmVrb4" TXeXP1_B="you"/>
+<SMvERB102 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,3" LGcPT="vrb038" TxEXP="are,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB103 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,1" LGcPT="vrb040" TxEXP="am,not,trmVrb4" TXeXP1_B="I"/>
+<SMvERB104 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,2" LGcPT="vrb041" TxEXP="are,not,trmVrb4" TXeXP1_B="you"/>
+<SMvERB105 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,3" LGcPT="vrb042" TxEXP="is,not,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB106 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,1" LGcPT="vrb041" TxEXP="are,not,trmVrb4" TXeXP1_B="we"/>
+<SMvERB107 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,2" LGcPT="vrb041" TxEXP="are,not,trmVrb4" TXeXP1_B="you"/>
+<SMvERB108 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,3" LGcPT="vrb041" TxEXP="are,not,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB109 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,1" LGcPT="vrb043" TxEXP="am,sbj,trmVrb4?" TXeXP_M="I"/>
+<SMvERB110 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,2" LGcPT="vrb044" TxEXP="are,sbj,trmVrb4?" TXeXP_M="you"/>
+<SMvERB111 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,3" LGcPT="vrb045" TxEXP="is,sbj,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB112 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,1" LGcPT="vrb044" TxEXP="are,sbj,trmVrb4?" TXeXP_M="we"/>
+<SMvERB113 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,2" LGcPT="vrb044" TxEXP="are,sbj,trmVrb4?" TXeXP_M="you"/>
+<SMvERB114 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,3" LGcPT="vrb044" TxEXP="are,sbj,trmVrb4?" TXeXP_M="they"/>
+
+<SMvERB115 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,1" LGcPT="vrb046" TxEXP="am,sbj,not,trmVrb4?" TXeXP_M="I"/>
+<SMvERB116 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,2" LGcPT="vrb047" TxEXP="are,sbj,not,trmVrb4?" TXeXP_M="you"/>
+<SMvERB117 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,3" LGcPT="vrb048" TxEXP="is,sbj,not,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB118 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,1" LGcPT="vrb047" TxEXP="are,sbj,not,trmVrb4?" TXeXP_M="we"/>
+<SMvERB119 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,2" LGcPT="vrb047" TxEXP="are,sbj,not,trmVrb4?" TXeXP_M="you"/>
+<SMvERB120 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,3" LGcPT="vrb047" TxEXP="are,sbj,not,trmVrb4?" TXeXP_M="they"/>
+<!-- I have been writing -->
+<SMvERB121 SMaTTR="ind,pre,int,act,per,ning,aff,sin,1" LGcPT="vrb049" TxEXP="have,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB122 SMaTTR="ind,pre,int,act,per,ning,aff,sin,2" LGcPT="vrb049" TxEXP="have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB123 SMaTTR="ind,pre,int,act,per,ning,aff,sin,3" LGcPT="vrb050" TxEXP="has,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB124 SMaTTR="ind,pre,int,act,per,ning,aff,plu,1" LGcPT="vrb049" TxEXP="have,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB125 SMaTTR="ind,pre,int,act,per,ning,aff,plu,2" LGcPT="vrb049" TxEXP="have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB126 SMaTTR="ind,pre,int,act,per,ning,aff,plu,3" LGcPT="vrb049" TxEXP="have,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB127 SMaTTR="ind,pre,int,act,per,ning,neg,sin,1" LGcPT="vrb051" TxEXP="have,not,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB128 SMaTTR="ind,pre,int,act,per,ning,neg,sin,2" LGcPT="vrb051" TxEXP="have,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB129 SMaTTR="ind,pre,int,act,per,ning,neg,sin,3" LGcPT="vrb052" TxEXP="has,not,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB130 SMaTTR="ind,pre,int,act,per,ning,neg,plu,1" LGcPT="vrb051" TxEXP="have,not,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB131 SMaTTR="ind,pre,int,act,per,ning,neg,plu,2" LGcPT="vrb051" TxEXP="have,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB132 SMaTTR="ind,pre,int,act,per,ning,neg,plu,3" LGcPT="vrb051" TxEXP="have,not,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB133 SMaTTR="ind,pre,int,act,per,ing,aff,sin,1" LGcPT="vrb053" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB134 SMaTTR="ind,pre,int,act,per,ing,aff,sin,2" LGcPT="vrb053" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB135 SMaTTR="ind,pre,int,act,per,ing,aff,sin,3" LGcPT="vrb054" TxEXP="has,sbj,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB136 SMaTTR="ind,pre,int,act,per,ing,aff,plu,1" LGcPT="vrb053" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB137 SMaTTR="ind,pre,int,act,per,ing,aff,plu,2" LGcPT="vrb053" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB138 SMaTTR="ind,pre,int,act,per,ing,aff,plu,3" LGcPT="vrb053" TxEXP="have,sbj,been,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB139 SMaTTR="ind,pre,int,act,per,ing,neg,sin,1" LGcPT="vrb055" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB140 SMaTTR="ind,pre,int,act,per,ing,neg,sin,2" LGcPT="vrb055" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB141 SMaTTR="ind,pre,int,act,per,ing,neg,sin,3" LGcPT="vrb056" TxEXP="has,sbj,not,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB142 SMaTTR="ind,pre,int,act,per,ing,neg,plu,1" LGcPT="vrb055" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB143 SMaTTR="ind,pre,int,act,per,ing,neg,plu,2" LGcPT="vrb055" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB144 SMaTTR="ind,pre,int,act,per,ing,neg,plu,3" LGcPT="vrb055" TxEXP="have,sbj,not,been,trmVrb3?" TXeXP_M="they"/>
+<!-- I am being written -->
+<SMvERB145 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,1" LGcPT="vrb057" TxEXP="am,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB146 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,2" LGcPT="vrb058" TxEXP="are,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB147 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,3" LGcPT="vrb059" TxEXP="is,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB148 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,1" LGcPT="vrb058" TxEXP="are,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB149 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,2" LGcPT="vrb058" TxEXP="are,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB150 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,3" LGcPT="vrb058" TxEXP="are,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB151 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,1" LGcPT="vrb060" TxEXP="am,not,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB152 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,2" LGcPT="vrb061" TxEXP="are,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB153 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,3" LGcPT="vrb062" TxEXP="is,not,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB154 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,1" LGcPT="vrb061" TxEXP="are,not,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB155 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,2" LGcPT="vrb061" TxEXP="are,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB156 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,3" LGcPT="vrb061" TxEXP="are,not,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB157 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,1" LGcPT="vrb063" TxEXP="am,sbj,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB158 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,2" LGcPT="vrb064" TxEXP="are,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB159 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,3" LGcPT="vrb065" TxEXP="is,sbj,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB160 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,1" LGcPT="vrb064" TxEXP="are,sbj,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB161 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,2" LGcPT="vrb064" TxEXP="are,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB162 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,3" LGcPT="vrb064" TxEXP="are,sbj,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB163 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,1" LGcPT="vrb066" TxEXP="am,sbj,not,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB164 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,2" LGcPT="vrb067" TxEXP="are,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB165 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,3" LGcPT="vrb068" TxEXP="is,sbj,not,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB166 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,1" LGcPT="vrb067" TxEXP="are,sbj,not,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB167 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,2" LGcPT="vrb067" TxEXP="are,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB168 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,3" LGcPT="vrb067" TxEXP="are,sbj,not,being,trmVrb3?" TXeXP_M="they"/>
+<!-- I have being written -->
+<SMvERB169 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,1" LGcPT="vrb069" TxEXP="have,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB170 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,2" LGcPT="vrb069" TxEXP="have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB171 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,3" LGcPT="vrb070" TxEXP="has,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB172 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,1" LGcPT="vrb069" TxEXP="have,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB173 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,2" LGcPT="vrb069" TxEXP="have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB174 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,3" LGcPT="vrb069" TxEXP="have,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB175 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,1" LGcPT="vrb071" TxEXP="have,not,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB176 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,2" LGcPT="vrb071" TxEXP="have,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB177 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,3" LGcPT="vrb072" TxEXP="has,not,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB178 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,1" LGcPT="vrb071" TxEXP="have,not,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB179 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,2" LGcPT="vrb071" TxEXP="have,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB180 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,3" LGcPT="vrb071" TxEXP="have,not,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB181 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,1" LGcPT="vrb073" TxEXP="have,sbj,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB182 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,2" LGcPT="vrb073" TxEXP="have,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB183 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,3" LGcPT="vrb074" TxEXP="has,sbj,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB184 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,1" LGcPT="vrb073" TxEXP="have,sbj,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB185 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,2" LGcPT="vrb073" TxEXP="have,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB186 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,3" LGcPT="vrb073" TxEXP="have,sbj,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB187 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,1" LGcPT="vrb075" TxEXP="have,sbj,not,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB188 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,2" LGcPT="vrb075" TxEXP="have,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB189 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,3" LGcPT="vrb076" TxEXP="has,sbj,not,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB190 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,1" LGcPT="vrb075" TxEXP="have,sbj,not,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB191 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,2" LGcPT="vrb075" TxEXP="have,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB192 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,3" LGcPT="vrb075" TxEXP="have,sbj,not,being,trmVrb3?" TXeXP_M="they"/>
+<!-- PAST -->
+<!-- I wrote -->
+<SMvERB193 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,1" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="I"/>
+<SMvERB194 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,2" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="you"/>
+<SMvERB195 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,3" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="he|she|it|S"/>
+<SMvERB196 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,1" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="we"/>
+<SMvERB197 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,2" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="you"/>
+<SMvERB198 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,3" LGcPT="vrb077" TxEXP="trmVrb5" TXeXP1_B="they"/>
+
+<SMvERB199 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,1" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="I"/>
+<SMvERB200 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,2" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB201 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,3" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="he|she|it|S"/>
+<SMvERB202 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,1" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="we"/>
+<SMvERB203 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,2" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB204 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,3" LGcPT="vrb078" TxEXP="did,not,trmVrb1" TXeXP1_B="they"/>
+
+<SMvERB205 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,1" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="I"/>
+<SMvERB206 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,2" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB207 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,3" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB208 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,1" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="we"/>
+<SMvERB209 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,2" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB210 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,3" LGcPT="vrb079" TxEXP="did,sbj,trmVrb1?" TXeXP_M="they"/>
+
+<SMvERB211 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,1" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb1?" TXeXP_M="I"/>
+<SMvERB212 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,2" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB213 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,3" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB214 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,1" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb1?" TXeXP_M="we"/>
+<SMvERB215 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,2" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB216 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,3" LGcPT="vrb080" TxEXP="did,sbj,not,trmVrb3?" TXeXP_M="they"/>
+<!-- I had written -->
+<SMvERB217 SMaTTR="ind,past,ins,act,per,ning,aff,sin,1" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="I"/>
+<SMvERB218 SMaTTR="ind,past,ins,act,per,ning,aff,sin,2" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="you"/>
+<SMvERB219 SMaTTR="ind,past,ins,act,per,ning,aff,sin,3" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB220 SMaTTR="ind,past,ins,act,per,ning,aff,plu,1" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="we"/>
+<SMvERB221 SMaTTR="ind,past,ins,act,per,ning,aff,plu,2" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="you"/>
+<SMvERB222 SMaTTR="ind,past,ins,act,per,ning,aff,plu,3" LGcPT="vrb081" TxEXP="had,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB223 SMaTTR="ind,past,ins,act,per,ning,neg,sin,1" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="I"/>
+<SMvERB224 SMaTTR="ind,past,ins,act,per,ning,neg,sin,2" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB225 SMaTTR="ind,past,ins,act,per,ning,neg,sin,3" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB226 SMaTTR="ind,past,ins,act,per,ning,neg,plu,1" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="we"/>
+<SMvERB227 SMaTTR="ind,past,ins,act,per,ning,neg,plu,2" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB228 SMaTTR="ind,past,ins,act,per,ning,neg,plu,3" LGcPT="vrb082" TxEXP="had,not,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB229 SMaTTR="ind,past,ins,act,per,ing,aff,sin,1" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="I"/>
+<SMvERB230 SMaTTR="ind,past,ins,act,per,ing,aff,sin,2" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB231 SMaTTR="ind,past,ins,act,per,ing,aff,sin,3" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB232 SMaTTR="ind,past,ins,act,per,ing,aff,plu,1" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="we"/>
+<SMvERB233 SMaTTR="ind,past,ins,act,per,ing,aff,plu,2" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB234 SMaTTR="ind,past,ins,act,per,ing,aff,plu,3" LGcPT="vrb083" TxEXP="had,sbj,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB235 SMaTTR="ind,past,ins,act,per,ing,neg,sin,1" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="I"/>
+<SMvERB236 SMaTTR="ind,past,ins,act,per,ing,neg,sin,2" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB237 SMaTTR="ind,past,ins,act,per,ing,neg,sin,3" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB238 SMaTTR="ind,past,ins,act,per,ing,neg,plu,1" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="we"/>
+<SMvERB239 SMaTTR="ind,past,ins,act,per,ing,neg,plu,2" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB240 SMaTTR="ind,past,ins,act,per,ing,neg,plu,3" LGcPT="vrb084" TxEXP="had,sbj,not,trmVrb3?" TXeXP_M="they"/>
+<!-- I was written -->
+<SMvERB241 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb085" TxEXP="was,trmVrb3" TXeXP1_B="I"/>
+<SMvERB242 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb086" TxEXP="were,trmVrb3" TXeXP1_B="you"/>
+<SMvERB243 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb085" TxEXP="was,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB244 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb086" TxEXP="were,trmVrb3" TXeXP1_B="we"/>
+<SMvERB245 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb086" TxEXP="were,trmVrb3" TXeXP1_B="you"/>
+<SMvERB246 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb086" TxEXP="were,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB247 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb087" TxEXP="was,not,trmVrb3" TXeXP1_B="I"/>
+<SMvERB248 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb088" TxEXP="were,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB249 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb087" TxEXP="was,not,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB250 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb088" TxEXP="were,not,trmVrb3" TXeXP1_B="we"/>
+<SMvERB251 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb088" TxEXP="were,not,trmVrb3" TXeXP1_B="you"/>
+<SMvERB252 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb088" TxEXP="were,not,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB253 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb089" TxEXP="was,sbj,trmVrb3?" TXeXP_M="I"/>
+<SMvERB254 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb090" TxEXP="were,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB255 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb089" TxEXP="was,sbj,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB256 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb090" TxEXP="were,sbj,trmVrb3?" TXeXP_M="we"/>
+<SMvERB257 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb090" TxEXP="were,sbj,trmVrb3?" TXeXP_M="you"/>
+<SMvERB258 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb090" TxEXP="were,sbj,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB259 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb091" TxEXP="was,sbj,not,trmVrb3?" TXeXP_M="I"/>
+<SMvERB260 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb092" TxEXP="were,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB261 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb091" TxEXP="was,sbj,not,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB262 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb092" TxEXP="were,sbj,not,trmVrb3?" TXeXP_M="we"/>
+<SMvERB263 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb092" TxEXP="were,sbj,not,trmVrb3?" TXeXP_M="you"/>
+<SMvERB264 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb092" TxEXP="were,sbj,not,trmVrb3?" TXeXP_M="they"/>
+<!-- I had been written -->
+<SMvERB265 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,1" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB266 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,2" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB267 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,3" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB268 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,1" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB269 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,2" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB270 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,3" LGcPT="vrb093" TxEXP="had,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB271 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,1" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB272 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,2" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB273 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,3" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB274 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,1" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB275 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,2" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB276 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,3" LGcPT="vrb094" TxEXP="had,not,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB277 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,1" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB278 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,2" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB279 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,3" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB280 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,1" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB281 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,2" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB282 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,3" LGcPT="vrb095" TxEXP="had,sbj,been,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB283 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,1" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB284 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,2" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB285 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,3" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB286 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,1" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB287 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,2" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB288 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,3" LGcPT="vrb096" TxEXP="had,sbj,not,been,trmVrb3?" TXeXP_M="they"/>
+<!-- I was writing -->
+<SMvERB289 SMaTTR="ind,past,int,act,iper,ning,aff,sin,1" LGcPT="vrb097" TxEXP="was,trmVrb3" TXeXP1_B="I"/>
+<SMvERB290 SMaTTR="ind,past,int,act,iper,ning,aff,sin,2" LGcPT="vrb098" TxEXP="were,trmVrb4" TXeXP1_B="you"/>
+<SMvERB291 SMaTTR="ind,past,int,act,iper,ning,aff,sin,3" LGcPT="vrb097" TxEXP="was,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB292 SMaTTR="ind,past,int,act,iper,ning,aff,plu,1" LGcPT="vrb098" TxEXP="were,trmVrb4" TXeXP1_B="we"/>
+<SMvERB293 SMaTTR="ind,past,int,act,iper,ning,aff,plu,2" LGcPT="vrb098" TxEXP="were,trmVrb4" TXeXP1_B="you"/>
+<SMvERB294 SMaTTR="ind,past,int,act,iper,ning,aff,plu,3" LGcPT="vrb098" TxEXP="were,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB295 SMaTTR="ind,past,int,act,iper,ning,neg,sin,1" LGcPT="vrb099" TxEXP="was,not,trmVrb4" TXeXP1_B="I"/>
+<SMvERB296 SMaTTR="ind,past,int,act,iper,ning,neg,sin,2" LGcPT="vrb100" TxEXP="were,not,trmVrb4" TXeXP1_B="you"/>
+<SMvERB297 SMaTTR="ind,past,int,act,iper,ning,neg,sin,3" LGcPT="vrb099" TxEXP="was,not,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB298 SMaTTR="ind,past,int,act,iper,ning,neg,plu,1" LGcPT="vrb100" TxEXP="were,not,trmVrb4" TXeXP1_B="we"/>
+<SMvERB299 SMaTTR="ind,past,int,act,iper,ning,neg,plu,2" LGcPT="vrb100" TxEXP="were,not,trmVrb4" TXeXP1_B="you"/>
+<SMvERB300 SMaTTR="ind,past,int,act,iper,ning,neg,plu,3" LGcPT="vrb100" TxEXP="were,not,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB301 SMaTTR="ind,past,int,act,iper,ing,aff,sin,1" LGcPT="vrb101" TxEXP="was,sbj,trmVrb4?" TXeXP_M="I"/>
+<SMvERB302 SMaTTR="ind,past,int,act,iper,ing,aff,sin,2" LGcPT="vrb102" TxEXP="were,sbj,trmVrb4?" TXeXP_M="you"/>
+<SMvERB303 SMaTTR="ind,past,int,act,iper,ing,aff,sin,3" LGcPT="vrb101" TxEXP="was,sbj,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB304 SMaTTR="ind,past,int,act,iper,ing,aff,plu,1" LGcPT="vrb102" TxEXP="were,sbj,trmVrb4?" TXeXP_M="we"/>
+<SMvERB305 SMaTTR="ind,past,int,act,iper,ing,aff,plu,2" LGcPT="vrb102" TxEXP="were,sbj,trmVrb4?" TXeXP_M="you"/>
+<SMvERB306 SMaTTR="ind,past,int,act,iper,ing,aff,plu,3" LGcPT="vrb102" TxEXP="were,sbj,trmVrb4?" TXeXP_M="they"/>
+
+<SMvERB307 SMaTTR="ind,past,int,act,iper,ing,neg,sin,1" LGcPT="vrb103" TxEXP="was,sbj,not,trmVrb4?" TXeXP_M="I"/>
+<SMvERB308 SMaTTR="ind,past,int,act,iper,ing,neg,sin,2" LGcPT="vrb104" TxEXP="were,sbj,not,trmVrb4?" TXeXP_M="you"/>
+<SMvERB309 SMaTTR="ind,past,int,act,iper,ing,neg,sin,3" LGcPT="vrb103" TxEXP="was,sbj,not,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB310 SMaTTR="ind,past,int,act,iper,ing,neg,plu,1" LGcPT="vrb104" TxEXP="were,sbj,not,trmVrb4?" TXeXP_M="we"/>
+<SMvERB311 SMaTTR="ind,past,int,act,iper,ing,neg,plu,2" LGcPT="vrb104" TxEXP="were,sbj,not,trmVrb4?" TXeXP_M="you"/>
+<SMvERB312 SMaTTR="ind,past,int,act,iper,ing,neg,plu,3" LGcPT="vrb104" TxEXP="were,sbj,not,trmVrb4?" TXeXP_M="they"/>
+<!-- I had been writing -->
+<SMvERB313 SMaTTR="ind,past,int,act,per,ning,aff,sin,1" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="I"/>
+<SMvERB314 SMaTTR="ind,past,int,act,per,ning,aff,sin,2" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB315 SMaTTR="ind,past,int,act,per,ning,aff,sin,3" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB316 SMaTTR="ind,past,int,act,per,ning,aff,plu,1" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="we"/>
+<SMvERB317 SMaTTR="ind,past,int,act,per,ning,aff,plu,2" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB318 SMaTTR="ind,past,int,act,per,ning,aff,plu,3" LGcPT="vrb105" TxEXP="had,been,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB319 SMaTTR="ind,past,int,act,per,ning,neg,sin,1" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="I"/>
+<SMvERB320 SMaTTR="ind,past,int,act,per,ning,neg,sin,2" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB321 SMaTTR="ind,past,int,act,per,ning,neg,sin,3" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB322 SMaTTR="ind,past,int,act,per,ning,neg,plu,1" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="we"/>
+<SMvERB323 SMaTTR="ind,past,int,act,per,ning,neg,plu,2" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB324 SMaTTR="ind,past,int,act,per,ning,neg,plu,3" LGcPT="vrb106" TxEXP="had,not,been,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB325 SMaTTR="ind,past,int,act,per,ing,aff,sin,1" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="I"/>
+<SMvERB326 SMaTTR="ind,past,int,act,per,ing,aff,sin,2" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB327 SMaTTR="ind,past,int,act,per,ing,aff,sin,3" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB328 SMaTTR="ind,past,int,act,per,ing,aff,plu,1" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="we"/>
+<SMvERB329 SMaTTR="ind,past,int,act,per,ing,aff,plu,2" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB330 SMaTTR="ind,past,int,act,per,ing,aff,plu,3" LGcPT="vrb107" TxEXP="had,sbj,been,trmVrb4?" TXeXP_M="they"/>
+
+<SMvERB331 SMaTTR="ind,past,int,act,per,ing,neg,sin,1" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="I"/>
+<SMvERB332 SMaTTR="ind,past,int,act,per,ing,neg,sin,2" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB333 SMaTTR="ind,past,int,act,per,ing,neg,sin,3" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB334 SMaTTR="ind,past,int,act,per,ing,neg,plu,1" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="we"/>
+<SMvERB335 SMaTTR="ind,past,int,act,per,ing,neg,plu,2" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB336 SMaTTR="ind,past,int,act,per,ing,neg,plu,3" LGcPT="vrb108" TxEXP="had,sbj,not,been,trmVrb4?" TXeXP_M="they"/>
+<!-- I was being written -->
+<SMvERB337 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,1" LGcPT="vrb109" TxEXP="was,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB338 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,2" LGcPT="vrb110" TxEXP="were,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB339 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,3" LGcPT="vrb109" TxEXP="was,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB340 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,1" LGcPT="vrb110" TxEXP="were,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB341 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,2" LGcPT="vrb110" TxEXP="were,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB342 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,3" LGcPT="vrb110" TxEXP="were,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB343 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,1" LGcPT="vrb111" TxEXP="was,not,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB344 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,2" LGcPT="vrb112" TxEXP="were,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB345 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,3" LGcPT="vrb111" TxEXP="was,not,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB346 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,1" LGcPT="vrb112" TxEXP="were,not,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB347 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,2" LGcPT="vrb112" TxEXP="were,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB348 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,3" LGcPT="vrb112" TxEXP="were,not,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB349 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,1" LGcPT="vrb113" TxEXP="was,sbj,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB350 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,2" LGcPT="vrb114" TxEXP="were,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB351 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,3" LGcPT="vrb113" TxEXP="was,sbj,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB352 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,1" LGcPT="vrb114" TxEXP="were,sbj,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB353 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,2" LGcPT="vrb114" TxEXP="were,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB354 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,3" LGcPT="vrb114" TxEXP="were,sbj,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB355 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,1" LGcPT="vrb115" TxEXP="was,sbj,not,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB356 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,2" LGcPT="vrb116" TxEXP="were,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB357 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,3" LGcPT="vrb115" TxEXP="was,sbj,not,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB358 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,1" LGcPT="vrb116" TxEXP="were,sbj,not,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB359 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,2" LGcPT="vrb116" TxEXP="were,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB360 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,3" LGcPT="vrb116" TxEXP="were,sbj,not,being,trmVrb3?" TXeXP_M="they"/>
+<!-- I had being written -->
+<SMvERB361 SMaTTR="ind,past,int,pass,per,ning,aff,sin,1" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB362 SMaTTR="ind,past,int,pass,per,ning,aff,sin,2" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB363 SMaTTR="ind,past,int,pass,per,ning,aff,sin,3" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB364 SMaTTR="ind,past,int,pass,per,ning,aff,plu,1" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB365 SMaTTR="ind,past,int,pass,per,ning,aff,plu,2" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB366 SMaTTR="ind,past,int,pass,per,ning,aff,plu,3" LGcPT="vrb117" TxEXP="had,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB367 SMaTTR="ind,past,int,pass,per,ning,neg,sin,1" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB368 SMaTTR="ind,past,int,pass,per,ning,neg,sin,2" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB369 SMaTTR="ind,past,int,pass,per,ning,neg,sin,3" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB370 SMaTTR="ind,past,int,pass,per,ning,neg,plu,1" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB371 SMaTTR="ind,past,int,pass,per,ning,neg,plu,2" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB372 SMaTTR="ind,past,int,pass,per,ning,neg,plu,3" LGcPT="vrb118" TxEXP="had,not,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB373 SMaTTR="ind,past,int,pass,per,ing,aff,sin,1" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB374 SMaTTR="ind,past,int,pass,per,ing,aff,sin,2" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB375 SMaTTR="ind,past,int,pass,per,ing,aff,sin,3" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB376 SMaTTR="ind,past,int,pass,per,ing,aff,plu,1" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB377 SMaTTR="ind,past,int,pass,per,ing,aff,plu,2" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB378 SMaTTR="ind,past,int,pass,per,ing,aff,plu,3" LGcPT="vrb119" TxEXP="had,sbj,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB379 SMaTTR="ind,past,int,pass,per,ing,neg,sin,1" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB380 SMaTTR="ind,past,int,pass,per,ing,neg,sin,2" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB381 SMaTTR="ind,past,int,pass,per,ing,neg,sin,3" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB382 SMaTTR="ind,past,int,pass,per,ing,neg,plu,1" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB383 SMaTTR="ind,past,int,pass,per,ing,neg,plu,2" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB384 SMaTTR="ind,past,int,pass,per,ing,neg,plu,3" LGcPT="vrb120" TxEXP="had,sbj,not,being,trmVrb3?" TXeXP_M="they"/>
+<!-- FUTURE -->
+<!-- I will write -->
+<SMvERB385 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,1" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="I"/>
+<SMvERB386 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,2" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="you"/>
+<SMvERB387 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,3" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="he|she|it|S"/>
+<SMvERB388 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,1" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="we"/>
+<SMvERB389 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,2" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="you"/>
+<SMvERB390 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,3" LGcPT="vrb121" TxEXP="will,trmVrb1" TXeXP1_B="they"/>
+
+<SMvERB391 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,1" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="I"/>
+<SMvERB392 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,2" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB393 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,3" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="he|she|it|S"/>
+<SMvERB394 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,1" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="we"/>
+<SMvERB395 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,2" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="you"/>
+<SMvERB396 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,3" LGcPT="vrb122" TxEXP="will,not,trmVrb1" TXeXP1_B="they"/>
+
+<SMvERB397 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,1" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="I"/>
+<SMvERB398 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,2" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB399 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,3" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB400 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,1" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="we"/>
+<SMvERB401 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,2" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="you"/>
+<SMvERB402 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,3" LGcPT="vrb123" TxEXP="will,sbj,trmVrb1?" TXeXP_M="they"/>
+
+<SMvERB403 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,1" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="I"/>
+<SMvERB404 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,2" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB405 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,3" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="he|she|it|S"/>
+<SMvERB406 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,1" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="we"/>
+<SMvERB407 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,2" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="you"/>
+<SMvERB408 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,3" LGcPT="vrb124" TxEXP="will,sbj,not,trmVrb1?" TXeXP_M="they"/>
+<!-- I will have written -->
+<SMvERB409 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,1" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="I"/>
+<SMvERB410 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,2" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB411 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,3" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB412 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,1" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="we"/>
+<SMvERB413 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,2" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB414 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,3" LGcPT="vrb125" TxEXP="will,have,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB415 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,1" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="I"/>
+<SMvERB416 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,2" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB417 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,3" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB418 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,1" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="we"/>
+<SMvERB419 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,2" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="you"/>
+<SMvERB420 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,3" LGcPT="vrb126" TxEXP="will,not,have,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB421 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,1" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="I"/>
+<SMvERB422 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,2" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="you"/>
+<SMvERB423 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,3" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB424 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,1" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="we"/>
+<SMvERB425 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,2" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="you"/>
+<SMvERB426 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,3" LGcPT="vrb127" TxEXP="will,sbj,have,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB427 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,1" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="I"/>
+<SMvERB428 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,2" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="you"/>
+<SMvERB429 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,3" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB430 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,1" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="we"/>
+<SMvERB431 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,2" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="you"/>
+<SMvERB432 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,3" LGcPT="vrb128" TxEXP="will,sbj,not,have,trmVrb3?" TXeXP_M="they"/>
+<!-- I will be written -->
+<SMvERB433 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="I"/>
+<SMvERB434 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="you"/>
+<SMvERB435 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB436 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="we"/>
+<SMvERB437 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="you"/>
+<SMvERB438 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb129" TxEXP="will,be,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB439 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="I"/>
+<SMvERB440 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="you"/>
+<SMvERB441 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB442 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="we"/>
+<SMvERB443 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="you"/>
+<SMvERB444 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb130" TxEXP="will,not,be,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB445 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="I"/>
+<SMvERB446 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="you"/>
+<SMvERB447 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB448 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="we"/>
+<SMvERB449 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="you"/>
+<SMvERB450 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb131" TxEXP="will,sbj,be,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB451 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="I"/>
+<SMvERB452 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="you"/>
+<SMvERB453 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB454 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="we"/>
+<SMvERB455 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="you"/>
+<SMvERB456 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb132" TxEXP="will,sbj,not,be,trmVrb3?" TXeXP_M="they"/>
+<!-- I will have been written -->
+<SMvERB457 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,1" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB458 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,2" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB459 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,3" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB460 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,1" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB461 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,2" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB462 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,3" LGcPT="vrb133" TxEXP="will,have,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB463 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,1" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="I"/>
+<SMvERB464 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,2" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB465 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,3" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB466 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,1" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="we"/>
+<SMvERB467 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,2" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="you"/>
+<SMvERB468 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,3" LGcPT="vrb134" TxEXP="will,not,have,been,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB469 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,1" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB470 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,2" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB471 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,3" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB472 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,1" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB473 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,2" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB474 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,3" LGcPT="vrb135" TxEXP="will,sbj,have,been,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB475 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,1" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="I"/>
+<SMvERB476 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,2" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB477 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,3" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB478 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,1" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="we"/>
+<SMvERB479 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,2" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="you"/>
+<SMvERB480 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,3" LGcPT="vrb136" TxEXP="will,sbj,not,have,been,trmVrb3?" TXeXP_M="they"/>
+<!-- I will be writing -->
+<SMvERB481 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,1" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="I"/>
+<SMvERB482 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,2" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="you"/>
+<SMvERB483 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,3" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB484 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,1" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="we"/>
+<SMvERB485 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,2" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="you"/>
+<SMvERB486 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,3" LGcPT="vrb137" TxEXP="will,be,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB487 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,1" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="I"/>
+<SMvERB488 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,2" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="you"/>
+<SMvERB489 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,3" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB490 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,1" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="we"/>
+<SMvERB491 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,2" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="you"/>
+<SMvERB492 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,3" LGcPT="vrb138" TxEXP="will,not,be,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB493 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,1" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="I"/>
+<SMvERB494 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,2" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="you"/>
+<SMvERB495 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,3" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB496 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,1" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="we"/>
+<SMvERB497 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,2" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="you"/>
+<SMvERB498 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,3" LGcPT="vrb139" TxEXP="will,sbj,be,trmVrb4?" TXeXP_M="they"/>
+
+<SMvERB499 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,1" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="I"/>
+<SMvERB500 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,2" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="you"/>
+<SMvERB501 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,3" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB502 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,1" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="we"/>
+<SMvERB503 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,2" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="you"/>
+<SMvERB504 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,3" LGcPT="vrb140" TxEXP="will,sbj,not,be,trmVrb4?" TXeXP_M="they"/>
+<!-- I will have been writing -->
+<SMvERB505 SMaTTR="ind,fut,int,act,per,ning,aff,sin,1" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="I"/>
+<SMvERB506 SMaTTR="ind,fut,int,act,per,ning,aff,sin,2" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB507 SMaTTR="ind,fut,int,act,per,ning,aff,sin,3" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB508 SMaTTR="ind,fut,int,act,per,ning,aff,plu,1" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="we"/>
+<SMvERB509 SMaTTR="ind,fut,int,act,per,ning,aff,plu,2" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB510 SMaTTR="ind,fut,int,act,per,ning,aff,plu,3" LGcPT="vrb141" TxEXP="will,have,been,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB511 SMaTTR="ind,fut,int,act,per,ning,neg,sin,1" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="I"/>
+<SMvERB512 SMaTTR="ind,fut,int,act,per,ning,neg,sin,2" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB513 SMaTTR="ind,fut,int,act,per,ning,neg,sin,3" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="he|she|it|S"/>
+<SMvERB514 SMaTTR="ind,fut,int,act,per,ning,neg,plu,1" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="we"/>
+<SMvERB515 SMaTTR="ind,fut,int,act,per,ning,neg,plu,2" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="you"/>
+<SMvERB516 SMaTTR="ind,fut,int,act,per,ning,neg,plu,3" LGcPT="vrb142" TxEXP="will,not,have,been,trmVrb4" TXeXP1_B="they"/>
+
+<SMvERB517 SMaTTR="ind,fut,int,act,per,ing,aff,sin,1" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="I"/>
+<SMvERB518 SMaTTR="ind,fut,int,act,per,ing,aff,sin,2" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB519 SMaTTR="ind,fut,int,act,per,ing,aff,sin,3" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB520 SMaTTR="ind,fut,int,act,per,ing,aff,plu,1" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="we"/>
+<SMvERB521 SMaTTR="ind,fut,int,act,per,ing,aff,plu,2" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB522 SMaTTR="ind,fut,int,act,per,ing,aff,plu,3" LGcPT="vrb143" TxEXP="will,sbj,have,been,trmVrb4?" TXeXP_M="they"/>
+
+<SMvERB523 SMaTTR="ind,fut,int,act,per,ing,neg,sin,1" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="I"/>
+<SMvERB524 SMaTTR="ind,fut,int,act,per,ing,neg,sin,2" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB525 SMaTTR="ind,fut,int,act,per,ing,neg,sin,3" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="he|she|it|S"/>
+<SMvERB526 SMaTTR="ind,fut,int,act,per,ing,neg,plu,1" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="we"/>
+<SMvERB527 SMaTTR="ind,fut,int,act,per,ing,neg,plu,2" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="you"/>
+<SMvERB528 SMaTTR="ind,fut,int,act,per,ing,neg,plu,3" LGcPT="vrb144" TxEXP="will,sbj,not,have,been,trmVrb4?" TXeXP_M="they"/>
+<!-- I will being written -->
+<SMvERB529 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,1" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB530 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,2" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB531 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,3" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB532 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,1" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB533 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,2" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB534 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,3" LGcPT="vrb145" TxEXP="will,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB535 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,1" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB536 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,2" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB537 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,3" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB538 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,1" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB539 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,2" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB540 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,3" LGcPT="vrb146" TxEXP="will,not,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB541 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,1" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB542 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,2" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB543 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,3" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB544 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,1" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB545 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,2" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB546 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,3" LGcPT="vrb147" TxEXP="will,sbj,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB547 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,1" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB548 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,2" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB549 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,3" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB550 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,1" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB551 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,2" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB552 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,3" LGcPT="vrb148" TxEXP="will,sbj,not,being,trmVrb3?" TXeXP_M="they"/>
+<!-- I will have being written -->
+<SMvERB553 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,1" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB554 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,2" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB555 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,3" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB556 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,1" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB557 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,2" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB558 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,3" LGcPT="vrb149" TxEXP="will,have,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB559 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,1" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="I"/>
+<SMvERB560 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,2" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB561 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,3" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="he|she|it|S"/>
+<SMvERB562 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,1" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="we"/>
+<SMvERB563 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,2" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="you"/>
+<SMvERB564 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,3" LGcPT="vrb150" TxEXP="will,not,have,being,trmVrb3" TXeXP1_B="they"/>
+
+<SMvERB565 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,1" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB566 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,2" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB567 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,3" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB568 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,1" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB569 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,2" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB570 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,3" LGcPT="vrb151" TxEXP="will,sbj,have,being,trmVrb3?" TXeXP_M="they"/>
+
+<SMvERB571 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,1" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="I"/>
+<SMvERB572 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,2" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB573 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,3" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="he|she|it|S"/>
+<SMvERB574 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,1" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="we"/>
+<SMvERB575 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,2" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="you"/>
+<SMvERB576 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,3" LGcPT="vrb152" TxEXP="will,sbj,not,have,being,trmVrb3?" TXeXP_M="they"/>
+</SMvERB>
+
+
+<SmNOUN>
+<!-- SmATTRIBUTES: instanceness, number -->
+<SmNOUN1 SMaTTR="generic,sin" LGcPT="nnCsNm01" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="bread is food."/>
+<SmNOUN1 SMaTTR="generic,sin" LGcPT="nnCsPs01" TXeXP1_B="" TxEXP="trmNnCsNm3" TXeXP1_A="" EXMPL="car's"/>
+<SmNOUN2 SMaTTR="generic,plu" LGcPT="nnCsNm02" TXeXP1_B="" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="[cars] {are} |dangerous machines|."/>
+<SmNOUN2 SMaTTR="generic,plu" LGcPT="nnCsPs02" TXeXP1_B="" TxEXP="trmNnCsNm4" TXeXP1_A="" EXMPL="cars'"/>
+<SmNOUN3 SMaTTR="individual,sin" LGcPT="nnCsNm03" TXeXP1_B="" TxEXP="the trmNnCsNm1" TXeXP1_A="" EXMPL="the car"/>
+<SmNOUN3 SMaTTR="individual,sin" LGcPT="nnCsNm01" TXeXP1_B="special-noun" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="my car"/>
+<SmNOUN3 SMaTTR="individual,sin" LGcPT="nnCsNm01" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="proper noun: George {get married} /Hellen/ on Saturday"/>
+<SmNOUN3 SMaTTR="individual,sin" LGcPT="nnCsPs03" TXeXP1_B="" TxEXP="the trmNnCsNm3" TXeXP1_A="" EXMPL="the car's"/>
+<SmNOUN4 SMaTTR="individual,plu" LGcPT="nnCsNm04" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="the cars"/>
+<SmNOUN4 SMaTTR="individual,plu" LGcPT="nnCsPs04" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="the cars'"/>
+<SmNOUN5 SMaTTR="random,sin" LGcPT="nnCsNm05" TXeXP1_B="" TxEXP="a trmNnCsNm1" TXeXP1_A="" EXMPL="[A cat] is a domestic animal."/>
+<SmNOUN5 SMaTTR="random,sin" LGcPT="nnCsNm01" TXeXP1_B="special-noun" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="any child with a drop of negro blood #vrb:was legally a negro. [wn 2.0]"/>
+<SmNOUN5 SMaTTR="random,sin" LGcPT="nnCsPs05" TXeXP1_B="" TxEXP="a trmNnCsNm3" TXeXP1_A="" EXMPL="a car's"/>
+<SmNOUN6 SMaTTR="random,plu" LGcPT="nnCsNm02" TXeXP1_B="quantifier|special-noun" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="three cars had jumped the rails. [wn 2.0]"/>
+<SmNOUN6 SMaTTR="random,plu" LGcPT="nnCsPs02" TXeXP1_B="special-noun" TxEXP="trmNnCsNm4" TXeXP1_A="" EXMPL="most cars'..."/>
+<SmNOUN7 SMaTTR="positive" LGcPT="nnAj01" TXeXP1_B="" TxEXP="trmNnAj1" TXeXP1_A=""/>
+<SmNOUN7 SMaTTR="positive" LGcPT="nnAv01" TXeXP1_B="" TxEXP="trmNnAv1" TXeXP1_A=""/>
+<SmNOUN8 SMaTTR="comparative" LGcPT="nnAj02" TXeXP1_B="" TxEXP="" TXeXP1_A=""/>
+<SmNOUN9 SMaTTR="superlative" LGcPT="nnAj02" TXeXP1_B="" TxEXP="" TXeXP1_A=""/>
+</SmNOUN>
+
+
+
+
+
+
+
+
+
+
+<SmCONJUNCTION>
+<SmCONJUNCTION XCPT="sm_subjecteino" TxEXP="" ARGS="1:Process-or-relation@hknu.symb-14,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="2,nominative" TXeXP1_A="1,verb"/>
+<SmCONJUNCTION XCPT="sm_objecteino" TxEXP="" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb" TXeXP1_A="2,nominative|accusative" EXMPL="accusative in case of special-noun"/>
+<SmCONJUNCTION XCPT="sm_objecteino2" TxEXP="" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb" TXeXP1_A="2,accusative" TXeXP1_B="sm_object"/>
+<SmCONJUNCTION XCPT="sm_agenteino" TxEXP="by" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="c032" TXeXP1_B="1,verb" TXeXP1_A="2,nominative"/>
+<SmCONJUNCTION XCPT="sm_subjectcomplementeino" TxEXP="" ARGS="1:Relation@hknu.symb-16,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb.relation" TXeXP1_A="2,mscomplement"/>
+<SmCONJUNCTION XCPT="vbt.time" TxEXP="" ARGS="1:Process-or-relation@hknu.symb-14,2:Time@" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A=""/>
+<SmCONJUNCTION XCPT="vbt.place" TxEXP="" ARGS="1:Process-or-relation@hknu.symb-14,2:Place@" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A=""/>
+<SmCONJUNCTION XCPT="vbt.cause" TxEXP="" ARGS="1:Process-or-relation@hknu.symb-14,2:Entity@" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A=""/>
+
+<SmCONJUNCTION XCPT="att.ext.env.causal.hypo.real" TxEXP="if" ARGS="1:Entity@hknu.symb-7@,2:Effect@" XCPT="Corelaton.Hypothetic.Real@" LGcPT="if" TXeXP1_B="" TXeXP1_A="" EXMPL="- if he sees that, he weeps."/>
+  <SmCONJUNCTION XCPT="ms.att.ext.env.caus.hypo.real" TxEXP="if...then" ARGS="1:Entity@hknu.symb-7@,2:Effect@" XCPT="Corelaton.Hypothetic.Real@" LGcPT="if.then" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.causal.nonhypo.cause" TxEXP="because" ARGS="1:Entity@hknu.symb-7@,2:Cause@" XCPT="Corelaton.Cause@" LGcPT="c020" TXeXP1_B="1,sentencer" TXeXP1_A="2,sentencer" EXMPL="#S:we left early #C:because #S=cause:we were worried about our sick cat."/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.causal.nonhypo.effect" TxEXP="so" ARGS="1:Entity@hknu.symb-7@,2:Effect@" XCPT="Corelaton.Effect@" LGcPT="c084" TXeXP1_B="1,sentencer" TXeXP1_A="2,sentencer" EXMPL="- (The elephant had eaten all the hay) so (we fed it oats for a week)."/>
+  <SmCONJUNCTION XCPT="ms.att.ext.env.causal.nonhypo.effect" TxEXP="therefore" ARGS="1:Entity@hknu.symb-7@,2:Effect@" XCPT="Corelaton.Effect@" LGcPT="c094" TXeXP1_B="1,sentencer;" TXeXP1_A="2,sentencer." EXMPL="- (He did not have all the ingredients the recipe called for); therefore, (he decided to make something else)."/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.creator" ARGS="1:Entity@hknu.symb-7@,2:creator@" XCPT="Corelaton.Creator@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.debt" ARGS="1:Entity@hknu.symb-7@,2:debt@" XCPT="Corelaton.Debt@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.mariage" ARGS="1:person@,2:hasband@|wife@" XCPT="Corelaton.Mariage@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.evaluation" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.evaluation@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL="evaluator, evaluatance, unit-of-evaluation, result"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.eva.measurement" ARGS="1:Entity@hknu.symb-7@,2:unit@,3:result@" XCPT="Corelaton.Measurement@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.eva.similarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:common-att@" XCPT="Corelaton.Similarity@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.eva.unsimilarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:non-common-att@" XCPT="Corelaton.Unsimilarity@"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.generic" ARGS="1:specific@hknu.symb-7@,2:generic@" XCPT="corelaton.generic@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.place." TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place@" LGcPT="." TXeXP1_A="" EXMPL="entity, place"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.place.accross" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="Corelaton.place.accross@" LGcPT="." TXeXP1_A="vbtcomplement"/>
+<SmCONJUNCTION XCPT="ms.att.ext.env.place.accross" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="Corelaton.place.accross@" LGcPT="." TXeXP1_A="vbtcomplement"/>
+<SmCONJUNCTION XCPT="ms.att.ext.whole" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="entity, whole"/>
+<SmCONJUNCTION XCPT="ms.att.ext.whole" ARGS="1:Entity@hknu.symb-7@,2:Whole@" XCPT=""
+LGcPT="c068"
+TXeXP1_B="1,nominative"
+TxEXP="of"
+TXeXP1_A="2,nominative"
+EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="ms.att.ext.whole.possesion" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TxEXP="of" TXeXP1_A="whole@=owner@" EXMPL="the book of George"/>
+<SmCONJUNCTION XCPT="ms.att.ext.whole.possesion" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="possesiveCase" TXeXP1_A="entity" EXMPL="the George's book"/>
+<SmCONJUNCTION XCPT="ms.att.internal" ARGS="1:Entity@hknu.symb-7@,2:part@" XCPT="" LGcPT="" TxEXP="" EXMPL="entity, part"/>
+<SmCONJUNCTION XCPT="ms.att.internal" ARGS="1:Entity@hknu.symb-7@,2:Part@" XCPT="" LGcPT="c068" TXeXP1_B="2,nominative" TxEXP="of" TXeXP1_A="1,nominative" EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="ms.att.int.property" ARGS="1:Entity@hknu.symb-7@,2:property@" XCPT="" LGcPT="" TXeXP1_B="2,tx_nounAdjective" TXeXP1_A="1,nominative" EXMPL="a domestic animal"/>
+<SmCONJUNCTION XCPT="ms.att.int.prop.content" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TxEXP="of" TXeXP1_A="content@" EXMPL="a vase of flowers"/>
+<SmCONJUNCTION XCPT="ms.att.int.prop.order" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TxEXP="ordinal" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="ms.att.int.prop.quantity" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TxEXP="number" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="ms.att.int.prop.time" ARGS="1:Entity@hknu.symb-7@,2:time@" XCPT="corelaton.time@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL="entity, time"/>
+<SmCONJUNCTION XCPT="ms.att.manner" ARGS="1:Doing@,2:Attribute@" XCPT="Corelaton.Manner@" LGcPT="051" TxEXP="how" TXeXP1_A="sentencer" EXMPL="- #S:These negotiations #V:will determine #how=manner: this area is to be governed."/>
+<SmCONJUNCTION XCPT="ms.att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c032" TxEXP="by" EXMPL="- #S:Ross #V:annoys #O:Walter #by=accompaniment: turning pages too quickly."/>
+<SmCONJUNCTION XCPT="ms.att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c055" TxEXP="in" EXMPL="- #S:Correlative conjunctions #VS:always appear #in=accompaniment: pairs."/>
+<SmCONJUNCTION XCPT="ms.att.man.instument" ARGS="1:Doing@,2:Instrument@" XCPT="Corelaton.Instrument@" LGcPT="c114" TxEXP="with" EXMPL="- cover the child with a blanket. [wn 2.0]" >/
+
+<!-- SmCONJUNCTION SMvERB -->
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place" TxEXP="where" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place@" LGcPT="c111" TXeXP1_A="sentencer" EXMPL="- I know where he is. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.before" TxEXP="in front of" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.before@" LGcPT="c056" TXeXP1_A="Place@" EXMPL="- the architect left space in front of the building. [wn 2.0]"/>
+ <SmCONJUNCTION XCPT="vbt.att.ext.env.place.before" TxEXP="before" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.before@" LGcPT="c0" TXeXP1_A="Place@" EXMPL="- Before God I swear I am innocent. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.behind" TxEXP="behind" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.behind@" LGcPT="c022" TXeXP1_A="Place@" EXMPL="- They vegetated the hills behind their house. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.above" TxEXP="above" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.above@" LGcPT="c079" TXeXP1_A="Place@" EXMPL="- She held the book over the table."/>
+ <SmCONJUNCTION XCPT="vbt.att.ext.env.place.above" TxEXP="over" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.above@" LGcPT="c002" TXeXP1_A="Place@" EXMPL="- He saw storm clouds above the bay."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.beneath" TxEXP="beneath" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.beneath@" LGcPT="c024" TXeXP1_A="Place@" EXMPL="- #VCS:The book #V:is #VCplace=beneath: the table."/>
+ <SmCONJUNCTION XCPT="vbt.att.ext.env.place.beneath" TxEXP="below" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.beneath@" LGcPT="c023" TXeXP1_A="Place@" EXMPL=""/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.beside" TxEXP="besind" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.beside@" LGcPT="c025" TXeXP1_A="Place@" EXMPL="- sit beside me."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.beyond" TxEXP="beyound" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.beyond@" LGcPT="c029" TXeXP1_A="Place@" EXMPL="- the plains lay just beyond the mountain range. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.around" TxEXP="around" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.around@" LGcPT="c118" TXeXP1_A="Place@" EXMPL="- a crowd of insects assembled around the flowers. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.far" TxEXP="far from" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.far@" LGcPT="c119" TXeXP1_A="Place@" EXMPL="- I happened upon the most wonderful bakery not very far from here. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.far" TxEXP="off" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.far@" LGcPT="c069" TXeXP1_A="Place@" EXMPL="-  [The Great Barrier Reef, off the northeast coast,] is renowned for skindiving, and big game fishing."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.near" TxEXP="near" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.near@" LGcPT="c064" TXeXP1_A="Place@" EXMPL="- a woody area near the highway. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.on" TxEXP="on" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.on@" LGcPT="c070" TXeXP1_A="Place@" EXMPL="- The book is on the table."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.throughout" TxEXP="throughout" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.throughout@" LGcPT="c097" TXeXP1_A="Place@" EXMPL="- The procedure in criminal cases is essentially the same throughout the U.S."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.inside" TxEXP="inside" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.inside@" LGcPT="c058" TXeXP1_A="Place@" EXMPL="- I looked inside the box"/>
+ <SmCONJUNCTION XCPT="vbt.att.ext.env.place.inside" TxEXP="in" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.in@" LGcPT="c055" TXeXP1_A="Place@" EXMPL="- Donna has dreamt about frogs sitting in trees every night this week.  "/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.outside" TxEXP="outside" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.outside@" LGcPT="c077" TXeXP1_A="Place@" EXMPL="- Crowds were massing outside the palace. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.across" TxEXP="across" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.across@" LGcPT="c004" TXeXP1_A="Place@" EXMPL="- #VCS:We #V:saw #VCO:(#S:#VCS:Peter #V:dashing #VCplace=across: the quadrangle)."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.against" TxEXP="against" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.against@" LGcPT="c006" TXeXP1_A="Place@" EXMPL="- The plastic bottle crushed against the wall. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.along" TxEXP="along" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.along@" LGcPT="c008" TXeXP1_A="Place@" EXMPL="- The cat was walking along @the tree branch.@"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.among" TxEXP="among" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.among@" LGcPT="c011" TXeXP1_A="Place@" EXMPL="- the belly dancer mover sensually among the tables. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.among2" TxEXP="between" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.among@" LGcPT="c011" TXeXP1_A="Place@" EXMPL="- the belly dancer mover sensually among the tables. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.point" TxEXP="at" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.point@" LGcPT="c018" TXeXP1_A="Place@" EXMPL="- anxious to see the new show at the museum. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.through" TxEXP="through" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.through@" LGcPT="c096" TXeXP1_A="Place@" EXMPL="- a conversation heard through the wall. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.direction.into" TxEXP="into" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.direction.into@" LGcPT="c060" TXeXP1_A="Place@" EXMPL="- The procedure in criminal cases is essentially the same throughout the U.S."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.direction.out'of" TxEXP="out of" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.direction.out'of@" LGcPT="c076" TXeXP1_A="Place@" EXMPL="- [Overland travel into and out of Burma] not permitted."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.direction.onto" TxEXP="onto" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.direction.onto@" LGcPT="c072" TXeXP1_A="Place@" EXMPL="- The cat jumped onto the table."/>
+<SmCONJUNCTION XCPT="vbt.att.ext.env.place.direction.to" TxEXP="to" ARGS="1:Process@hknu.symb-15,2:Place@" XCPT="Corelaton.place.direction.to@" LGcPT="c099" TXeXP1_A="Place@" EXMPL="- I talk about it to him."/>
+
+<SmCONJUNCTION XCPT="vbt.att.int.property" TxEXP="adverb" ARGS="1:Doing@,2:property@" XCPT="" LGcPT="" EXMPL="I run quickly"/>
+<SmCONJUNCTION XCPT="vbt.att.int.prop.quant.about" TxEXP="about" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="about" TXeXP1_A="quantity" EXMPL="Improvement in the economy has reduced unemployment about 5% in 1988."/>
+
+<!-- SmCONJUNCTION MONOMER -->
+<SmCONJUNCTION XCPT="mo.attribute" TxEXP="with" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" XCPT="Corelaton.Attribute@" LGcPT="c114" TXeXP1_B="1,nominative" TXeXP1_A="2,nominative" EXMPL="- he is #SC:a lawyer with a sports background. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="mo.att.absence" TxEXP="without" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" XCPT="Corelaton.Absence@" LGcPT="c116" EXMPL="- #S:The children #V:climbed #O:the mountain #without=absense: fear."/>
+<SmCONJUNCTION XCPT="mo.att.external" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2:attribute@" XCPT="" LGcPT="" EXMPL="entity, attribute"/>
+<SmCONJUNCTION XCPT="mo.att.ext.environment" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2:attribute@" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.causality" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.caus.condition" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="if" TXeXP1_B="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.caus.conditionon" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.caus.cond.cause" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.caus.cond.effect" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.creator" ARGS="1:Entity@hknu.symb-7@,2:creator@" XCPT="Corelaton.Creator@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.debt" ARGS="1:Entity@hknu.symb-7@,2:debt@" XCPT="Corelaton.Debt@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.mariage" ARGS="1:person@,2:hasband@|wife@" XCPT="Corelaton.Mariage@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.evaluation" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.evaluation@" LGcPT="" TXeXP1_A="" EXMPL="evaluator, evaluatance, unit-of-evaluation, result"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.eva.measurement" ARGS="1:Entity@hknu.symb-7@,2:unit@,3:result@" XCPT="Corelaton.Measurement@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.eva.similarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:common-att@" XCPT="Corelaton.Similarity@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.eva.unsimilarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:non-common-att@" XCPT="Corelaton.Unsimilarity@"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.generic" TxEXP="" ARGS="1:specific@hknu.symb-7@,2:generic@" XCPT="corelaton.generic@" LGcPT="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.place" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place@" LGcPT="." TXeXP1_A="" EXMPL="entity, place"/>
+<SmCONJUNCTION XCPT="mo.att.ext.env.place.across" TxEXP="across" ARGS="1:Entity@hknu.symb-7@,2:Place@" XCPT="Corelaton.place.across@" LGcPT="c004" TXeXP1_A="Place@" EXMPL="- a diagonal line across the page. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="mo.att.ext.whole" TxEXP="of" ARGS="1:Entity@hknu.symb-7@,2:Whole@" XCPT="" LGcPT="c068" TXeXP1_B="1,nominative" TXeXP1_A="2,nominative" EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="mo.att.ext.whole.possesion" TxEXP="of" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TXeXP1_A="whole@=owner@" EXMPL="the book of George"/>
+<SmCONJUNCTION XCPT="mo.att.ext.whole.possesion" TxEXP="possesiveCase" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TXeXP1_A="entity" EXMPL="the George's book"/>
+<SmCONJUNCTION XCPT="parteino" TxEXP="of" ARGS="1:Entity@hknu.symb-7@,2:Part@" XCPT="" LGcPT="c068" TXeXP1_B="2,nominative" TXeXP1_A="1,nominative" EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="Properteino@hknu.symb-24#1@" ARGS="1:Entity@hknu.symb-7@,2:property@" XCPT="" LGcPT="" TXeXP1_B="2,tx_nounAdjective" TXeXP1_A="1,nominative" EXMPL="a domestic animal"/>
+<SmCONJUNCTION XCPT="mo.att.int.prop.content" TxEXP="of" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TXeXP1_A="content@" EXMPL="a vase of flowers"/>
+<SmCONJUNCTION XCPT="mo.att.int.prop.order" TxEXP="ordinal" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="mo.att.int.prop.quantity" TxEXP="number" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="mo.att.int.prop.time" TxEXP="" ARGS="1:Entity@hknu.symb-7@,2:time@" XCPT="corelaton.time@" LGcPT="" TXeXP1_A="" EXMPL="entity, time"/>
+<SmCONJUNCTION XCPT="mo.att.manner" TxEXP="how" ARGS="1:Doing@,2:Attribute@" XCPT="Corelaton.Manner@" LGcPT="051" TXeXP1_A="sentencer" EXMPL="- #S:These negotiations #V:will determine #how=manner: this area is to be governed."/>
+<SmCONJUNCTION XCPT="mo.att.man.accompaniment" TxEXP="by" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c032" EXMPL="- #S:Ross #V:annoys #O:Walter #by=accompaniment: turning pages too quickly."/>
+<SmCONJUNCTION XCPT="mo.att.man.accompaniment" TxEXP="in" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c055" EXMPL="- #S:Correlative conjunctions #VS:always appear #in=accompaniment: pairs."/>
+<SmCONJUNCTION XCPT="mo.att.man.instument" TxEXP="with" ARGS="1:Doing@,2:Instrument@" XCPT="Corelaton.Instrument@" LGcPT="c114" EXMPL="- cover the child with a blanket. [wn 2.0]" >/
+</SmCONJUNCTION>
+
+
+<SmSPECIALNOUN>
+<!-- PERSON: type, number, gender -->
+<SmSPECIALNOUN001 XCPT="Person.A@" SMaTTR="concrete,sin,any" SPECIAL_NOMINATIVE="p043" TxEXP="I" TXeXP1_B="" TXeXP1_A="" EXMPL="I write"/>
+<SmSPECIALNOUN001 XCPT="Person.A@" SMaTTR="concrete,sin,any" SPECIAL_ACCUSATIVE="p052" TxEXP="me" TXeXP1_B="" TXeXP1_A="" EXMPL="I saw them before they saw me"/>
+<SmSPECIALNOUN001 XCPT="Person.A@" SMaTTR="concrete,sin,any" SPECIAL_POSSESSIVE="p053" TxEXP="mine" TXeXP1_B="" TXeXP1_A="" EXMPL="The smallest gift is mine"/>
+<SmSPECIALNOUN001 XCPT="Person.A@" SMaTTR="concrete,sin,any" SPECIAL_ADJECTIVE="p057" TxEXP="my" TXeXP1_B="" TXeXP1_A="" EXMPL="My brother is a research associate"/>
+<SmSPECIALNOUN002 XCPT="Person.A@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="p112" TxEXP="we" TXeXP1_B="" TXeXP1_A="" EXMPL="we write"/>
+<SmSPECIALNOUN002 XCPT="Person.A@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="p111" TxEXP="us" TXeXP1_B="" TXeXP1_A="" EXMPL="Bullets were spatting down on us. [wn 2.0]"/>
+<SmSPECIALNOUN002 XCPT="Person.A@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="p076" TxEXP="ours" TXeXP1_B="" TXeXP1_A="" EXMPL="Their roles are paralleled by ours. [wn 2.0]"/>
+<SmSPECIALNOUN002 XCPT="Person.A@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="p075" TxEXP="our" TXeXP1_B="" TXeXP1_A="" EXMPL="Alaska is our northernmost state. [wn 2.0]"/>
+<SmSPECIALNOUN003 XCPT="Person.A@" SMaTTR="intensive,sin,any" SPECIAL_NOMINATIVE="p058" TxEXP="myself" TXeXP1_B="" TXeXP1_A="" EXMPL="I myself believe that aliens should abduct my sister."/>
+<SmSPECIALNOUN004 XCPT="Person.A@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="p077" TxEXP="ourselves" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN005 XCPT="Person.A@" SMaTTR="reflexive,sin,any" SPECIAL_ACCUSATIVE="p058" TxEXP="myself" TXeXP1_B="" TXeXP1_A="" EXMPL="I found myself in a difficult situation. [wn 2.0]"/>
+<SmSPECIALNOUN006 XCPT="Person.A@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="p077" TxEXP="ourselves" TXeXP1_B="" TXeXP1_A="" EXMPL="we enjoyed ourselves very much. [wn 2.0]"/>
+
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,sin,any" SPECIAL_NOMINATIVE="p125" TxEXP="you" TXeXP1_B="" TXeXP1_A="" EXMPL="you will be safe here. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,sin,any" SPECIAL_ACCUSATIVE="p125" TxEXP="you" TXeXP1_B="" TXeXP1_A="" EXMPL="Age creeps up on you. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,sin,any" SPECIAL_POSSESSIVE="p127" TxEXP="yours" TXeXP1_B="" TXeXP1_A="" EXMPL="my opinion differs from yours. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,sin,any" SPECIAL_ADJECTIVE="p126" TxEXP="your" TXeXP1_B="" TXeXP1_A="" EXMPL="Check your coat at the door. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="p125" TxEXP="you" TXeXP1_B="" TXeXP1_A="" EXMPL="you are a clever men"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="p125" TxEXP="you" TXeXP1_B="" TXeXP1_A="" EXMPL="I'll see you later. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="p127" TxEXP="yours" TXeXP1_B="" TXeXP1_A="" EXMPL="my opinion differs from yours. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="p126" TxEXP="your" TXeXP1_B="" TXeXP1_A="" EXMPL="are your people still alive? [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="intensive,sin,any" SPECIAL_NOMINATIVE="p128" TxEXP="yourself" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="p129" TxEXP="yourselves" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="reflexive,sin,any" SPECIAL_ACCUSATIVE="p128" TxEXP="yourself" TXeXP1_B="" TXeXP1_A="" EXMPL="you should acquaint yourself with your new computer. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.B@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="p129" TxEXP="yourselves" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,mas" SPECIAL_NOMINATIVE="p032" TxEXP="he" TXeXP1_B="" TXeXP1_A="" EXMPL="after that failure he lost his confidence. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,mas" SPECIAL_ACCUSATIVE="p037" TxEXP="him" TXeXP1_B="" TXeXP1_A="" EXMPL="alcohol brought him to an untimely end. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,mas" SPECIAL_POSSESSIVE="p039" TxEXP="his" TXeXP1_B="" TXeXP1_A="" EXMPL="the burden of decision was his. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,mas" SPECIAL_ADJECTIVE="p039" TxEXP="his" TXeXP1_B="" TXeXP1_A="" EXMPL="a member of his own faith contradicted him. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,fem" SPECIAL_NOMINATIVE="p080" TxEXP="she" TXeXP1_B="" TXeXP1_A="" EXMPL="after all, she is your boss, so invite her. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,fem" SPECIAL_ACCUSATIVE="p033" TxEXP="her" TXeXP1_B="" TXeXP1_A="" EXMPL="What makes her do this way? [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,fem" SPECIAL_POSSESSIVE="p035" TxEXP="hers" TXeXP1_B="" TXeXP1_A="" EXMPL="his portion was larger than hers. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,fem" SPECIAL_ADJECTIVE="p033" TxEXP="her" TXeXP1_B="" TXeXP1_A="" EXMPL="This paper will add to her reputation. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,neu" SPECIAL_NOMINATIVE="p044" TxEXP="it" TXeXP1_B="" TXeXP1_A="" EXMPL="a bird will not learn its song unless it hears it at an early age. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,neu" SPECIAL_ACCUSATIVE="p044" TxEXP="it" TXeXP1_B="" TXeXP1_A="" EXMPL="a bird will not learn its song unless it hears it at an early age. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,neu" SPECIAL_POSSESSIVE="p045" TxEXP="its" TXeXP1_B="" TXeXP1_A="" EXMPL="its was a brief and intense courtship. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,sin,neu" SPECIAL_ADJECTIVE="p045" TxEXP="its" TXeXP1_B="" TXeXP1_A="" EXMPL="a point is defined by its coordinates. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="p104" TxEXP="they" TXeXP1_B="" TXeXP1_A="" EXMPL="every morning they exchanged polite hellos. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="p099" TxEXP="them" TXeXP1_B="" TXeXP1_A="" EXMPL="a bomb scare led them to evacuate the building. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="p098" TxEXP="theirs" TXeXP1_B="" TXeXP1_A="" EXMPL="theirs was a house filled with laughter. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="p097" TxEXP="their" TXeXP1_B="" TXeXP1_A="" EXMPL="cowboys know not to squat with their spurs on. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="intensive,sin,mas" SPECIAL_NOMINATIVE="p038" TxEXP="himself" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="intensive,sin,fem" SPECIAL_NOMINATIVE="p036" TxEXP="herself" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="intensive,sin,neu" SPECIAL_NOMINATIVE="p046" TxEXP="itself" TXeXP1_B="" TXeXP1_A="" EXMPL="the law itself was unclear on that point. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="p100" TxEXP="themselves" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="reflexive,sin,mas" SPECIAL_ACCUSATIVE="p038" TxEXP="himself" TXeXP1_B="" TXeXP1_A="" EXMPL="he had no clear picture of himself or his world. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="reflexive,sin,fem" SPECIAL_ACCUSATIVE="p036" TxEXP="herself" TXeXP1_B="" TXeXP1_A="" EXMPL="She covered herself with glory. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="reflexive,sin,neu" SPECIAL_ACCUSATIVE="p046" TxEXP="itself" TXeXP1_B="" TXeXP1_A="" EXMPL="this unpleasant situation isn't going to work itself out. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Person.C@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="p100" TxEXP="themselves" TXeXP1_B="" TXeXP1_A="" EXMPL="Some plants reseed themselves indefinitely. [wn 2.0]"/>
+
+<!-- ENTITY: type, number -->
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.near,sin" SPECIAL_NOMINATIVE="p105" TxEXP="this" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.near,sin" SPECIAL_ADJECTIVE="p105" TxEXP="this" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.near,plu" SPECIAL_NOMINATIVE="p103" TxEXP="these" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.near,plu" SPECIAL_ADJECTIVE="p103" TxEXP="these" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.far,sin" SPECIAL_NOMINATIVE="p096" TxEXP="that" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.far,sin" SPECIAL_ADJECTIVE="p096" TxEXP="that" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.far,plu" SPECIAL_NOMINATIVE="p106" TxEXP="those" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def.far,plu" SPECIAL_ADJECTIVE="p106" TxEXP="those" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="dem,any" SPECIAL_NOMINATIVE="p095" TxEXP="such" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="dem,any" SPECIAL_ADJECTIVE="p095" TxEXP="such" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="reflexive,sin" SPECIAL_NOMINATIVE="p070" TxEXP="one" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="reflexive,plu" SPECIAL_NOMINATIVE="p071" TxEXP="ones" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="diferent" SPECIAL_ADJECTIVE="p073" TxEXP="other" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="diferent" SPECIAL_ADJECTIVE="p149" TxEXP="else" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="diferent,plu" SPECIAL_ADJECTIVE="p133" TxEXP="others" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="additional" SPECIAL_ADJECTIVE="p008" TxEXP="another" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="reciprocal" SPECIAL_NOMINATIVE="p150" TxEXP="each other" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def,any" SPECIAL_NOMINATIVE="p114" TxEXP="whatever" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Entity@" SMaTTR="def,any" SPECIAL_ADJECTIVE="p114" TxEXP="whatever" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<!-- HUMAN: type -->
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.any" SPECIAL_NOMINATIVE="p010" TxEXP="anybody" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.any" SPECIAL_NOMINATIVE="p011" TxEXP="anyone" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.any.one" SPECIAL_NOMINATIVE="p119" TxEXP="whoever" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.one" SPECIAL_NOMINATIVE="p084" TxEXP="somebody" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.one" SPECIAL_NOMINATIVE="p087" TxEXP="someone" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.none" SPECIAL_NOMINATIVE="p087" TxEXP="nobody" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.none" SPECIAL_NOMINATIVE="p063" TxEXP="no one" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.all" SPECIAL_NOMINATIVE="p027" TxEXP="everybody" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="idef.all" SPECIAL_NOMINATIVE="p028" TxEXP="everyone" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="ing" SPECIAL_NOMINATIVE="p118" TxEXP="who" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="ing" SPECIAL_NOMINATIVE="p117" TxEXP="which" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="ing" SPECIAL_ACCUSATIVE="p120" TxEXP="whom" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="ing" SPECIAL_ACCUSATIVE="p117" TxEXP="which" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="ing" SPECIAL_POSSESSIVE="p122" TxEXP="whose" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<!-- NONHUMAN: type -->
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="idef.any" SPECIAL_NOMINATIVE="p013" TxEXP="anything" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="idef.one" SPECIAL_NOMINATIVE="p093" TxEXP="something" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="idef.none" SPECIAL_NOMINATIVE="p067" TxEXP="nothing" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="idef.all" SPECIAL_NOMINATIVE="p029" TxEXP="everything" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="ing" SPECIAL_NOMINATIVE="p113" TxEXP="what" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="NonHuman@" SMaTTR="ing" SPECIAL_ADJECTIVE="p113" TxEXP="what" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<!-- QUANTITY: type, countness -->
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,count" SPECIAL_ADJECTIVE="p001" TxEXP="a few" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,count" SPECIAL_NOMINATIVE="p031" TxEXP="few" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,count" SPECIAL_ADJECTIVE="p031" TxEXP="few" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,mass" SPECIAL_NOMINATIVE="p049" TxEXP="little" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,mass" SPECIAL_ADJECTIVE="p049" TxEXP="little" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.few,mass" SPECIAL_ADVERB="p049" TxEXP="little" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.some,any" SPECIAL_NOMINATIVE="p083" TxEXP="some" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.some,any" SPECIAL_ADJECTIVE="p083" TxEXP="some" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.some,any" SPECIAL_ADJECTIVE="p002" TxEXP="a little" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.plenty,mass" SPECIAL_NOMINATIVE="p078" TxEXP="plenty" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.plenty,mass" SPECIAL_ADVERB="p078" TxEXP="plenty" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.enough,any" SPECIAL_ADJECTIVE="p025" TxEXP="enough" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,any" SPECIAL_NOMINATIVE="p003" TxEXP="a lot" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,any" SPECIAL_NOMINATIVE="p050" TxEXP="lots" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,any" SPECIAL_NOMINATIVE="p079" TxEXP="several" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,any" SPECIAL_ADJECTIVE="p079" TxEXP="several" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,count" SPECIAL_NOMINATIVE="p051" TxEXP="many" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,mass" SPECIAL_NOMINATIVE="p059" TxEXP="much" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,mass" SPECIAL_ADJECTIVE="p059" TxEXP="much" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.many,mass" SPECIAL_ADVERB="p059" TxEXP="much" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.none,any" SPECIAL_NOMINATIVE="p065" TxEXP="none" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.none,any" SPECIAL_ADJECTIVE="p062" TxEXP="no" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.none.two,any" SPECIAL_NOMINATIVE="p060" TxEXP="neither" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_NOMINATIVE="p009" TxEXP="any" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_ADJECTIVE="p009" TxEXP="any" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any.two,any" SPECIAL_NOMINATIVE="p023" TxEXP="either" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any.two,any" SPECIAL_ADJECTIVE="p023" TxEXP="either" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.each,any" SPECIAL_NOMINATIVE="p021" TxEXP="each" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.each,any" SPECIAL_ADJECTIVE="p021" TxEXP="each" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.every,any" SPECIAL_ADJECTIVE="p026" TxEXP="every" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.all,any" SPECIAL_NOMINATIVE="p006" TxEXP="all" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.all,any" SPECIAL_ADJECTIVE="p006" TxEXP="all" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.all.two,any" SPECIAL_ADJECTIVE="p020" TxEXP="both" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.more,any" SPECIAL_ADJECTIVE="p054" TxEXP="more" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.less,any" SPECIAL_ADJECTIVE="p048" TxEXP="less" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.ing,count" SPECIAL_NOMINATIVE="p041" TxEXP="how many" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.ing,mass" SPECIAL_NOMINATIVE="p042" TxEXP="how much" TXeXP1_B="" TXeXP1_A="" EXMPL="not any milk is left. [wn 2.0]"/>
+
+<SmSPECIALNOUN XCPT="Height@" SMaTTR="idef.tall" SPECIAL_ADJECTIVE="p004" TxEXP="tall" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Height@" SMaTTR="idef.tall" SPECIAL_ADJECTIVE="p144" TxEXP="short" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Distance@" SMaTTR="idef.long" SPECIAL_ADJECTIVE="p152" TxEXP="long" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Distance@" SMaTTR="idef.short" SPECIAL_ADJECTIVE="p144" TxEXP="short" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Size@" SMaTTR="idef.small" SPECIAL_ADJECTIVE="p081" TxEXP="small" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Size@" SMaTTR="idef.big" SPECIAL_ADJECTIVE="p019" TxEXP="big" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Size@" SMaTTR="idef.huge" SPECIAL_ADJECTIVE="p145" TxEXP="huge" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<!-- PLACE: type -->
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.near" SPECIAL_NOMINATIVE="p034" TxEXP="here" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.near" SPECIAL_ADVERB="p034" TxEXP="here" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.behind" SPECIAL_ADVERB="p017" TxEXP="behind" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.infront" SPECIAL_ADVERB="p134" TxEXP="in front" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.left" SPECIAL_NOMINATIVE="p135" TxEXP="left" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.left" SPECIAL_ADVERB="p135" TxEXP="left" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.right" SPECIAL_NOMINATIVE="p136" TxEXP="right" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.right" SPECIAL_ADVERB="p136" TxEXP="right" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.north" SPECIAL_NOMINATIVE="p137" TxEXP="north" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.north" SPECIAL_ADJECTIVE="p137" TxEXP="north" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.north" SPECIAL_ADVERB="p137" TxEXP="north" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.south" SPECIAL_NOMINATIVE="p138" TxEXP="south" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.south" SPECIAL_ADJECTIVE="p138" TxEXP="south" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.south" SPECIAL_ADVERB="p138" TxEXP="south" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.east" SPECIAL_NOMINATIVE="p139" TxEXP="east" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.east" SPECIAL_ADJECTIVE="p139" TxEXP="east" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.east" SPECIAL_ADVERB="p139" TxEXP="east" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.west" SPECIAL_NOMINATIVE="p140" TxEXP="west" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.west" SPECIAL_ADJECTIVE="p140" TxEXP="west" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.west" SPECIAL_ADVERB="p140" TxEXP="west" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.inside" SPECIAL_ADVERB="p141" TxEXP="inside" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.outside" SPECIAL_ADVERB="p142" TxEXP="outside" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="def.beside" SPECIAL_ADVERB="p143" TxEXP="beside" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.any" SPECIAL_ADVERB="p012" TxEXP="anyplace" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.any" SPECIAL_ADVERB="p014" TxEXP="anywhere" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.one" SPECIAL_ADVERB="p088" TxEXP="someplace" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.one" SPECIAL_ADVERB="p092" TxEXP="someplace" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.none" SPECIAL_ADVERB="p069" TxEXP="nowhere" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.all" SPECIAL_ADVERB="p030" TxEXP="everywhere" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="idef.dif" SPECIAL_ADVERB="p024" TxEXP="elsewhere" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="around" SPECIAL_ADVERB="p015" TxEXP="around" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Place@" SMaTTR="ing" SPECIAL_ADVERB="p116" TxEXP="where" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<!-- TIME: type -->
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.past" SPECIAL_ADVERB="p101" TxEXP="then" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.present" SPECIAL_ADVERB="p068" TxEXP="now" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.current" SPECIAL_ADVERB="p152" TxEXP="today" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.previous" SPECIAL_ADVERB="p124" TxEXP="yesterday" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.next" SPECIAL_ADVERB="p108" TxEXP="tomorrow" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.part.first" SPECIAL_ADVERB="p055" TxEXP="morning" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.part.second" SPECIAL_ADVERB="p065" TxEXP="noon" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.part.third" SPECIAL_ADVERB="p005" TxEXP="afternoon" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="def.day.part.last" SPECIAL_ADVERB="p109" TxEXP="tonight" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.any" SPECIAL_ADVERB="p153" TxEXP="anytime" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.one" SPECIAL_ADVERB="p089" TxEXP="sometime" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.one" SPECIAL_ADVERB="p072" TxEXP="once" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.one" SPECIAL_ADVERB="p085" TxEXP="someday" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.none" SPECIAL_ADVERB="p061" TxEXP="never" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.all" SPECIAL_ADVERB="p007" TxEXP="allways" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.some" SPECIAL_ADVERB="p090" TxEXP="sometimes" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.past" SPECIAL_ADVERB="p018" TxEXP="before" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.future" SPECIAL_ADVERB="p165b" TxEXP="later" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.future.soon" SPECIAL_ADVERB="p163" TxEXP="soon" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="idef.future.later" SPECIAL_ADVERB="p165b" TxEXP="later" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Time@" SMaTTR="ing" SPECIAL_NOMINATIVE="p115" TxEXP="when" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+
+<SmSPECIALNOUN XCPT="Manner@" SMaTTR="def" SPECIAL_ADVERB="p081" TxEXP="so" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Manner@" SMaTTR="def" SPECIAL_ADVERB="p107" TxEXP="thus" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Manner@" SMaTTR="idef" SPECIAL_ADVERB="p086" TxEXP="somehow" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Manner@" SMaTTR="idef" SPECIAL_ADVERB="p091" TxEXP="someway" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Manner@" SMaTTR="ing" SPECIAL_NOMINATIVE="p040" TxEXP="how" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Cause@" SMaTTR="idef" SPECIAL_ADVERB="p086" TxEXP="somehow" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Cause@" SMaTTR="ing" SPECIAL_NOMINATIVE="p123" TxEXP="why" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+</SmSPECIALNOUN>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2001.09.22" CREATED="2000.04.04" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2000.04.10" AUTHOR="HoKoNoUmo">
+CONCRETE-CONCEPT is a concept with ONE REFERENT, the opposite of abstract.
+EXAMPLE: (The capital of Greece), (My first son).
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2001.09.22" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2000.11.12" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Individual" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.06.13" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="ατομική έννοια" TRMrULE="rlElnTrmNnCs62b2-2a3" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2000.04.04" CREATED="2000.04.04" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="BConcept@hknu.meta-1@" LASTmOD="2000.04.04" CREATED="2000.04.04" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+</XCONCEPT>

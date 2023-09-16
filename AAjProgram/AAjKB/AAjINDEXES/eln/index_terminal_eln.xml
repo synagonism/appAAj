@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * LastModified: 2006.01.22
+ * Created: 2004.11.08
+ * @author HoKoNoUmo
+ *
+-->
+
+<!-- ΤΑ ΑΡΘΡΑ -->
+<TRMNL TxEXP="ο" TRMNLtYPE="auxNnCs" LGcPT="nnCs03" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsNm1" EXMPL="ο πατέρας"/>
+<TRMNL TxEXP="η" TRMNLtYPE="auxNnCs" LGcPT="nnCs04" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsNm1" EXMPL="η μητέρα"/>
+<TRMNL TxEXP="το" TRMNLtYPE="auxNnCs" LGcPT="nnCs05" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="το παιδί"/>
+<TRMNL TxEXP="το" TRMNLtYPE="auxNnCs" LGcPT="nnAc22" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="το παιδί, αιτιατική"/>
+<TRMNL TxEXP="οι" TRMNLtYPE="auxNnCs" LGcPT="nnCs06" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="οι πατεράδες|μητέρες"/>
+<TRMNL TxEXP="τα" TRMNLtYPE="auxNnCs" LGcPT="nnCs07" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="τα παιδιά"/>
+<TRMNL TxEXP="τα" TRMNLtYPE="auxNnCs" LGcPT="nnAc25" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="τα παιδιά"/>
+<TRMNL TxEXP="ένας" TRMNLtYPE="auxNnCs" LGcPT="nnCs08" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="ένας πατέρας"/>
+<TRMNL TxEXP="μια" TRMNLtYPE="auxNnCs" LGcPT="nnCs09" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="μια μητέρα"/>
+<TRMNL TxEXP="μια" TRMNLtYPE="auxNnCs" LGcPT="nnAc27" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="μια μητέρα"/>
+<TRMNL TxEXP="μία" TRMNLtYPE="auxNnCs" LGcPT="nnCs09" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="μία μητέρα"/>
+<TRMNL TxEXP="ένα" TRMNLtYPE="auxNnCs" LGcPT="nnCs10" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="ένα παιδί"/>
+<TRMNL TxEXP="ένα" TRMNLtYPE="auxNnCs" LGcPT="nnAc26" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="ένα(ν) πατέρα"/>
+<TRMNL TxEXP="ένα" TRMNLtYPE="auxNnCs" LGcPT="nnAc28" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="ένα παιδί"/>
+
+<TRMNL TxEXP="του" TRMNLtYPE="auxNnCs" LGcPT="nnGn13" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="του πατέρα|παιδιού"/>
+<TRMNL TxEXP="της" TRMNLtYPE="auxNnCs" LGcPT="nnGn14" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="της μητέρας"/>
+<TRMNL TxEXP="των" TRMNLtYPE="auxNnCs" LGcPT="nnGn15" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="των πατεράδων|μητέρων|παιδιών"/>
+<TRMNL TxEXP="ενός" TRMNLtYPE="auxNnCs" LGcPT="nnGn16" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="ενός πατέρα|παιδιού"/>
+<TRMNL TxEXP="μιας" TRMNLtYPE="auxNnCs" LGcPT="nnGn17" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="μιας μητέρας"/>
+<TRMNL TxEXP="μίας" TRMNLtYPE="auxNnCs" LGcPT="nnGn17" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="μίας μητέρας"/>
+
+<TRMNL TxEXP="τον" TRMNLtYPE="auxNnCs" LGcPT="nnAc20" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="τον πατέρα"/>
+<TRMNL TxEXP="την" TRMNLtYPE="auxNnCs" LGcPT="nnAc21" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="την μητέρα"/>
+<TRMNL TxEXP="τους" TRMNLtYPE="auxNnCs" LGcPT="nnAc23" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="τους πατεράδες"/>
+<TRMNL TxEXP="τις" TRMNLtYPE="auxNnCs" LGcPT="nnAc24" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="τις μητέρες"/>
+<TRMNL TxEXP="έναν" TRMNLtYPE="auxNnCs" LGcPT="nnAc26" TXeXP1_A="*NNAV" TXeXP2_A="$1v|2v" EXMPL="έναν πατέρα"/>
+
+
+<!-- ============================= ALPHABETICALLY =================================== -->
+<TRMNL TxEXP="άλλα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αλλού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp048" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άλλων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp036" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ανατολικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp101" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="απόγευμα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp111" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="απογευματινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp112" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="απόψε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp078" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αποψινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp079" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αριστερός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp097" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετό" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αρκετών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp016" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυριανός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp073" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αύριο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp067" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτήν" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτό" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτόν" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="αυτών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="άφθονων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp001" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="βορινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp099" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="βράδυ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp113" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="βραδυνός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp114" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="γιατί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp021" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="γύρω" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp084" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δείνα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp040" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δεξιός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp098" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δική τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp068" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp007" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικός τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δικό τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp023" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="διπλανός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp105" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="δυτικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp102" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εγώ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εδώ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp060" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκεί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp061" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εκείνων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp008" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εμάς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εμείς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εμένα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ένας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp037" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εξωτερικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp104" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εσας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εσείς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εσένα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εσύ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="εσωτερικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp103" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ετούτων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="έτσι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp009" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="η ίδια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάθε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp046" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάθε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp009" SMcPT="mpo#.concrete.sin.mas" XCPT="Human.C@" TXeXP1_B="" TXeXP1_A="" EXMPL="[ο κάθε άνθρωπος] {είναι} |ελεύθερος να κάνει ό,τι θέλει|."/>
+<TRMNL TxEXP="καθένας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp047" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="καθετί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp032" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάμποσος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp045" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κανείς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp014" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κανένας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp028" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιον" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιον" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποιων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp038" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp051" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάπου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp049" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάπου κάπου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp052" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάπως" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp050" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάτι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp042" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κάτι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp042" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κατιτί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp042" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp089" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντό" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="κοντών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp090" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="λίγος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp039" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριάς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακρινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp092" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακριών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακρύ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακρύ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μακρύς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp088" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="με" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεγάλων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp086" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεθαυριανός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp077" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεθαύριο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp076" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μέλλον" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp117" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μελλοντικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp118" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μένα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μένα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μερικά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp030" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μερικές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp030" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μερικοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp030" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μερικούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp030" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μερικών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp030" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεσημεριανός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp110" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μεσημέρι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp109" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρό" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικροί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μικρών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp085" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μόνος μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp070" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μόνος σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp071" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μόνος του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp072" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp063" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μπροστά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp094" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="μπροστινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp095" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="να" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp010" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="νότιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp100" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ο ίδιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οι ίδιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οι ίδιοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όλων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp034" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιαδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιασδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιεσδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιοδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιοιδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιονδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποίος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp027" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="όποιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp057" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιοσδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιοσδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιουδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιουσδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οποιωνδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp043" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οπουδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp053" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="οτιδήποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp044" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πάντα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp055" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πάντοτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp055" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παντού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp083" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παραμεθαύριο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp106" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παρελθόν" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp081" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παρελθοντικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp082" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παρόν" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp115" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="παροντικός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp116" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πισινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp095" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πίσω" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp093" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ποιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp015" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολλών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολύ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πολύς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp031" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόση" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πόσων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp022" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πότε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp019" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ποτέ" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp056" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πότε πότε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp080" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="που" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp020" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πουθενά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp054" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πρόσφατος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp119" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="προχθές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp074" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="προχθεσινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp075" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πρωί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp107" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πρωινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp108" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="πως" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp018" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σήμερα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp026" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σημερινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp029" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp064" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="σύντομα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp120" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τα ίδια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεραστίων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τεράστιων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp087" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τέτοιων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp013" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="την" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="την ίδια" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="της ίδιας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp017" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τίνος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp024" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τίποτα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp033" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τίποτε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp033" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τις" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τις ίδιες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="το" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="το ίδιο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον εαυτό των" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τον ίδιο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τόσος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp012" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τότε" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp059" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού μου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού σου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003," SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού της" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού του" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτού των" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του εαυτών τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="του ίδιου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp005" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους εαυτούς μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους εαυτούς σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους εαυτούς τους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους εαυτούς των" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp006" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τους ίδιους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτη" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτης" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτο" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτοι" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτος" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτου" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτους" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τούτων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp011" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="των εαυτών μας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp002" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="των εαυτών σας" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp003" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="των ίδιων" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp069" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τώρα" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp058" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="τωρινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp035" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="χθες" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp065" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="χθεσινός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp065" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλά" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλές" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλή" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλής" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλό" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλοί" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλός" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλού" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλούς" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ψηλών" TRMNLtYPE="trmSpNnAj" LGcPT="nnSp091" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>

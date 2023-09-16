@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.06
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="έννοια" TRMNLtYPE="trmNnCb1" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>
+<TRMNL TxEXP="έννοια" TRMNLtYPE="trmNnCb3" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>
+<TRMNL TxEXP="έννοιας" TRMNLtYPE="trmNnCb2" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>
+<TRMNL TxEXP="έννοιες" TRMNLtYPE="trmNnCb5" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>
+<TRMNL TxEXP="έννοιες" TRMNLtYPE="trmNnCb7" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>
+<TRMNL TxEXP="εννοιών" TRMNLtYPE="trmNnCb6" XCPT="BConcept@hknu.meta-1@" NAME="έννοια"/>

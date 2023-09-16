@@ -1,0 +1,383 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+java EditorPane problem
+-->
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>HtmlMgr</title>
+  <link href="AAj.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<p class="h0">
+  <a name="h0"></a>
+  HtmlMgr
+  <br/>Home-WebPage
+</p>
+
+<h1>
+  <a name="h0.1"/>
+  Description
+  <a class="hide">#h0.1 h1#</a>
+</h1>
+<p>
+  <a name="h0.1p1"></a>
+  HtmlMgr (Html-Manager) is a simple open-source java html-browser, that:<br/>
+  a) Creates automatically the Table-of-Contents (ToC) of html-files
+  that contain LocDocs
+  (= <a href="#h3c1">Locators inside Documents</a>).<br/>
+  b) Shows in the ToC, the location of a mouse-click inside the doc.<br/>
+  c) Indexes the words and terms (= sequence of characters that contain
+  '-','_',''') of the files, with the LocDocs they reside, and
+  makes a very fast full-text search.<br/>
+  <img src="HtmlMgr.jpg"/><br/>
+  <img src="search-tab.jpg"/><br/>
+  <a class="hide">#h0.1p1#</a>
+</p>
+
+<h1>
+  <a name="h0.2"/>
+  LocDoc
+  <a class="hide">#h0.2 h1#</a>
+</h1>
+<p>
+  <a name="h0.2p1"></a>
+  DEFINITION:<br/>
+  LocDoc (= Locator inside Document) is a
+  <a href="http://en.wikipedia.org/wiki/URL">URL</a>
+  that denotes a PORTION of an html-text-file, like the file you
+  are reading which also includes LocDocs.<br/>
+  HtmlMgr demostrates the usefulness of LocDocs .
+  <a class="hide">#h0.2p1#</a>
+</p>
+<p>
+  <a name="h0.2p2"></a>
+  FORMAT:<br/>
+  - h0, h0c1, h0c2, ...<br/>
+  - h1, h1c1, ... h1.1, ... h1.2, ... h1.2.1, h1.2.1c1, h1.2.1c2, ...<br/>
+  - h2, h2c1, ... h2.1, ... h2.2, ... h2.2.1, h2.2.1c1, h2.2.1c2, ...<br/>
+  ...<br/>
+  - h?, h?c1, ... h?.1, ... h?.2, ... h?.2.1, h?.2.1c1, h?.2.1c2, ...
+  <a class="hide">#h0.2p2#</a>
+</p>
+<p>
+  <a name="h0.2p3"></a>
+  EXAMPLE-FILES:<br/>
+  In the "doc" directory I have some example-html-files with LocDocs.<br/>
+  1) a big law-file:
+  <a href="http://htmlmgr.sourceforge.net/doc/Law_Eu_Treaties_2008.html">Law_Eu_Treaties_2008.html</a>.
+  I have done some processing on this file, but you can see my objective.<br/>
+  This file is my approach to online-law-texts.<br/>
+  2) a w3.org recommendation file:
+  <a href="http://htmlmgr.sourceforge.net/doc/w3_org_css21_generate.html">w3_org_css21_generate.html</a> and<br/>
+  3) this file.
+  <a class="hide">#h0.2p3#</a>
+</p>
+<p>
+  <a name="h0.2p4"></a>
+  IMPLEMENTATION:<br/>
+  I have implemented LocDocs using the existing html-standards.<br/>
+  a) I used XHTML 1.0 Strict files, for increased consistency.<br/>
+  b) I used h1, h2, ... elements as heading-elements and paragraph-elements
+  as content-elements.<br/>
+  c) A <a href="http://htmlmgr.sourceforge.net/doc/AAj.css">css</a> can serve for consistent presentation and <br/>
+  d) We have only to add an empty-anchor-element with the name-attribute
+  and value the LocDoc in the beginning and another achor-element with
+  class-attribute "hide" at the end of heading and content elements.
+  For example:<br/>
+  <code>
+  &lt;p&gt;<br/>
+    &lt;a name="h2c5"/&gt;<br/>
+    ...<br/>
+    &lt;a class="hide"&gt;#h2c5#&lt;/a&gt;<br/>
+  &lt;/p&gt;
+  </code>
+  <a class="hide">#h0.2p4#</a>
+</p>
+<p>
+  <a name="h0.2p5"></a>
+  WHAT WE NEED (STANDARDIZATION):<br/>
+  <b>By standardizing LocDocs</b>:
+  <br/>1) anyone could REFER to any place INSIDE an
+  html-file without knowing the concrete anchors the author uses inside
+  his document.
+  <br/>2) the web-browsers, will create automatically the ToC of the
+  files, will show the location we are reading in the Toc and will make
+  fast full-text searches, because any word|term will reside in a
+  unique LocDoc. My HtmlMgr proves this (2) argument.
+  <br/>We need:<br/>
+  a) an h0-element for the title of the document, but to display as
+  the other heading. Also we could add and h7, h8, h9 elements,
+  just in case anyone could need them but to suggest not to use them.<br/>
+  b) a content-element (&lt;c&gt;) and anything that can serve as
+  content (=information), text, audio, image, video to reside inside
+  this element.<br/>
+  - lists (ol, ul, dl) and tables, are considered content.<br/>
+  - it is useful to add and sentence-elements, and to have locators
+  and for every sentence, inside paragraphs.<br/>
+  - Finally syntax and meaning elements could be added to resolve
+  ambiguities in the text that the reader will NOT see when he reads
+  the text, but he can have access to them if he needs them.
+  At the same time, any program that manages text, can use them
+  in order to do a better job, eg translation.
+  <a class="hide">#h0.2p5#</a>
+</p>
+
+<h1>
+  <a name="h0.3"/>
+  Download
+  <a class="hide">#h0.3 h1#</a>
+</h1>
+<p>
+  <a name="h0.3p1"></a>
+  DEVELOPMENT-STAGE:<br/>
+  The program is in alpha version, but its main functionality works.
+  I've tested ONLY in windows!!!
+  <a class="hide">#h0.3p1#</a>
+</p>
+<p>
+  <a name="h0.3p2"></a>
+  WHAT-YOU-NEED-TO-RUN-IT:<br/>
+  Download the file HtmlMgr-date-version.jar, which contains the
+  executable-code, the source-code and the example-html-files.<br/>
+  * <a href="http://sourceforge.net/projects/htmlmgr/files/HtmlMgr-2010.06.02-00.02.02.jar/download">
+  HtmlMgr-2010.06.02-00.02.02.jar</a>, bug-fix release.<br/>
+  * <a href="http://sourceforge.net/projects/htmlmgr/files/HtmlMgr-2010.05.30-00.02.02.jar/download">
+  HtmlMgr-2010.05.30-00.02.02.jar</a>
+  <a class="hide">#h0.3p2#</a>
+</p>
+<p>
+  <a name="h0.3p3"></a>
+  HOW-TO-RUN:<br/>
+  A-method:<br/>
+  Unzip the jar-file and double-click on <code>runHtmlMgr.bat</code> file.<br/>
+  B-method:<br/>
+  1) create a folder and store the jar-file you downloaded.<br/>
+  2) unzip this jar-file (which is a zip-file) in the same directory.
+  You need the directory "doc", which contains the example-html-files
+  with LocDocs, to be in the same directory with the jar-file.<br/>
+  3) double-click on the jar-file. I suppose your system has java installed.
+  Alternatively you can run the command, from the downloaded-directory:<br/>
+  <code>java pk_Html.HtmlMgr</code>
+  <a class="hide">#h0.3p3#</a>
+</p>
+
+
+<h1>
+  <a name="h0.4"/>
+  The Program
+  <a class="hide">#h0.4 h1#</a>
+</h1>
+<p>
+  <a name="h0.4p1"></a>
+  HtmlMgr now is an html-viewer. I call it "manager" because I would like
+  to incorporate the functionality of the
+  <a href="http://www.hexidec.com/ekit.php">Ekit</a> html-editor,
+  an open-source java program of Howard Kistler.
+  Then we could create html-text-files with the HtmlMgr and LocDocs
+  could be added automatically.
+  <a class="hide">#h0.4p1#</a>
+</p>
+
+<h2>
+  <a name="h0.4.1"/>
+  Menu
+  <a class="hide">#h0.4.1 h2#</a>
+</h2>
+
+
+<h3>
+  <a name="h0.4.1.1"/>
+  Menu-File
+  <a class="hide">#h0.4.1.1 h3#</a>
+</h3>
+<p>
+  <a name="h0.4.1.1p1"></a>
+  <b>Exit</b>:
+  <a class="hide">#h0.4.1.1p1#</a>
+</p>
+
+<h3>
+  <a name="h0.4.1.2"/>
+  Menu-Edit
+  <a class="hide">#h0.4.1.2 h3#</a>
+</h3>
+<p>
+  <a name="h0.4.1.2p1"></a>
+  Unimplemented
+  <a class="hide">#h0.4.1.2p1#</a>
+</p>
+
+<h3>
+  <a name="h0.4.1.3"/>
+  Menu-View
+  <a class="hide">#h0.4.1.3 h3#</a>
+</h3>
+<p>
+  <a name="h0.4.1.3p1"></a>
+  Unimplemented
+  <a class="hide">#h0.4.1.3p1#</a>
+</p>
+
+<h3>
+  <a name="h0.4.1.4"/>
+  Menu-GoTo
+  <a class="hide">#h0.4.1.4 h3#</a>
+</h3>
+<p>
+  <a name="h0.4.1.4p1"></a>
+  <b>Open-Directory</b>:<br/>
+  Opens a directory with LocDoc-files and creates recursively the ToC
+  of its subdirectories and of the files in these directories,
+  AND indexes the words and terms of all these files.
+  <a class="hide">#h0.4.1.4p1#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p2"></a>
+  <b>Open-File | ToC</b>:<br/>
+  Opens ONE LocDoc-file, or<br/>
+  opens a "toc.xml" file that contains a structure of LocDoc-files
+  and creates a ToC of these files with the structure denotes in
+  the toc.xml file.
+  <a class="hide">#h0.4.1.4p2#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p3"></a>
+  <b>Back</b>:<br/>
+  Goes to previous LocDoc.
+  <a class="hide">#h0.4.1.4p3#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p4"></a>
+  <b>Forward</b>:<br/>
+  Goes to next LocDoc, IF we navigate in the history of LocDocs.
+  <a class="hide">#h0.4.1.4p4#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p5"></a>
+  <b>Home</b>:<br/>
+  Goes to this file.
+  <a class="hide">#h0.4.1.4p5#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p6"></a>
+  <b>Reload</b>:<br/>
+  Reloads the displayed-file.
+  <a class="hide">#h0.4.1.4p6#</a>
+</p>
+<p>
+  <a name="h0.4.1.4p7"></a>
+  <b>List-Directory</b>:<br/>
+  Lists the contents of a directory, so you can copy this list.
+  <a class="hide">#h0.4.1.4p7#</a>
+</p>
+
+<h3>
+  <a name="h0.4.1.5"/>
+  Menu-Help
+  <a class="hide">#h0.4.1.5 h3#</a>
+</h3>
+<p>
+  <a name="h0.4.1.5p1"></a>
+  <b>About HtmlMgr</b>:
+  <a class="hide">#h0.4.1.5p1#</a>
+</p>
+
+<h2>
+  <a name="h0.4.2"/>
+  To Do
+  <a class="hide">#h0.4.2 h2#</a>
+</h2>
+<p>
+  <a name="h0.4.2p2"></a>
+  Java does not support yet the "display" property. So the LocDocs
+  always appear. Today browsers, hide them and display only when the
+  we put the mouse over the paragraph.
+  <a class="hide">#h0.4.2p2#</a>
+</p>
+<p>
+  <a name="h0.4.2p1"></a>
+  Infinite things!!!
+  <a class="hide">#h0.4.2p1#</a>
+</p>
+
+<h2>
+  <a name="h0.4.3"/>
+  Evolution
+  <a class="hide">#h0.4.3 h2#</a>
+</h2>
+<p>
+  <a name="h0.4.3p3"></a>
+  <span class="red">2010.05.30</span>:<br/>
+  FIRST release of the HtmlMgr.
+  <a class="hide">#h0.4.3p3#</a>
+</p>
+<p>
+  <a name="h0.4.3p2"></a>
+  2010.05.24:<br/>
+  Project registration.
+  <a class="hide">#h0.4.3p2#</a>
+</p>
+<p>
+  <a name="h0.4.3p1"></a>
+  2010.04:<br/>
+  HtmlMgr is part of my life-long AAj project, a knowledge-management project.
+  I begun HtmlMgr using the open-source code of
+  <a href="http://www.jedit.org/">jEdit's</a> help package
+  of Slava Pestov and jEdit's plugin InfoViewer of Dirk Moebius.
+  <a class="hide">#h0.4.3p1#</a>
+</p>
+
+<h2>
+  <a name="h0.4.4"/>
+  Licence
+  <a class="hide">#h0.4.4 h2#</a>
+</h2>
+<p>
+  <a name="h0.4.4p1"></a>
+  GNU <a href="http://www.gnu.org/licenses/gpl.html">GENERAL PUBLIC LICENSE</a> (GPL)
+  <a class="hide">#h0.4.4p1#</a>
+</p>
+
+
+<h1>
+  <a name="h0.5"/>
+  Author
+  <a class="hide">#h0.5 h1#</a>
+</h1>
+<p>
+  <a name="h0.5p1"></a>
+  <a href="http://users.otenet.gr/~nikkas/">Kaseluris-Nikos</a>.
+  <a class="hide">#h0.5p1#</a>
+</p>
+
+
+<h1>
+  <a name="htoc"/>
+  Table of Contents
+  <a class="hide">#htoc h1#</a>
+</h1>
+<ol>
+  <li> <a href="#h1">Description</a></li>
+  <li> <a href="#h2">LocDoc</a></li>
+  <li> <a href="#h3">Download</a></li>
+  <li> <a href="#h4">The Program</a></li>
+  <li> <a href="#h5">Author</a></li>
+  <li> Table of Contents</li>
+</ol>
+<hr/>
+<p class="last">
+  LAST-MODIFIED: <b>2010.06.14</b>
+  <br/>PUBLISHED: 2010.05.30
+  <br/>CREATED: 2010.05.26
+  <br/>URL: http://htmlmgr.sourceforge.net/index.html
+  <br/>MAIL: userid@domain, where userid=nikkas and domain=otenet.gr
+</p>
+<p class="center">
+  <a href="http://sourceforge.net">
+  <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=324598&amp;type=8" width="80" height="15" alt="SourceForge.net Logo"/></a>
+</p>
+</body>
+</html>

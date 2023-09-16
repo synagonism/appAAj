@@ -1,0 +1,1163 @@
+//=========================================
+// TOC
+// ORDER_USED
+// NOTATION_USED
+//1. SYLLABLE_FIRST_USED: used in aaj komo word creation
+//2. SYLLABLE_MIDDLE_USED: used in aaj
+//3. SUFFIX_USED:
+//=========================================
+
+//=========================================
+//   ORDER_USED
+//=========================================
+//p f q s c t k h m l
+//b v w z j d g y n r
+//a e i o u
+//2008.06.10
+
+//aeiou
+//pbfvszcztdkghymnlr
+//a e i o u   p b f v q w s z c j t d k g h y m n l r [2007.12.11]
+
+//=========================================
+//   NOTATION_USED
+//=========================================
+//? = aeiou
+//! = pbfvqwszcjtdkghymnlr
+
+
+//=========================================
+//   SYLLABLE_FIRST_USED
+//=========================================
+silFrs;?;a-tri-bo.
+
+silFrs;p?
+silFrs;ps?
+silFrs;pt?
+silFrs;pn?
+silFrs;pl?
+silFrs;pr?;pro-ble-mo,
+
+silFrs;b?
+silFrs;bl?
+silFrs;br?
+
+silFrs;f?
+silFrs;ft?
+silFrs;fh?
+silFrs;fl?
+silFrs;fr?
+
+silFrs;v?
+silFrs;vl?
+silFrs;vr?
+
+silFrs;s?;su-fi-kso.
+silFrs;sf?
+silFrs;sh?
+silFrs;sk?
+silFrs;sl?
+silFrs;sp?
+silFrs;sr?
+silFrs;st?
+silFrs;spl?
+silFrs;spr?
+silFrs;str?;stru-kto.
+silFrs;skl?
+silFrs;skn?
+silFrs;skr?
+
+silFrs;z?
+silFrs;zm?
+silFrs;zv?
+
+silFrs;c?
+
+silFrs;j?
+
+silFrs;t?
+silFrs;tm?
+silFrs;tr?
+
+silFrs;d?
+silFrs;dr?
+silFrs;dv?
+
+silFrs;k?;ko-mo-no.
+silFrs;kl?
+silFrs;kn?
+silFrs;ks?
+silFrs;kz?
+silFrs;kt?
+silFrs;kv?
+silFrs;kr?
+
+silFrs;g?
+silFrs;gl?
+silFrs;gr?
+
+silFrs;h?;ho, hu-o.
+silFrs;hl?
+silFrs;hn?
+silFrs;hr?
+silFrs;ht?
+
+silFrs;y?;yo-no.
+silFrs;yl?
+silFrs;yn?
+silFrs;yr?
+
+silFrs;m?;mi-ne-to.
+silFrs;mn?
+
+silFrs;n?;
+
+silFrs;l?;la-ngu-fi-no, lo-go.
+
+silFrs;r?
+
+//=========================================
+//   SYLLABLE_MIDDLE_USED
+//=========================================
+
+silMid;?;
+
+silMid;p?;
+silMid;ps?;
+silMid;pt?;
+silMid;pn?;
+silMid;pl?;
+silMid;pr?;
+
+silMid;b?;
+silMid;bl?;pro-ble-mo,
+silMid;br?;
+
+silMid;f?;
+silMid;fh?;
+silMid;fl?;
+silMid;fr?;
+silMid;ft?;
+
+silMid;v?;
+silMid;vl?;
+silMid;vr?;
+
+silMid;q?;
+
+silMid;w?;
+
+silMid;s?;
+silMid;sp?;
+silMid;sf?;
+silMid;st?;
+silMid;sk?;
+silMid;sh?;
+silMid;sm?;la-nge-smo;
+silMid;sl?;
+silMid;sr?;
+silMid;skl?;
+silMid;skn?;
+silMid;skr?;
+silMid;spt?;vu-do-si-mba-ne-spto.
+silMid;spl?;
+silMid;spr?;
+silMid;str?;
+
+silMid;z?;
+silMid;zm?;
+silMid;zv?;
+
+silMid;c?;
+
+silMid;j?;
+
+silMid;t?;
+silMid;tm?;
+silMid;tl?;ku-a-tli-o;
+silMid;tr?;
+
+silMid;d?;
+silMid;dv?;a-dve-rbe-ro.
+silMid;dn?;a-dno-u-ne-ro.
+silMid;dr?;
+silMid;dl?;mo-dlo,
+
+silMid;k?;
+silMid;kl?;
+silMid;kn?;
+silMid;kr?;
+silMid;ks?;
+silMid;kt?;
+silMid;kv?;
+silMid;kz?;
+
+silMid;g?;
+silMid;gn?;ko-gne-pto.
+silMid;gl?;
+silMid;gr?;
+
+silMid;h?;
+silMid;hl?;
+silMid;hn?;
+silMid;hr?;
+silMid;ht?;
+
+silMid;y?;
+silMid;yl?;
+silMid;yn?;
+silMid;yr?;
+
+silMid;m?;
+silMid;mp?;i-mpo.
+silMid;mb?;si-mba-ne-po.
+silMid;mn?;
+silMid;mpl?;ko-mple-te-i-no,
+silMid;mpr?;ko-mpre-nu-fi-no,
+
+silMid;n?;
+silMid;nv?;ku-a-nvo.
+silMid;ns?;
+silMid;nc?;ko-nce-po.
+silMid;nt?;mo-nto.
+silMid;nd?;la-ndo.
+silMid;nk?;yo-nko.
+silMid;ng?;la-ngo.
+silMid;nst?;
+silMid;nks?;a-nksi-e-cu-fi-no,
+silMid;ngv?;li-ngvo.
+silMid;ngl?;a-nglo,
+silMid;ngr?;a-ngru-ti-no,
+
+silMid;l?;
+silMid;lp?;
+silMid;ln?;
+
+silMid;r?;
+silMid;rp?;
+silMid;rb?;ve-rbe-ro,
+silMid;rf?;
+silMid;rv?;
+silMid;rs?;
+silMid;rc?;
+silMid;rt?;
+silMid;rd?;
+silMid;rk?;
+silMid;rg?;ka-rgo,
+silMid;rh?;hi-e-ra-rho,
+silMid;ry?;
+silMid;rm?;ka-rmo,
+silMid;rn?;ka-rno,
+//silMid;rl?;ka-rlo,
+
+
+//=================================================
+//====== SUFFIX_USED: ordered by its ending ======
+//=================================================
+//FORMAT:
+//1)"tx_suffix";2)the-tx_suffix;3)meaning;4)"RESERVED." description #nextline [date]
+//1)"tx_suffix";2)the-tx_suffix;3)"UN-USED".
+
+//-- tx_suffix1 letter ---
+tx_suffix;o;NOUN;RESERVED.
+tx_suffix;i;VERB;RESERVED.
+//tx_suffix;i;NOUN2;. Denotes plural of noun
+tx_suffix;a;CONJUNCTION;RESERVED. Denotes CONJUNCTION.
+//tx_suffix;e;SPECIFIC_CASE|AUXILIARY;. Denotes LG-CONCEPT-AUXILIARY.
+//tx_suffix;u;ATTRIBUTE_CASE;.
+//tx_suffix;u;ATTRIBUTE-CASE2;.
+//tx_suffix;u;SINGULERO;. Denotes vague one. [2008.03.22]
+
+tx_suffix;ano;TIME-PRESENT;RESERVED. Denotes tensless relation|process. [2008.03.15]
+tx_suffix;eno;TIME-PAST;RESERVED. Denotes PAST-dano. [2008.03.15]
+tx_suffix;uno;TIME-FUTURE;RESERVED.
+tx_suffix;ino;NO-TIME;RESERVED. Denotes PRESENT-dano. [2006.08.07] #-eino = deino. #-uino = Relatuino. #-utino = Relatutino. #-ufino = Relatufino.
+tx_suffix;ono;UN-USED. Denotes FUTURE-dano. [2008.03.15]
+
+tx_suffix;eano;RELATION-present;RESERVED. Denotes Deano.  [2008.03.15]
+tx_suffix;eeno;RELATION-past;RESERVED. Denotes PAST-Deano.  [2008.03.15]
+tx_suffix;euno;RELATION-future;RESERVED. Denotes FUTURE-Deano.  [2008.03.15]
+tx_suffix;eino;RELATION-notime;RESERVED. Denotes PRESENT-Deano (deino, relat-eino).  [2006.07.26]
+
+tx_suffix;uano;PROCESS-present;RESERVED. Denotes Duano. [2008.03.15]
+tx_suffix;ueno;PROCESS-past;RESERVED. Denotes PAST-Duano. [2008.03.15]
+tx_suffix;uono;PROCESS-future;RESERVED. Denotes FUTURE-Duano. [2008.03.15]
+tx_suffix;uino;PROCESS-notime;RESERVED. Denotes PRESENT-Duano. [2006.08.07]
+
+
+
+//-- tx_suffix6 diktetros --
+//tx_suffix;teorio;THEORY;. Denotes THEORY. infoteorio. [2006.11.24]
+//tx_suffix;lango;LANGUAGE;. Denotes LANGUAGE of attribute. [2007]
+tx_suffix;lengo;UN-USED.
+tx_suffix;lingo;UN-USED.
+tx_suffix;longo;UN-USED.
+tx_suffix;lungo;UN-USED.
+
+//-- tx_suffix5 diktetros --
+//tx_suffix;espto;KOGNESPTO;. Denotes sensorial-kognepto. [2008.03.08]
+tx_suffix;manto;UN-USED.
+tx_suffix;mento;UN-USED.
+tx_suffix;minto;UN-USED.
+//tx_suffix;monto;MOUNTAIN;. Denotes MOUNTAIN.
+tx_suffix;munto;UN-USED.
+//tx_suffix;part;PART;. Denotes PART.
+tx_suffix;perto;UN-USED.
+tx_suffix;pirto;UN-USED.
+//tx_suffix;porto;PORT;. Denotes port.
+tx_suffix;purto;UN-USED.
+//tx_suffix;lando;COUNTRY;. Denotes COUNTRY. [2006.11.19] #-isto = homo. -istomano, -istomuno.
+//tx_suffix;listo;LIST;. Denotes a LIST (ordered collection) [2007.07.03]
+tx_suffix;ufano;FUNCTION-present;RESERVED. Denotes DUFANO.
+tx_suffix;ufeno;FUNCTION-past;RESERVED. Denotes PAST-DUFANO.
+tx_suffix;ufino;FUNCTION-notime;RESERVED. Denotes PRESENT-DUFANO.
+tx_suffix;ufuno;FUNCTION-future;RESERVED. Denotes FUTURE-DUFANO.
+tx_suffix;utano;ACTION-present;RESERVED. Denotes DUTANO.
+tx_suffix;uteno;ACTION-past;RESERVED. Denotes PAST-DUTANO.
+tx_suffix;utino;ACTION-notime;RESERVED. Denotes PRESENT-DUTANO.
+tx_suffix;utuno;ACTION-future;RESERVED. Denotes FUTURE-DUTANO.
+//tx_suffix;utelo;DUTELO;. Denotes the WHAT of Dutino. 2006.11.26
+//tx_suffix;ufolo;DUFOLO;. Denotes the WHO of Dufino. 2006.11.26
+//tx_suffix;utolo;DUTOLO;. Denotes the WHO of Dutino. 2006.11.26
+//tx_suffix;ufulo;DUFULO;. Denotes the PRODUCT of Dufino. 2006.11.26
+//tx_suffix;utulo;DUTULO;. Denotes the PRODUCT of Dutino. 2006.11.26
+
+//-- tx_suffix4 diktetros --
+tx_suffix;i!ao;UN-USED.
+
+tx_suffix;ipeo;UN-USED.
+tx_suffix;ibeo;UN-USED.
+tx_suffix;ifeo;UN-USED.
+tx_suffix;iveo;UN-USED.
+tx_suffix;iqeo;UN-USED.
+tx_suffix;iweo;UN-USED.
+tx_suffix;iseo;UN-USED.
+tx_suffix;izeo;UN-USED.
+tx_suffix;iceo;UN-USED.
+tx_suffix;ijeo;UN-USED.
+tx_suffix;iteo;UN-USED.
+tx_suffix;ideo;UN-USED. Denotes IDEOLOGY. 2006.11.24
+tx_suffix;ikeo;UN-USED.
+tx_suffix;igeo;UN-USED.
+tx_suffix;iheo;UN-USED.
+tx_suffix;iyeo;UN-USED.
+tx_suffix;imeo;UN-USED.
+tx_suffix;ineo;UN-USED.
+tx_suffix;ileo;UN-USED.
+tx_suffix;ireo;UN-USED.
+
+tx_suffix;i!io;UN-USED.
+//tx_suffix;mnio;KUAMNIO;. Denotes much|many. [2008.03.21]
+//tx_suffix;tlio;KUATLIO;. Denotes little. [2008.03.21]
+
+tx_suffix;i!oo;UN-USED.
+
+tx_suffix;i!uo;UN-USED.
+
+tx_suffix;papo;UN-USED.
+tx_suffix;pepo;UN-USED.
+tx_suffix;pipo;UN-USED.
+tx_suffix;popo;UN-USED.
+//tx_suffix;pupo;PART-OF;. Denotes a PART-attribute of entity before. [2006.11.19]
+tx_suffix;b?po;UN-USED.
+tx_suffix;f?po;UN-USED.
+tx_suffix;v?po;UN-USED.
+tx_suffix;sapo;UN-USED.
+tx_suffix;sepo;UN-USED.
+tx_suffix;sipo;UN-USED.
+tx_suffix;sopo;UN-USED.
+//tx_suffix;supo;SPECIFIC-OF;. Denotes a SPECIFIC-attribute of entity before. [2006.11.19]
+tx_suffix;z?po;UN-USED.
+tx_suffix;c?po;UN-USED.
+tx_suffix;japo;UN-USED.
+tx_suffix;jepo;UN-USED.
+tx_suffix;jipo;UN-USED.
+tx_suffix;jopo;UN-USED.
+tx_suffix;jupo;UN-USED.
+tx_suffix;tapo;UN-USED.
+tx_suffix;tepo;UN-USED.
+tx_suffix;tipo;UN-USED.
+tx_suffix;topo;UN-USED.
+//tx_suffix;tupo;WHOLE-OF;. Denotes a WHOLE-attribute of entity before. [2006.11.19]
+tx_suffix;d?po;UN-USED.
+tx_suffix;k?po;UN-USED.
+tx_suffix;gapo;UN-USED.
+tx_suffix;gepo;UN-USED.
+tx_suffix;gipo;UN-USED.
+tx_suffix;gopo;UN-USED.
+//tx_suffix;gupo;GENERIC-OF;. Denotes a GENEREPO-attribute of entity-stemo. [2007.02.03]
+tx_suffix;h?po;UN-USED.
+tx_suffix;y?po;UN-USED.
+tx_suffix;m?po;UN-USED.
+tx_suffix;n?po;UN-USED.
+tx_suffix;l?po;UN-USED.
+tx_suffix;r?po;UN-USED.
+tx_suffix;espo;UN-USED. Denotes sensorial-kognepto. [2008.03.08]
+
+tx_suffix;p?bo;UN-USED.
+tx_suffix;b?bo;UN-USED.
+tx_suffix;f?bo;UN-USED.
+tx_suffix;v?bo;UN-USED.
+tx_suffix;s?bo;UN-USED.
+tx_suffix;z?bo;UN-USED.
+tx_suffix;c?bo;UN-USED.
+tx_suffix;j?bo;UN-USED.
+tx_suffix;t?bo;UN-USED.
+tx_suffix;d?bo;UN-USED.
+tx_suffix;k?bo;UN-USED.
+tx_suffix;g?bo;UN-USED.
+tx_suffix;h?bo;UN-USED.
+tx_suffix;y?bo;UN-USED.
+tx_suffix;m?bo;UN-USED.
+tx_suffix;n?bo;UN-USED.
+tx_suffix;l?bo;UN-USED.
+tx_suffix;r?bo;UN-USED.
+//tx_suffix;arbo;TREE;. Denotes TREE. 2006.11.24
+tx_suffix;erbo;UN-USED.
+tx_suffix;irbo;UN-USED.
+tx_suffix;orbo;UN-USED.
+//tx_suffix;urbo;CITY;. Denotes CITY.
+
+tx_suffix;p?fo;UN-USED.
+tx_suffix;b?fo;UN-USED.
+tx_suffix;f?fo;UN-USED.
+tx_suffix;v?fo;UN-USED.
+//tx_suffix;bofo;QUANTITY-TENS;. Denotes "TENS".
+//tx_suffix;vofo;QUANTITY-HUNDREDS;. Denotes "HUNDREDS".
+//tx_suffix;wofo;QUANTITY-THOUSANDS;. Denotes "THOUSANDS".
+tx_suffix;s?fo;UN-USED.
+tx_suffix;z?fo;UN-USED.
+tx_suffix;c?fo;UN-USED.
+tx_suffix;j?fo;UN-USED.
+tx_suffix;t?fo;UN-USED.
+tx_suffix;d?fo;UN-USED.
+tx_suffix;k?fo;UN-USED.
+tx_suffix;g?fo;UN-USED.
+tx_suffix;h?fo;UN-USED.
+tx_suffix;y?fo;UN-USED.
+tx_suffix;m?fo;UN-USED.
+tx_suffix;n?fo;UN-USED.
+tx_suffix;l?fo;UN-USED.
+tx_suffix;r?fo;UN-USED.
+
+tx_suffix;p?vo;UN-USED.
+tx_suffix;b?vo;UN-USED.
+tx_suffix;f?vo;UN-USED.
+tx_suffix;v?vo;UN-USED.
+tx_suffix;s?vo;UN-USED.
+tx_suffix;z?vo;UN-USED.
+tx_suffix;c?vo;UN-USED.
+tx_suffix;j?vo;UN-USED.
+tx_suffix;t?vo;UN-USED.
+tx_suffix;d?vo;UN-USED.
+tx_suffix;k?vo;UN-USED.
+tx_suffix;g?vo;UN-USED.
+tx_suffix;h?vo;UN-USED.
+tx_suffix;y?vo;UN-USED.
+tx_suffix;m?vo;UN-USED.
+tx_suffix;n?vo;UN-USED.
+tx_suffix;l?vo;UN-USED.
+tx_suffix;ravo;UN-USED.
+tx_suffix;revo;UN-USED.
+//tx_suffix;rivo;RIVER;. Denotes RIVER. [2008.03.06]
+tx_suffix;rovo;UN-USED.
+tx_suffix;ruvo;UN-USED.
+
+tx_suffix;p?so;UN-USED.
+tx_suffix;b?so;UN-USED.
+tx_suffix;f?so;UN-USED.
+tx_suffix;v?so;UN-USED.
+tx_suffix;s?so;UN-USED.
+tx_suffix;z?so;UN-USED.
+tx_suffix;c?so;UN-USED.
+tx_suffix;j?so;UN-USED.
+tx_suffix;t?so;UN-USED.
+tx_suffix;d?so;UN-USED.
+tx_suffix;k?so;UN-USED.
+tx_suffix;g?so;UN-USED.
+tx_suffix;h?so;UN-USED.
+tx_suffix;y?so;UN-USED.
+//tx_suffix;maso;MACHINE;. Denotes MACHINE: [2008.03.15]
+tx_suffix;meso;UN-USED.
+tx_suffix;miso;UN-USED.
+tx_suffix;moso;UN-USED.
+tx_suffix;muso;UN-USED.
+tx_suffix;n?so;UN-USED.
+tx_suffix;laso;UN-USED.
+//tx_suffix;leso;WITHOUT;. Denotes WITHOUT.
+tx_suffix;liso;UN-USED.
+tx_suffix;loso;UN-USED.
+tx_suffix;luso;UN-USED.
+tx_suffix;r?so;UN-USED.
+
+tx_suffix;p?zo;UN-USED.
+tx_suffix;b?zo;UN-USED.
+tx_suffix;f?zo;UN-USED.
+tx_suffix;v?zo;UN-USED.
+tx_suffix;s?zo;UN-USED.
+tx_suffix;z?zo;UN-USED.
+tx_suffix;c?zo;UN-USED.
+tx_suffix;j?zo;UN-USED.
+tx_suffix;t?zo;UN-USED.
+tx_suffix;d?zo;UN-USED.
+tx_suffix;k?zo;UN-USED.
+tx_suffix;g?zo;UN-USED.
+tx_suffix;h?zo;UN-USED.
+tx_suffix;y?zo;UN-USED.
+tx_suffix;m?zo;UN-USED.
+tx_suffix;n?zo;UN-USED.
+tx_suffix;l?zo;UN-USED.
+tx_suffix;r?zo;UN-USED.
+
+tx_suffix;p?co;UN-USED.
+tx_suffix;b?co;UN-USED.
+tx_suffix;f?co;UN-USED.
+tx_suffix;v?co;UN-USED.
+tx_suffix;s?co;UN-USED.
+tx_suffix;z?co;UN-USED.
+tx_suffix;c?co;UN-USED.
+tx_suffix;j?co;UN-USED.
+tx_suffix;t?co;UN-USED.
+tx_suffix;d?co;UN-USED.
+tx_suffix;k?co;UN-USED.
+tx_suffix;g?co;UN-USED.
+tx_suffix;h?co;UN-USED.
+tx_suffix;y?co;UN-USED.
+tx_suffix;m?co;UN-USED.
+tx_suffix;n?co;UN-USED.
+tx_suffix;l?co;UN-USED.
+tx_suffix;r?co;UN-USED.
+
+tx_suffix;p?jo;UN-USED.
+tx_suffix;b?jo;UN-USED.
+tx_suffix;f?jo;UN-USED.
+tx_suffix;v?jo;UN-USED.
+tx_suffix;s?jo;UN-USED.
+tx_suffix;z?jo;UN-USED.
+tx_suffix;c?jo;UN-USED.
+tx_suffix;j?jo;UN-USED.
+tx_suffix;t?jo;UN-USED.
+tx_suffix;d?jo;UN-USED.
+tx_suffix;k?jo;UN-USED.
+tx_suffix;g?jo;UN-USED.
+tx_suffix;h?jo;UN-USED.
+tx_suffix;y?jo;UN-USED.
+tx_suffix;m?jo;UN-USED.
+tx_suffix;n?jo;UN-USED.
+tx_suffix;l?jo;UN-USED.
+tx_suffix;r?jo;UN-USED.
+
+//tx_suffix;esto;KOGNESTO;. Denotes sensorial-semasial.
+tx_suffix;p?to;UN-USED.
+tx_suffix;b?to;UN-USED.
+tx_suffix;f?to;UN-USED.
+tx_suffix;v?to;UN-USED.
+tx_suffix;s?to;UN-USED.
+tx_suffix;z?to;UN-USED.
+tx_suffix;c?to;UN-USED.
+tx_suffix;j?to;UN-USED.
+tx_suffix;t?to;UN-USED.
+//tx_suffix;dato;DATA; Denotes LgYUORDO. [2007.12.11]
+tx_suffix;deto;UN-USED.
+tx_suffix;dito;UN-USED.
+tx_suffix;doto;UN-USED.
+tx_suffix;duto;UN-USED.
+tx_suffix;k?to;UN-USED.
+tx_suffix;g?to;UN-USED.
+tx_suffix;h?to;UN-USED.
+tx_suffix;y?to;UN-USED.
+tx_suffix;m?to;UN-USED.
+tx_suffix;n?to;UN-USED.
+tx_suffix;l?to;UN-USED.
+tx_suffix;r?to;UN-USED.
+//tx_suffix;epto;KOGNEPTO;. Denotes Brainepto: concept, breinepto, sensepto, ...
+//tx_suffix;isto;SEMI-USED. -listo,
+tx_suffix;anto;UN-USED; 2008.03.06 (Denotes INSTEAD OF. 2006.11.25)
+//tx_suffix;ento;UN-USED; Denotes Referento: [2006.11.15]
+tx_suffix;into;UN-USED;
+tx_suffix;onto;UN-USED;
+tx_suffix;unto;UN-USED;
+
+tx_suffix;p?do;UN-USED.
+tx_suffix;b?do;UN-USED.
+tx_suffix;f?do;UN-USED.
+tx_suffix;v?do;UN-USED.
+tx_suffix;s?do;UN-USED.
+tx_suffix;z?do;UN-USED.
+tx_suffix;c?do;UN-USED.
+tx_suffix;j?do;UN-USED.
+tx_suffix;t?do;UN-USED.
+tx_suffix;d?do;UN-USED.
+tx_suffix;k?do;UN-USED.
+tx_suffix;g?do;UN-USED.
+tx_suffix;h?do;UN-USED.
+tx_suffix;y?do;UN-USED.
+tx_suffix;m?do;UN-USED.
+tx_suffix;n?do;UN-USED.
+tx_suffix;l?do;UN-USED.
+tx_suffix;r?do;UN-USED.
+
+tx_suffix;p?ko;UN-USED.
+tx_suffix;b?ko;UN-USED.
+tx_suffix;f?ko;UN-USED.
+tx_suffix;v?ko;UN-USED.
+tx_suffix;s?ko;UN-USED.
+tx_suffix;z?ko;UN-USED.
+tx_suffix;c?ko;UN-USED.
+tx_suffix;j?ko;UN-USED.
+tx_suffix;t?ko;UN-USED.
+tx_suffix;d?ko;UN-USED.
+tx_suffix;k?ko;UN-USED.
+tx_suffix;g?ko;UN-USED.
+tx_suffix;h?ko;UN-USED.
+tx_suffix;y?ko;UN-USED.
+tx_suffix;m?ko;UN-USED.
+tx_suffix;n?ko;UN-USED.
+//tx_suffix;lako;LAKE; Denotes LAKE. 2006.12.01
+tx_suffix;leko;UN-USED.
+tx_suffix;liko;UN-USED.
+//tx_suffix;loko;PLACE; Denotes PLACE. 2006.11.23
+tx_suffix;luko;UN-USED.
+tx_suffix;r?ko;UN-USED.
+
+tx_suffix;p?go;UN-USED.
+tx_suffix;bago;UN-USED.
+tx_suffix;bego;UN-USED.
+//tx_suffix;bigo;BIG; Denotes BIG. [2008.03.11]
+tx_suffix;bogo;UN-USED.
+tx_suffix;bugo;UN-USED.
+tx_suffix;f?go;UN-USED.
+tx_suffix;v?go;UN-USED.
+tx_suffix;s?go;UN-USED.
+tx_suffix;z?go;UN-USED.
+tx_suffix;c?go;UN-USED.
+tx_suffix;j?go;UN-USED.
+tx_suffix;t?go;UN-USED.
+tx_suffix;d?go;UN-USED.
+tx_suffix;k?go;UN-USED.
+tx_suffix;gago;UN-USED.
+tx_suffix;gego;UN-USED.
+//tx_suffix;gigo;HUGE;. Denotes HUGE. [2008.03.11]
+tx_suffix;gogo;UN-USED.
+tx_suffix;gugo;UN-USED.
+tx_suffix;h?go;UN-USED.
+tx_suffix;y?go;UN-USED.
+tx_suffix;mago;UN-USED.
+tx_suffix;mego;UN-USED.
+//tx_suffix;migo;SMALL;. Denotes SMALL. [2008.03.11]
+tx_suffix;mogo;UN-USED.
+tx_suffix;mugo;UN-USED.
+tx_suffix;n?go;UN-USED.
+tx_suffix;lago;UN-USED.
+tx_suffix;lego;UN-USED.
+tx_suffix;ligo;UN-USED.
+//tx_suffix;logo;science;. Denotes SCIENCE: lingvologo, sociologo, ...[2006.11.17]
+tx_suffix;lugo;UN-USED.
+tx_suffix;r?go;UN-USED.
+
+tx_suffix;p?ho;UN-USED.
+tx_suffix;b?ho;UN-USED.
+tx_suffix;f?ho;UN-USED.
+tx_suffix;v?ho;UN-USED.
+tx_suffix;s?ho;UN-USED.
+tx_suffix;z?ho;UN-USED.
+tx_suffix;c?ho;UN-USED.
+tx_suffix;j?ho;UN-USED.
+tx_suffix;t?ho;UN-USED.
+tx_suffix;d?ho;UN-USED.
+tx_suffix;k?ho;UN-USED.
+tx_suffix;g?ho;UN-USED.
+tx_suffix;h?ho;UN-USED.
+tx_suffix;y?ho;UN-USED.
+tx_suffix;maho;UN-USED.
+tx_suffix;meho;UN-USED.
+tx_suffix;miho;UN-USED.
+tx_suffix;moho;UN-USED.
+tx_suffix;muho;UN-USED.
+tx_suffix;n?ho;UN-USED.
+tx_suffix;l?ho;UN-USED.
+tx_suffix;r?ho;UN-USED.
+
+tx_suffix;p?yo;UN-USED.
+tx_suffix;b?yo;UN-USED.
+tx_suffix;f?yo;UN-USED.
+tx_suffix;v?yo;UN-USED.
+tx_suffix;s?yo;UN-USED.
+tx_suffix;z?yo;UN-USED.
+tx_suffix;c?yo;UN-USED.
+tx_suffix;j?yo;UN-USED.
+tx_suffix;t?yo;UN-USED.
+tx_suffix;d?yo;UN-USED.
+tx_suffix;k?yo;UN-USED.
+tx_suffix;g?yo;UN-USED.
+tx_suffix;h?yo;UN-USED.
+tx_suffix;y?yo;UN-USED.
+tx_suffix;m?yo;UN-USED.
+tx_suffix;n?yo;UN-USED.
+tx_suffix;l?yo;UN-USED.
+tx_suffix;r?yo;UN-USED.
+
+tx_suffix;p?mo;UN-USED.
+tx_suffix;b?mo;UN-USED.
+tx_suffix;f?mo;UN-USED.
+tx_suffix;v?mo;UN-USED.
+tx_suffix;samo;UN-USED.
+tx_suffix;semo;UN-USED.
+tx_suffix;simo;UN-USED.
+tx_suffix;somo;UN-USED.
+tx_suffix;sumo;UN-USED.
+tx_suffix;z?mo;UN-USED.
+tx_suffix;c?mo;UN-USED.
+tx_suffix;j?mo;UN-USED.
+tx_suffix;tamo;UN-USED.
+tx_suffix;temo;UN-USED.
+//tx_suffix;timo;TIME;. Denotes TIME. [2008.03.16]
+tx_suffix;tomo;UN-USED.
+tx_suffix;tumo;UN-USED.
+tx_suffix;d?mo;UN-USED.
+tx_suffix;k?mo;UN-USED.
+tx_suffix;g?mo;UN-USED.
+tx_suffix;hamo;UN-USED.
+tx_suffix;hemo;UN-USED.
+tx_suffix;himo;UN-USED.
+//tx_suffix;homo;HUMAN;. Denotes a HOMO related with an entity. langologisto, ...[2006.11.17]
+tx_suffix;humo;UN-USED.
+tx_suffix;y?mo;UN-USED.
+tx_suffix;m?mo;UN-USED.
+tx_suffix;n?mo;UN-USED.
+tx_suffix;l?mo;UN-USED.
+tx_suffix;r?mo;UN-USED.
+
+//tx_suffix;esmo;LANGESMO;. Denotes sensible-semasial. [2008.03.15]
+tx_suffix;izmo;UN-USED.
+
+tx_suffix;p?no;UN-USED.
+tx_suffix;b?no;UN-USED.
+tx_suffix;f?no;UN-USED.
+tx_suffix;v?no;UN-USED.
+tx_suffix;s?no;UN-USED.
+tx_suffix;z?no;UN-USED.
+tx_suffix;cano;UN-USED.
+tx_suffix;ceno;UN-USED.
+tx_suffix;cono;UN-USED.
+tx_suffix;cuno;UN-USED.
+tx_suffix;j?no;UN-USED.
+tx_suffix;t?no;UN-USED.
+tx_suffix;dano;UN-USED.
+tx_suffix;deno;UN-USED.
+tx_suffix;dino;RELATION;RESERVED. Denotes LgYUORDO. [2007.12.11]
+tx_suffix;dono;UN-USED.
+tx_suffix;duno;UN-USED.
+tx_suffix;k?no;UN-USED.
+tx_suffix;g?no;UN-USED.
+tx_suffix;h?no;UN-USED.
+tx_suffix;y?no;UN-USED.
+tx_suffix;meno;UN-USED.
+tx_suffix;mino;UN-USED.
+tx_suffix;mono;UN-USED.
+tx_suffix;n?no;UN-USED.
+tx_suffix;l?no;UN-USED.
+tx_suffix;r?no;UN-USED.
+tx_suffix;aino;UN-USED. braino,
+tx_suffix;iino;UN-USED.
+tx_suffix;oino;UN-USED.
+
+tx_suffix;uelo;DUELO;. Denotes the WHAT of Duino. 2006.11.26
+tx_suffix;uolo;DUOLO;. Denotes the WHO of Duino. 2006.11.26
+tx_suffix;uulo;DUULO;. Denotes the PRODUCT of Duino. 2006.11.26
+tx_suffix;p?lo;UN-USED.
+tx_suffix;b?lo;UN-USED.
+tx_suffix;f?lo;UN-USED.
+tx_suffix;v?lo;UN-USED.
+tx_suffix;s?lo;UN-USED.
+tx_suffix;z?lo;UN-USED.
+tx_suffix;c?lo;UN-USED.
+tx_suffix;j?lo;UN-USED.
+tx_suffix;t?lo;UN-USED.
+tx_suffix;d?lo;UN-USED.
+tx_suffix;k?lo;UN-USED.
+tx_suffix;g?lo;UN-USED.
+tx_suffix;h?lo;UN-USED.
+tx_suffix;y?lo;UN-USED.
+tx_suffix;m?lo;UN-USED.
+tx_suffix;n?lo;UN-USED.
+tx_suffix;l?lo;UN-USED.
+tx_suffix;r?lo;UN-USED.
+
+tx_suffix;p?ro;UN-USED.
+tx_suffix;b?ro;UN-USED.
+tx_suffix;f?ro;UN-USED.
+tx_suffix;v?ro;UN-USED.
+tx_suffix;s?ro;UN-USED.
+tx_suffix;z?ro;UN-USED.
+tx_suffix;c?ro;UN-USED.
+tx_suffix;j?ro;UN-USED.
+tx_suffix;t?ro;UN-USED.
+tx_suffix;d?ro;UN-USED.
+tx_suffix;karo;UN-USED.
+tx_suffix;kero;UN-USED.
+tx_suffix;kiro;UN-USED.
+//tx_suffix;koro;COLOR;. Denotes COLOR. [2008.03.06]
+tx_suffix;kuro;UN-USED.
+tx_suffix;g?ro;UN-USED.
+tx_suffix;h?ro;UN-USED.
+tx_suffix;y?ro;UN-USED.
+//tx_suffix;maro;SEA;. Denotes sea.
+tx_suffix;mero;UN-USED.
+tx_suffix;miro;UN-USED.
+tx_suffix;moro;UN-USED.
+tx_suffix;muro;UN-USED.
+tx_suffix;n?ro;UN-USED.
+//tx_suffix;nmio;VQUANTITY-ANY-ONE;
+tx_suffix;l?ro;UN-USED.
+tx_suffix;r?ro;UN-USED.
+//tx_suffix;esro;LANGESRO;. Denotes LANG-ESRO (speech). [2006.11.19]
+//tx_suffix;etro;LANGETRO;. Denotes LANG-ETRO (text). [2006.11.19]
+
+
+//-- tx_suffix3 diktetros: fonero-konsonero-o --
+
+//tx_suffix;mao;MALE;. Denotes MALE: homomao, tigromao.[2008.03.15]
+
+tx_suffix;meo;UN-USED.
+
+tx_suffix;moo;UN-USED.
+
+tx_suffix;apo;UN-USED.
+//tx_suffix;epo;CONCEPT;. Denotes CONCEPT.[2008.03.08]
+tx_suffix;ipo;UN-USED.
+tx_suffix;opo;UN-USED.
+tx_suffix;upo;UN-USED.
+
+tx_suffix;?bo;UN-USED.
+
+tx_suffix;afo;UN-USED.
+//tx_suffix;efo;REFERENT;. Denotes REFERENT. [2008.03.17]
+tx_suffix;ifo;UN-USED.
+tx_suffix;ofo;UN-USED.
+tx_suffix;ufo;UN-USED.
+
+tx_suffix;?vo;UN-USED.
+
+tx_suffix;?so;UN-USED.
+
+tx_suffix;?zo;UN-USED.
+
+tx_suffix;?co;UN-USED.
+
+tx_suffix;?jo;UN-USED.
+
+tx_suffix;ato;UN-USED.
+//tx_suffix;eto;UN-USED; Denotes KOGNETO: [2008.03.08]
+tx_suffix;ito;UN-USED.
+tx_suffix;oto;UN-USED.
+tx_suffix;uto;UN-USED.
+
+tx_suffix;?do;UN-USED.
+
+tx_suffix;?ko;UN-USED.
+
+tx_suffix;ago;UN-USED.
+tx_suffix;ego;UN-USED.
+//tx_suffix;igo;THOUSANDS;. Denotes "THOUSANDS". kuazigo, kuamigo, kuadigo, ...
+tx_suffix;ogo;UN-USED.
+tx_suffix;ugo;UN-USED.
+
+tx_suffix;?ho;UN-USED.
+
+tx_suffix;?yo;UN-USED.
+
+tx_suffix;amo;UN-USED.
+//tx_suffix;emo;UN-USED. Denotes INFEMO: [2008.03.15]
+tx_suffix;imo;UN-USED.
+tx_suffix;omo;UN-USED.
+tx_suffix;umo;UN-USED.
+
+
+//tx_suffix;alo;DALO;. Denotes DINO'S ARGUMENT other: [2006.07.24] #-olo = who. #-elo = whom. #-ulo = product.
+//tx_suffix;elo;DELO;. Denotes DINO'S WHOM: [2006.07.24] adkuinelo, korelateinelo
+//tx_suffix;ilo;DILO;. Denotes DINO'S WHOM2: [2007.12.11]
+//tx_suffix;olo;DOLO;. Denotes DINO'S WHO:  [2006.07.24] procuinolo, akduinolo, funkfuinolo, deinolo
+//tx_suffix;ulo;DULO;. Denotes DINO'S PRODUCT: [2006.07.24]
+
+tx_suffix;aro;UN-USED.
+//tx_suffix;ero;LOGO;. Denotes LOGO: lg-concept, sentence, ... #-etro = Text-logo. #-epro = Infero-Parolero.
+tx_suffix;iro;UN-USED.
+tx_suffix;oro;UN-USED.
+tx_suffix;uro;UN-USED.
+tx_suffix;pro;PREVIOUS-STAGE;. Denotes previous stage. konsoproepto.
+
+//-- 3 diktetros: konsonero-fonero-o --
+tx_suffix;p?o;UN-USED.
+tx_suffix;pio;QUANTITY-NONE;. kao-pio=none
+tx_suffix;b?o;UN-USED.
+tx_suffix;bio;QUANTITY-ALL;. kao-bio=all
+tx_suffix;f?o;UN-USED.
+tx_suffix;fio;QUANTITY-FEW;
+tx_suffix;v?o;UN-USED.
+tx_suffix;vio;QUANTITY-MANY;
+tx_suffix;qio;TIME-PREVIOUS;
+tx_suffix;wio;TIME-FUTURE;
+tx_suffix;s?o;UN-USED.
+tx_suffix;sio;UN-USED.
+tx_suffix;z?o;UN-USED.
+tx_suffix;zio;UN-USED.
+tx_suffix;c?o;UN-USED.
+tx_suffix;cio;INTERROGATION;
+tx_suffix;j?o;UN-USED.
+tx_suffix;jio;TIME-CURRENT;
+tx_suffix;t?o;UN-USED.
+tx_suffix;tio;DEICTIC;
+tx_suffix;d?o;UN-USED.
+tx_suffix;dio;VAGUE;
+tx_suffix;kao;UN-USED.
+tx_suffix;keo;UN-USED.
+tx_suffix;kio;QUANTITY-RANDOM-ONE;
+tx_suffix;koo;UN-USED.
+tx_suffix;kuo;UN-USED.
+tx_suffix;g?o;UN-USED.
+tx_suffix;gio;QUANTITY-ANY;
+tx_suffix;h?o;UN-USED.
+tx_suffix;hio;DISTANCE-NEAR;
+tx_suffix;y?o;UN-USED.
+tx_suffix;yio;DISTANCE-FAR;
+tx_suffix;m?o;UN-USED.
+//tx_suffix;mio;FIRST-PERSON;
+tx_suffix;nao;FEMALE;. Denotes FEMALE: homomuo, tigromuo. [2008.03.15]
+tx_suffix;neo;UN-USED.
+tx_suffix;nio;UN-USED.
+tx_suffix;noo;UN-USED.
+tx_suffix;nuo;UN-USED.
+tx_suffix;l?o;UN-USED.
+tx_suffix;r?o;UN-USED.
+//tx_suffix;rio;TIME-MILLENNIUM;
+
+//-- 3 diktetros: konsonero-konsonero-o ---
+
+//-- tx_suffix2 diktetros ---
+
+tx_suffix;ao;Quantity;. 2008.11.27.
+tx_suffix;eo;UnitOfMeasurement;. 2008.11.27.
+tx_suffix;uo;Number;. 2008.11.27
+tx_suffix;io;QuantancePoint;. 2008.11.27
+tx_suffix;oo;QuantanceInterval;. 2008.11.27
+
+tx_suffix;po;SEMI-USED. -tupo, -pupo, -supo, -gupo,
+tx_suffix;fo;UN-USED.
+tx_suffix;qo;SEMI-USED. -qo, first-second-third...
+tx_suffix;to;SEMI-USED. -part, -monto, -eto,
+tx_suffix;so;UN-USED.
+tx_suffix;co;UN-USED.
+//tx_suffix;co;KOMPLETEELO;. Denotes the KOMPLETEELO part, specifepto. 2006.12.05
+//tx_suffix;ko;SEMI-USED. -loko,
+tx_suffix;ho;UN-USED.
+tx_suffix;mo;SEMI-USED. -homo,
+tx_suffix;ro;SEMI-USED. -ero, -epro, -etro,
+
+tx_suffix;bo;SEMI-USED. -urbo,
+tx_suffix;vo;UN-USED.
+tx_suffix;wo;UN-USED.
+tx_suffix;do;KOMPLETEELO;. Denotes the KOMPLETEELO part, specifepto. 2006.12.05
+//tx_suffix;do;SEMI-USED. -lando,
+tx_suffix;zo;UN-USED.
+tx_suffix;jo;UN-USED.
+tx_suffix;go;SEMI-USED. -logo,
+tx_suffix;yo;UN-USED.
+tx_suffix;no;SEMI-USED. -mano, -muno, #-ino, -eino, -uino, -utino, -ufino,
+tx_suffix;lo;SEMI-USED. -olo, -elo, -ilo, -ulo, -alo,
+
+//tx_suffix;ap;deinero;. CONJUNCTION.
+//tx_suffix;ep;deinero;. CONJUNCTION.
+//tx_suffix;ip;deinero;. CONJUNCTION.
+//tx_suffix;op;deinero;. CONJUNCTION.
+//tx_suffix;up;deinero;. CONJUNCTION.
+//tx_suffix;ab;deinero;. CONJUNCTION.
+//tx_suffix;eb;deinero;. CONJUNCTION.
+//tx_suffix;ib;deinero;. CONJUNCTION.
+//tx_suffix;ob;deinero;. CONJUNCTION.
+//tx_suffix;ub;deinero;. CONJUNCTION.
+//tx_suffix;af;deinero;. CONJUNCTION.
+//tx_suffix;ef;deinero;. CONJUNCTION.
+//tx_suffix;if;deinero;. CONJUNCTION. if,
+//tx_suffix;of;deinero;. CONJUNCTION. of,
+//tx_suffix;uf;deinero;. CONJUNCTION.
+//tx_suffix;av;deinero;. CONJUNCTION.
+//tx_suffix;ev;deinero;. CONJUNCTION.
+//tx_suffix;iv;deinero;. CONJUNCTION.
+//tx_suffix;ov;deinero;. CONJUNCTION.
+//tx_suffix;uv;deinero;. CONJUNCTION.
+//tx_suffix;os;NOUNOCONJUNCTION;. Denotes the WHOLE of a whole-part relation. The part follows.
+//tx_suffix;oz;NOUNOCONJUNCTION;. Denotes the ENTEPO of a entepo-atribepo relation. The attribute follows.
+//tx_suffix;ac;deinero;. CONJUNCTION.
+//tx_suffix;ec;deinero;. CONJUNCTION.
+//tx_suffix;ic;deinero;. CONJUNCTION.
+//tx_suffix;oc;deinero;. CONJUNCTION.
+//tx_suffix;uc;deinero;. CONJUNCTION.
+//tx_suffix;aj;deinero;. CONJUNCTION.
+//tx_suffix;ej;deinero;. CONJUNCTION.
+//tx_suffix;ij;deinero;. CONJUNCTION.
+//tx_suffix;oj;deinero;. CONJUNCTION.
+//tx_suffix;uj;deinero;. CONJUNCTION.
+//tx_suffix;at;deinero;. CONJUNCTION.
+//tx_suffix;et;deinero;. CONJUNCTION.
+//tx_suffix;it;deinero;. CONJUNCTION.
+//tx_suffix;ot;deinero;. CONJUNCTION.
+//tx_suffix;ut;deinero;. CONJUNCTION.
+//tx_suffix;ad;deinero;. CONJUNCTION.
+//tx_suffix;ed;deinero;. CONJUNCTION.
+//tx_suffix;id;deinero;. CONJUNCTION.
+//tx_suffix;od;deinero;. CONJUNCTION.
+//tx_suffix;ud;deinero;. CONJUNCTION.
+//tx_suffix;ak;deinero;. CONJUNCTION.
+//tx_suffix;ek;deinero;. CONJUNCTION.
+//tx_suffix;ik;deinero;. CONJUNCTION.
+//tx_suffix;ok;deinero;. CONJUNCTION.
+//tx_suffix;uk;deinero;. CONJUNCTION.
+//tx_suffix;ag;deinero;. CONJUNCTION.
+//tx_suffix;eg;deinero;. CONJUNCTION.
+//tx_suffix;ig;deinero;. CONJUNCTION.
+//tx_suffix;og;deinero;. CONJUNCTION.
+//tx_suffix;ug;deinero;. CONJUNCTION.
+//tx_suffix;ah;deinero;. CONJUNCTION.
+//tx_suffix;eh;deinero;. CONJUNCTION.
+//tx_suffix;ih;deinero;. CONJUNCTION.
+//tx_suffix;oh;deinero;. CONJUNCTION.
+//tx_suffix;uh;deinero;. CONJUNCTION.
+//tx_suffix;ay;deinero;. CONJUNCTION.
+//tx_suffix;ey;deinero;. CONJUNCTION.
+//tx_suffix;iy;deinero;. CONJUNCTION.
+//tx_suffix;oy;deinero;. CONJUNCTION.
+//tx_suffix;uy;deinero;. CONJUNCTION.
+//tx_suffix;am;deinero;. CONJUNCTION.
+//tx_suffix;em;deinero;. CONJUNCTION.
+//tx_suffix;im;deinero;. CONJUNCTION.
+//tx_suffix;om;deinero;. CONJUNCTION.
+//tx_suffix;um;deinero;. CONJUNCTION.
+
+//tx_suffix;an;VERB-NOTIME;. Denotes NOTIME of verb.
+//tx_suffix;en;PAST;. Denotes PAST of verb.
+//tx_suffix;in;PRESENT;. Denotes PRESENT of verb.
+//tx_suffix;on;FUTURE;. Denotes FUTURE of verb.
+//tx_suffix;un;UN-USED.
+
+//tx_suffix;al;deinero;. CONJUNCTION. VERBALERO
+//tx_suffix;el;deinero;. CONJUNCTION. VERBELERO
+//tx_suffix;il;deinero;. CONJUNCTION.
+//tx_suffix;ol;deinero;. CONJUNCTION. VERBOLERO
+//tx_suffix;ul;deinero;. CONJUNCTION. VERBULERO
+//tx_suffix;ar;deinero;. CONJUNCTION.
+//tx_suffix;er;deinero;. CONJUNCTION.
+//tx_suffix;ir;deinero;. CONJUNCTION.
+//tx_suffix;or;deinero;. CONJUNCTION.
+//tx_suffix;ur;deinero;. CONJUNCTION.
+
+
+
+
+//=======================================
+//   PREFIX_USED
+//=======================================
+//FORMAT:
+//1)"tx_prefix";2)the-tx_prefix;3)meaning-of-tx_prefix;4)example
+// They are NOT madatory as tx_suffixs. 2006.12.03
+
+//--- tx_prefix6 diktetros ---
+//tx_prefix;teorio;THEORY;
+
+//--- tx_prefix5 diktetros ---
+//tx_prefix;inter;RECIPROCAL;interduino.
+//tx_prefix;porto;PORT;
+//tx_prefix;somio;QUANTITY-VAGUE-SOME;somiohomo
+//tx_prefix;monto;MOUNTAIN;
+//tx_prefix;nenio;QUANTITY-NONE;neniohomo
+//tx_prefix;lango;LANGO;lang-ufino, lang-ero, lang-eto,
+
+//--- tx_prefix4 diktetros ---
+//tx_prefix;arbo;TREE;. Denotes TREE. 2006.11.24
+//tx_prefix;ordo;ORDER;ordomo, ordodo, ...
+//tx_prefix;impo;IMPORTANCE;impomo, impodo, ...[2008.03.18]
+//tx_prefix;bigo;BIG;
+//tx_prefix;timo;TIME;
+//tx_prefix;dato;DATA;
+//tx_prefix;koro;COLOR;
+//tx_prefix;gigo;HUGE;
+//tx_prefix;maso;MACHINE;
+//tx_prefix;maro;SEA;
+//tx_prefix;migo;SMALL;
+//tx_prefix;mino;MANTH;minojano, minofebro, ...
+//tx_prefix;lako;LAKE;
+//tx_prefix;loko;PLACE;
+//tx_prefix;logo;SCIENCE;
+//tx_prefix;rivo;RIVER;
+
+//--- tx_prefix3 diktetros ---
+//tx_prefix;tio;DEICTIC;tiohomo
+//tx_prefix;kio;INTERROGATIVE;kiohomo
+//tx_prefix;pri;PREVIOUS-STAGE;pri-concept. 2006.12.07
+//tx_prefix;pro;INSTEAD-OF;pro-nomero,
+
+//tx_prefix;kuo;QUANTITY;kuozo, kuomo, kuodo, 2008.06.05
+//tx_prefix;luo;SPACE; 2008.06.05
+//tx_prefix;tuo;TIME; 2008.06.05
+
+//--- tx_prefix2 diktetros ---
+//tx_prefix;io;QUANTITY-VAGUE-ANY;iohomo
+//tx_prefix;ho;SURNAME;HOMO
+//tx_prefix;yo;FIRSTNAME;HOMO
+
+//--- tx_prefix1 diktetros ---
+//tx_prefix;u;COMPLEMENT;uesto, unordo 2008.03.06
+
+
+
+
+
+
+//=========================================
+//CASE1: DIFERENT SUFIKSEROS on DIFERENT STEMS
+//=========================================
+
+//--- DEINO: SPECIFICS ---
+//-ero = all the logals.
+//-eto = all the semasials.
+//-n = all verbs.
+
+//--- DEINO: MAPEINO ---
+//-ero  = Infero.
+//-eto  = FoEdo.
+//-epo  = Conceptual-info
+//-epto = Kognepto
+//-efo  = Referento
+
+//=========================================
+//CASE2: DIFERENT SUFIKSEROS on SAME STEMS
+//=========================================
+//--- DEINO: ---
+//elado-lado = country. elado-homo = homo of country.
+
+//--- DEINO: MAPEINO ---
+//konc-epo, konc-eno, konc-ero,
+
+//--- DIFERENT ATRIBUTE of SPECIFICS ---
+//-an, in, on = verbs.
+
+//--- DEINO: GENERIC - SPECIFIC ---
+//-ero =  Log-ero.
+//-etro = Log-etro (text-logo)
+//-epro = Log-epro (parolero)
+//diktero, dikt-etro(letter), dikt-epro (fonero)
+
+
+//=========================================
+//CASE3: ADDING a SUFIKSERO on a LgYUORDO
+//=========================================
+
+//--- SPECIFIC COMPLEMENT ---
+//-co = stopero, stoperoco
+
+//--- DIFERENT ATRIBUTE of SPECIFICS ---
+//-mano = Male.
+//-muno = Female.
+
+//-logo = lango --> langologo
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRM >
+ <!ATTLIST TRM TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRM XCPT CDATA #REQUIRED>
+ <!ATTLIST TRM TRMNLtYPE CDATA	#REQUIRED>
+]>
+<!--
+ * @since 2006.10.18
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the terms1
+ * BUT these files contain ALL the tx-concept's-terms.
+-->
+<TRMNL TxEXP="call" TRMNLtYPE="trmVrb1" XCPT="Naming@hknu.symb-17@" NAME="call">

@@ -1,0 +1,35 @@
+<!--   KOMO MOST-USED-TERMINALS 2008.03.23   -->
+
+<!-- ============================= FREQUENCY =================================== -->
+<TRMNL TxEXP="tie" TRMNLtYPE="auxNnCs" LGcPT="nnCs3" TXeXP1_A="trmNnCsNm1" EXMPL="homo tia" USG="nonvagueness"/>
+<TRMNL TxEXP="tie" TRMNLtYPE="auxNnCs" LGcPT="nnCs4" TXeXP1_A="trmNnCsNm2" EXMPL="homi tia"/>
+<TRMNL TxEXP="die" TRMNLtYPE="auxNnCs" LGcPT="nnCs3" TXeXP1_A="trmNnCsNm1" EXMPL="homo dia" USG="vagueness"/>
+<TRMNL TxEXP="die" TRMNLtYPE="auxNnCs" LGcPT="nnCs3" TXeXP1_A="trmNnCsNm2" EXMPL="homi dia"/>
+<TRMNL TxEXP="have" TRMNLtYPE="auxVrb" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="perfectiveness" USG="perfectiveness"/>
+<TRMNL TxEXP="be" TRMNLtYPE="auxVrb" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="passive" USG="passiveness"/>
+<TRMNL TxEXP="ude" TRMNLtYPE="idr" LGcPT="" TXeXP1_B="" EXMPL="negation" USG="negation"/>
+<TRMNL TxEXP="cie" TRMNLtYPE="auxVrb" LGcPT="" TXeXP1_B="" EXMPL="interrogation" USG="interrogation"/>
+<TRMNL TxEXP="te" TRMNLtYPE="auxVrb" LGcPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="dependent sentence" USG="dependent-sentence"/>
+<!-- ============================= INTERJECTEROS =================================== -->
+<!-- ============================= FATEROS =================================== -->
+<!-- ============================= TERMS =================================== -->
+<!-- ============================= CONJUNCTION-TERMS =================================== -->
+<TRMNL TxEXP="ala" TRMNLtYPE="trmCnj1" XCPT="verbalero, any"/>
+<TRMNL TxEXP="ela" TRMNLtYPE="trmCnj1" XCPT="verbelero, object2"/>
+<TRMNL TxEXP="ila" TRMNLtYPE="trmCnj1" XCPT="verbilero, object1"/>
+<TRMNL TxEXP="ola" TRMNLtYPE="trmCnj1" XCPT="verbolero, subject"/>
+<TRMNL TxEXP="ula" TRMNLtYPE="trmCnj1" XCPT="verbulero, product"/>
+
+<TRMNL TxEXP="tua" TRMNLtYPE="trmCnj1" XCPT="time"/>
+<TRMNL TxEXP="lua" TRMNLtYPE="trmCnj1" XCPT="place"/>
+<TRMNL TxEXP="kua" TRMNLtYPE="trmCnj1" XCPT="quantity"/>
+
+<!-- ============================= NOUN-TERMS =================================== -->
+<TRMNL TxEXP="ao" TRMNLtYPE="trmNnCsNm1" XCPT="first-person" NAME="ao"/>
+<TRMNL TxEXP="io" TRMNLtYPE="trmNnCsNm1" XCPT="second-person" NAME="io"/>
+<TRMNL TxEXP="oo" TRMNLtYPE="trmNnCsNm1" XCPT="third-person" NAME="oo"/>
+
+<TRMNL TxEXP="edo" TRMNLtYPE="trmNnCsNm1" XCPT="aggrement" NAME="edo"/>
+<TRMNL TxEXP="udo" TRMNLtYPE="trmNnCsNm1" XCPT="negation" NAME="udo"/>
+
+

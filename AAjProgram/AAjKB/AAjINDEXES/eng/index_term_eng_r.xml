@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.10.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="referent" TRMNLtYPE="trmNnCsNm1" XCPT="Referent@hknu.meta-2@" NAME="referent"/>
+<TRMNL TxEXP="referents" TRMNLtYPE="trmNnCsNm2" XCPT="Referent@hknu.meta-2@" NAME="referent"/>
+<TRMNL TxEXP="relation" TRMNLtYPE="trmNnCsNm1" XCPT="Relation@hknu.symb-16@" NAME="relation"/>
+<TRMNL TxEXP="relations" TRMNLtYPE="trmNnCsNm2" XCPT="Relation@hknu.symb-16@" NAME="relation"/>

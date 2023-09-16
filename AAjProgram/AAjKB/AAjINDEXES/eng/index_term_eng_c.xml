@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.06
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="call" TRMNLtYPE="trmVrb1" XCPT="Naming@hknu.symb-17@" NAME="call"/>
+<TRMNL TxEXP="called" TRMNLtYPE="trmVrb3" XCPT="Naming@hknu.symb-17@" NAME="call"/>
+<TRMNL TxEXP="called" TRMNLtYPE="trmVrb5" XCPT="Naming@hknu.symb-17@" NAME="call"/>
+<TRMNL TxEXP="calling" TRMNLtYPE="trmVrb4" XCPT="Naming@hknu.symb-17@" NAME="call"/>
+<TRMNL TxEXP="calls" TRMNLtYPE="trmVrb2" XCPT="Naming@hknu.symb-17@" NAME="call"/>
+<TRMNL TxEXP="commonness" TRMNLtYPE="trmNnCsNm1" XCPT="Commonness-in-entity's-relation@hknu.symb-26@" NAME="commonness"/>
+<TRMNL TxEXP="commonnesses" TRMNLtYPE="trmNnCsNm2" XCPT="Commonness-in-entity's-relation@hknu.symb-26@" NAME="commonness"/>
+<TRMNL TxEXP="commonness in entity's relation" TRMNLtYPE="trmNnCsNm1" XCPT="Commonness-in-entity's-relation@hknu.symb-26@" NAME="commonness in entity's relation"/>
+<TRMNL TxEXP="commonness in entity's relations" TRMNLtYPE="trmNnCsNm2" XCPT="Commonness-in-entity's-relation@hknu.symb-26@" NAME="commonness in entity's relation"/>
+<TRMNL TxEXP="concept" TRMNLtYPE="trmNnCsNm1" XCPT="BConcept@hknu.meta-1@" NAME="concept"/>
+<TRMNL TxEXP="concepts" TRMNLtYPE="trmNnCs2" XCPT="BConcept@hknu.meta-1@" NAME="concept"/>
+<TRMNL TxEXP="concepts" TRMNLtYPE="trmNnCsNm2" XCPT="BConcept@hknu.meta-1@" NAME="concept"/>
+<TRMNL TxEXP="conceptual" TRMNLtYPE="trmNnAj1" XCPT="BConcept@hknu.meta-1@" NAME="conceptual"/>
+<TRMNL TxEXP="conceptual subWorldview" TRMNLtYPE="trmNnCsNm1" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="conceptual subWorldview"/>
+<TRMNL TxEXP="b-conceptual--sub-worldview" TRMNLtYPE="trmNnCsNm1" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="b-conceptual--sub-worldview"/>
+<TRMNL TxEXP="conceptual subWorldviews" TRMNLtYPE="trmNnCsNm2" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="conceptual subWorldview"/>
+<TRMNL TxEXP="b-conceptual--sub-worldviews" TRMNLtYPE="trmNnCsNm2" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="b-conceptual--sub-worldview"/>
+<TRMNL TxEXP="corelaton" TRMNLtYPE="trmNnCsNm1" XCPT="Relation@hknu.symb-16@" NAME="corelaton"/>
+<TRMNL TxEXP="corelatons" TRMNLtYPE="trmNnCsNm2" XCPT="Relation@hknu.symb-16@" NAME="corelaton"/>

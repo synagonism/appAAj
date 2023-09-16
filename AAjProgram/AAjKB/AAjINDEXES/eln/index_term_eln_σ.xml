@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA #REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2009.11.03
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="σχέσεις" TRMNLtYPE="trmNnCb5" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέσεις" TRMNLtYPE="trmNnCb7" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέσεων" TRMNLtYPE="trmNnCb6" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέσεως" TRMNLtYPE="trmNnCb2b" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέση" TRMNLtYPE="trmNnCb1" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέση" TRMNLtYPE="trmNnCb3" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>
+<TRMNL TxEXP="σχέσης" TRMNLtYPE="trmNnCb2a" XCPT="Relation@hknu.symb-16@" NAME="σχέση"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.11.01" CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION>
+<DEFINITION_ATTRIBUTE_START CREATION="y" CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Entity's non-attribute relation" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.01" AUTHOR="HoKoNoUmo"/>
+<Description_eng CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+The relation of an entity and one of its non-attributes.
+</Description_eng>
+</DEFINITION_ATTRIBUTE_START>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.11.01" CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.11.01" CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Entity's non-attribute relation" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.01" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+
+<REFINO_GENERIC CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Relation@hknu.symb-16@" CREATED="2009.11.01" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_ARGUMENT CREATED="2009.11.01" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" CREATED="2009.11.01" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Entity's-non-attribute@hknu.symb-10@" CREATED="2009.11.01" AUTHOR="HoKoNoUmo"/>
+</REFINO_ARGUMENT>
+</XCONCEPT>

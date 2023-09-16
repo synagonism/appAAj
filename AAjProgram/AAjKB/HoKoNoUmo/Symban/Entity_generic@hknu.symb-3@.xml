@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2004.04.09" CREATED="2000.04.04" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2000.04.04" AUTHOR="HoKoNoUmo">
+** analytic-definition:
+ABSTRACT-CONCEPT is a concept with many REFERENTS, the opposite of concrete.
+
+** synthetic-definition:
+ABSTRACT-CONCEPT is a concept formed by the common features of OTHER concepts (specific).
+** EXAMPLE: (car), (son), (Country's capital).
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2004.04.09" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2004.04.09" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Generic concept" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.06.13" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Γενική έννοια" TRMrULE="rlElnTrmNnCs62b2-2a3" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2000.04.04" CREATED="2000.04.04" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="BConcept@hknu.meta-1@" LASTmOD="2000.04.04" CREATED="2000.04.04" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+</XCONCEPT>

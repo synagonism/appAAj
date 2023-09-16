@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.06.28" CREATED="2004.08.03" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2004.08.03" AUTHOR="HoKoNoUmo">
+TreeStructure-Node is any node of a TreeStructure..
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.06.28" CREATED="2004.08.03" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.06.28" CREATED="2004.08.03" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Tree-network's-node" TRMrULE="rlEngTrmNnCs11" DELETED="none" CREATED="2004.08.03" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Tree structure node" TRMrULE="rlEngTrmNnCs11" CREATED="2004.08.03" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Hierarchy node" TRMrULE="rlEngTrmNnCs11" CREATED="2004.08.03" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln CREATED="2008.04.10" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Κόμβος" TRMrULE="rlElnTrmNnCs1d1" CREATED="2008.04.10" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+</XCONCEPT>

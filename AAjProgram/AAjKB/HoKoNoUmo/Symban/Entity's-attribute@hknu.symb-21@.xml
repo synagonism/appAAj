@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.08.30" CREATED="2006.10.25" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2006.10.25" AUTHOR="HoKoNoUmo">
+<DEFINITION_ATTRIBUTE CREATION="y" CREATED="2009.09.26" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Entity's attribute" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.08.30" AUTHOR="HoKoNoUmo"/>
+<Description_eng CREATED="2009.09.26" AUTHOR="HoKoNoUmo">
+Attribute-of-entity1 is any other entity2 related with attribute-relation with entity1.
+</Description_eng>
+</DEFINITION_ATTRIBUTE>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.08.30" CREATED="2006.10.25" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.08.30" CREATED="2006.10.25" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Entity's attribute" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.08.30" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Attribute of entity" TRMrULE="rlEngTrmNnCs4a11" CREATED="2006.10.25" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Attribute" TRMrULE="rlEngTrmNnCs11" CREATED="2006.10.25" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+
+<REFINO_GENERIC CREATED="2009.10.25" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity::2@hknu.symb-7@" CREATED="2009.10.25" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_ENTITY LASTmOD="2009.09.14" CREATED="2009.08.30" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity::1@hknu.symb-7@" LASTmOD="2009.08.30" CREATED="2009.08.30" AUTHOR="HoKoNoUmo"/>
+</REFINO_ENTITY>
+</XCONCEPT>

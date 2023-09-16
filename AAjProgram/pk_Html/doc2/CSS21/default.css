@@ -1,0 +1,347 @@
+/*
+ * Style sheet for the CSS2 specification
+ * $Id: default.css,v 1.3 2009/09/04 13:37:27 bbos Exp $
+ */
+
+p.h0 {
+	background-color: #00FFFF;/* Aqua */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 44px;
+	font-weight: bold;
+	padding: 0 0 10px 0; /*top right bottom left*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #0000FF; /* Blue; */
+	border: 1px solid #000000;
+	margin-left: 15px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #008000; /* Green; */
+	border: 1px solid #000000;
+	margin-left: 30px;
+}
+
+h3 {
+	background-color: #FFFF00; /* Yellow; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 45px;
+}
+
+h4 {
+	background-color: #FFBB00; /* FF00FF-Magenta */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+h5 {
+	background-color: 	#FFC0CB;/* pink #FFA500; FFA500-Orange; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 75px;
+}
+
+h6 {
+	background-color: #FF0000;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 90px;
+	/*text-align: center;*/
+}
+
+/************************* ID's *************************/
+
+p.h7 {
+	background-color: #FF4400;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 105px;
+	text-align: center;
+}
+
+p {
+	text-indent: -25px;
+	margin-left: 25px;
+}
+
+/* The last paragraph with creation|lastmod|... info */
+p.last {
+	border-top: 4px solid #000000;
+	font-size: 12px;
+	padding: 5px 0 0 0; /*top right bottom left*/
+	margin-left: 5px;
+	margin-top: 20px;
+	text-indent: 0px;
+}
+
+/************* INLINE text-content ***************************/
+/* a, dfn, br, b, span  */
+
+span.red {
+	color: #FF0000;/* Red */
+}
+
+p > a.hide,
+h1 > a.hide,
+h2 > a.hide,
+h3 > a.hide,
+h4 > a.hide,
+h5 > a.hide,
+h6 > a.hide
+{
+	display: none;
+}
+
+p:hover  > a.hide,
+h1:hover  > a.hide,
+h2:hover  > a.hide,
+h3:hover  > a.hide,
+h4:hover  > a.hide,
+h5:hover  > a.hide,
+h6:hover  > a.hide
+{
+	display: inline;
+}
+
+/********* INLINE elements to define sentents and its parts *********/
+
+dfn.sentence {
+	margin-left: 20px;
+}
+
+dfn.verb {
+	color: #FF0000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+dfn.aSbj {
+	color: #006600;
+	font-weight: bold;
+}
+
+dfn.aObj {
+	/* color: #0000FF; */
+}
+
+PRE {
+    font-family: monospace;
+    margin-left: 1em;
+    font-size: 90%
+}
+
+ADDRESS {
+    text-align: right;
+    font-style: italic;
+}
+
+VAR {
+    font-style: normal;
+}
+IMG {
+    border: 0;
+}
+.toc {
+    text-indent: 0;
+}
+P.toc-line {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: 0;
+}
+
+/* I don't like all that blue text, how about this: */
+/* It should be 'inherit', but Netscape inserts a random color :-( */
+A.noxref:link, A.noxref:visited {color: black; /*color: inherit*/}
+DIV.example A:link, DIV.example A:visited {color: maroon; /*color: inherit*/}
+DIV.deprecated-html-example A:link,
+DIV.deprecated-html-example A:visited {color: red; /*color: inherit*/}
+.note A:link, .note A:visited {color: green; /*color: inherit*/}
+
+A.propdef-title {
+  background: yellow;
+}
+
+A.descdef-title {
+  color: yellow;
+  background: green
+}
+
+/* TABLE {margin-left: 1em} */
+DIV.propdef {margin: 1.2em 0}
+
+p.example { color: maroon }
+div.example { color: maroon }
+pre.example { color: maroon }
+pre.illegal-example { color: red }
+div.illegal-example { color: red }
+div.illegal-example p { color: black }
+
+
+div.html-example { color: maroon }
+pre.html-example { color: maroon }
+pre.illegal-html-example { color: red }
+div.illegal-html-example { color: red }
+div.illegal-html-example p { color: black }
+pre.deprecated-html-example { color: red }
+div.deprecated-html-example { color: red }
+div.deprecated-html-example p { color: black }
+
+div.xml-example { color: maroon }
+pre.xml-example { color: maroon }
+pre.illegal-xml-example { color: red }
+div.illegal-xml-example { color: red }
+div.illegal-xml-example p { color: black }
+
+div.dtd-example { color: maroon }
+pre.dtd-example { color: maroon }
+pre.illegal-dtd-example { color: red }
+div.illegal-dtd-example { color: red }
+div.illegal-dtd-example p { color: black }
+
+.note {
+    /*font-weight: bold;*/
+    text-indent: -0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: green
+}
+
+.normref {
+    color: red;
+}
+
+.informref {
+    color: green;
+}
+
+DIV.propdef TH {
+    text-align: right;
+}
+
+DIV.descdef TH {
+    text-align: right;
+}
+
+DIV.toc UL UL, DIV.toc OL OL {margin-left: 0}
+DIV.toc UL UL UL, DIV.toc OL OL OL {margin-left: 1em}
+DIV.toc UL UL UL UL, DIV.toc OL OL OL OL {margin-left: 0}
+LI.tocline1 {font-weight: bold}
+LI.tocline2 {font-weight: normal}
+LI.tocline4 {font-style: italic}
+/* DIV.subtoc UL, DIV.subtoc OL {list-style: none} */
+/* The border in the following rule crashes NN4 on fonts.html :-(
+DIV.subtoc {padding: 1em; border: solid black thin; margin: 1em 0;
+    background: #ddd}
+*/
+UL.index {
+  list-style: disc;		/* Mac NS has problem with 'none' */
+  list-style: none;
+}
+
+DT {
+    font-weight: bold
+}
+
+S, DEL {text-decoration: line-through; color: red; background: #fbb}
+U, INS {text-decoration: underline; background: #bfb}
+BODY>DEL,BODY>INS {display: block}
+
+DIV.figure {
+    text-align: center;
+    /*border: solid thin;
+    width: 100%;*/
+    margin: 2.5em 0
+}
+P.caption, CAPTION {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90%;
+    color: #088;
+    margin: 1.5em 25% 0 25%;
+}
+DIV.toc, UL.index, DT {
+    text-align: left
+}
+SUP {
+    vertical-align: super;
+    font-size: 80%
+}
+
+/* In zindex.html: */
+OL.stack P {
+    margin-bottom: 0
+}
+
+/* Open issues. Should be resolved before going to CR */
+
+.issue {color: red}
+div.issue, p.issue {border: thin solid red; padding: 0.5em}
+.issue:before {content: "Issue:"; background: red; color: white;
+                padding: 0 0.5em; font-weight: bold; margin: 0 1em 0 0}
+
+/*
+@page {
+  @bottom-right {
+    font-family: helvetica, sans-serif;
+    content: counter(page);
+    text-align: right;
+    vertical-align: top;
+    padding-top: 2em;
+  }
+}
+*/
+
+@media print {
+P {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1em;
+}
+
+/* the following doesn't work for now,
+   instead we rely on a patched version of html2ps which has this built-in */
+.dlink { display: none }
+
+/* the following doesn't work for now,
+   instead we rely on a patched version of html2ps which has this built-in */
+DIV.navbar {
+   display: none;
+}
+
+H1 { page-break-before: right }
+}

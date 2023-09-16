@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.12.03
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="parteino" TRMNLtYPE="trmNnCsNm1" XCPT="Parteino@hknu.symb-24@" NAME="parteino"/>
+<TRMNL TxEXP="parteinoes" TRMNLtYPE="trmNnCsNm2" XCPT="Parteino@hknu.symb-24@" NAME="parteino"/>
+<TRMNL TxEXP="processes or relations" TRMNLtYPE="trmNnCsNm2" XCPT="Process-or-relation@hknu.symb-14@" NAME="process or relation"/>
+<TRMNL TxEXP="process or relation" TRMNLtYPE="trmNnCsNm1" XCPT="Process-or-relation@hknu.symb-14@" NAME="process or relation"/>
+<TRMNL TxEXP="properteino" TRMNLtYPE="trmNnCsNm1" XCPT="Properteino@hknu.symb-24#1@" NAME="properteino"/>
+<TRMNL TxEXP="properteinoes" TRMNLtYPE="trmNnCsNm2" XCPT="Properteino@hknu.symb-24#1@" NAME="properteino"/>

@@ -1,0 +1,36 @@
+.note {
+    /*font-weight: bold;*/
+    text-indent: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: green
+}
+p.noIndent {
+	text-indent: 0px;
+}
+
+p.example {
+	color: maroon;
+	text-indent: 0px;
+}
+pre.example {
+	color: maroon;
+	text-indent: 0px;
+	margin-left: 25px;
+}
+
+p.html-example {
+	color: maroon;
+	text-indent: 0px;
+}
+pre.html-example {
+	color: maroon;
+	text-indent: 0px;
+	margin-left: 25px;
+}
+
+dl {
+	margin-left: 25px;
+}

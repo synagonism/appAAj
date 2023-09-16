@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.09
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="ονόμαζα" TRMNLtYPE="trmVrb8" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζαμε" TRMNLtYPE="trmVrb11" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμαζαν" TRMNLtYPE="trmVrb13a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζανε" TRMNLtYPE="trmVrb13b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζατε" TRMNLtYPE="trmVrb12" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμαζε" TRMNLtYPE="trmVrb10" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμαζε" TRMNLtYPE="trmVrb7" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζει" TRMNLtYPE="trmVrb3" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζεις" TRMNLtYPE="trmVrb2" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμαζες" TRMNLtYPE="trmVrb9" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζεσαι" TRMNLtYPE="trmVrb29" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζεστε" TRMNLtYPE="trmVrb32" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζεται" TRMNLtYPE="trmVrb30" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζετε" TRMNLtYPE="trmVrb5" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζομαι" TRMNLtYPE="trmVrb28" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόμαστε" TRMNLtYPE="trmVrb31" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόμαστε" TRMNLtYPE="trmVrb38" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζομε" TRMNLtYPE="trmVrb4b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόμουνα" TRMNLtYPE="trmVrb35" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζονται" TRMNLtYPE="trmVrb33" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζονταν" TRMNLtYPE="trmVrb40a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόντανε" TRMNLtYPE="trmVrb40b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζοντας" TRMNLtYPE="trmVrb27" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόσαστε" TRMNLtYPE="trmVrb39" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόσουν" TRMNLtYPE="trmVrb36" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζόταν" TRMNLtYPE="trmVrb37a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαζότανε" TRMNLtYPE="trmVrb37b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζου" TRMNLtYPE="trmVrb34" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζουμε" TRMNLtYPE="trmVrb4a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζουν" TRMNLtYPE="trmVrb6a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζουνε" TRMNLtYPE="trmVrb6b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάζω" TRMNLtYPE="trmVrb1" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμασα" TRMNLtYPE="trmVrb14" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσαμε" TRMNLtYPE="trmVrb17" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμασαν" TRMNLtYPE="trmVrb19" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσατε" TRMNLtYPE="trmVrb18" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμασε" TRMNLtYPE="trmVrb16" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμασε" TRMNLtYPE="trmVrb26" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσει" TRMNLtYPE="trmVrb22" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσεις" TRMNLtYPE="trmVrb21" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονόμασες" TRMNLtYPE="trmVrb15" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσετε" TRMNLtYPE="trmVrb24" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομασμένος" TRMNLtYPE="trmVrb54" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσομε" TRMNLtYPE="trmVrb23b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσου" TRMNLtYPE="trmVrb53" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσουμε" TRMNLtYPE="trmVrb23a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσουν" TRMNLtYPE="trmVrb25a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσουνε" TRMNLtYPE="trmVrb25b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστεί" TRMNLtYPE="trmVrb49" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστείς" TRMNLtYPE="trmVrb48" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστείτε" TRMNLtYPE="trmVrb51" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάστηκα" TRMNLtYPE="trmVrb41" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστήκαμε" TRMNLtYPE="trmVrb44" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάστηκαν" TRMNLtYPE="trmVrb46a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστήκανε" TRMNLtYPE="trmVrb46b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστήκατε" TRMNLtYPE="trmVrb45" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάστηκε" TRMNLtYPE="trmVrb43" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάστηκες" TRMNLtYPE="trmVrb42" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστούμε" TRMNLtYPE="trmVrb50" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστούν" TRMNLtYPE="trmVrb52a" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστούνε" TRMNLtYPE="trmVrb52b" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομαστώ" TRMNLtYPE="trmVrb47" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>
+<TRMNL TxEXP="ονομάσω" TRMNLtYPE="trmVrb20" XCPT="Naming@hknu.symb-17@" NAME="ονομάζω"/>

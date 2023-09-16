@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2001.09.25" CREATED="2000.04.13" AUTHOR="HoKoNoUmo">
+
+<REFINO_NAME LASTmOD="2001.09.25" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2001.09.25" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Concept and referent relation" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.06.13" CREATED="2001.06.13" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="σχέση έννοιας και αναφερόμενου" TRMrULE="rlElnTrmNnCs52b1" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_DEFINITION LASTmOD="2000.04.13" AUTHOR="HoKoNoUmo">
+REFERENT-RELATION-OF-A-CONCEPT is the relation of concept's-referent to concept's-semasial.
+</REFINO_DEFINITION>
+</XCONCEPT>

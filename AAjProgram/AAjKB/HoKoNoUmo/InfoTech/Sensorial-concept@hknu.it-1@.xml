@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="1" INTEGRATED="no" LASTmOD="2009.06.27" CREATED="2000.02.11" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2000.02.11" AUTHOR="HoKoNoUmo">
+** analytic-definition:
+Sensorial--b-concept is a [FORMAL 2000.07.28] CONCEPT with formal parts such as:
+1. synonyms.
+2. definition.
+3. part concepts.
+4. whole concepts.
+5. generic concepts.
+6. specific concepts.
+7. environment concepts.
+ [2000may27]
+I treat the structured-concept as a SYSTEM (in system's-theory terms) with objects and relations.
+* The 'Attributes' of the concept are RELATIONS with other systems (new concepts).  I divide them into internal and external.
+* The 'internal-relations' with their objects constitute the quality we talk about.  I represent the 'internal-objects' under the 'part-cpts' except the Synonyms/Definition objects which I represent separately because of their importance.
+* The 'external-relations' I represent under the 'environment-cpts' except the Whole/Generic/Specific objects which I represent separately because of their importance.
+[nikkas 2000apr27]
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.06.27" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.06.27" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Sensorial--b-concept" TRMrULE="rlEngTrmNnCs11" DELETED="none" CREATED="2009.06.21" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Structured concept" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2000.11.12" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Δομημένη έννοια" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+</XCONCEPT>

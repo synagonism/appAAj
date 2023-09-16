@@ -1,0 +1,533 @@
+<!-- 					English TERMINAL FILE
+ * 1. mostused terms (conjunctions, pronouns, prepositions, ..)
+ * 2. LG-CONCEPT-AUXILIARIES: articles, auxiliaries, ..
+ * 3. Interjections
+ * 4. Phatic-words.
+ * [2008.10.23]
+ *
+ * In the word-element:  TxEXP= the >>>FIRST<<< word we search.
+ * In the syntax-element: TxEXP= the whole expresion we are searching for.
+ * The program will tokenize the second and will search if the other words are
+ * follow. Convention "#" means that other words are inserted. 2005.09.28
+ *
+ *
+ * FORMAT-CONJUNCTION:
+ * <LgYUORDO TxEXP="of">
+ * <SNTX TxEXP="of" TRMNLtYPE="trmCnj" LGcPT="cnj068" SMcPT="att.internal.mo"
+ * 		ARGS="1:whole@,2:part@" XCPT="Corelaton.PartWhole@"
+ * 		TXeXP1_B="2,nominative" TXeXP1_A="1,nominative"
+ * 		EXMPL="the engine of the car"/>
+ * </LgYUORDO>
+ *
+ * FORMAT-VERB:
+ * <LgYUORDO TxEXP="is">
+ * <SNTX TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb019" SMcPT="vbt51" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="trmVrb3"/>
+ * <SNTX TRMNLtYPE="trmVrb3" LGcPT="vrb" XCPT="Naming@hknu.symb-17@"/>
+ * </LgYUORDO>
+ *
+ * FORMAT-NOUN (nominative, possessive):
+ * <LgYUORDO TxEXP="the">
+ * <SNTX TxEXP="the" TRMNLtYPE="auxNn" LGcPT="nnCs3" SMcPT="mn#" TXeXP1_A="trmNnCsNm1" EXMPL="the *red car"/>
+ * <SNTX TRMNLtYPE="NORnn1" LGcPT="n" XCPT="Tree-network's-node@hknu.symb-11@"/>
+ * </LgYUORDO>
+ *
+ * FORMAT-PROPERTER (adjective, adverb):
+ * <LgYUORDO TxEXP="good">
+ * <SNTX TxEXP="the" TRMNLtYPE="auxNnAj" LGcPT="anr1" SMcPT="mp#" XCPT="" TXeXP1_A="1n1" EXMPL="the *red car"/>
+ * </LgYUORDO>
+ *
+ * TxEXP="the expression of word (text)"
+ * TXeXP1_B => first expression BEFORE the exp.
+ * TXeXP1_A => first expression AFTER the exp.
+ * TxEXP="VC" => a verb-complement.
+ * TxEXP="S" => a lg_subject.
+ * TxEXP="SC" => a lg_subject-complement.
+ * TxEXP="O" => an lg_object.
+ * TxEXP="-" => no expression. 2005.09.30
+ * TxEXP="he|she" => he OR she.
+ * TxEXP="?NNAJ" => none or one adjectives.
+ * TxEXP="*NNAJ" => none or more adjectives.
+ * TxEXP="+NNAJ" => one or more adjectives.
+ * TxEXP="Part@" => denotes a 'part' concept.
+ *
+ * $ and CAPITALS denote words not in a concepter.
+ * SMALL-LETTERS denotes words inside a concepter. 2004.10.14
+ *
+ * TRMNLtYPE: auxNn, auxVrb, trmNn, trmVrm
+ * 		1=>lg-conceptTerm,
+ * 		2=>tx_auxiliary,
+ * 		1n2=>lg-conceptTerm 2 of noun-nominative,
+ * 		1n1a=>the first word of .., 2004.09.23
+ * 		3=>pronoun 2004.09.30
+ *
+ * LGcPT="vrb" => a verb.
+ * => a conjunction.
+ * LGcPT="nn" => a noun.
+ * LGcPT="nnCsNm" => a nominative.
+ * LGcPT="nnCsPs" => a possessive.
+ * LGcPT="nnGn" => a genitive.
+ * LGcPT="nnAc" => a accusative.
+ * LGcPT="nnVc" => a vocative.
+ * LGcPT="nnDt" => a dative.
+ * LGcPT="nnAj" => a adjective.
+ * LGcPT="nnAv" => a adverb.
+ * LGcPT="nnSp" => a special-noun.
+ * LGcPT="nnSpAj" => a special-adjective.
+ * LGcPT="nnSpAv" => a special-adverb.
+ *
+ * XCPT = the formal-name of the structured-concept denoted.
+ *
+ * LgYUORDO-ORDER: frequency and alphabetically 2004.09.20
+ *
+ * <LgYUORDO TxEXP="like"
+ * TxEXP=	#sbj:fruit flies #vrb:like #obj:a banana.
+ * 		  #sbj:time #vrb:flies #:like an arrow.
+ * TxEXP="fruit flies like a banana. [fuit flies] {like} |a banana|
+ * time flies like an arrow. [time] {flies} like @an arrow@."
+ *
+ *
+ *
+-->
+
+<!-- ============================= LG-CONCEPT-AUXILIARY =================================== -->
+<TRMNL TxEXP="entities" TRMNLtYPE="trmNnCsNm2" XCPT="Entity@hknu.symb-7@" NAME="entity"/>
+<TRMNL TxEXP="entity" TRMNLtYPE="trmNnCsNm1" XCPT="Entity@hknu.symb-7@" NAME="entity"/>
+<TRMNL TxEXP="every" TRMNLtYPE="trmNnAj1" XCPT="Number_every@hknu.symb-22#1@" NAME="every"/>
+<TRMNL TxEXP="I" TRMNLtYPE="trmSpNn" LGcPT="nnSp043Nm1" SMcPT="mp001.PersonA.concrete.sin.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A="" EXMPL="I write"/>
+<TRMNL TxEXP="a" TRMNLtYPE="auxNnCs" LGcPT="nnCs11" TXeXP1_A="*NNAV" TXeXP1_A="*NNAJ" TXeXP2_A="trmNnCsNm3" EXMPL="a *red car's"/>
+<TRMNL TxEXP="a" TRMNLtYPE="auxNnCs" LGcPT="nnCs5" TXeXP1_A="*NNAV" TXeXP1_A="*NNAJ" TXeXP2_A="trmNnCsNm1" EXMPL="a very unsure young man. [wn 2.0]"/>
+<TRMNL TxEXP="a few" TRMNLtYPE="trmSpNn" LGcPT="nnSp001Aj" SMcPT="mp047.Quantity.idefFew.count" XCPT="" TXeXP1_B="" TXeXP1_A="NN" EXMPL="after a few drinks he #vrb:was beginning to speak thickly. [wn 2.0]"/>
+<TRMNL TxEXP="a few" TRMNLtYPE="trmSpNn" LGcPT="nnSp001Nm" SMcPT="mp047.Quantity.idefFew.count" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="a little" TRMNLtYPE="trmSpNn" LGcPT="nnSp002Aj" SMcPT="mp048.Quantity.idefSome.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="[a little hope] remained."/>
+<TRMNL TxEXP="a lot" TRMNLtYPE="trmSpNn" LGcPT="nnSp003Av1" SMcPT="mp051.Quantity.idefMany.any" XCPT="Quantity@" EXMPL="He plays-around a lot."/>
+<TRMNL TxEXP="a lot" TRMNLtYPE="trmSpNn" LGcPT="nnSp003Nm" SMcPT="mp051.Quantity.idefMany.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="of" TXeXP2_A="NN" EXMPL="This car consumes a lot of gas."/>
+<TRMNL TxEXP="about" TRMNLtYPE="trmCnj" LGcPT="cnj001" SMcPT="att.int.prop.quant.about.mv" ARGS="1:doing@,2:quantity@" XCPT="corelaton.relative@" TXeXP1_B="1,verb" TXeXP1_A="2,nominative" EXMPL="Improvement in the economy has reduced unemployment about 5% in 1988."/>
+<TRMNL TxEXP="about" TRMNLtYPE="trmSpNn" LGcPT="nnSp an1" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="above" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="according to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="across" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="after" TRMNLtYPE="trmCnj" XCPT="time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="afternoon" TRMNLtYPE="trmSpNn" LGcPT="nnSp005Nm" SMcPT="mp113.Time.defDayPartThird" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="against" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ahead of" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="all" TRMNLtYPE="trmSpNnAj1" LGcPT="nnSp006Aj" SMcPT="mp058.Quantity.idefAll.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="n"/>
+<TRMNL TxEXP="along" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="also" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="although" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="always" TRMNLtYPE="trmSpNn" LGcPT="nnSp007Av" SMcPT="mp118.Time.idefAll" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb0" TXeXP1_B="I" TXeXP1_A="going,to,trmVrb1"/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb017" TXeXP1_B="I" TXeXP1_A="trmVrb3"/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb037" TXeXP1_B="I" TXeXP1_A="trmVrb4"/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb040" TXeXP1_B="I" TXeXP1_A="not,trmVrb4"/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb057" TXeXP1_B="I" TXeXP1_A="being,trmVrb3"/>
+<TRMNL TxEXP="am" TRMNLtYPE="auxVrb" LGcPT="vrb060" TXeXP1_B="I" TXeXP1_A="not,being,trmVrb3"/>
+<TRMNL TxEXP="am" TRMNLtYPE="trmVrb1" LGcPT="vrb01" XCPT="" TXeXP1_B="I" TXeXP1_A="n|an"/>
+<TRMNL TxEXP="am" TRMNLtYPE="trmVrb1" LGcPT="vrb03" XCPT="" TXeXP1_B="I" TXeXP1_A="not" TXeXP1_A="n|an"/>
+<TRMNL TxEXP="am I" TRMNLtYPE="trmVrb1" LGcPT="vrb05" XCPT="" TXeXP1_B="" TXeXP1_A="n|an"/>
+<TRMNL TxEXP="am I being trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb063" TXeXP1_B=""/>
+<TRMNL TxEXP="am I not" TRMNLtYPE="trmVrb1" LGcPT="vrb07" XCPT="" TXeXP1_B="" TXeXP1_A="n|an"/>
+<TRMNL TxEXP="am I not being trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb066" TXeXP1_B=""/>
+<TRMNL TxEXP="am I not trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb026" TXeXP1_B=""/>
+<TRMNL TxEXP="am I not trmVrb4" TRMNLtYPE="auxVrb" LGcPT="vrb046" TXeXP1_B=""/>
+<TRMNL TxEXP="am I trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb023" TXeXP1_B=""/>
+<TRMNL TxEXP="am I trmVrb4" TRMNLtYPE="auxVrb" LGcPT="vrb043" TXeXP1_B=""/>
+<TRMNL TxEXP="am not" TRMNLtYPE="auxVrb" LGcPT="vrb020" TXeXP1_B="I" TXeXP1_A="trmVrb3"/>
+<TRMNL TxEXP="among" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="and" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="and so forth" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="and so on" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="and then" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="another" TRMNLtYPE="trmSpNn" LGcPT="nnSp008Ac" SMcPT="mp033.Entity.diferentTwo.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="{put} /it/ @off@ to [another day]."/>
+<TRMNL TxEXP="another" TRMNLtYPE="trmSpNn" LGcPT="nnSp008Ac" SMcPT="mp034.Entity.additional.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="another cup of coffee."/>
+<TRMNL TxEXP="any" TRMNLtYPE="trmSpNn" LGcPT="nnSp009Aj" SMcPT="mp054.Quantity.idefAny.any" XCPT="Quantity@hknu.symb-18@" TXeXP1_A="$TrmNn" EXMPL="any child with a drop of negro blood #vrb:was legally a negro. [wn 2.0]"/>
+<TRMNL TxEXP="any" TRMNLtYPE="trmSpNn" LGcPT="nnSp009Nm" SMcPT="mp054.Quantity.idefAny.any" XCPT="Quantity@hknu.symb-18@" TXeXP1_A="$TrmCnj|" EXMPL="{take} /[any] of [the books (you like)]."/>
+<TRMNL TxEXP="anybody" TRMNLtYPE="trmSpNn" LGcPT="nnSp010Nm" SMcPT="mp036.Human.idefAny" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="anybody who is anybody" TRMNLtYPE="slr" LGcPT="important|influencial people" SMcPT="" XCPT="" EXMPL=""/>
+<TRMNL TxEXP="anyone" TRMNLtYPE="trmSpNn" LGcPT="nnSp011Nm" SMcPT="mp036.Human.idefAny" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="anyone who is anyone" TRMNLtYPE="slr" LGcPT="important|influencial people" SMcPT="" XCPT="" EXMPL=""/>
+<TRMNL TxEXP="anyplace" TRMNLtYPE="trmSpNn" LGcPT="nnSp012Av" SMcPT="mp078.Place.idefAny" XCPT="Place@" TXeXP1_B="V" TXeXP1_A="" EXMPL="She didn't have anyplace to go. [HarperCollins]"/>
+<TRMNL TxEXP="anything" TRMNLtYPE="trmSpNn" LGcPT="nnSp013Nm" SMcPT="mp042.HumanNon.idefAny" XCPT="HumanNon@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="anytime" TRMNLtYPE="trmSpNn" LGcPT="nnSp153Av" SMcPT="mp" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="anywhere" TRMNLtYPE="trmSpNn" LGcPT="nnSp014" SMcPT="mp078.Place.idefAny" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="are you being trmVrb3?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="are you not being trmVrb3?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="are you not researchers?" TRMNLtYPE="trmVrb1" LGcPT="vrb07" XCPT=""/>
+<TRMNL TxEXP="are you not trmVrb3?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="are you not trmVrb4?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="are you researchers?" TRMNLtYPE="trmVrb1" LGcPT="vrb05" XCPT=""/>
+<TRMNL TxEXP="are you trmVrb3?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="are you trmVrb4?" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="around" TRMNLtYPE="trmSpNn" LGcPT="nnSp015Av" SMcPT="mp083.Place.around" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="as long as" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="as well as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="at" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="at large" TRMNLtYPE="slr" LGcPT="in generic" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="away from" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="be" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="because" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="been" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="before" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="before" TRMNLtYPE="trmSpNn" LGcPT="nnSp018" SMcPT="mp120.Time.idefPast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="behind" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="They were parked BEHIND THE TRUCK."/>
+<TRMNL TxEXP="behind" TRMNLtYPE="trmSpNn" LGcPT="nnSp017Av" SMcPT="mp064.Place.defBehind" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL="They left BEHIND the truck.(not behind of the truck)"/>
+<TRMNL TxEXP="being" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="below" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="beneath" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="beside" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="beside" TRMNLtYPE="trmSpNn" LGcPT="nnSp143Av" SMcPT="mp074.Place.defBeside" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="besides" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="between" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_A="entity@" TXeXP2_A="and" TXeXP3_A="entity@"/>
+<TRMNL TxEXP="between" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="beyond" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="big" TRMNLtYPE="trmSpNn" LGcPT="nnSp019Aj" SMcPT="mp087.Size.idefBig" XCPT="Size@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="both" TRMNLtYPE="trmSpNn" LGcPT="nnSp020Aj" SMcPT="mp059.Quantity.idefAllTwo.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="The approval of both houses is needed before laws can become valid."/>
+<TRMNL TxEXP="both#and" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="man #vrb:is both polymorphic and polytypic. [wn 2.0]"/>
+<TRMNL TxEXP="but" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="by" TRMNLtYPE="trmCnj" LGcPT="cnj032" SMcPT="att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment@" EXMPL="#S:Ross #V:annoys #O:Walter #by=accompaniment: turning pages too quickly."/>
+<TRMNL TxEXP="consequently" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="despite" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="did" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="do" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="does" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="down" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="down from" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="inflation is down from double-digit levels."/>
+<TRMNL TxEXP="down to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="during" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="each" TRMNLtYPE="trmSpNn" LGcPT="nnSp021Aj" SMcPT="mp058.Quantity.idefAllOne.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="each" TRMNLtYPE="trmSpNn" LGcPT="nnSp021Nm" SMcPT="mp058.Quantity.idefAllOne.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="each other" TRMNLtYPE="trmSpNn" LGcPT="" SMcPT="" XCPT="" EXMPL=""/>
+<TRMNL TxEXP="early" TRMNLtYPE="trmSpNn" LGcPT="nnSp022Aj" SMcPT="mp141.Time.idefPointBefore" XCPT="Time@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="early" TRMNLtYPE="trmSpNn" LGcPT="nnSp022Av" SMcPT="mp141.Time.idefPointBefore" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="east" TRMNLtYPE="trmSpNn" LGcPT="nnSp139Aj" SMcPT="mp070.Place.defEast" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="east" TRMNLtYPE="trmSpNn" LGcPT="nnSp139Av" SMcPT="mp070.Place.defEast" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="east" TRMNLtYPE="trmSpNn" LGcPT="nnSp139Nm" SMcPT="mp070.Place.defEast" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="either" TRMNLtYPE="trmSpNn" LGcPT="nnSp023Aj" SMcPT="mp055.Quantity.idefAnyTwo" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="either" TRMNLtYPE="trmSpNn" LGcPT="nnSp023Av" SMcPT="mp055.Quantity.idefAnyTwo" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="either#or" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="else" TRMNLtYPE="trmSpNn" LGcPT="nnSp149Nm" SMcPT="mp031.Entity.diferent.any" XCPT="Entity@" TXeXP1_B="everybody|everything|everywhere" TXeXP1_A="" EXMPL="ask #VCo:somebody else"/>
+<TRMNL TxEXP="elsewhere" TRMNLtYPE="trmSpNn" LGcPT="nnSp024Av" SMcPT="mp082.Place.idefDif" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="enough" TRMNLtYPE="trmSpNn" LGcPT="nnSp025Aj" SMcPT="mp050.Quantity.idefEnough.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="enough" TRMNLtYPE="trmSpNn" LGcPT="nnSp025Av" SMcPT="mp050.Quantity.idefEnough.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="enough" TRMNLtYPE="trmSpNn" LGcPT="nnSp025Nm" SMcPT="mp050.Quantity.idefEnough.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="even so" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="even though" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ever more" TRMNLtYPE="slr" LGcPT="always" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="everybody" TRMNLtYPE="trmSpNn" LGcPT="nnSp027Nm" SMcPT="mp040.Human.idefAll" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="everyone" TRMNLtYPE="trmSpNn" LGcPT="nnSp028Nm" SMcPT="mp040.Human.idefAll" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="everything" TRMNLtYPE="trmSpNn" LGcPT="nnSp029Nm" SMcPT="mp045.HumanNon.idefAll" XCPT="HumanNon@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="everywhere" TRMNLtYPE="trmSpNn" LGcPT="nnSp030Av" SMcPT="mp081.Place.idefAll" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="except" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="few" TRMNLtYPE="trmSpNn" LGcPT="nnSp031Aj" SMcPT="mp047.Quantity.idefFew.count" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="few roses were still blooming. [wn 2.0]"/>
+<TRMNL TxEXP="few" TRMNLtYPE="trmSpNn" LGcPT="nnSp031Nm" SMcPT="mp047.Quantity.idefFew.count" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="[few of them] {are} |liars|."/>
+<TRMNL TxEXP="finally" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="first" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="first" TRMNLtYPE="trmSpNn" LGcPT="nnSp183Aj" SMcPT="mp142.Order.First" XCPT="Order@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="for" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="for example" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="from" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="from#to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="furthermore" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="future" TRMNLtYPE="trmSpNn" LGcPT="nnSp171Av" SMcPT="mp122.Time.idefFuture" XCPT="Time@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="future" TRMNLtYPE="trmSpNn" LGcPT="nnSp171Nm" SMcPT="mp122.Time.idefFuture" XCPT="Time@" TXeXP1_B="the" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="had" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="has" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="have" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="he" TRMNLtYPE="trmSpNn" LGcPT="nnSp032Nm1" SMcPT="mp012.PersonC.concrete.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A="" EXMPL="after that failure he lost his confidence. [wn 2.0]"/>
+<TRMNL TxEXP="hence" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="her" TRMNLtYPE="trmSpNn" LGcPT="nnSp033Aj1" SMcPT="mp013.PersonC.concrete.sin.fem" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A="NN"/>
+<TRMNL TxEXP="her" TRMNLtYPE="trmSpNn" LGcPT="nnSp033Ac1" SMcPT="mp013.PersonC.concrete.sin.fem" XCPT="Person.C@" TXeXP1_B="V" TXeXP1_A=""/>
+<TRMNL TxEXP="here" TRMNLtYPE="trmSpNn" LGcPT="nnSp034Av" SMcPT="mp062.Place.defNear" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL="[I] {work} @here@."/>
+<TRMNL TxEXP="here" TRMNLtYPE="trmSpNn" LGcPT="nnSp034Nm" SMcPT="mp062.Place.defNear" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="hers" TRMNLtYPE="trmSpNn" LGcPT="nnSp035Ps1" SMcPT="mp013.PersonC.concrete.sin.fem" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="herself" TRMNLtYPE="trmSpNn" LGcPT="nnSp036Ac1" SMcPT="mp021.PersonC.reflexive.sin.fem" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="herself" TRMNLtYPE="trmSpNn" LGcPT="nnSp036Nm1" SMcPT="mp017.PersonC.intensive.sin.fem" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="him" TRMNLtYPE="trmSpNn" LGcPT="nnSp037Ac1" SMcPT="mp012.PersonC.concrete.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="himself" TRMNLtYPE="trmSpNn" LGcPT="nnSp038Ac1" SMcPT="mp020.PersonC.reflexive.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="himself" TRMNLtYPE="trmSpNn" LGcPT="nnSp038Nm1" SMcPT="mp016.PersonC.intensive.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="his" TRMNLtYPE="trmSpNn" LGcPT="nnSp039Aj1" SMcPT="mp012.PersonC.concrete.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A="NN"/>
+<TRMNL TxEXP="his" TRMNLtYPE="trmSpNn" LGcPT="nnSp039Ps1" SMcPT="mp012.PersonC.concrete.sin.mas" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A="" EXMPL="at the beggining or at the end of sentencer."/>
+<TRMNL TxEXP="how" TRMNLtYPE="trmCnj" LGcPT="cnj051" SMcPT="att.manner" ARGS="1:Doing@,2:Attribute@" XCPT="Corelaton.Manner@" TXeXP1_A="sentencer" EXMPL="#S:These negotiations #V:will determine #how=manner: this area is to be governed."/>
+<TRMNL TxEXP="how" TRMNLtYPE="trmSpNn" LGcPT="nnSp040Nm" SMcPT="mp131.Manner.ing" XCPT="Manner@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="how many" TRMNLtYPE="trmSpNn" LGcPT="nnSp041Aj" SMcPT="mp060.Quantity.ing.count" XCPT="Quantity@" TXeXP1_B="-" TXeXP1_A="NN" EXMPL="[How many dogs] did /that/?"/>
+<TRMNL TxEXP="how many" TRMNLtYPE="trmSpNn" LGcPT="nnSp041Nm" SMcPT="mp060.Quantity.ing.count" XCPT="Quantity@" TXeXP1_B="-" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="how much" TRMNLtYPE="trmSpNn" LGcPT="nnSp042Nm" SMcPT="mp061.Quantity.ing.mass" XCPT="Quantity@" TXeXP1_B="-" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="however" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="huge" TRMNLtYPE="trmSpNn" LGcPT="nnSp145Aj" SMcPT="mp091.Size.idefHuge" XCPT="Size@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="if" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="cause@"/>
+<TRMNL TxEXP="if#then" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="cause@" TXeXP2_A=""/>
+<TRMNL TxEXP="in" TRMNLtYPE="trmCnj" LGcPT="cnj055" SMcPT="att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment@" EXMPL="#S:Correlative conjunctions #VS:always appear #in=accompaniment: pairs."/>
+<TRMNL TxEXP="in relation to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="inside" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="inside" TRMNLtYPE="trmSpNn" LGcPT="nnSp141Av" SMcPT="mp072.Place.defInside" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="instead of" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="into" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb019" SMcPT="vbt51" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="trmVrb3"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb022" SMcPT="vbt57" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="not" TXeXP2_A="trmVrb3"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb025" SMcPT="vbt63" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="trmVrb3"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb028" SMcPT="vbt69" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="not" TXeXP3_A="trmVrb3?"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb039" SMcPT="vbt99" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="trmVrb4"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb042" SMcPT="vbt105" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="not" TXeXP2_A="trmVrb4"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb045" SMcPT="vbt111" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="trmVrb4?"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb048" SMcPT="vbt117" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="not,trmVrb4?"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb059" SMcPT="vbt147" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="being" TXeXP2_A="trmVrb3"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb062" SMcPT="vbt153" TXeXP1_B="$HE|SHE|IT|S" TXeXP1_A="not" TXeXP2_A="being" TXeXP3_A="trmVrb3"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb065" SMcPT="vbt159" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="being" TXeXP3_A="trmVrb3?"/>
+<TRMNL TxEXP="is" TRMNLtYPE="auxVrb" LGcPT="vrb068" SMcPT="vbt165" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="not" TXeXP3_A="being" ESR4A="trmVrb3?"/>
+<TRMNL TxEXP="is" TRMNLtYPE="trmVrb3" LGcPT="vrb0" XCPT="" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="SC"/>
+<TRMNL TxEXP="is" TRMNLtYPE="trmVrb3" LGcPT="vrb0" XCPT="" TXeXP1_B="" TXeXP1_A="$HE|SHE|IT|S" TXeXP2_A="not" TXeXP3_A="SC"/>
+<TRMNL TxEXP="is" TRMNLtYPE="trmVrb3" LGcPT="vrb0" XCPT="" TXeXP1_B="S" TXeXP1_A="SC"/>
+<TRMNL TxEXP="is" TRMNLtYPE="trmVrb3" LGcPT="vrb0" XCPT="" TXeXP1_B="S" TXeXP1_A="not" TXeXP2_A="SC"/>
+<TRMNL TxEXP="it" TRMNLtYPE="trmSpNn" LGcPT="nnSp044Ac1" SMcPT="mp014.PersonC.concrete.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="it" TRMNLtYPE="trmSpNn" LGcPT="nnSp044Nm1" SMcPT="mp014.PersonC.concrete.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="its" TRMNLtYPE="trmSpNn" LGcPT="nnSp045Aj1" SMcPT="mp014.PersonC.concrete.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="its" TRMNLtYPE="trmSpNn" LGcPT="nnSp045Ps1" SMcPT="mp014.PersonC.concrete.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="itself" TRMNLtYPE="trmSpNn" LGcPT="nnSp046Ac1" SMcPT="mp022.PersonC.reflexive.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="itself" TRMNLtYPE="trmSpNn" LGcPT="nnSp046Nm1" SMcPT="mp018.PersonC.intensive.sin.neu" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="just as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="large" TRMNLtYPE="trmSpNn" LGcPT="nnSp182Aj" SMcPT="mp087.Size.idefBig" XCPT="Size@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="last" TRMNLtYPE="trmSpNn" LGcPT="nnSp185Aj" SMcPT="mp155.Order.Last" XCPT="Order@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="late" TRMNLtYPE="trmSpNn" LGcPT="nnSp165Aj" SMcPT="mp127.Time.idefIntervalLast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="left" TRMNLtYPE="trmSpNn" LGcPT="nnSp135Aj" SMcPT="mp066.Place.defLeft" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="in most people the speech center is in the left hemisphere. [wn 2.0]"/>
+<TRMNL TxEXP="left" TRMNLtYPE="trmSpNn" LGcPT="nnSp135Av" SMcPT="mp066.Place.defLeft" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL="go left first, then right. [wn 2.0]"/>
+<TRMNL TxEXP="left" TRMNLtYPE="trmSpNn" LGcPT="nnSp135Nm" SMcPT="mp066.Place.defLeft" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL="his office is the third door down the hall on the left. [wn 2.0]"/>
+<TRMNL TxEXP="less" TRMNLtYPE="trmSpNn" LGcPT="nnSp048Aj" SMcPT="mp093.Quantity.idefLess.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="a shower uses less water. [wn 2.0]"/>
+<TRMNL TxEXP="less" TRMNLtYPE="trmSpNn" LGcPT="nnSp048Nm" SMcPT="mp093.Quantity.idefLess.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="Last year less of the money went into high-technology companies. [HarperCollins]"/>
+<TRMNL TxEXP="less#than" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="like" TRMNLtYPE="nameVerb" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="#sbj:fruit flies #vrb:like #obj:a banana."/>
+<TRMNL TxEXP="like" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="#sbj:time #vrb:flies #:like an arrow."/>
+<TRMNL TxEXP="little" TRMNLtYPE="trmSpNn" LGcPT="nnSp049Aj" SMcPT="mp085.Quantity.idefFew.mass" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="The actual physiology of cognition is of little interest to cognitive psychologists."/>
+<TRMNL TxEXP="little" TRMNLtYPE="trmSpNn" LGcPT="nnSp049Nm" SMcPT="mp085.Quantity.idefFew.mass" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="Little of the existing housing is of good enough quality. [HarperCollins]"/>
+<TRMNL TxEXP="long" TRMNLtYPE="trmSpNn" LGcPT="nnSp152Aj" SMcPT="mp098.Distance.idefLong" XCPT="Distance@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="long" TRMNLtYPE="trmSpNn" LGcPT="nnSp152Aj" SMcPT="mp104.Time.idefLong" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="lots" TRMNLtYPE="trmSpNn" LGcPT="nnSp050Nm" SMcPT="mp051.Quantity.idefMany.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="many" TRMNLtYPE="trmSpNn" LGcPT="nnSp051Aj" SMcPT="mp096.Quantity.idefMany.count" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="In @many countries@ [the legislative branch itself] {is divided} into @two separate houses@."/>
+<TRMNL TxEXP="many" TRMNLtYPE="trmSpNn" LGcPT="nnSp051Nm" SMcPT="mp096.Quantity.idefMany.count" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="[many of the statements] {are} |true|."/>
+<TRMNL TxEXP="me" TRMNLtYPE="trmSpNn" LGcPT="nnSp052Ac1" SMcPT="mp001.PersonA.concrete.sin.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="mine" TRMNLtYPE="trmSpNn" LGcPT="nnSp053Ps1" SMcPT="mp001.PersonA.concrete.sin.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="more" TRMNLtYPE="auxNnAj" LGcPT="anr2" TXeXP1_A="AN" EXMPL="Buying in bulk is MORE ECONOMICAL than shopping for small quantities."/>
+<TRMNL TxEXP="more" TRMNLtYPE="auxNnAv" LGcPT="avr2" TXeXP1_A="AV" EXMPL="A mother who already has non-identical twins is MORE LIKELY to conceive another set of twins."/>
+<TRMNL TxEXP="more" TRMNLtYPE="trmSpNn" LGcPT="nnSp054Nm" SMcPT="mp092.Quantity.idefMore.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="more#than" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="he put more trust in his own two legs than in the gun. [wn 2.0]"/>
+<TRMNL TxEXP="more than" TRMNLtYPE="trmCnj" TXeXP1_B="" TXeXP1_A="" EXMPL="it took more than half my time. [wn 2.0]"/>
+<TRMNL TxEXP="morning" TRMNLtYPE="trmSpNn" LGcPT="nnSp055Nm" SMcPT="mp111.Time.defDayPartFirst" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="most" TRMNLtYPE="auxNnAj" LGcPT="nnAj"/>
+<TRMNL TxEXP="most" TRMNLtYPE="auxNnAv" LGcPT="nnAv"/>
+<TRMNL TxEXP="much" TRMNLtYPE="trmSpNn" LGcPT="nnSp059Aj" SMcPT="mp097.Quantity.idefMany.mass" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="much" TRMNLtYPE="trmSpNn" LGcPT="nnSp059Nm" SMcPT="mp097.Quantity.idefMany.mass" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="anthropologists do much of their work in the field. [wn 2.0]"/>
+<TRMNL TxEXP="my" TRMNLtYPE="trmSpNn" LGcPT="nnSp057Aj1" SMcPT="mp001.PersonA.concrete.sin.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="myself" TRMNLtYPE="trmSpNn" LGcPT="nnSp058Ac1" SMcPT="mp005.PersonA.reflexive.sin.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="myself" TRMNLtYPE="trmSpNn" LGcPT="nnSp058Nm1" SMcPT="mp003.PersonA.intensive.sin.any" XCPT="PersonA@" TXeXP1_B="I" TXeXP1_A=""/>
+<TRMNL TxEXP="near" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="neither" TRMNLtYPE="trmSpNn" LGcPT="nnSp060Nm" SMcPT="mp053.Quantity.idefNoneTwo.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="neither#nor" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="such action is neither necessary nor advisable. [wn 2.0]"/>
+<TRMNL TxEXP="neither here nor there" TRMNLtYPE="slr" LGcPT="irrelevant" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="never" TRMNLtYPE="trmSpNn" LGcPT="nnSp061Av" SMcPT="mp117.Time.idefNone" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="night" TRMNLtYPE="trmSpNn" LGcPT="nnSp135Nm" SMcPT="mp114.Time.defDayPartLast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="no" TRMNLtYPE="trmSpNn" LGcPT="nnSp062Aj" SMcPT="mp052.Quantity.idefNone.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="no#nor" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="no one" TRMNLtYPE="trmSpNn" LGcPT="nnSp063Nm" SMcPT="mp039.Human.idefNone" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="nobody" TRMNLtYPE="trmSpNn" LGcPT="nnSp064Nm" SMcPT="mp039.Human.idefNone" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="none" TRMNLtYPE="trmSpNn" LGcPT="nnSp065Nm" SMcPT="mp052.Quantity.idefNone.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="none but" TRMNLtYPE="slr" LGcPT="only" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="noon" TRMNLtYPE="trmSpNn" LGcPT="nnSp066Nm" SMcPT="mp112.Time.defDayPartSecond" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="north" TRMNLtYPE="trmSpNn" LGcPT="nnSp137Aj" SMcPT="mp068.Place.defNorth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="north" TRMNLtYPE="trmSpNn" LGcPT="nnSp137Av" SMcPT="mp068.Place.defNorth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="north" TRMNLtYPE="trmSpNn" LGcPT="nnSp137Nm" SMcPT="mp068.Place.defNorth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="not" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="not only#but also" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="nothing" TRMNLtYPE="trmSpNn" LGcPT="nnSp067Nm" SMcPT="mp044.HumanNon.idefNone" XCPT="HumanNon@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="now" TRMNLtYPE="trmSpNn" LGcPT="nnSp068Av" SMcPT="mp106.Time.defPresent" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="nowhere" TRMNLtYPE="trmSpNn" LGcPT="nnSp069Av" SMcPT="mp080.Place.idefNone" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+
+<TRMNL TxEXP="of" TRMNLtYPE="trmCnj" LGcPT="cnj068" XCPT="Entity's-attribute-relation@hknu.symb-20@" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" TXeXP1_B="2,nominative" TXeXP1_A="1,nominative" EXMPL="the engine of the car"/>
+<TRMNL TxEXP="of" TRMNLtYPE="trmCnj" LGcPT="cnj068" SMcPT="att.ext.whole.possesion.mo" ARGS="1:entity@,2:owner@" XCPT="Corelaton.Possesion@" TXeXP1_B="1,nominative" TXeXP1_A="2,nominative" EXMPL="the book of George"/>
+<TRMNL TxEXP="of" TRMNLtYPE="trmCnj" LGcPT="cnj068" SMcPT="att.int.prop.content.mo" ARGS="1:entity@,2:content@" XCPT="Corelaton.Content@" TXeXP1_B="1,nominative" TXeXP1_A="2,nominative" EXMPL="a vase of flowers"/>
+<TRMNL TxEXP="off" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="old" TRMNLtYPE="trmSpNn" LGcPT="nnSp164Aj" SMcPT="mp104.Time.idefLong" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="on" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="on and on" TRMNLtYPE="slr" LGcPT="continuasly" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="once" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="once" TRMNLtYPE="trmSpNn" LGcPT="nnSp072Av" SMcPT="mp116.Time.idefOne" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="one" TRMNLtYPE="trmSpNn" LGcPT="nnSp070Nm1" SMcPT="mp029.Entity.reflexive.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="[Ours] {is} |the green one| on @the corner@. "/>
+<TRMNL TxEXP="one after another" TRMNLtYPE="slr" LGcPT="with very little time between them" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="one another" TRMNLtYPE="trmSpNn" LGcPT="nnSp151Nm2" SMcPT="mp035.Entity.reciprocal.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="deal fairly with one another. [wn 2.0]"/>
+<TRMNL TxEXP="one by one" TRMNLtYPE="slr" LGcPT="time sequence" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="ones" TRMNLtYPE="trmSpNn" LGcPT="nnSp071Nm2" SMcPT="mp030.Entity.reflexive.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="onto" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="or" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="other" TRMNLtYPE="trmSpNn" LGcPT="nnSp037Aj" SMcPT="mp031.Entity.Diferent.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="other than" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="others" TRMNLtYPE="trmSpNn" LGcPT="nnSp133Nm" SMcPT="mp032.Entity.diferent.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="This car outperforms all others in its class. [wn 2.0]"/>
+<TRMNL TxEXP="our" TRMNLtYPE="trmSpNn" LGcPT="nnSp075Aj2" SMcPT="mp002.PersonA.concrete.plu.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="ours" TRMNLtYPE="trmSpNn" LGcPT="nnSp076Ps2" SMcPT="mp002.PersonA.concrete.plu.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="ourselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp077Ac2" SMcPT="mp006.PersonA.reflexive.plu.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="ourselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp077Nm2" SMcPT="mp004.PersonA.intensive.plu.any" XCPT="PersonA@" TXeXP1_B="we" TXeXP1_A=""/>
+<TRMNL TxEXP="out of" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="outside" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="outside" TRMNLtYPE="trmSpNn" LGcPT="nnSp142Av" SMcPT="mp073.Place.defOutside" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="outside of" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="over" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="past" TRMNLtYPE="trmCnj" SMcPT="" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="past" TRMNLtYPE="trmCnj" SMcPT="" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="past" TRMNLtYPE="trmSpNn" LGcPT="nnSp169Aj" SMcPT="mp120.Time.idefPast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="NN|NUMBER" EXMPL=""/>
+<TRMNL TxEXP="past" TRMNLtYPE="trmSpNn" LGcPT="nnSp169Nm" SMcPT="mp120.Time.idefPast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="plenty" TRMNLtYPE="trmSpNn" LGcPT="nnSp078Nm" SMcPT="mp049.Quantity.idefPlenty.mass" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="he's got plenty of brains but no common sense. [wn 2.0]"/>
+<TRMNL TxEXP="present" TRMNLtYPE="trmSpNn" LGcPT="nnSp170Aj" SMcPT="mp121.Time.idefPresent" XCPT="Time@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="present" TRMNLtYPE="trmSpNn" LGcPT="nnSp170Nm" SMcPT="mp121.Time.idefPresent" XCPT="Time@" TXeXP1_B="the" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="prior to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="rapid" TRMNLtYPE="trmSpNn" LGcPT="nnSp178Aj" SMcPT="mp134.Speed.idefFastVery" XCPT="Speed@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="rapidity" TRMNLtYPE="trmSpNn" LGcPT="nnSp177Nm" SMcPT="mp134.Speed.idefFastVery" XCPT="Speed@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="rapidly" TRMNLtYPE="trmSpNn" LGcPT="nnSp176Aj" SMcPT="mp134.Speed.idefFastVery" XCPT="Speed@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="rapidly" TRMNLtYPE="trmSpNn" LGcPT="nnSp176Av" SMcPT="mp134.Speed.idefFastVery" XCPT="Speed@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="right" TRMNLtYPE="trmSpNn" LGcPT="nnSp136Aj" SMcPT="mp067.Place.defRight" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="right" TRMNLtYPE="trmSpNn" LGcPT="nnSp136Av" SMcPT="mp067.Place.defRight" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="right" TRMNLtYPE="trmSpNn" LGcPT="nnSp136Nm" SMcPT="mp067.Place.defRight" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="round" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="second" TRMNLtYPE="trmSpNn" LGcPT="nnSp184Aj" SMcPT="mp143.Order.Second" XCPT="Order@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="several" TRMNLtYPE="trmSpNn" LGcPT="nnSp079Aj" SMcPT="mp051.Quantity.idefMany.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="several" TRMNLtYPE="trmSpNn" LGcPT="nnSp079Nm" SMcPT="mp051.Quantity.idefMany.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="she" TRMNLtYPE="trmSpNn" LGcPT="nnSp080Nm1" SMcPT="mp013.PersonC.concrete.sin.fem" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="short" TRMNLtYPE="trmSpNn" LGcPT="nnSp144Aj" SMcPT="mp089.Height.idefShort" XCPT="Height@" TXeXP1_B="" TXeXP1_A="" EXMPL="I'm tall and thin and he's short and fat. [HarperCollins]"/>
+<TRMNL TxEXP="short" TRMNLtYPE="trmSpNn" LGcPT="nnSp144Aj" SMcPT="mp099.Distance.idefShort" XCPT="Distance@" TXeXP1_B="" TXeXP1_A="" EXMPL="The city centre and shops are only a short distance away. [HarperCollins]"/>
+<TRMNL TxEXP="short" TRMNLtYPE="trmSpNn" LGcPT="nnSp144Aj" SMcPT="mp103.Time.idefShort" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL="the battery had a short life. [wn 2.0]"/>
+<TRMNL TxEXP="since" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="since then" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="small" TRMNLtYPE="trmSpNn" LGcPT="nnSp081Aj" SMcPT="mp086.Size.idefSmall" XCPT="Size@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="small bear" TRMNLtYPE="slr" LGcPT="unimportant" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so" TRMNLtYPE="trmSpNn" LGcPT="nnSp082Av" SMcPT="mp137.Manner.def" XCPT="Manner@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so far" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so long as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so on" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="so that" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="some" TRMNLtYPE="trmSpNn" LGcPT="nnSp083Aj" SMcPT="mp048.Quantity.idefSome.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="[some roses] {were still blooming}."/>
+<TRMNL TxEXP="some" TRMNLtYPE="trmSpNn" LGcPT="nnSp083Nm" SMcPT="mp048.Quantity.idefSome.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="[some of it] {is missing}."/>
+<TRMNL TxEXP="somebody" TRMNLtYPE="trmSpNn" LGcPT="nnSp084Nm" SMcPT="mp038.Human.idefOne" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="someday" TRMNLtYPE="trmSpNn" LGcPT="nnSp085Av" SMcPT="mp116.Time.idefOne" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="somehow" TRMNLtYPE="trmSpNn" LGcPT="nnSp086Av" SMcPT="mp135.Cause.idef" XCPT="Cause@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="somehow" TRMNLtYPE="trmSpNn" LGcPT="nnSp086Av" SMcPT="mp136.Manner.idef" XCPT="Manner@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="someone" TRMNLtYPE="trmSpNn" LGcPT="nnSp087Nm" SMcPT="mp038.Human.idefOne" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="someplace" TRMNLtYPE="trmSpNn" LGcPT="nnSp088Av" SMcPT="mp079.Place.idefOne" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="something" TRMNLtYPE="trmSpNn" LGcPT="nnSp093Av" SMcPT="mp043.HumanNon.idefOne" XCPT="HumanNon@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="sometime" TRMNLtYPE="trmSpNn" LGcPT="nnSp089Av" SMcPT="mp116.Time.idefOne" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="sometimes" TRMNLtYPE="trmSpNn" LGcPT="nnSp090Av" SMcPT="mp119.Time.idefSome" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="someway" TRMNLtYPE="trmSpNn" LGcPT="nnSp091Av" SMcPT="mp136.Manner.idef" XCPT="Manner@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="somewhere" TRMNLtYPE="trmSpNn" LGcPT="nnSp092Av" SMcPT="mp079.Place.idefOne" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="south" TRMNLtYPE="trmSpNn" LGcPT="nnSp138Aj" SMcPT="mp069.Place.defSouth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="south" TRMNLtYPE="trmSpNn" LGcPT="nnSp138Av" SMcPT="mp069.Place.defSouth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="south" TRMNLtYPE="trmSpNn" LGcPT="nnSp138Nm" SMcPT="mp069.Place.defSouth" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="speedy" TRMNLtYPE="trmSpNn" LGcPT="nnSp180Aj" SMcPT="mp133.Speed.idefFast" XCPT="Speed@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="still" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="such" TRMNLtYPE="trmSpNn" LGcPT="nnSp095Aj" SMcPT="mp028.Entity.defSpecific.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="Such people can practically be typed. [wn 2.0]"/>
+<TRMNL TxEXP="such" TRMNLtYPE="trmSpNn" LGcPT="nnSp095Nm" SMcPT="mp028.Entity.defSpecific.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="[their anxiety] {was} |such that ([they] {could not} /sleep/)|."/>
+<TRMNL TxEXP="such as" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="tall" TRMNLtYPE="trmSpNn" LGcPT="nnSp004Aj" SMcPT="mp088.Height.idefTall" XCPT="Height@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="than" TRMNLtYPE="trmCnj" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="that" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="that" TRMNLtYPE="trmSpNn" LGcPT="nnSp096Aj1" SMcPT="mp026.Entity.defFar.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="[that book] is mine."/>
+<TRMNL TxEXP="that" TRMNLtYPE="trmSpNn" LGcPT="nnSp096Nm1" SMcPT="mp026.Entity.defFar.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="that" TRMNLtYPE="trmSpNn" LGcPT="nnSp096Nm1" SMcPT="mp029.Entity.anaforic.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="the" TRMNLtYPE="auxNnNm" LGcPT="nnCsNm3" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsNm1" EXMPL="the *red car"/>
+<TRMNL TxEXP="the" TRMNLtYPE="auxNnNm" LGcPT="nnCsNm4" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsNm2" EXMPL="the *red cars"/>
+<TRMNL TxEXP="the" TRMNLtYPE="auxNnPs" LGcPT="nnCsPs3" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsPs1" EXMPL="the *red car's"/>
+<TRMNL TxEXP="the" TRMNLtYPE="auxNnPs" LGcPT="nnCsPs4" TXeXP1_A="*NNAV" TXeXP2_A="*NNAJ" TXeXP3_A="trmNnCsPs2" EXMPL="the *red cars'"/>
+<TRMNL TxEXP="their" TRMNLtYPE="trmSpNn" LGcPT="nnSp097Aj2" SMcPT="mp015.PersonC.concrete.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="theirs" TRMNLtYPE="trmSpNn" LGcPT="nnSp098Ps2" SMcPT="mp015.PersonC.concrete.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="them" TRMNLtYPE="trmSpNn" LGcPT="nnSp099Ac2" SMcPT="mp015.PersonC.concrete.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="themselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp100Ac2" SMcPT="mp023.PersonC.reflexive.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="themselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp100Nm2" SMcPT="mp019.PersonC.intensive.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="then" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="then" TRMNLtYPE="trmSpNn" LGcPT="nnSp101Av" SMcPT="mp105.Time.defPast" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there" TRMNLtYPE="FTR" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="hello|hi" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there" TRMNLtYPE="trmSpNn" LGcPT="nnSp102Av" SMcPT="mp063.Place.defFar" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there are" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there is" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there was" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="there were" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="therefore" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="these" TRMNLtYPE="trmSpNn" LGcPT="nnSp103Aj2" SMcPT="mp025.Entity.defNear.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="these" TRMNLtYPE="trmSpNn" LGcPT="nnSp103Nm2" SMcPT="mp025.Entity.defNear.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="they" TRMNLtYPE="trmSpNn" LGcPT="nnSp104Nm2" SMcPT="mp015.PersonC.concrete.plu.any" XCPT="Person.C@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="this" TRMNLtYPE="trmSpNn" LGcPT="nnSp105Aj1" SMcPT="mp024.Entity.defNear.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="NN"/>
+<TRMNL TxEXP="this" TRMNLtYPE="trmSpNn" LGcPT="nnSp105Nm1" SMcPT="mp024.Entity.defNear.sin" XCPT="Entity@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="those" TRMNLtYPE="trmSpNn" LGcPT="nnSp106Aj2" SMcPT="mp027.Entity.defFar.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="We can't absorb those costs."/>
+<TRMNL TxEXP="those" TRMNLtYPE="trmSpNn" LGcPT="nnSp106Nm2" SMcPT="mp027.Entity.defFar.plu" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="though" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="three" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="through" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="throughout" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="thus" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="thus" TRMNLtYPE="trmSpNn" LGcPT="nnSp107Av" SMcPT="mp137.Manner.def" XCPT="Manner@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="to" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="today" TRMNLtYPE="trmSpNn" LGcPT="nnSp152Av" SMcPT="mp107.Time.defDayCurrent" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="tomorrow" TRMNLtYPE="trmSpNn" LGcPT="nnSp108Av" SMcPT="mp110.Time.defDayNext" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="tonight" TRMNLtYPE="trmSpNn" LGcPT="nnSp109Av" SMcPT="mp108.Time.defDayCurrent" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="too" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="too" TRMNLtYPE="trmSpNn" LGcPT="nnSp110Av" SMcPT="mp125.Quantity.idefManyExcess.any" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="too little too late" TRMNLtYPE="slr" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="If you describe a situation as too little too late, you are blaming someone for not doing enough to prevent a problem and for taking action only after the problem had become very bad."/>
+<TRMNL TxEXP="toward" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="two" TRMNLtYPE="" LGcPT="" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="under" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="underneath" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="until" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="up" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="upon" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="us" TRMNLtYPE="trmSpNn" LGcPT="nnSp111Ac2" SMcPT="mp002.PersonA.concrete.plu.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="very" TRMNLtYPE="trmSpNn" LGcPT="nnSp186Av" SMcPT="mp092.Quantity.idefMore" XCPT="Quantity@" TXeXP1_B="" TXeXP1_A="" EXMPL="- His black hair was very short."/>
+<TRMNL TxEXP="was" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="we" TRMNLtYPE="trmSpNn" LGcPT="nnSp112Nm2" SMcPT="mp002.PersonA.concrete.plu.any" XCPT="PersonA@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="were" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="west" TRMNLtYPE="trmSpNn" LGcPT="nnSp140Aj" SMcPT="mp071.Place.defWest" XCPT="Place@" TXeXP1_B="" TXeXP1_A="NN" EXMPL=""/>
+<TRMNL TxEXP="west" TRMNLtYPE="trmSpNn" LGcPT="nnSp140Av" SMcPT="mp071.Place.defWest" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="west" TRMNLtYPE="trmSpNn" LGcPT="nnSp140Nm" SMcPT="mp071.Place.defWest" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="what" TRMNLtYPE="trmSpNn" LGcPT="nnSp113Aj" SMcPT="mp046.HumanNon.ing" XCPT="HumanNon@" TXeXP1_B="-" TXeXP1_A="NN" EXMPL="What flower is this?"/>
+<TRMNL TxEXP="what" TRMNLtYPE="trmSpNn" LGcPT="nnSp113Nm" SMcPT="mp046.HumanNon.ing" XCPT="HumanNon@" TXeXP1_B="-" TXeXP1_A="" EXMPL="What do you want?"/>
+<TRMNL TxEXP="whatever" TRMNLtYPE="trmSpNn" LGcPT="nnSp114Aj" SMcPT="mp100.Entity.idef.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="give me whatever peaches you don't want. [wn 2.0]"/>
+<TRMNL TxEXP="whatever" TRMNLtYPE="trmSpNn" LGcPT="nnSp114Nm" SMcPT="mp100.Entity.idef.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="whatever the flavor or color of your local paper, do remember that these are read avidly for local information. [wn 2.0]"/>
+<TRMNL TxEXP="when" TRMNLtYPE="trmSpNn" LGcPT="nnSp115Nm" SMcPT="mp129.Time.ing" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="where" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="where" TRMNLtYPE="trmSpNn" LGcPT="nnSp116Nm" SMcPT="mp084.Place.ing" XCPT="Place@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="whether" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="whether#or" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="which" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="I saw the car WHICH (he has)."/>
+<TRMNL TxEXP="which" TRMNLtYPE="trmSpNn" LGcPT="nnSp117Aj" SMcPT="mp041.Human.ing" XCPT="Human@" TXeXP1_B="-" TXeXP1_A="" EXMPL="Which woman or man do you most admire?."/>
+<TRMNL TxEXP="which" TRMNLtYPE="trmSpNn" LGcPT="nnSp117Nm" SMcPT="mp041.Human.ing" XCPT="Human@" TXeXP1_B="-" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="which" TRMNLtYPE="trmSpNn" LGcPT="nnSp117Nm" SMcPT="mp102.Entity.anaforic.any" XCPT="Entity@" TXeXP1_B="" TXeXP1_A="" EXMPL="Soldiers opened fire on a car (which failed to stop at an army checkpoint)."/>
+<TRMNL TxEXP="while" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="who" TRMNLtYPE="trmCnj" SMcPT="" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL="[[the man] who (is bying /a book/)] {is} |MY UNCLE|."/>
+<TRMNL TxEXP="who" TRMNLtYPE="trmSpNn" LGcPT="nnSp118Nm" SMcPT="mp041.Human.ing" XCPT="Human@" TXeXP1_B="-" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="whoever" TRMNLtYPE="trmSpNn" LGcPT="nnSp119Nm" SMcPT="mp037.Human.idefAnyOne" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL="whoever is the closer has to turn out the lights and lock up. [wn 2.0]"/>
+<TRMNL TxEXP="whom" TRMNLtYPE="trmSpNn" LGcPT="nnSp120Ac" SMcPT="mp041.Human.ing" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="whomever" TRMNLtYPE="trmSpNn" LGcPT="nnSp121Nm" SMcPT="mp037.Human.idefAnyOne" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="whose" TRMNLtYPE="trmSpNn" LGcPT="nnSp122Ps" SMcPT="mp041.Human.ing" XCPT="Human@" TXeXP1_B="" TXeXP1_A="" EXMPL="[whose bicycle] {is} |this|?"/>
+<TRMNL TxEXP="whose" TRMNLtYPE="trmSpNn" LGcPT="nnSp122Ps" SMcPT="mp042.Human.anaforic" XCPT="Human@" TXeXP1_B="" TXeXP1_A="NN" EXMPL="[whose bicycle] {is} |this|?"/>
+<TRMNL TxEXP="why" TRMNLtYPE="trmSpNn" LGcPT="nnSp123Nm" SMcPT="mp130.Cause.ing" XCPT="Cause@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="will" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="with" TRMNLtYPE="trmCnj" LGcPT="cnj114" SMcPT="att.man.instrument" ARGS="1:Doing@,2:Instrument@" XCPT="Corelaton.Instrument" EXMPL="cover the child with a blanket. [wn 2.0]"/>
+<TRMNL TxEXP="with" TRMNLtYPE="trmCnj" LGcPT="cnj114" SMcPT="attribute" ARGS="1:Entity@,2:Entity@" XCPT="Corelaton.Attribute@" EXMPL="he is a lawyer with a sports background. [wn 2.0]"/>
+<TRMNL TxEXP="within" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="without" TRMNLtYPE="trmCnj" LGcPT="cnj116" SMcPT="att.absence" XCPT="Corelaton.Absence@" EXMPL="#S:The children #V:climbed #O:the mountain #without=absense: fear."/>
+<TRMNL TxEXP="yesterday" TRMNLtYPE="trmSpNn" LGcPT="nnSp124Av" SMcPT="mp109.Time.defDayPrevious" XCPT="Time@" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="yet" TRMNLtYPE="trmCnj" XCPT="" TXeXP1_B="" TXeXP1_A="" EXMPL=""/>
+<TRMNL TxEXP="you" TRMNLtYPE="trmSpNn" LGcPT="nnSp125Ac1" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="V" TXeXP1_A=""/>
+<TRMNL TxEXP="you" TRMNLtYPE="trmSpNn" LGcPT="nnSp125Ac2" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="V" TXeXP1_A=""/>
+<TRMNL TxEXP="you" TRMNLtYPE="trmSpNn" LGcPT="nnSp125Nm1" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A="V" EXMPL="You are a bad boy for repeating what I told you."/>
+<TRMNL TxEXP="you" TRMNLtYPE="trmSpNn" LGcPT="nnSp125Nm2" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A="V" EXMPL="from context we find the number"/>
+<TRMNL TxEXP="you are being trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="you are not being trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="you are not researchers." TRMNLtYPE="trmVrb1" LGcPT="vrb03" XCPT=""/>
+<TRMNL TxEXP="you are not trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="you are not trmVrb4" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="you are researchers." TRMNLtYPE="trmVrb1" LGcPT="vrb01" XCPT=""/>
+<TRMNL TxEXP="you are trmVrb3" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="you are trmVrb4" TRMNLtYPE="auxVrb" LGcPT="vrb0"/>
+<TRMNL TxEXP="your" TRMNLtYPE="trmSpNn" LGcPT="nnSp126Aj1" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A="N"/>
+<TRMNL TxEXP="yours" TRMNLtYPE="trmSpNn" LGcPT="nnSp127Ps1" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="yours" TRMNLtYPE="trmSpNn" LGcPT="nnSp127Ps2" SMcPT="mp007.PersonB.concrete.any.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="yourself" TRMNLtYPE="trmSpNn" LGcPT="nnSp128Ac1" SMcPT="mp010.PersonB.reflexive.sin.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="yourself" TRMNLtYPE="trmSpNn" LGcPT="nnSp128Nm1" SMcPT="mp008.PersonB.intensive.sin.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="yourselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp129Ac2" SMcPT="mp011.PersonB.reflexive.plu.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+<TRMNL TxEXP="yourselves" TRMNLtYPE="trmSpNn" LGcPT="nnSp129Nm2" SMcPT="mp009.PersonB.intensive.plu.any" XCPT="PersonB@" TXeXP1_B="" TXeXP1_A=""/>
+

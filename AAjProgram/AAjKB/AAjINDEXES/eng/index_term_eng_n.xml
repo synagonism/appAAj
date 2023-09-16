@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA #REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.12.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="name" TRMNLtYPE="trmVrb1" XCPT="Naming@hknu.symb-17@" NAME="name"/>
+<TRMNL TxEXP="named" TRMNLtYPE="trmVrb3" XCPT="Naming@hknu.symb-17@" NAME="name"/>
+<TRMNL TxEXP="named" TRMNLtYPE="trmVrb5" XCPT="Naming@hknu.symb-17@" NAME="name"/>
+<TRMNL TxEXP="names" TRMNLtYPE="trmVrb2" XCPT="Naming@hknu.symb-17@" NAME="name"/>
+<TRMNL TxEXP="naming" TRMNLtYPE="trmVrb4" XCPT="Naming@hknu.symb-17@" NAME="name"/>
+<TRMNL TxEXP="non-process or relation" TRMNLtYPE="trmNnCsNm1" XCPT="Thing@hknu.symb-13@" NAME="non-process or relation"/>
+<TRMNL TxEXP="non-processs or relation" TRMNLtYPE="trmNnCsNm2" XCPT="Thing@hknu.symb-13@" NAME="non-process or relation"/>
+<TRMNL TxEXP="number" TRMNLtYPE="trmNnCsNm1" XCPT="Number@hknu.symb-22@" NAME="number"/>
+<TRMNL TxEXP="numbers" TRMNLtYPE="trmNnCsNm2" XCPT="Number@hknu.symb-22@" NAME="number"/>

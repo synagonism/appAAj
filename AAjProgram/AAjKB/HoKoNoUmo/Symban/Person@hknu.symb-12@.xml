@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2001.09.25" CREATED="2001.06.29" AUTHOR="HoKoNoUmo">
+
+<REFINO_NAME LASTmOD="2001.09.25" CREATED="2001.06.29" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2001.06.29" CREATED="2001.06.29" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Person" TRMrULE="rlEngTrmNnCs11" CREATED="2001.06.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Human" TRMrULE="rlEngTrmNnCs11" CREATED="2001.06.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Man" TRMrULE="rlEngTrmNnCs31" CREATED="2001.06.29" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.06.29" CREATED="2001.06.29" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="’νθρωπος" TRMrULE="rlElnTrmNnCs1d2" CREATED="2001.06.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Πρόσωπο" TRMrULE="rlElnTrmNnCs3c3" CREATED="2001.06.29" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_DEFINITION LASTmOD="2001.06.29" AUTHOR="HoKoNoUmo">
+Person is the ANIMAL with the most developed brain.
+</REFINO_DEFINITION>
+</XCONCEPT>

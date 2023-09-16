@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2008.12.16" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2001.07.17" AUTHOR="HoKoNoUmo">
+Calling is the PROCESS with which somebody gives a name to an entity.
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2008.12.16" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2008.12.16" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_Verb TxEXP="Name" TRMrULE="rlEngTrmVrb21" DELETED="none" CREATED="2008.12.13" AUTHOR="HoKoNoUmo"/>
+<Name_Verb TxEXP="Call" TRMrULE="rlEngTrmVrb11" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln CREATED="2008.04.09" AUTHOR="HoKoNoUmo">
+<Name_Verb TxEXP="Ονομάζω" TRMrULE="rlElnTrmVbr811a" CREATED="2008.04.09" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Process@hknu.symb-15@" LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_ATTRIBUTE CREATED="2009.10.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-structure@hknu.symb-8@" GENERICiNHERITOR="Entity's-structure@hknu.symb-8@/Entity@hknu.symb-7@" CREATED="2009.10.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_ATTRIBUTE>
+</XCONCEPT>

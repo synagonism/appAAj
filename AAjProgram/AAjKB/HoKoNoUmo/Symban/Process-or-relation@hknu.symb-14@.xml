@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.09.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2001.07.17" AUTHOR="HoKoNoUmo">
+Relation is the ENTITY which is the specific-complement of the concept THING (the entity we perceive as an independent one, distinct from other entities. For example an apple, a tree, a society, a town etc.)
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.09.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<kml CREATED="2009.09.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Rino" CREATED="2009.09.17" AUTHOR="HoKoNoUmo"/>
+</kml>
+<eng LASTmOD="2008.12.11" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Process or relation" TRMrULE="rlEngTrmNnCs4b1311" CREATED="2008.12.11" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Σχέση" TRMrULE="rlElnTrmNnCs2b1" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_SPECIFIC LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Process@hknu.symb-15@" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Relation@hknu.symb-16@" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_SPECIFIC>
+
+<REFINO_ATTRIBUTE CREATED="2009.10.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-structure@hknu.symb-8@" GENERICiNHERITOR="Entity's-structure@hknu.symb-8@/Entity@hknu.symb-7@" CREATED="2009.10.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_ATTRIBUTE>
+</XCONCEPT>

@@ -1,0 +1,110 @@
+# Editor_en_US.properties
+# LastModified 1999may01
+# author nikkas
+
+Title=Stuctured-Concept-System EDITOR
+ViewportBackingStore=false
+
+# menubar definition
+#
+# Each of the strings that follow form a key to be
+# used to the actual menu definition.
+menubar=file edit integration
+
+# file Menu definition
+#
+# Each of the strings that follow form a key to be
+# used as the basis of a menu item definition.
+#
+# open ->  Editor.openAction
+# new  ->  Editor.newAction
+# save ->  Editor.saveAction
+# exit ->  Editor.exitAction
+file=new open save - exit
+fileLabel=File
+openLabel=Open
+openImage=resources/open.gif
+openAction=open
+newLabel=New
+newImage=resources/new.gif
+newAction=new
+saveLabel=Save
+saveImage=resources/save.gif
+saveAction=save
+exitLabel=Exit
+exitAction=exit
+
+#
+# edit Menu definition
+#
+# cut   -> JTextComponent.cutAction
+# copy  -> JTextComponent.copyAction
+# paste -> JTextComponent.pasteAction
+edit=refresh previous - cut copy paste - undo redo
+editLabel=Edit
+
+refreshLabel=Refresh
+refreshImage=resources/refresh.gif
+refreshAction=refresh
+previousLabel=Previous
+previousImage=resources/back.gif
+previousAction=previous
+cutLabel=Cut
+cutAction=cut-to-clipboard
+cutImage=resources/cut.gif
+copyLabel=Copy
+copyAction=copy-to-clipboard
+copyImage=resources/copy.gif
+pasteLabel=Paste
+pasteAction=paste-from-clipboard
+pasteImage=resources/paste.gif
+undoLabel=Undo
+undoAction=Undo
+undoImage=resources/undo.gif
+redoLabel=Redo
+redoAction=Redo
+redoImage=resources/redo.gif
+
+# integration Menu definition
+#
+# Each of the strings that follow form a key to be
+# used as the basis of a menu item definition.
+#
+integration=total - part whole generic sibling specific environment
+integrationLabel=Integration
+
+totalLabel=Total Integration
+totalAction=total
+partLabel=Part Integration
+partAction=part
+wholeLabel=Whole Integration
+wholeAction=whole
+genericLabel=Generic Integration
+genericAction=generic
+siblingLabel=Sibling Integration
+siblingAction=sibling
+specificLabel=Specific Integration
+specificAction=specific
+environmentLabel=Environment Integration
+environmentAction=environment
+
+
+
+
+# toolbar definition
+#
+# Each of the strings that follow form a key to be
+# used as the basis of the tool definition.  Actions
+# are of course sharable, and in this case are shared
+# with the menu items.
+toolbar=refresh previous - new open save - cut copy paste - undo redo
+refreshTooltip=Refresh the file
+previousTooltip=See previous file
+newTooltip=Create a new file
+openTooltip=Open a file
+saveTooltip=Save to a file
+cutTooltip=Move selection to clipboard
+copyTooltip=Copy selection to clipboard
+pasteTooltip=Paste clipboard to selection
+undoTooltip=Bring back previous editing
+redoTooltip=Do again last undo

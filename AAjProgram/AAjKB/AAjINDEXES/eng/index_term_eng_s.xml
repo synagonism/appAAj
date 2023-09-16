@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.10.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="sensorial concept" TRMNLtYPE="trmNnCsNm1" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="sensorial concept"/>
+<TRMNL TxEXP="sensorial-b-concept" TRMNLtYPE="trmNnCsNm1" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="sensorial-b-concept"/>
+<TRMNL TxEXP="sensorial concepts" TRMNLtYPE="trmNnCsNm2" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="sensorial concept"/>
+<TRMNL TxEXP="sensorial-b-concepts" TRMNLtYPE="trmNnCsNm2" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="sensorial-b-concept"/>
+<TRMNL TxEXP="state" TRMNLtYPE="trmNnCsNm1" XCPT="Relation@hknu.symb-16@" NAME="state"/>
+<TRMNL TxEXP="states" TRMNLtYPE="trmNnCsNm2" XCPT="Relation@hknu.symb-16@" NAME="state"/>
+<TRMNL TxEXP="structured concept" TRMNLtYPE="trmNnCsNm1" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="structured concept"/>
+<TRMNL TxEXP="structured concepts" TRMNLtYPE="trmNnCsNm2" XCPT="Sensorial-b-concept@hknu.it-1@" NAME="structured concept"/>

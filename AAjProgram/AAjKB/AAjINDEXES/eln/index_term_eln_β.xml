@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="βουντέπα" TRMNLtYPE="trmNnCc5" XCPT="SubWorldview_conceptual" NAME="βουντέπο"/>
+<TRMNL TxEXP="βουντέπο" TRMNLtYPE="trmNnCc1" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="βουντέπο"/>
+<TRMNL TxEXP="βουντέπου" TRMNLtYPE="trmNnCc2" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="βουντέπο"/>
+<TRMNL TxEXP="βουντέπων" TRMNLtYPE="trmNnCc6" XCPT="SubWorldview_conceptual@hknu.symb-6@" NAME="βουντέπο"/>
+

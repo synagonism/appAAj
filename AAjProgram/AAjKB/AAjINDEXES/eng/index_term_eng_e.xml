@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.05
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="entities" TRMNLtYPE="trmNnCsNm2" XCPT="Entity@hknu.symb-7@" NAME="entity"/>
+<TRMNL TxEXP="entity" TRMNLtYPE="trmNnCsNm1" XCPT="Entity@hknu.symb-7@" NAME="entity"/>
+<TRMNL TxEXP="entity's attribute" TRMNLtYPE="trmNnCsNm1" XCPT="Attribute@hknu.symb-21@" NAME="entity's attribute"/>
+<TRMNL TxEXP="entity's attribute relation" TRMNLtYPE="trmNnCsNm1" XCPT="Entity's-attribute-relation@hknu.symb-20@" NAME="entity's attribute relation"/>
+<TRMNL TxEXP="entity's attribute relations" TRMNLtYPE="trmNnCsNm2" XCPT="Entity's-attribute-relation@hknu.symb-20@" NAME="entity's attribute relation"/>
+<TRMNL TxEXP="entity's attributes" TRMNLtYPE="trmNnCsNm2" XCPT="Attribute@hknu.symb-21@" NAME="entity's attribute"/>
+<TRMNL TxEXP="entity's partial division" TRMNLtYPE="trmNnCsNm1" XCPT="Entity's-partition@hknu.symb-9@" NAME="entity's partial division"/>
+<TRMNL TxEXP="entity's partial divisions" TRMNLtYPE="trmNnCsNm2" XCPT="Entity's-partition@hknu.symb-9@" NAME="entity's partial division"/>
+<TRMNL TxEXP="entity's partition" TRMNLtYPE="trmNnCsNm1" XCPT="Entity_s_partition@hknu.symb-9@" NAME="entity's partition"/>
+<TRMNL TxEXP="entity's partitions" TRMNLtYPE="trmNnCsNm2" XCPT="Entity_s_partition@hknu.symb-9@" NAME="entity's partition"/>
+<TRMNL TxEXP="entity's structure" TRMNLtYPE="trmNnCsNm1" XCPT="Entity's-structure@hknu.symb-8@.xml" NAME="entity's structure"/>

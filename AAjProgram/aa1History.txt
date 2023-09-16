@@ -1,0 +1,728 @@
+SEARCH_FOR:
+		- ToDo
+		- AAjNotation
+		- AAjBug
+
+
+========================================================================
+VERSION 01.00.00 (-) The published version.
+========================================================================
+
+========================================================================
+VERSION 00.02.03 (2010.06.20-) AddNewAttribute with XmlDefinition.
+========================================================================
+========================================================================
+VERSION 00.02.02 (2010.01.02-2010.06.20) HtmlMgr.
+========================================================================
+00.02.02/2010.06.19: HtmlMgr
+		HtmlMgr is incorporated in AAj.
+		Documentation is written with LocDocs.
+00.02.02/2010.05.03: HtmlMgr
+		I added the Html-Manager which is an independent program, in order
+		to display text.
+00.02.02/2010.04.20: AAjINDEXES
+		I change the name of the directory "TERMINAL" to "AAjINDEXES"
+		because it contains index-files.
+		I also added the semi-word "index_" before the names of these files.
+		I intend to create and index-files of words-to-terms or
+		to use the Lucene library to find a word to which terms belongs.
+
+00.02.02/2010.01.02: b-concept, sbConcept
+		this version begins with b-concept and sbConcept well established
+		in my mind.
+
+========================================================================
+VERSION 00.02.01 (2009.08.08-2010.01.02) shorter versions.
+========================================================================
+00.02.01/2010.01.02: final.
+
+00.02.01/2009.12.25: b-concept
+		I explicitly created this concept, and then "concept" is for me
+		any one of b-concept, sm-concept, lg-concept and sbConcept.
+
+00.02.01/2009.10.25: ToDo
+		On viewer's-toc to add nodes ONLY if the xcpt has these attributes.
+
+00.02.01/2009.09.19: REFINO-ELEMENTS
+		I renamed the attribute-elements of sensorial-concepts
+		FROM "ATTRIBUFINO" to "REFINO_ATTRIBUTE".
+		This way, a sensorial-b-worldview will be constructed only from
+		sensorial-concepts.
+		I could use instead of "REFINO_NAME", "REFINE_PART" ==>
+		<XCPT FRnAME="name-relation@..."
+		<XCPT FRnAME="part-relation@...".
+		I use some special-elements in order to make more easy the processing.
+		Also every <REFINO> element will include its arguments, other
+		sensorial-concepts.
+00.02.01/2009.09.17: ToDo
+		If "TRMrULE" is empty when we insert a name,
+		THEN we don't write this attribute.
+
+00.02.01/2009.09.09: ENTITY-RELATION
+		I added this attribute on a sensorial-concept.
+
+00.02.01/2009.09.06: REFINO_SPECIFICcOMPLEMENT
+		- I added support for parsing this element in Parser_XCpt.java file.
+		- ToDo: counting on these attributes AND display on what attribute
+		these are specific-complements.
+
+00.02.01/2009.08.29:
+		I'll write in this file all notes:
+		- history
+		- ToDo
+		- AAjNotation
+		- AAjBug
+
+00.02.01/2009.08.29: ToDo
+		The english-name to be the file's name.
+
+00.02.01/2009.08.20:
+		I wrote the difference of "definition" and "concept-creation"
+		in AAjSite.
+
+00.02.01/2009.08.17: AAjNotation
+		I began to use the JAVA-notation:
+		* xxx_Yyy 	  ==> a specific of xxx
+		* xxx_sYyy  ===> an attribute of xxx
+		* xxxXxxXxx ==> an expression.
+
+00.02.01/2009.08.10:
+		I added the "backup" history on this file.
+
+========================================================================
+VERSION 00.02.00 (2000.11.09-2009.08.05) NaturalLanguage-VERSION
+========================================================================
+2009.08.05: on integrated-label
+		I added the "language" on which we see the concept.
+		* I have a backup.
+
+2009.01.25: Definefino To Text.
+		I have created the first mapping of
+		<ANALYTIC_PART_MIDDLE CREATED="2008.04.18" AUTHOR="HoKoNoUmo">
+		<DEFINITION_ENG LASTMOD="2004.03.23" CREATED="2001.09.30" AUTHOR="HoKoNoUmo">
+		Concept is every tree network node of a conceptual-subWorldview.
+		</DEFINITION_ENG>
+		<Name_NounCase LNG="eng" TxEXP="Concept" TRMRULE="rlEngTrmNnCs11"/>
+		<SOURCE FrmlNAME="SubWorldview_conceptual@hknu.symb-6"/>
+		<PRODUCT>
+		<XCPT LABEL="b1" FrmlNAME="Tree-network_s_node@hknu.symb-11"/>
+		<XCPT LABEL="b2" FrmlNAME="Number_every@hknu.symb-22#1"/>
+		<XCPT LABEL="b3" FrmlNAME="Quantiteino@hknu.symb-23" ARGS="b1,b2"/>
+		</PRODUCT>
+		</ANALYTIC_PART_MIDDLE>
+		To english text:
+		analytic-part-middle: Concept is every tree network's node of a Conceptual sub-worldview.
+
+2008.10.05: I have a backup.
+
+2008.05.11: I have a backup.
+
+2007.07.08: I have a backup.
+
+2006.12.22: I have a backup.
+
+2006.12.02: I have a backup.
+
+2006.11.21: Komunolingvo Yordero Management.
+		* Create Komuno Yorderos and validates them.
+		A logetro file contains the rules.
+
+2006.02.12: I have a backup.
+
+2006.02.08: I have a backup.
+
+2006.02.04: index-files.
+		* I no more use the desgs.bm.lang.xml files.  I get the nonimeros, programmatically, from the akpt-files and the rule I have in dezigneitos.
+		* Also I created the "index-files" which hold alphabetically all the nonimeros and the rest dezigneitos of all akpt-files.
+
+2006.01.10: I have a backup.
+
+2005.09.22: I have a backup.
+
+2004.11.22: I have a backup. EnToEl. Problem VerberEl
+
+2004.11.21: English to Greek TEXT
+		I 've done my first translation of an example fraser:
+		- Concept is called every hierarchy-node of a concept-model.
+		to
+		- έννοια ονομάζεται κάθε κόμβος από ένα εννοιακο-μοντέλο.
+
+2004.11.01: I have a backup.	TextToMeaning
+
+2004.10.31: TextToMeaning
+		I managed to get the meaning of the first fraser:
+		"Concept is called any hierarchy-node of a concept-model".
+		Unfortunatly the code is very limitted for the concepts
+		in the above fraser.
+		* I have a backup of the THEORY.
+
+2004.08.14: I have a backup.
+
+2004.06.29: I have a backup. jparser.
+
+2004.06:
+		I hacked the NanoXML-2.2.3 parser of Marc De Scheemaecker,
+		to write my own xml-scsm parser.
+
+2004.04.15: I have a backup.
+
+2003.11.20: I have a backup.
+
+2003.11.18: I have a backup.
+
+2003.11.07: I have a backup. THEORY ONLY.
+
+2002.01.06: I have a backup.
+
+2001.12.31: I have a backup.
+
+2001.09.13: ci to logos
+		My first generation of the frasis:
+		"Concept is called any unit of conceptual information."
+
+2001.06.17: I have a backup.
+
+2001.03.11: REL XML-ELEMENTS
+		I'll begin to use rel element in an xml-sc-file.
+		This was the important feature my jSBCS was missing in relation to my SBCSfv301.
+
+2001.03.06: 'CONCEPT-BASE'
+		I renamed the 'KNOWLEDGE_BASE' to 'CONCEPT-BASE', because the new name describes better
+		the entity.  We have systems of concepts (not knowledge) in a part-whole-hierarchy.
+
+2001.03.05: SYNONYM-ELEMENTS:
+		I added the <INCOMPLETENAME> element.
+
+2001.03.04: SYNONYM-ELEMENTS:
+		I change the 'data' attribute to 'logos'.
+		Also I deleted the 'name' element and I assume that 'noun' is
+		the name.
+
+2000.11.09: version 00.02.00 (00.01.10) begins.
+		The goal is my system to become NATURAL-LANGUAGE aware.
+		I think that I have solved the problem theoritically.
+		My program will test my theory (conceptual-grammar).
+
+
+==========================================================================
+VERSION 00.01.09 (2000feb21-2000nov08) No saxon
+==========================================================================
+I have a backup.
+
+2000nov07:
+		I removed SAXON. I wrote my code to display an xml file.
+
+2000apr22: I have a backup.
+
+EDITOR
+		I could remove the parser, for speed.
+		Having the viewer open, I'll know the positions of cpts.
+		Usually the use of editor is for minor modifications AND to check if
+		something is wrong with the code.
+		[goal:2000feb20]
+
+FUNCTION: ADD-NEW-GENERIC
+		EDITOR/VIEWER: generic creation:
+		The system must have the ability to create a generic-cpt from a concrete.
+		eg. we have created the concept uoi-department, then the system must have the ability
+		to create the concept 'university department'.
+		[goal:1999mar16]
+
+FUNCTION: ASK jSBCS
+		ASKING QUESTIONS
+		* "Is ....A.... a .....B....?" (=is B generic of A?)
+		eg: "is EVEREST a MOUNTAIN?"
+		* "Is ....A.... part of ...B...?" (=is B whole of A?)
+		eg "is ATHENS part of GREECE?"
+		[goal:2000mar03]
+
+FUNCTION: ATTRIBUTE GENERICIZE/OVERRIDE
+		att functions
+		* override an inherited att: create an internal/file cpt, att to current with
+		gen the inheriting (generic) att.
+		* generalize a not-inherited-att of current: create a new file as att to gen,
+		make the not-inh, inherited-overridden and sub to new.
+		[goal:2000mar18]
+
+FUNCTION: BACK
+		To make 2 'back' functions.
+		One to go directly to previous cpt.
+		The other to show a list with all previous cpts to choose.
+		[2000apr28] - done:2000.05.28
+		FUNCTION: HISTORY
+		history
+		Instead of 'back', to pop a dialog with the previous cpts to choose.
+		[goal:2000mar16]
+
+FUNCTION: CPT INFO
+		cpt stat To become cpt-info.
+		add cpt fln, frn, id, int.
+		add question if we want to see ALL subs, gens, whol, att, sibs,
+		[goal:2000mar06]
+		function concept-information
+		add creation, lastmodified information
+		[goal:2000apr06]
+
+FUNCTION: FIND-BY-NAME
+		SEARCHING:
+		We can have the synonyms of a knowledge-base in one file.  This way we can
+		quickly find a concept.  We can have the program to take care of these files
+		automatically.
+		ALSO
+		Having a file with synonyms we can find by cptID the created concepts. 2000feb16
+		[goal:2000jan24]
+
+FUNCTION: FIND-BY-RELATED
+		RELATED-SEARCHING:
+		* Find ...A... if A is a ...B... (=search the specifics of B)
+		* Find ...A... if A is part of ...B... (=search the attributes of B)
+		[goal:2000mar03]
+
+FUNCTION: PRESENTATION
+		INHERITED ATTRIBUTES
+		To show in the tree FROM which concept they are inherited.
+		[goal:2000apr12]
+
+		PRESENTATION
+		To show in 'environment concepts' the relations with other objects AND
+		the objects in every relation.
+		[goal:2000apr23]
+
+FUNCTION: SET LAST NAMES in the cpt we are reading
+		If there are old names in cptext/cptint/division, The system replace them with new.
+		[goal:] - done:2000.05.29
+
+FUNCTION:		VIEW-ALL LEVELS
+		To create a frame with all the relations of a concept, per level.
+		[goal:2000apr19] - done:2000.06.09
+
+ID NUMBERS OF CPTS
+		In order to decrease the numbers I'm using in the system, I will NOT give NEW
+		numbers to 'internal-cpts', BUT to name every file-cpt's internal in relation to host.
+		eg: 23#1, 23#2, 23#3 are the first, second, third internal of host 23.
+		[goal:2000apr23]
+
+INTERNAL CPTS:
+		EDITOR/VIEWER:
+		what to do with inherited cptinl?
+		[goal:1999apr10]
+
+VIEWER:
+		pure sun java, no SAXON:
+		I wrote my own code to display xml-files.
+		[goal:2000jan02] - done:2000nov08
+
+		VIEWER MENU:
+		Navigate (history,refresh,exit)
+		Store
+		Retrieve (cpt info,open,lang...)
+		Help
+		[goal:2000mar19]
+
+==========================================================================
+VERSION 00.01.08 (1999apr25-2000feb21) Internal-Cpt kb'names
+==========================================================================
+I hava a backup.
+
+2000feb18: kb'names.xml
+		Now the system automatically holds in ONE separate file all the names/synonyms
+		of all concepts (internal or file).  From this I can see what concepts I have by id.
+		This also will speed up searching for a name.
+
+2000feb17: del concept
+		I added this function for internal or file cpts.
+
+2000feb12: viewer - internal cpts.
+		Now my system displays internal-cpts as file-cpts.
+
+2000feb09: viewer - attributes.
+		I added the generic-cpts near the name of attributes to see the inherited ones.
+
+2000feb08: fixed bug.
+		2000jan31: synonyms
+		inseting/deleting synonyms doesn't works when there are not exist already synonyms.
+
+		1999feb23: EDITOR/VIEWER: INPUT-DIALOG:
+		when creating new concepts, I must use the viewer-frame
+		in order to search for concepts I need.
+
+2000feb06: EXTERNAL-INTERNAL concepts:
+		I renamed the cptref to cptext and
+		cptinl to cptint.
+		A concept can be internal if:
+		- there is not reference to this cpt by another one except current.
+		- this cpt is simple and a 'definition' is enough to express this concept.
+		HOST-CPT I'll call a cpt that have internals.
+
+2000jan25: find the selected-text.
+		I've added the 'find the selected concept' command and toolbar-icon.
+
+2000jan24: concept multilingual support.
+		For every language I have added a directory with all the concepts with
+		the text tranlated in every language.
+		The best solution is to hold one concept in enlish language and have software
+		to translate the text online in an other language.
+
+2000jan23: VIEWER
+		I've added a mouselistener on viewer's-textPane which on double-clicking opens the
+		search-synonyms-window with the appropriate setting.
+
+1999may28: VIEWER - lang
+		On greek lang 'sibling concepts' does NOT work.
+		[goal:1999may28]
+
+		VIEWER: FIND:
+		I added the view-all-specifics tree.
+
+1999apr30: VIEWER: config:
+		Add concept statistics.
+		[goal:1999apr28]
+
+1999apr28: VIEWER:
+		When clicking on tree on a cpt-attribute, TO see on text area the corresponding
+		definition.
+		[goal:1999feb24]
+
+1999apr27: VIEWER: SIBLING:
+		To display the common 'generic' of siblings.
+		[goal:1999apr16]
+
+1999apr25: VIEWER: rename current-cpt:
+		Old formal file-name is: it_xxx'yyy.xml
+		Old normal concept name is: xxx yyy
+		INPUT formal file-name:
+		[goal:1999mar01]
+
+1999apr22: SC FILE-NAME:
+		* I replaced '_' with '@', in order to have spaces in normal-name, by the
+		function which created the normal-name from the formal-name.
+
+1999apr18: EDITOR: sibling integration.
+   * ADD
+   * IF cpt-x has as sibling cpt-y
+   * THEN cpt-y has as sibling cpt-x.
+
+	 IF cpt-x has as sibling cpt-y in relation to generic cpt-w
+	 AND cpt-y has as sibling cpt-z in relation to generic cpt-w
+	 THEN cpt-x has as sibling cpt-z.
+	 [goal:1999mar13]
+
+1999apr13: VIEWER: ATTRIBUTES.
+		It's useful to devide the attributes to inherited and notinherited.  First
+		I will display the notinherited ones because these are that distiguish the new
+		concept from its generic.
+		[goal:1999mar17]
+
+1999apr13: VIEWER: DIMENSION
+		ATTRIB become 'ATT=HardDisk'Romovable_it-8' and from this file we will extract
+		the real name of the attribute.
+		[goal:1999apr02]
+
+1999apr12: SC: CONCEPTS'ID
+		Take full shape: "HardDisk_it-1.xml".
+		** It will be similar to cptref/cptinl
+		1999apr13: we will have the concept's formal-name inside the file.
+
+1999apr10: START:
+		Put a progresbar on starting.
+		[goal:1999mar21]
+		I added a frame
+
+		VIEWER: Add new KB command.
+		added.
+
+1999feb24: EDITOR/VIEWER: edit menu:
+		ADD command to add EXISTING/NOT-NEW att/who/gen/sib/sub/env.
+		ADD command to add synonyms.
+
+1999feb21:	VIEWER:
+		I've updated the saxon library.
+		STRUCTURED-CONCEPT:
+		I've added 'cptinl' xml element.
+		[goal:1999apr06]
+		It's NOT useful to have a file for every attribute-cpt.
+		Some (small) of them must be in the whole's cpt file.
+
+1999apr06: 	VIEWER:
+		First I'll write EH on one writer
+		Then I'll use different writer to put style on output.
+		[goal:1999jan07]
+
+1999mar31: EDITOR: save
+		Save a concepts in the directory of its knowledge-base.
+		[goal:1999mar29]
+
+1999mar29: CONCEPTS ID: Many Knowledge bases.
+		MUST have many ids: philosophy, economy, it, earth, people, source, ...
+		(phil-1_Relation.xml, economy-1_GNP.xml, it-1_computer.xml, ...)
+		ADD anyone can create his own one.
+		[goal:1999feb28]
+
+1999mar29: EDITOR:
+		catch the exceptions, when a part of a concept is missing (eg whole).
+		[goal:1999mar25]
+
+==========================================================================
+VERSION 00.01.07 (1999mar14-1999mar25)	Many-KB One-line-Xml-Att
+																			New-Formal-Name Inline-XConcepts
+==========================================================================
+I have a backup.
+
+1999mar: VIEWER/EDITOR: Create a fifo entity for empty cpt-id.
+		[goal:1999feb21]
+
+==========================================================================
+VERSION 00.01.06 (1999feb21-1999mar14) Search
+==========================================================================
+I have a backup.
+
+1999mar14: SEARCH:
+		I added a search facility, that can do INTELLIGENT search:  It can search
+		related concepts. eg the parts of an entity, the entities of the same kind.
+		Also it can search ALL the names/synonyms for a word/part of a word/a name.
+
+1999mar06: VIEWER: config menu.
+		Language submenu added.
+
+1999feb28: BUG: EDITOR: environment integration
+		IF the concept is a relation, the env-objects must contain it in its env.
+		[goal:1999feb27]
+
+1999feb28: VIEWER: specific's name.
+		Now I'm displaying on tree its normal-name and not the formal-one (xxx.yyy)
+
+1999feb28: EDITOR: generic integration.
+		ADD
+		IF cpt-x has as GENERIC cpt-y
+		THEN cpt-y has as SUBGENERIC cpt-x.
+		[goal:1999feb28]
+
+1999feb28: BUG: EDITOR: exception
+		When an ATTRIBUTE has null as 'generic';
+		[goal:1999feb27]
+
+1999feb24: VIEWER/EDITOR: when i'm going to editor from the viewer,
+		CHECK if already there is an editorFrame and don't create a new one.
+		[goal:1999feb23]
+
+1999feb24: EDITOR: total integration.
+		IF total integration passed, THEN automatically the xml-attribute
+		'integrated' must be 'yes'.
+		[goal:1999feb23]
+
+1999feb24: EDITOR: Add Environment-Integration of current-cpt.
+		IF cpt-x has as ENVIRONMENT-cpt cpt-y with 'object' cpt-z.
+		THEN cpt-z has as environment, cpt-y.
+		AND cpt-x and cpt-z are environment-cpts of cpt-y.
+		[goal:1999feb22]
+
+1999feb23: VIEWER: editmenu: add new concept (with the lastid).
+		* IF I want to create an xmlfile with not the lastid, I have an empty xmlfile
+		[goal:1999feb22]
+
+1999feb23: EDITOR: specific integration
+	 * IF cpt-x has as SUBGENERIC cpt-y
+   * THEN cpt-y has as GENERIC cpt-x
+   * [nikos, 1999feb22]
+
+1999feb23: SUBGENERIC INTEGRATION: there was a bug. choosing 'not fixing'
+		the program added existing concept.
+		Parenthesis was missing for if !contains.
+
+1999feb22: EDITOR: on tree put the id for conref
+		[goal:1999feb22]
+
+1999feb22: VIEWER: Make sub/conref EHandler.
+		[goal:1999feb22]
+
+1999feb22: add specific/environment new concepts.
+		* fix specific integration.
+		[goal:1999feb22]
+
+==========================================================================
+VERSION 00.01.05 (1999feb16-1999feb21) Add Attribute Concept
+==========================================================================
+I have a backup.
+
+1999feb21: Editor: expand the concept node.
+		Also I removed the icons of the viewer-tree.
+		[goal:1999feb21]
+
+1999feb21: The program now can add a new attribute-cpt, gives new id,
+		creates new file.
+
+1999feb20: Config menu with author/lastcptid added.
+		I've changed the labels/menus bundles from ListResourceBundle to properties.
+
+1999feb19: bundls became properties files on 'resources' directory.
+		* I added the cptid on 'integrated' label.
+		* The search field now search for a FILE (id or name).
+
+1999feb17: When inserting in a concept I must make the integrated='no'
+		[goal:1999feb16]
+
+1999feb17: On tree, double clik must not be working on synonyms/definition...
+		[goal:1999jan07]
+
+1999feb17: Viewer: Double-clik on a node with no corespoding xml-file throws an
+		exception.
+		[goal:1999feb01]
+
+==========================================================================
+VERSION 00.01.04 (1999feb10-1999feb16) Fix Integration Errors
+==========================================================================
+I have a backup.
+
+1999feb16: I can have 'INTEGRATED' attributes in element 'CONCEPT'.
+		That way, when someone read a concept will know if this concept
+		is an integrated one or not.
+		[goal:1999feb09]
+
+1999feb16: Put DIALOGS on integration-messages and IF something is goning wrong
+		The computer to fix it.
+		[goal:1999feb10]
+
+1999feb13: The program can FIX part-integration now. It put whole-cpt where they needed
+		in ascending order.
+
+
+1999feb12: Save Configuration information as author-name, lastcptid etc
+		[goal:1999feb10]
+
+1999feb12: Editor ask to save the file if it has changed.
+		[goal:1999jan18]
+
+==========================================================================
+VERSION 00.01.03 (1999feb09-1999feb10) Sib-Sub Integration
+==========================================================================
+I have a backup.
+
+1999feb10: Write code for the generic-specific integration.
+		[1999feb07]
+
+1999feb10: Put messages on statusbar when I'm clicking on menuitems.
+		[1999feb09]
+
+==========================================================================
+VERSION 00.01.02 (1999feb07-1999feb09) General Integration
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.01.01 (1999jan31-1999feb07) Whole-Part Integration
+==========================================================================
+I have a backup.
+
+1999feb01: Put an 'INTEGRATION' menu on editor.
+		From there I'll integrate (make a consistent whole)
+		the editing-sc with the sc-knowledge-base.
+
+==========================================================================
+VERSION 00.00.17 (1999jan17-1999jan31) Editor-xt
+==========================================================================
+I have a backup.
+
+1999jan31: make SOURCE-EDITOR with grove like notepad-elements
+		[1999jan16]
+
+1999jan17: I have a backup.
+
+==========================================================================
+VERSION 00.00.16 (1999jan03-1999jan17) Sax-ConRef-Editor
+==========================================================================
+I have a backup.
+
+1999jan16: Put save on file menu
+		1999jan16: put name of working-file on frame title
+
+1999jan15: add previous button
+		[goal:1999jan14]
+		1999jan15: IF we open files with filters on ID,
+		THEN we can change the name of a concept to the last updated.
+
+** make mouse listener on tree in order double-clik opens a new concept
+
+1999jan13: FIX open/new/lang commands
+
+
+** To integrate the saxon in order to change easily parsers/dom
+
+** I'm gonna use 'conref' and I'll try the program to read the
+		definition/name from these concept's xml-file.
+
+==========================================================================
+VERSION 00.00.15 (1999jan01-1999jan03) Help
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.14 (1998jan09-1999jan01) JDK1.2 update
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.13 (1998jan04-1998jan09) XML-ZLF parent3
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.12 (1997dec30-1998jan04) MSXML
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.11 (1997dec28-1997dec30) TextPane-MouseListener
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.10 (1997dec27-1997dec28) Open-Search
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.09 (1997dec21-1997dec27) ToolBar
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.08 (1997dec14-1997dec21) XML-ZLFREAD
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.07 (1997dec13-1997dec14) Tree
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.06 (1997dec12-1997dec13) Global
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.05 (1997jun08-1997dec12) Applet
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.04 (1997may25-1997jun08) Bean
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.03 (1997may24-1997may25) AboutCommand
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.02 (1997may12-1997may24) ClassViewer
+==========================================================================
+I have a backup.
+
+==========================================================================
+VERSION 00.00.01 (1997may12) The Beginning
+==========================================================================
+I have a backup.
+
+file: G:\file1\AAjWorking\AAjProgram\aa1History.txt

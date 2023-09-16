@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION CREATED="2009.11.02" AUTHOR="HoKoNoUmo">
+<DEFINITION_GENERIC CREATION="y" CREATED="2009.11.02" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Relation" TRMrULE="rlEngTrmNnCs22"/>
+<RELATION FRnAME="refino_generic">
+<XCPT FRnAME="Entity's-attribute-relation@hknu.symb-20@"/>
+<XCPT FRnAME="Entity's-non-attribute-relation@hknu.symb-19@"/>
+</RELATION>
+<Description_eng CREATED="2009.11.02" AUTHOR="HoKoNoUmo">
+RELATION is any entity's-attribute or entity's-nonattribute relation.
+</Description_eng>
+</DEFINITION_GENERIC>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2008.10.10" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Relation" TRMrULE="rlEngTrmNnCs11" CREATED="2004.03.30" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Relateino" TRMrULE="rlEngTrmNnCs11" LASTmOD="2004.03.30" CREATED="2004.03.30" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Corelaton" TRMrULE="rlEngTrmNnCs11" LASTmOD="2004.03.30" DELETED="2008.10.10" CREATED="2004.03.30" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="State" TRMrULE="rlEngTrmNnCs11" LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Σχέση" TRMrULE="rlElnTrmNnCs2b1" CREATED="2009.11.03" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Κατάσταση" TRMrULE="rlElnTrmNnCs2b1" LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Process-or-relation@hknu.symb-14@" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_SPECIFIC LASTmOD="2009.11.02" CREATED="2006.10.22" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-attribute-relation@hknu.symb-20@" CREATED="2006.10.22" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Entity's-non-attribute-relation@hknu.symb-19@" CREATED="2009.11.02" AUTHOR="HoKoNoUmo"/>
+</REFINO_SPECIFIC>
+
+<REFINO_ARGUMENT CREATED="2010.01.21" AUTHOR="HoKoNoUmo">
+<REFINO FRnAME="Argument-relation@hknu.symb-1@" CREATED="2010.01.21" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Argument-of-relation@hknu.symb-1@" CREATED="2010.01.21" AUTHOR="HoKoNoUmo"/>
+</REFINO>
+</REFINO_ARGUMENT>
+</XCONCEPT>

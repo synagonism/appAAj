@@ -1,0 +1,533 @@
+//  LastModified: 2010.06.19
+//  1) Stores the root WORDS of komo.
+//  and if a WORD is AND semiword or suffix.
+//  2) Stores the SEMIWORDS of komo. 2010.06.19
+
+kml'word.a:
+* CONJUNCTION RELATION;
+* SEMIWORD; LETTER a.
+* SUFFIX; CONJUNCTION.
+- first person, deanero.
+kml'word.abo =
+kml'word.aco =
+kml'word.ado =
+kml'word.afo =
+kml'word.ago =
+kml'word.aho =
+kml'word.ajo =
+kml'word.ako =
+kml'word.alo:
+* any argument of dalo (= relation or process)
+kml'word.amo:
+* NOT_MALE_FEMALE; [2010.06.19][2008.08.19] [2008.09.10] [2010.06.18]
+kml'word.ani:
+* SEMIWORD; Present of verb. ruani, rutani, rufani, reani.
+kml'word.ano:
+* SEMIWORD; TIME-PRESENT. eno, uno
+kml'word.ao:
+* FIRST_PERSON; [2008.08.19]. io, oo
+kml'word.apo =
+kml'word.aqo =
+kml'word.arbo:
+* TREE; 2006.11.24
+kml'word.aro =
+kml'word.aso =
+kml'word.ato =
+kml'word.avo =
+kml'word.awo =
+kml'word.ayo =
+kml'word.azo =
+////////////////////////////////////////////////////////////
+kml'word.ba:
+- individero passive. 2008.08.14
+kml'word.bao =
+kml'word.be =
+kml'word.beo:
+- female [2008.08.18]
+kml'word.bi =
+kml'word.bio:
+* LIFE-FORM; [2010.06.18] bio_uo=non_life_form
+- semiword "all". [2010.06.17]
+kml'word.blo =
+kml'word.bno =
+kml'word.bo:
+* SEMIWORD; LETTER b.
+* SEMIWORD; NUMBER|QUANTITY all.
+- specific 2008.08.16, symban (from bio=all). 2008.08.14,
+- the most-whole 2008.08.16,
+kml'word.boo =
+kml'word.bro =
+kml'word.bu =
+kml'word.buo =
+///////////////////////////////////////////////////////////////
+kml'word.ca =
+kml'word.cao =
+kml'word.ce =
+kml'word.ceo =
+kml'word.ci =
+kml'word.cio:
+* SEMIWORD; INTERROGATION;
+kml'word.co:
+* GENERIC; 2008.09.18. jo=specific
+* SEMIWORD; LETTER c.
+* SEMIWORD; NUMBER 5.
+kml'word.coo =
+kml'word.cu =
+kml'word.cuo =
+///////////////////////////////////////////////////////////
+kml'word.da:
+- negation of verb.
+kml'word.dao:
+* SPACE; 2008.08.17. tao=time. deo=place. duo=distance. doo=surface, dio=volume.
+kml'word.de:
+- the most general deanero (from de-ano).
+kml'word.deo:
+* SPACE-POINT-PLACE; 2008.08.17,
+kml'word.di =
+kml'word.dio:
+* VOLUME;
+- semi vague
+kml'word.do:
+* PART; to=whole
+* SEMIWORD; LETTER d.
+- part 2008.08.16, IF "to" is the second person, THEN "do" must be the third. [hknu_2008.07.25_HokoYono] negation,
+- conflicts with deino [2008.08.17]
+kml'word.doo:
+* SURFACE; 2008.08.17,
+kml'word.du =
+kml'word.duo:
+* SPACE-INTERVAL-DISTANCE; 2008.08.17,
+//////////////////////////////////////////////////////////////
+kml'word.e:
+* SEMIWORD; LETTER e.
+- entity as specific attribute of another.
+- first person, relativero, singular.
+kml'word.ebo =
+kml'word.eco =
+kml'word.edo:
+* affirmation 2008.06.25.
+kml'word.efo =
+kml'word.ego =
+kml'word.eho =
+kml'word.ejo =
+kml'word.eko =
+kml'word.elo:
+* the "object" argument
+kml'word.emo:
+* FEMALE; [2010.06.19]
+kml'word.eno:
+* SEMIWORD; TIME_PAST;
+kml'word.eo:
+* ATTRIBURE [2008.08.19]
+- third_person [2008.08.18]
+kml'word.epo:
+- SUFIKSERO, kogn-epo.
+kml'word.eqo =
+kml'word.ero:
+- RESERVERD, "koncero"
+kml'word.eso =
+kml'word.eto:
+- RESERVERD-SUFIKSERO, "kogn-eto"
+kml'word.evo =
+kml'word.ewo =
+kml'word.eyo =
+kml'word.ezo =
+///////////////////////////////////////////////////////////////
+kml'word.fa =
+kml'word.fao =
+kml'word.fe =
+kml'word.feo =
+kml'word.fi =
+kml'word.fio:
+* SEMIWORD; QUANTITY-FEW;
+kml'word.fo:
+* INFO; [2010.06.17]. vo=referent.
+* SEMIWORD; LETTER f.
+* SEMIWORD; NUMBER 1.
+- info [2008.09.13], [2010.06.16].
+- semiword, kuo_fo (= one), diktero_fo (= letter f),
+kml'word.foo =
+kml'word.fu =
+kml'word.fuo =
+///////////////////////////////////////////////////////////////
+kml'word.ga =
+kml'word.gao =
+kml'word.ge =
+kml'word.geo =
+kml'word.gi =
+kml'word.gio:
+* random_quantity, any-number,
+kml'word.go:
+- not_quantance 2008.11.26,
+kml'word.goo =
+kml'word.gu =
+kml'word.guo =
+///////////////////////////////////////////////////////////////
+kml'word.ha =
+kml'word.hao =
+kml'word.he =
+kml'word.heo =
+kml'word.hi =
+kml'word.hio:
+* SEMIWORD; DISTANCE-NEAR;
+kml'word.ho:
+* HUMAN; [2008.08.21]
+* SEMIWORD; LETTER h.
+* SEMIWORD; NUMBER 7.
+kml'word.hoo =
+kml'word.hu =
+kml'word.huo =
+kml'word.i:
+* SEMIWORD; LETTER i.
+* SUFFIX.verb.
+-  first person, plural.
+kml'word.ibo =
+kml'word.ico =
+kml'word.ido =
+kml'word.ifo =
+kml'word.igo =
+kml'word.iho =
+kml'word.ijo =
+kml'word.iko =
+kml'word.ilo:
+* the second "object"
+kml'word.imo:
+- female [2008.08.19] [2008.09.10]
+kml'word.info:
+- information [2010.06.16] [2010.06.17]
+kml'word.ino:
+* present
+kml'word.io  :
+* SECOND_PERSON [2008.08.18]
+kml'word.ipo =
+kml'word.iqo =
+kml'word.iro =
+kml'word.iso =
+kml'word.ito =
+kml'word.ivo =
+kml'word.iwo =
+kml'word.iyo =
+kml'word.izo =
+///////////////////////////////////////////////////////////////
+kml'word.ja =
+kml'word.jao =
+kml'word.je =
+kml'word.jeo =
+kml'word.ji =
+kml'word.jio =
+kml'word.jo:
+* individual 2008.11.25, specific 2008.09.18
+kml'word.joo =
+kml'word.ju =
+kml'word.juo =
+///////////////////////////////////////////////////////////////
+kml'word.ka =
+kml'word.kao:
+* QUANTITY; 2008.11.26, kuo=number, keo=unit.
+kml'word.ke:
+- addition,
+kml'word.koro:
+* COLOR;
+kml'word.keo:
+* UNIT_OF_MEASURMENT; 2008.11.26,
+kml'word.ki =
+kml'word.kio:
+* SEMIWORD; QUANTITY-RANDOM-ONE;
+- point_quantance 2008.11.26, random-number, quantance,
+kml'word.ko:
+* SEMIWORD; LETTER k.
+* SEMIWORD; NUMBER 6.
+- quantance 2008.11.26, quantity 2008.08.16, keano, kuano,
+kml'word.koo:
+* interval_quantance 2008.11.26,
+kml'word.ku =
+kml'word.kuo:
+* NUMBER; 2008.11.26.
+//////////////////////////////////////////////////////////////////
+kml'word.la =
+kml'word.lako:
+* LAKE;
+kml'word.lango:
+* LANGUAGE
+- lang-ufino, lang-ero, lang-eto,
+kml'word.lao =
+kml'word.le =
+kml'word.leo =
+kml'word.li=
+kml'word.lio =
+kml'word.lo:
+* SEMIWORD; LETTER l.
+- the third person.
+kml'word.logo:
+* SCIENCE;
+kml'word.loo =
+kml'word.lu =
+kml'word.lua =
+kml'word.lue =
+kml'word.lui =
+kml'word.luo:
+* LIGHT; luoUo=dark.
+- place,
+//////////////////////////////////////////////////////////
+kml'word.ma =
+kml'word.mao:
+* THOUSANDTH; [2010.06.18]
+kml'word.maro:
+* SEA;
+kml'word.maso:
+* MACHINE;
+kml'word.me =
+kml'word.meo =
+kml'word.mi =
+kml'word.mio =
+kml'word.mo:
+* MATERIAL_ENTITY [2008.08.30],
+* SEMIWORD; LETTER m.
+* SEMIWORD; NUMBER 8.
+- second_person 2008.08.16,
+kml'word.monto:
+* MOUNTAIN;
+kml'word.moo =
+kml'word.mu =
+kml'word.muo =
+/////////////////////////////////////////////////////////////
+kml'word.na =
+kml'word.nao:
+* brain [2008.09.10]
+kml'word.ne =
+kml'word.neo =
+kml'word.ni =
+kml'word.nio =
+kml'word.no:
+* IMMATERIAL_ENTITY [2008.08.30],
+- third_person 2008.08.16,
+kml'word.noo:
+* brain [2008.09.10]
+kml'word.nu =
+kml'word.nuo:
+* PRODUCT_OF_BRAIN; [2008.09.10]
+//////////////////////////////////////////////////////////////
+kml'word.o:
+* SEMIWORD; LETTER o.
+* entity [2008.08.19]
+* sufix noun.
+-  first person [hknu_2008.06.28_HokoYono]
+kml'word.obo =
+kml'word.oco =
+kml'word.odo =
+kml'word.ofo =
+kml'word.ogo =
+kml'word.oho =
+kml'word.ojo =
+kml'word.oko =
+kml'word.olo:
+* the "who"
+kml'word.omo:
+- male [2008.08.19] [2008.09.10]
+kml'word.ono:
+* future
+kml'word.oo:
+* THIRD_PERSON; [2008.08.18]
+kml'word.opo =
+kml'word.oqo =
+kml'word.ordo:
+* ORDER;
+kml'word.oro =
+kml'word.oso =
+kml'word.oto =
+kml'word.ovo =
+kml'word.owo =
+kml'word.oyo =
+kml'word.ozo =
+//////////////////////////////////////////////////////////
+kml'word.pa =
+kml'word.pao =
+kml'word.pco =
+kml'word.pe =
+kml'word.peo:
+- male [2008.08.18]
+kml'word.pfo =
+kml'word.pho =
+kml'word.pi =
+kml'word.pio:
+- semiword "none"
+kml'word.pko =
+kml'word.plo =
+kml'word.pno =
+kml'word.po:
+* SEMIWORD; LETTER p.
+* SEMIWORD; NUMBER|QUANTITY 0.
+- general 2008.08.16, vacuum (from bo="simban"),
+- semiword: kuoPo (=zero), diktero_po (= letter p),
+kml'word.poo =
+kml'word.porto:
+* PORT
+kml'word.pqo =
+kml'word.pro =
+kml'word.pso =
+kml'word.pto =
+kml'word.pu =
+kml'word.puo =
+///////////////////////////////////////////////////////////////
+kml'word.qa =
+kml'word.qao =
+kml'word.qe =
+kml'word.qeo =
+kml'word.qi =
+kml'word.qio:
+* SEMIWORD; INDEFINITE;
+kml'word.qo:
+* SEMIWORD; LETTER q.
+* SEMIWORD; NUMBER 2.
+- entity_vague [2008.11.30] [2010.06.16]
+- specific_entity,
+kml'word.qoo =
+kml'word.qu =
+kml'word.quo =
+///////////////////////////////////////////////////////////////
+kml'word.ra =
+kml'word.rao =
+kml'word.re =
+kml'word.reino:
+* RELATION
+kml'word.reo =
+kml'word.ri =
+kml'word.rino:
+* RELATION OR PROCESS
+kml'word.rio =
+kml'word.rivo:
+* RIVER;
+kml'word.ro:
+* SEMIWORD; LETTER r.
+* SEMIWORD; NUMBER 9.
+kml'word.roo =
+kml'word.ru =
+kml'word.ruino:
+* PROCESS
+kml'word.ruo =
+///////////////////////////////////////////////////////////////
+kml'word.sa =
+kml'word.sao =
+kml'word.se =
+kml'word.seo =
+kml'word.si =
+kml'word.sio =
+kml'word.so:
+* non_life_form 2008.08.16,
+kml'word.soo =
+kml'word.su =
+kml'word.suo =
+///////////////////////////////////////////////////////////////
+kml'word.ta =
+kml'word.tao:
+* TIME; 2008.08.17. dao=space.
+kml'word.te =
+kml'word.teo:
+* time-point 2008.08.17,
+kml'word.ti =
+kml'word.tio:
+* semi deictic/concrete,
+kml'word.to:
+* WHOLE; 2008.08.16. do=part
+* SEMIWORD; LETTER t.
+* SEMIWORD; NUMBER 3.
+- deictic_entity [2008.11.29]
+- external_attribute [2008.08.19]
+- second person,
+kml'word.too =
+kml'word.tu =
+kml'word.tuo:
+* TIME-INTERVAL; 2008.08.17,
+///////////////////////////////////////////////////////////////
+kml'word.u:
+* SEMIWORD; LETTER u.
+- entity as attribute of another.
+- first person, relativero, plural,
+kml'word.ubo:
+* specific_complement (from bo=specific) [2008.08.20]
+kml'word.uco =
+kml'word.uda =
+kml'word.udo:
+- smw_partial_complement, negation 2008.06.25.
+kml'word.ufo =
+kml'word.ugo =
+kml'word.uho =
+kml'word.ui:
+* VERB'S_NEGATION:
+kml'word.ujo:
+- smw_specific_complement
+kml'word.uko =
+kml'word.ulo:
+* the "product"
+kml'word.umno:
+- NOT_MALE_FEMALE; [2010.06.18]. umo=male, uno=female.
+kml'word.umo:
+* MALE; emo, amo [2010.06.19].(uno, umno) [2008.09.10]
+kml'word.uno:
+* SEMIWORD; TIME_FUTURE;
+- FEMALE; [2008.09.10] (umo, umno)
+kml'word.uo:
+* NEGATION; [2008.10.04] complement [2008.08.19] uoJo=specific-complement. uoDo=partial-complement.
+* NON;
+* NOT;
+kml'word.upo =
+kml'word.uqo =
+kml'word.uro =
+kml'word.uso =
+kml'word.uto =
+kml'word.uvo =
+kml'word.uwo =
+kml'word.uyo =
+kml'word.uzo =
+/////////////////////////////////////////////////////////////
+kml'word.va =
+kml'word.vao =
+kml'word.ve =
+kml'word.veo =
+kml'word.vi =
+kml'word.vio:
+* SEMIWORD; QUANTITY-MANY;
+kml'word.vo:
+* REFERENT; [2008.09.13]. fo=info
+* SEMIWORD; NOT_ONE; foUo=vo.
+kml'word.voo =
+kml'word.vu =
+kml'word.vuo =
+///////////////////////////////////////////////////////////////
+kml'word.wa =
+kml'word.wao =
+kml'word.we =
+kml'word.weo =
+kml'word.wi =
+kml'word.wio:
+* SEMIWORD; DEICTIC;
+kml'word.wo:
+* entity_deictic [2008.11.30], category_entity,
+kml'word.woo =
+kml'word.wu =
+kml'word.wuo =
+//////////////////////////////////////////////////////////////
+kml'word.ya =
+kml'word.yao =
+kml'word.ye =
+kml'word.yeo =
+kml'word.yi =
+kml'word.yio:
+* SEMIWORD; DISTANCE-FAR;
+kml'word.yo =
+- non_human [2008.08.21] [2010.06.16]
+kml'word.yoo =
+kml'word.yu =
+kml'word.yuo =
+///////////////////////////////////////////////////////////
+kml'word.za =
+kml'word.zao =
+kml'word.ze =
+kml'word.zeo =
+kml'word.zi =
+kml'word.zio =
+kml'word.zo:
+- LIFE-FORM; 2008.08.16, organism 2008.08.08,
+kml'word.zoo =
+kml'word.zu =
+kml'word.zuo =

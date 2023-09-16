@@ -1,0 +1,191 @@
+==============================================================================
+==============================================================================
+								TO DO
+==============================================================================
+==============================================================================
+2001.12.16: QUICK SEARCH OF A CONCEPT:
+		To quickly find a concept given a SYNONYM, I can make
+		ALPHABETICAL-LISTS (FILES) OF ALL SYNONYMS
+		(syntactical-synonyms, synonyms of syntactical-synonyms, and the diferent forms of them).
+		Then depending on the first letter of the synonym, I 'll search a relatively
+		small file.
+		Now, I have list of concepts with their synonyms.  In the same way, when I will
+		create a new concept, the program automatically will create the lists of synonyms.
+
+2001.07.28: MULTIPLE CONCEPTBASES:
+		The program must have the ability to manage (create, compare, integrate, ...)
+		many conceptbases. (each conceptbase is a MODEL of reality).
+		** Then every CptModel must stored in a different directory in 'concept' directory
+		and a cpt's formal-name must indicate its cptmodel eg:
+		process@nikkas@phil-22. 2001.09.27
+
+2001.03.09: english name
+		IF the locale is not english, it is useful to present and the
+		english-name for comparison reasons.
+
+2001.03.07: RELATIONS SC-ELEMENTS:
+		idea: How about to add <rel> elements like:
+			<REL FRnAME="SpecificComplementRelation@phil-x.xml" LASTMODIFIED="2001.03.07" CREATED="2001.03.07" AUTHOR="HoKoNoUmo">
+			ConceptX@phil-x
+			</REL>
+		This way in cpts like car-color, we don't create any new cpt:
+		The 'color-relation'
+		is inherited and the 'relatad' is a 'specific-color'.
+
+2001.03.05: SYNONYMS:
+		In synonyms xml-elements I will put and <SHORTNAME> AND
+		<INCOMPLETENAME> elements.
+		This will help a parser to find the mapping info from logos.
+
+2000jun09: VIEWER:
+		To make presentation faster, I can put on generic xml-attribute the
+		generic-attribute and the inheritor cpt.
+		This way I have not to compute the inheritor for each cpt when I'm displaying a cpt.
+
+2000jun07: VIEWER:
+		To display
+		- partial-complements of a cpt and
+		- specific-complements (siblings)
+
+		I can display the above from a function, and remove the element 'siblings'
+		in the the sc xml-file. 2000.06.08
+
+2000may22: SYNONYMS
+		To add noun/adjective/verb/adverb forms of a concept.  I need more work to find how.
+		<syn>
+			<noun>
+				<form>...</form>
+				<form>...</form>
+			</noun>
+			<adjective>
+				<form>...</form>
+				<form>...</form>
+			</adjective>
+		</syn>
+
+		<syn>
+			<noun>goodness, goodnesses</noun>
+			<adjective>good, better, best</adjective>
+		</syn>
+
+		To write the irregular types. IF not, to produce the regular types by rules.
+		NOUN: xxx, xxxs, xxx's (xxy,xxies) (box,boxes)
+		ADJECTIVE: xxx, xxxer, xxxest
+		VERB: xxx, xxxed, xxxing, xxxs (xxe,xxed,xxing, xxes)
+
+2000apr25: FUNCTION CPT-MERGING
+		IF 2 cpts have the same referent, then the system must MERGE
+		them in one cpt.
+
+2000apr24: WHOLE-GENERIC CLEANING
+		IF a whole-relation contains 2 objects and one is part of the other
+		THEN it must contain only the 'part' of the two.
+		IF a generic-relation contains 2 objects and one is specific of the other
+		THEN it must contain only the 'specific' of the two.
+
+2000apr19: NAMES FUNCTION
+		To add a retrieval function that shows the names/synonyms of the concepts
+		I've created in number/formalname/normalname order. (Collections.sort(List))
+
+		VIEW-ALL FUNCTION
+		To create a frame with all the relations of a concept, per level.
+		From a text field to choose also different cpts to show.
+
+2000apr08: SHORT-NAMES
+		* To check if it is useful to use short-names to express the names of atts, etc.
+		* To use the short-name to express formal-name.
+
+2000apr07: DIMENSIONS
+		Manage dimensions.
+
+2000mar24: undo storage-function.
+		The system must have the ability to undo any storage-function, atleast the last.
+
+2000mar20: sc with many gens.
+		put on 'GENERICiNHERITOR=' more files and separate them by commas.
+
+2000mar17: adding new cpt.
+		The system must say IF exists another cpt with the SAME-NAME with the one
+		we created.
+
+2000mar16: internal/file functions.
+		To add the functions:
+		internal to file
+		file to internal
+
+2000mar16: concrete/abstract specific
+		Except of dimensions in subs to add concrete/abstract relations.
+
+2000feb18: VIEWER - formating text.
+		I can use a JEditorPane instead of TextArea, so I can display formating
+		text using html.
+
+2000jan24: SEARCHING:
+		VIEWER:
+		For inflectional-languages we can add procedures to translate the name to
+		nominative-case and then search for it.
+
+2000jan02: VIEWER: linking.
+		I'm waiting xml linking to use it.
+
+2000jan02: EDITOR: WYSIWYG
+		I want to make an editor like ms frontpage where you don't see the xml source.
+
+1999may01: VIEWER: configure.
+		Add menuitem to show the number of integrated and the non-integrated concepts.
+
+		Maybe I must divide this menu to:
+		INFO: for author/kbs/statistics...
+		LANGUAGE: to choose a lang. This is the only thing to config in pure-viewer.
+
+		In a pure-viewer I must remove edit-menu.  Also I can make the viewer applet.
+
+1999feb23: EDITOR/VIEWER: cpt's name:
+		When we READ or INTEGRATE a concept, and the CURRENT-cpt 'reads' other
+		related-cpts by its id, THE SYSTEM must check if the names (the current-cpt
+		has and filename of the other cpt) are the same.  If not, the current-cpt's
+		name must change because the filename is always the new name a concept has.
+
+1999feb22: EDITOR/VIEWER: editMenu:
+		add delete concept and fix the implied relations.
+
+1999jan18: EDITOR:
+		must have search/replace functions.
+
+==============================================================================
+==============================================================================
+							BUGS / ERRORS
+==============================================================================
+==============================================================================
+** SEARCH FRAME:
+		IF a cpt's file-name does not include '@', searching stops.
+		[1999apr25]
+
+** DUPLICANT IDs:
+		IF 2 concepts have the same id, THEN the program displays the one finds first.
+		[1999apr16]
+
+** ERROR VIEWER: I couldn't display a concept.
+		An ' " ' was missing in an attribute of the element 'concept'.
+		[1999apr13]
+
+** BUG EDITOR:
+		IF there is a 'comment' inside attributes, editor doesn't works.
+		[1999apr13]
+
+** BUG: EDITOR: total integration
+		Does NOT work if there is an empty 'dimension'
+		[1999feb27]
+
+** BUG: EDITOR:
+		IF a sc has more than ONE empty line, editor can't be displayed.
+		[1999feb24]
+
+** BUG: If a concept have FAKE att-cpts, give messages on standard output.
+		[1999feb13] >>>This is not a bug!
+===========================================================================
+MISC
+* join two identical cpts.
+* PARTS: To use 'structure' only when I have more than one partitions. 2000.06.06
+* ENVIRONMENT: The env-att to be inherited as part-att. 2000.06.06
+* NAME-CHANGE: To be changed AND inside the 'text' used to describe the SCs. 2000.06.06

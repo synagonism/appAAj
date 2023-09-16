@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.06
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="all and each number" TRMNLtYPE="trmNnCsNm1" XCPT="Number_every@hknu.symb-22#1@" NAME="all and each number"/>
+<TRMNL TxEXP="all and each numbers" TRMNLtYPE="trmNnCsNm2" XCPT="Number_every@hknu.symb-22#1@" NAME="all and each number"/>
+<TRMNL TxEXP="attribute" TRMNLtYPE="trmNnCsNm1" XCPT="Attribute@hknu.symb-21@" NAME="attribute"/>
+<TRMNL TxEXP="attributefino" TRMNLtYPE="trmNnCsNm1" XCPT="Entity's-attribute-relation@hknu.symb-20@" NAME="attributefino"/>
+<TRMNL TxEXP="attributefinoes" TRMNLtYPE="trmNnCsNm2" XCPT="Entity's-attribute-relation@hknu.symb-20@" NAME="attributefino"/>
+<TRMNL TxEXP="attribute of entity" TRMNLtYPE="trmNnCsNm1" XCPT="Attribute@hknu.symb-21@" NAME="attribute of entity"/>
+<TRMNL TxEXP="attributes" TRMNLtYPE="trmNnCsNm2" XCPT="Attribute@hknu.symb-21@" NAME="attribute"/>
+<TRMNL TxEXP="attributes of entity" TRMNLtYPE="trmNnCsNm2" XCPT="Attribute@hknu.symb-21@" NAME="attribute of entity"/>
+

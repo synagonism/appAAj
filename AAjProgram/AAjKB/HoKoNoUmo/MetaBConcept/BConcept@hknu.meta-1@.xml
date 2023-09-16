@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="1" INTEGRATED="no" LASTmOD="2009.12.29" CREATED="2000.03.14" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2004.09.19" AUTHOR="HoKoNoUmo">
+<DEFINITION_SPECIFIC_START CREATED="2009.02.01" AUTHOR="HoKoNoUmo"/>
+<DEFINITION_GENERIC_END CREATED="2009.02.01" AUTHOR="HoKoNoUmo"/>
+<DEFINITION_PART CREATED="2008.04.18" AUTHOR="HoKoNoUmo">
+<Text_eng LASTmOD="2004.03.23" CREATED="2001.09.30" AUTHOR="HoKoNoUmo">
+Concept is every tree-network's node of a b-conceptual--sub-worldview.
+</Text_eng>
+<EngMainName LNG="eng" TxEXP="Concept" TRMrULE="rlEngTrmNnCs11"/>
+<SOURCE FRnAME="SubWorldview_conceptual@hknu.symb-6@"/>
+<PRODUCT>
+<XCPT LABEL="b1" FRnAME="Tree-network's-node@hknu.symb-11@"/>
+<XCPT LABEL="b2" FRnAME="Number_every@hknu.symb-22#1@"/>
+<XCPT LABEL="b3" FRnAME="Quantiteino@hknu.symb-23@" ARGS="b1,b2"/>
+</PRODUCT>
+</DEFINITION_PART>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.12.29" CREATED="2000.03.14" AUTHOR="HoKoNoUmo">
+<kml LASTmOD="2008.03.27" CREATED="2006.11.14" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="FoEkoKonco" MOSTuSED="1" CREATED="2006.11.14" AUTHOR="HoKoNoUmo"/>
+</kml>
+<eng LASTmOD="2009.12.29" CREATED="2000.10.25" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="BConcept" TRMrULE="rlEngTrmNnCs11" CREATED="2009.12.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Concept" TRMrULE="rlEngTrmNnCs11" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+<Name_NounAdjective TxEXP="Conceptual" TRMrULE="rlEngTrmNnAj31" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln CREATED="2008.04.06" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Έννοια" TRMrULE="rlElnTrmNnCs2a3" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+</eln>
+<epo LASTmOD="2008.04.02" CREATED="2008.03.30" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Koncepto" TRMrULE="" CREATED="2008.03.30" AUTHOR="HoKoNoUmo"/>
+</epo>
+</REFINO_NAME>
+
+<REFINO_WHOLE LASTmOD="2000.05.23" CREATED="2000.05.23" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="SubWorldview_conceptual@hknu.symb-6@" LASTmOD="2000.05.25" CREATED="2000.05.25" AUTHOR="HoKoNoUmo"/>
+</REFINO_WHOLE>
+
+<REFINO_GENERIC LASTmOD="2009.04.26" CREATED="2009.04.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="none" LASTmOD="2009.04.26" CREATED="2009.04.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_SPECIFIC LASTmOD="2000.04.05" CREATED="2000.04.05" AUTHOR="HoKoNoUmo">
+<REFINO_SPECIFICdIVISION ATR="Attribute@hknu.symb-21@" LASTmOD="2008.12.11" CREATED="2008.12.11" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Process-or-relation@hknu.symb-14@" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Non-process-or-relation@hknu.symb-13@" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_SPECIFICdIVISION>
+<REFINO_SPECIFICdIVISION ATR="Attribute_specific@hknu.symb-21@" LASTmOD="2000.04.13" CREATED="2000.04.13" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity_generic@hknu.symb-3@" CREATED="2000.04.04" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Entity_individual@hknu.symb-5@" CREATED="2000.04.04" AUTHOR="HoKoNoUmo"/>
+</REFINO_SPECIFICdIVISION>
+<INTxCPT FRnAME="Concept's-attribute@hknu.meta-1#1@" LASTmOD="2008.12.07" CREATED="2000.04.14" AUTHOR="HoKoNoUmo">
+<REFINO_DEFINITION LASTmOD="2000.04.14" AUTHOR="HoKoNoUmo">
+*** Object (hknu.symb-10).
+</REFINO_DEFINITION>
+<REFINO_NAME LASTmOD="2009.12.29" CREATED="2000.03.14" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.12.29" CREATED="2000.10.25" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="BConcept" TRMrULE="rlEngTrmNnCs11" CREATED="2009.12.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Concept" TRMrULE="rlEngTrmNnCs11" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+<Name_NounAdjective TxEXP="Conceptual" TRMrULE="rlEngTrmNnAj31" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+</INTxCPT>
+</REFINO_SPECIFIC>
+
+<REFINO_ENVIRONMENT LASTmOD="2000.04.10" CREATED="2000.04.10" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Concept's-definition@hknu.meta-3@" LASTmOD="2009.04.13" CREATED="2009.04.13" AUTHOR="HoKoNoUmo"/>
+<REFINO FRnAME="Concept-and-referent@hknu.symb-4@" LASTmOD="2009.04.26" CREATED="2009.04.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Referent@hknu.meta-2@" LASTmOD="2009.04.26" CREATED="2009.04.26" AUTHOR="HoKoNoUmo"/>
+</REFINO>
+<REFINO FRnAME="Mapeino@hknu.symb-2@" LASTmOD="2008.12.11" CREATED="2000.04.25" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Sensorial-b-concept@hknu.it-1@" LASTmOD="2008.12.11" CREATED="2000.04.25" AUTHOR="HoKoNoUmo"/>
+</REFINO>
+</REFINO_ENVIRONMENT>
+
+<REFINO_ATTRIBUTE LASTmOD="2009.04.17" CREATED="2009.04.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Sensorial-b-concept@hknu.it-1@" LASTmOD="2008.12.11" CREATED="2000.04.25" AUTHOR="HoKoNoUmo"/>
+<INTxCPT FRnAME="Concept's-attribute@hknu.meta-1#1@" LASTmOD="2008.12.07" CREATED="2000.04.14" AUTHOR="HoKoNoUmo">
+<REFINO_DEFINITION LASTmOD="2000.04.14" AUTHOR="HoKoNoUmo">
+*** Object (hknu.symb-10).
+</REFINO_DEFINITION>
+<REFINO_NAME LASTmOD="2009.12.29" CREATED="2000.03.14" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.12.29" CREATED="2000.10.25" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="BConcept" TRMrULE="rlEngTrmNnCs11" CREATED="2009.12.29" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Concept" TRMrULE="rlEngTrmNnCs11" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+<Name_NounAdjective TxEXP="Conceptual" TRMrULE="rlEngTrmNnAj31" CREATED="2008.04.06" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+</INTxCPT>
+</REFINO_ATTRIBUTE>
+</XCONCEPT>

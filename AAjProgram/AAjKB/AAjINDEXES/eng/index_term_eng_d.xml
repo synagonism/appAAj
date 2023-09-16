@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.12.03
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="definition of a concept" TRMNLtYPE="trmNnCsNm1" XCPT="Concept's-definition@hknu.meta-3@" NAME="definition of a concept"/>
+<TRMNL TxEXP="definitions of a concept" TRMNLtYPE="trmNnCsNm2" XCPT="Concept's-definition@hknu.meta-3@" NAME="definition of a concept"/>

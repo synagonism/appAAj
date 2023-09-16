@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.11.12" CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2009.11.12" AUTHOR="HoKoNoUmo">
+<DEFINITION_NAME CREATION="y" CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Entity's relator" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.12" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Entity(2)@hknu.symb-7@">
+<REFINO FRnAME="refino_inside">
+<XCPT FRnAME="Entity(2)@hknu.symb-7@">
+<REFINO FRnAME="refino_part">
+<XCPT FRnAME="Entity's-relation@hknu.symb-1@">
+<XCPT FRnAME="Creation-definition@hknu.symb-...@">
+</REFINO>
+</REFINO>
+<Description_eng CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+Relator-of-entity I call the entity(2) IN entity's-relation's creation-definition.
+</Description_eng>
+</DEFINITION_NAME>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.11.12" CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.11.12" CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Entity's relator" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.12" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Relator of entity" TRMrULE="rlEngTrmNnCs4a11" CREATED="2009.11.12" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Relator" TRMrULE="rlEngTrmNnCs11" CREATED="2009.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+
+<REFINO_GENERIC CREATED="2009.11.12" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" CREATED="2009.11.12" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+</XCONCEPT>

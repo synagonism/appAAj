@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2001.07.17" AUTHOR="HoKoNoUmo">
+Thing is the ENTITY we perceive as an independent one, distinct from other entities. For example an apple, a tree, a society, a town etc.  What is not 'thing' is a 'RELATION'.
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.11.03" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Non-process or relation" TRMrULE="rlEngTrmNnCs4a1211" CREATED="2009.11.03" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Thing" TRMrULE="rlEngTrmNnCs11" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Πράγμα" TRMrULE="rlElnTrmNnCs3a1" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" LASTmOD="2001.07.17" CREATED="2001.07.17" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_ATTRIBUTE CREATED="2009.10.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-structure@hknu.symb-8@" GENERICiNHERITOR="Entity's-structure@hknu.symb-8@/Entity@hknu.symb-7@" CREATED="2009.10.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_ATTRIBUTE>
+</XCONCEPT>

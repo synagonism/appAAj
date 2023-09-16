@@ -1,0 +1,198 @@
+/* AAj's style */
+
+body {
+	background-color: #FFFFE0;/*#F5FFFA;#FDF5E6;#FFF5EE;#eeeccc;*/
+	font-family: "Times New Roman", Dialog, Georgia, Times, serif;
+	font-size: 16px;
+/*   margin-left: 0px;*/
+}
+
+p.h0 {
+	background-color: #00FFFF;/* Aqua */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 44px;
+	font-weight: bold;
+	padding: 0 0 10px 0; /*top right bottom left*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #0000FF; /* Blue; */
+	border: 1px solid #000000;
+	margin-left: 15px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #008000; /* Green; */
+	border: 1px solid #000000;
+	margin-left: 30px;
+}
+
+h3 {
+	background-color: #FFFF00; /* Yellow; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 45px;
+}
+
+h4 {
+	background-color: #FFBB00; /* FF00FF-Magenta */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+h5 {
+	background-color: 	#FFC0CB;/* pink #FFA500; FFA500-Orange; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 75px;
+}
+
+h6 {
+	background-color: #FF0000;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 90px;
+	/*text-align: center;*/
+}
+
+/************************* ID's *************************/
+
+p.h7 {
+	background-color: #FF4400;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 105px;
+	text-align: center;
+}
+
+p {
+	text-indent: -25px;
+	margin-left: 25px;
+}
+
+/* The last paragraph with creation|lastmod|... info */
+p.last {
+	border-top: 4px solid #000000;
+	font-size: 12px;
+	padding: 5px 0 0 0; /*top right bottom left*/
+	margin-left: 5px;
+	margin-top: 20px;
+	text-indent: 0px;
+}
+
+/************* INLINE text-content ***************************/
+/* a, dfn, br, b, span  */
+
+span.red {
+	color: #FF0000;/* Red */
+}
+
+p > a.hide,
+h1 > a.hide,
+h2 > a.hide,
+h3 > a.hide,
+h4 > a.hide,
+h5 > a.hide,
+h6 > a.hide
+{
+	display: none;
+}
+
+p:hover  > a.hide,
+h1:hover  > a.hide,
+h2:hover  > a.hide,
+h3:hover  > a.hide,
+h4:hover  > a.hide,
+h5:hover  > a.hide,
+h6:hover  > a.hide
+{
+	display: inline;
+}
+
+/********* INLINE elements to define sentents and its parts *********/
+
+dfn.sentence {
+	margin-left: 20px;
+}
+
+dfn.verb {
+	color: #FF0000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+dfn.aSbj {
+	color: #006600;
+	font-weight: bold;
+}
+
+dfn.aObj {
+	/* color: #0000FF; */
+}
+
+/******* w3.org ********************/
+.note {
+    /*font-weight: bold;*/
+    text-indent: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: green
+}
+p.noIndent {
+	text-indent: 0px;
+}
+
+p.example {
+	color: maroon;
+	text-indent: 0px;
+}
+pre.example {
+	color: maroon;
+	text-indent: 0px;
+	margin-left: 25px;
+}
+
+p.html-example {
+	color: maroon;
+	text-indent: 0px;
+}
+pre.html-example {
+	color: maroon;
+	text-indent: 0px;
+	margin-left: 25px;
+}
+
+dl {
+	margin-left: 25px;
+}

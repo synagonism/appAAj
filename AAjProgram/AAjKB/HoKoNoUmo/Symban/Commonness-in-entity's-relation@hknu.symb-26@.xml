@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.11.17" CREATED="2009.11.13" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2009.11.13" AUTHOR="HoKoNoUmo">
+<DEFINITION_NAME CREATION="y" CREATED="2009.11.13" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Commonness in entity's relation" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.13" AUTHOR="HoKoNoUmo"/>
+<Description_eng CREATED="2009.11.13" AUTHOR="HoKoNoUmo">
+Commonness I call the sharing of attributes.
+</Description_eng>
+</DEFINITION_NAME>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.11.17" CREATED="2009.11.13" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.11.13" CREATED="2009.11.13" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Commonness in entity's relation" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.11.13" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Commonness" TRMrULE="rlEngTrmNnCs13" CREATED="2009.11.13" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+</XCONCEPT>

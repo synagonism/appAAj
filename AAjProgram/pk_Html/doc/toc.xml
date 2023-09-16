@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- use "dir::/title" for containers (directories) of html-files -->
+<!-- url must be ABSOLUTE -->
+
+<trNode url="dir::/Test">
+  <trNode display="y" title="HomePage" url="g:/file1/aajworking/aajprogram/pk_html/doc/index.html"/>
+  <trNode title="Law_Eu_The-Treaties" url="g:/file1/aajworking/aajprogram/pk_html/doc/Law_Eu_Treaties_2008.html"/>
+  <trNode title="w3_css_2.1" url="g:/file1/aajworking/aajprogram/pk_html/doc/w3_org_css21_generate.html"/>
+<!--
+  <trNode title="SBConcept-Theory" url="sbcpt-theory.html"/>
+  <trNode title="Human-Language" url="sbcpt/lango_ho.html">
+    <trNode title="Komo" url="sbcpt/lango_ho_kml.html"/>
+  </trNode>
+  <trNode title="KRS" url="sbcpt/krs.html"/>
+  <trNode title="SBConcept-System" url="sbcpt/sbcpt-system.html"/>
+  <trNode title="AAj" url="sbcpt/aaj-sbccs.html"/>
+  <trNode title="SSS-Paper (1990)" url="paper/sss.html"/>
+  <trNode title="Site-Evolution" url="site-evolution.html"/>
+  <trNode title="Author" url="author.html"/>
+  <trNode title="All-files" url="all-files.html"/>
+  <trNode title="All-names" url="all-names.html"/>
+-->
+</trNode>

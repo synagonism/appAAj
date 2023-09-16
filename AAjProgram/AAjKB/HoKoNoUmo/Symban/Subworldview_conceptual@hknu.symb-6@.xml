@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.06.28" CREATED="2000.05.25" AUTHOR="HoKoNoUmo">
+
+<REFINO_NAME LASTmOD="2009.06.28" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.06.28" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="BConceptual--sub-worldview" TRMrULE="rlEngTrmNnCs11" DELETED="2008.03.26" CREATED="2008.10.06" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2004.03.29" CREATED="2004.03.29" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Βουντέπο" TRMrULE="rlElnTrmNnCs3c2" CREATED="2008.04.10" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Εννοιακό Μοντέλο" TRMrULE="rlElnTrmNnCs63c2-3c2" CREATED="2001.09.22" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_DEFINITION LASTmOD="2000.02.19" AUTHOR="HoKoNoUmo">
+** synthetic-definition:
+KNOWLEDGEbASE is a system of concepts that models our world (real or imaginary).
+</REFINO_DEFINITION>
+
+<REFINO_PART LASTmOD="2000.05.25" CREATED="2000.05.25" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="BConcept@hknu.meta-1@" LASTmOD="2000.05.25" CREATED="2000.05.25" AUTHOR="HoKoNoUmo"/>
+</REFINO_PART>
+</XCONCEPT>

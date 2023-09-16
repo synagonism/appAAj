@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.10.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="hierarchy node" TRMNLtYPE="trmNnCsNm1" XCPT="Tree-network's-node@hknu.symb-11@" NAME="hierarchy node"/>
+<TRMNL TxEXP="hierarchy nodes" TRMNLtYPE="trmNnCsNm2" XCPT="Tree-network's-node@hknu.symb-11@" NAME="hierarchy node"/>

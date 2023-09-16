@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.01.18" CREATED="2008.12.12" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2008.12.12" AUTHOR="HoKoNoUmo">
+The relation of an entity with its quantity.
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.01.18" CREATED="2008.12.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.01.18" CREATED="2008.12.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Quantiteino" TRMrULE="rlEngTrmNnCs12" CREATED="2008.12.12" AUTHOR="HoKoNoUmo"/>
+<NameNone ARGS="1:Entity@hknu.symb-7@,2:Quantity@hknu.symb-18@" TXeXP1_B="2,nnAj01" TXeXP1_A="1,nnCsNm01" EXMPL="5 man" CREATED="2009.01.19" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+
+<REFINO_GENERIC LASTmOD="2008.12.12" CREATED="2008.12.12" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-attribute-relation@hknu.symb-20@" LASTmOD="2008.12.12" CREATED="2008.12.12" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_ATTRIBUTE CREATED="2009.10.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-structure@hknu.symb-8@" GENERICiNHERITOR="Entity's-structure@hknu.symb-8@/Entity@hknu.symb-7@" CREATED="2009.10.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_ATTRIBUTE>
+</XCONCEPT>

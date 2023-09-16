@@ -1,0 +1,98 @@
+==============================================================================
+																CONVENTIONS
+==============================================================================
+** DEFINITIONS:
+
+		>>>Concept's NAME:
+		It is the most used noun-synonym.
+		[2001.03.06]
+
+		>>>CONCEPT'S FILE-NAME:
+		formalnameVerbal +@ +id +extension
+		example: Hard-Disk@it-1.xml, aaa@lang-32#3.xml
+		[2001.03.05]
+
+		>>>CONCEPT'S FormalName:
+		example: Hard-Disk@it-1.
+		[2001.03.05]
+
+		>>>CONCEPT'S FormalNameVerbal:
+		I call a SET of words that except of a concept's name, also denote
+		and concept relations, as follows:		[1999apr21]
+		A NAME of a cpt: 					HardDisk
+		An Attribute cpt:					HardDisk'Capacity
+		A Specific cpt:					HardDisk.Seagate
+		An Environment relation: 	HardDisk'and'Paper
+		[1999feb12]
+
+		>>>CONCEPT'S ID:
+		I call the sequence of
+		a)a word (usally short) that denotes a knowledge-base.
+		b)the '-'
+		c)a number.
+		example: it-1, phil-2, lang-32#3
+		[1999apr21]
+		ID'S KNOWELEDGEBASE:
+		I call the word before '-' that denotes the knowledge base the concept belogs.
+		[1999apr21]
+		ID'S NUMBER:
+		I call the number after '-' which is unique in this kb for any concept.
+		[1999apr21]
+
+		>>>CONCEPT'S NAME (NORMAL-NAME):
+		We can get it from formal-name(or file-name) by a function.
+		[1999apr20]
+		I CAN use '-' in formal name, if I want in normal-name to show that more than one
+		word construct a name.
+		[1999apr20]
+//		The formal-name will NOT contain '-' to connect words.
+//		A Capital Letter will show the connected words.
+//		Not-Removable >>> NorRemovable.
+//		[1999apr14]
+
+		I changed the file-name
+		from "it19_Relation.xml"
+		to "Relation_it-19.xml"
+		in order to find easily concepts by its name.
+		[1999apr18]
+
+		I refer to a concept with its file-name or its id, as:
+		cpt / cptID
+		cptSib / cptSibID
+		[1999apr18]
+
+** INTERNAL CONCEPTS:
+
+** XML-ATTRIBUTES:
+		* I put them on ONE line for space economy.
+		[1999mar]
+		* I put each one on a new line. This way I'm extracting them.
+		[1999feb22]
+
+** EMPTY LINES:
+		* no more than one continuasly.
+		* One among xml elements.
+		* Nothing at the end tag of an element.
+		[1999feb22]
+
+		* one empty line between noninherited and inherited attributes.
+		[1999apr16]
+
+** INHERITED ATTRIBUTES:
+		We understand them because they have NOT 'no' as 'generic' value.
+		We can have or not a file for them.
+		[1999feb15]
+
+** CONEXT ORDER IN XML FILE:
+		Ascending.
+		[1999feb13]
+
+** 'ID' XML-ATTRIBUTE:
+		IF I do NOT have a 'FILE' for a 'conref', I give as id
+		the generic's id.
+		That way I'm reducing the numbers i'm giving for concepts.
+		[1999feb10]
+
+		As ID I give not only the number but the full name (number_name)
+		because I need a name for them when we display its definition as attributes.
+		[1999feb10]

@@ -1,0 +1,1 @@
+jar cvf jMMMResrc000200.jar CONCEPTS RESOURCES

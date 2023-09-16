@@ -1,0 +1,735 @@
+====== ISO 639-1 ======
+el;eln;gre
+en;eng
+eo;epo
+------
+aa;aar
+ab;abk
+ae;ave
+af;afr
+ak;aka
+am;amh
+an;arg
+ar;ara
+as;asm
+av;ava
+ay;aym
+az;aze
+ba;bak
+be;bel
+bg;bul
+bh;bih
+bi;bis
+bm;bam
+bn;ben
+bo;tib;bod
+br;bre
+bs;bos
+ca;cat
+ce;che
+ch;cha
+co;cos
+cr;cre
+cs;cze;ces
+cu;chu
+cv;chv
+cy;wel;cym
+da;dan
+de;ger;deu
+dv;div
+dz;dzo
+ee;ewe
+es;spa
+et;est
+eu;baq;eus
+fa;per;fas
+ff;ful
+fi;fin
+fj;fij
+fo;fao
+fr;fre;fra
+fy;fry
+ga;gle
+gd;gla
+gl;glg
+gn;grn
+gu;guj
+gv;glv
+ha;hau
+he;heb
+hi;hin
+ho;hmo
+hr;scr;hrv
+ht;hat
+hu;hun
+hy;arm;hye
+hz;her
+ia;ina
+id;ind
+ie;ile
+ig;ibo
+ii;iii
+ik;ipk
+io;ido
+is;ice;isl
+it;ita
+iu;iku
+ja;jpn
+jv;jav
+ka;geo;kat
+kg;kon
+ki;kik
+kj;kua
+kk;kaz
+kl;kal
+km;khm
+kn;kan
+ko;kor
+kr;kau
+ks;kas
+ku;kur
+kv;kom
+kw;cor
+ky;kir
+la;lat
+lb;ltz
+lg;lug
+li;lim
+ln;lin
+lo;lao
+lt;lit
+lu;lub
+lv;lav
+mg;mlg
+mh;mah
+mi;mao;mri
+mk;mac;mkd
+ml;mal
+mn;mon
+mo;mol
+mr;mar
+ms;may;msa
+mt;mlt
+my;bur;mya
+na;nau
+nb;nob
+nd;nde
+ne;nep
+ng;ndo
+nl;dut;nld
+nn;nno
+no;nor
+nr;nbl
+nv;nav
+ny;nya
+oc;oci
+oj;oji
+om;orm
+or;ori
+os;oss
+pa;pan
+pi;pli
+pl;pol
+ps;pus
+pt;por
+qu;que
+rm;roh
+rn;run
+ro;rum;ron
+ru;rus
+rw;kin
+sa;san
+sc;srd
+sd;snd
+se;sme
+sg;sag
+si;sin
+sk;slo;slk
+sl;slv
+sm;smo
+sn;sna
+so;som
+sq;alb;sqi
+sr;scc;srp
+ss;ssw
+st;sot
+su;sun
+sv;swe
+sw;swa
+ta;tam
+te;tel
+tg;tgk
+th;tha
+ti;tir
+tk;tuk
+tl;tgl
+tn;tsn
+to;ton
+tr;tur
+ts;tso
+tt;tat
+tw;twi
+ty;tah
+ug;uig
+uk;ukr
+ur;urd
+uz;uzb
+ve;ven
+vi;vie
+vo;vol
+wa;wln
+wo;wol
+xh;xho
+yi;yid
+yo;yor
+za;zha
+zh;chi;zho
+zu;zul
+======== HoKoNoUmo =========
+english2;eng
+greek;eln
+greek2;eln
+komo;kml
+======= ISO 639-2 ==========
+english;eng;
+english, middle (1100-1500);enm;
+english, old (ca.450-1100);ang;
+greek, modern (1453-);ell;gre;
+greek, ancient (to 1453);grc;
+esperanto;epo;
+---------
+abkhazian;abk;
+achinese;ace;
+acoli;ach;
+adangme;ada;
+adygei;ady;
+adyghe;ady;
+afar;aar;
+afrihili;afh;
+afrikaans;afr;
+afro-asiatic (other);afa;
+ainu;ain;
+akan;aka;
+akkadian;akk;
+albanian;alb;sqi;
+alemani;gsw;
+aleut;ale;
+algonquian languages;alg;
+altaic (other);tut;
+amharic;amh;
+angika;anp;
+apache languages;apa;
+arabic;ara;
+aragonese;arg;
+aramaic;arc;
+arapaho;arp;
+araucanian;arn;
+arawak;arw;
+armenian;arm;hye;
+aromanian;rup;
+artificial (other);art;
+arumanian;rup;
+assamese;asm;
+asturian;ast;
+athapascan languages;ath;
+australian languages;aus;
+austronesian (other);map;
+avaric;ava;
+avestan;ave;
+awadhi;awa;
+aymara;aym;
+azerbaijani;aze;
+bable;ast;
+balinese;ban;
+baltic (other);bat;
+baluchi;bal;
+bambara;bam;
+bamileke languages;bai;
+banda;bad;
+bantu (other);bnt;
+basa;bas;
+bashkir;bak;
+basque;baq;eus;
+batak (indonesia);btk;
+beja;bej;
+belarusian;bel;
+bemba;bem;
+bengali;ben;
+berber (other);ber;
+bhojpuri;bho;
+bihari;bih;
+bikol;bik;
+bilin;byn;
+bini;bin;
+bislama;bis;
+blin;byn;
+bokma*l, norwegian;nob;
+bosnian;bos;
+braj;bra;
+breton;bre;
+buginese;bug;
+bulgarian;bul;
+buriat;bua;
+burmese;bur;mya;
+caddo;cad;
+carib;car;
+castilian;spa;
+catalan;cat;
+caucasian (other);cau;
+cebuano;ceb;
+celtic (other);cel;
+central american indian (other);cai;
+chagatai;chg;
+chamic languages;cmc;
+chamorro;cha;
+chechen;che;
+cherokee;chr;
+chewa;nya;
+cheyenne;chy;
+chibcha;chb;
+chichewa;nya;
+chinese;chi;zho;
+chinook jargon;chn;
+chipewyan;chp;
+choctaw;cho;
+chuang;zha;
+church slavic;chu;
+church slavonic;chu;
+chuukese;chk;
+chuvash;chv;
+classical nepal bhasa;nwc;
+classical newari;nwc;
+coptic;cop;
+cornish;cor;
+corsican;cos;
+cree;cre;
+creek;mus;
+creoles and pidgins (other);crp;
+creoles and pidgins, english based (other);cpe;
+creoles and pidgins, french-based (other);cpf;
+creoles and pidgins, portuguese-based (other);cpp;
+crimean tatar;crh;
+crimean turkish;crh;
+croatian;scr;hrv;
+cushitic (other);cus;
+czech;cze;ces;
+dakota;dak;
+danish;dan;
+dargwa;dar;
+dayak;day;
+delaware;del;
+dhivehi;div;
+dimili;zza;
+dimli;zza;
+dinka;din;
+divehi;div;
+dogri;doi;
+dogrib;dgr;
+dravidian (other);dra;
+duala;dua;
+dutch;dut;nld;
+dutch, middle (ca.1050-1350);dum;
+dyula;dyu;
+dzongkha;dzo;
+eastern frisian;frs;
+efik;efi;
+egyptian (ancient);egy;
+ekajuk;eka;
+elamite;elx;
+erzya;myv;
+estonian;est;
+ewe;ewe;
+ewondo;ewo;
+fang;fan;
+fanti;fat;
+faroese;fao;
+fijian;fij;
+filipino;fil;
+finnish;fin;
+finno-ugrian (other);fiu;
+flemish;dut;nld;
+fon;fon;
+french;fre;fra;
+french, middle (ca.1400-1600);frm;
+french, old (842-ca.1400);fro;
+friulian;fur;
+fulah;ful;
+ga;gaa;
+gaelic;gla;
+galician;glg;
+ganda;lug;
+gayo;gay;
+gbaya;gba;
+geez;gez;
+georgian;geo;kat;
+german;ger;deu;
+german, low;nds;
+german, middle high (ca.1050-1500);gmh;
+german, old high (ca.750-1050);goh;
+germanic (other);gem;
+gikuyu;kik;
+gilbertese;gil;
+gondi;gon;
+gorontalo;gor;
+gothic;got;
+grebo;grb;
+greenlandic;kal;
+guarani;grn;
+gujarati;guj;
+gwich?in;gwi;
+haida;hai;
+haitian;hat;
+haitian creole;hat;
+hausa;hau;
+hawaiian;haw;
+hebrew;heb;
+herero;her;
+hiligaynon;hil;
+himachali;him;
+hindi;hin;
+hiri motu;hmo;
+hittite;hit;
+hmong;hmn;
+hungarian;hun;
+hupa;hup;
+iban;iba;
+icelandic;ice;isl;
+ido;ido;
+igbo;ibo;
+ijo;ijo;
+iloko;ilo;
+inari sami;smn;
+indic (other);inc;
+indo-european (other);ine;
+indonesian;ind;
+ingush;inh;
+interlingua (international auxiliary language association);ina;
+interlingue;ile;
+inuktitut;iku;
+inupiaq;ipk;
+iranian (other);ira;
+irish;gle;
+irish, middle (900-1200);mga;
+irish, old (to 900);sga;
+iroquoian languages;iro;
+italian;ita;
+japanese;jpn;
+javanese;jav;
+judeo-arabic;jrb;
+judeo-persian;jpr;
+kabardian;kbd;
+kabyle;kab;
+kachin;kac;
+kalaallisut;kal;
+kalmyk;xal;
+kamba;kam;
+kannada;kan;
+kanuri;kau;
+karachay-balkar;krc;
+kara-kalpak;kaa;
+karelian;krl;
+karen;kar;
+kashmiri;kas;
+kashubian;csb;
+kawi;kaw;
+kazakh;kaz;
+khasi;kha;
+khmer;khm;
+khoisan (other);khi;
+khotanese;kho;
+kikuyu;kik;
+kimbundu;kmb;
+kinyarwanda;kin;
+kirdki;zza;
+kirghiz;kir;
+kirmanjki;zza;
+klingon;tlh;
+komi;kom;
+kongo;kon;
+konkani;kok;
+korean;kor;
+kosraean;kos;
+kpelle;kpe;
+kru;kro;
+kuanyama;kua;
+kumyk;kum;
+kurdish;kur;
+kurukh;kru;
+kutenai;kut;
+kwanyama;kua;
+ladino;lad;
+lahnda;lah;
+lamba;lam;
+lao;lao;
+latin;lat;
+latvian;lav;
+letzeburgesch;ltz;
+lezghian;lez;
+limburgan;lim;
+limburger;lim;
+limburgish;lim;
+lingala;lin;
+lithuanian;lit;
+lojban;jbo;
+low german;nds;
+low saxon;nds;
+lower sorbian;dsb;
+lozi;loz;
+luba-katanga;lub;
+luba-lulua;lua;
+luiseno;lui;
+lule sami;smj;
+lunda;lun;
+luo (kenya and tanzania);luo;
+lushai;lus;
+luxembourgish;ltz;
+macedonian;mac;mkd;
+macedo-romanian;rup;
+madurese;mad;
+magahi;mag;
+maithili;mai;
+makasar;mak;
+malagasy;mlg;
+malay;may;msa;
+malayalam;mal;
+maldivian;div;
+maltese;mlt;
+manchu;mnc;
+mandar;mdr;
+mandingo;man;
+manipuri;mni;
+manobo languages;mno;
+manx;glv;
+maori;mao;mri;
+marathi;mar;
+mari;chm;
+marshallese;mah;
+marwari;mwr;
+masai;mas;
+mayan languages;myn;
+mende;men;
+micmac;mic;
+mi'kmaq;mic;
+minangkabau;min;
+mirandese;mwl;
+miscellaneous languages;mis;
+mohawk;moh;
+moksha;mdf;
+moldavian;mol;
+mongo;lol;
+mongolian;mon;
+mon-khmer (other);mkh;
+mossi;mos;
+multiple languages;mul;
+munda languages;mun;
+nahuatl;nah;
+nauru;nau;
+navaho;nav;
+navajo;nav;
+ndebele, north;nde;
+ndebele, south;nbl;
+ndonga;ndo;
+neapolitan;nap;
+nepal bhasa;new;
+nepali;nep;
+newari;new;
+nias;nia;
+niger-kordofanian (other);nic;
+nilo-saharan (other);ssa;
+niuean;niu;
+n'ko;nqo;
+no linguistic content;zxx;
+nogai;nog;
+norse, old;non;
+north american indian;nai;
+north ndebele;nde;
+northern frisian;frr;
+northern sami;sme;
+northern sotho;nso;
+norwegian;nor;
+norwegian bokma*l;nob;
+norwegian nynorsk;nno;
+nubian languages;nub;
+nyamwezi;nym;
+nyanja;nya;
+nyankole;nyn;
+nynorsk, norwegian;nno;
+nyoro;nyo;
+nzima;nzi;
+occitan (post 1500);oci;
+oirat;xal;
+ojibwa;oji;
+old bulgarian;chu;
+old church slavonic;chu;
+old newari;nwc;
+old slavonic;chu;
+oriya;ori;
+oromo;orm;
+osage;osa;
+ossetian;oss;
+ossetic;oss;
+otomian languages;oto;
+pahlavi;pal;
+palauan;pau;
+pali;pli;
+pampanga;pam;
+pangasinan;pag;
+panjabi;pan;
+papiamento;pap;
+papuan (other);paa;
+pedi;nso;
+persian;per;fas;
+persian, old (ca.600-400 b.c.);peo;
+philippine (other);phi;
+phoenician;phn;
+pilipino;fil;
+pohnpeian;pon;
+polish;pol;
+portuguese;por;
+prakrit languages;pra;
+provenc,al;oci;
+provenc,al, old (to 1500);pro;
+punjabi;pan;
+pushto;pus;
+quechua;que;
+raeto-romance;roh;
+rajasthani;raj;
+rapanui;rap;
+rarotongan;rar;
+reserved for local use;qaa-qtz;
+romance (other);roa;
+romanian;rum;ron;
+romany;rom;
+rundi;run;
+russian;rus;
+salishan languages;sal;
+samaritan aramaic;sam;
+sami languages (other);smi;
+samoan;smo;
+sandawe;sad;
+sango;sag;
+sanskrit;san;
+santali;sat;
+sardinian;srd;
+sasak;sas;
+saxon, low;nds;
+scots;sco;
+scottish gaelic;gla;
+selkup;sel;
+semitic (other);sem;
+sepedi;nso;
+serbian;scc;srp;
+serer;srr;
+shan;shn;
+shona;sna;
+sichuan yi;iii;
+sicilian;scn;
+sidamo;sid;
+sign languages;sgn;
+siksika;bla;
+sindhi;snd;
+sinhala;sin;
+sinhalese;sin;
+sino-tibetan (other);sit;
+siouan languages;sio;
+skolt sami;sms;
+slave (athapascan);den;
+slavic (other);sla;
+slovak;slo;slk;
+slovenian;slv;
+sogdian;sog;
+somali;som;
+songhai;son;
+soninke;snk;
+sorbian languages;wen;
+sotho, northern;nso;
+sotho, southern;sot;
+south american indian (other);sai;
+south ndebele;nbl;
+southern altai;alt;
+southern sami;sma;
+spanish;spa;
+sranan togo;srn;
+sukuma;suk;
+sumerian;sux;
+sundanese;sun;
+susu;sus;
+swahili;swa;
+swati;ssw;
+swedish;swe;
+swiss german;gsw;
+syriac;syr;
+tagalog;tgl;
+tahitian;tah;
+tai (other);tai;
+tajik;tgk;
+tamashek;tmh;
+tamil;tam;
+tatar;tat;
+telugu;tel;
+tereno;ter;
+tetum;tet;
+thai;tha;
+tibetan;tib;bod;
+tigre;tig;
+tigrinya;tir;
+timne;tem;
+tiv;tiv;
+tlhingan-hol;tlh;
+tlingit;tli;
+tok pisin;tpi;
+tokelau;tkl;
+tonga (nyasa);tog;
+tonga (tonga islands);ton;
+tsimshian;tsi;
+tsonga;tso;
+tswana;tsn;
+tumbuka;tum;
+tupi languages;tup;
+turkish;tur;
+turkish, ottoman (1500-1928);ota;
+turkmen;tuk;
+tuvalu;tvl;
+tuvinian;tyv;
+twi;twi;
+udmurt;udm;
+ugaritic;uga;
+uighur;uig;
+ukrainian;ukr;
+umbundu;umb;
+undetermined;und;
+upper sorbian;hsb;
+urdu;urd;
+uyghur;uig;
+uzbek;uzb;
+vai;vai;
+valencian;cat;
+venda;ven;
+vietnamese;vie;
+volapu"k;vol;
+votic;vot;
+wakashan languages;wak;
+walamo;wal;
+walloon;wln;
+waray;war;
+washo;was;
+welsh;wel;cym;
+western frisian;fry;
+wolof;wol;
+xhosa;xho;
+yakut;sah;
+yao;yao;
+yapese;yap;
+yiddish;yid;
+yoruba;yor;
+yupik languages;ypk;
+zande;znd;
+zapotec;zap;
+zaza;zza;
+zazaki;zza;
+zenaga;zen;
+zhuang;zha;
+zulu;zul;
+zuni;zun;
+====== nikkas ====
+komo;kml;

@@ -1,0 +1,909 @@
+<!--
+ * LastModified: 2004.11.04
+ * Created: 2004.11.01
+ * @author HoKoNoUmo
+ *
+ * FORMAT:
+ * <SMvERB1 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,1" LGcPT="vrb1" TxEXP="trmVrb01" TXeXP1_B="I"/>
+ * <SmCONJUNCTION# XCPT="att.ext.env.place.accross.mv" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place.accross@" LGcPT="." TxEXP="" TXeXP1_A="vbtcomplement"/>
+ * <SmNOUN6 SMaTTR="random,plu" LGcPT="p2" TXeXP1_B="special-noun" TxEXP="nmp2" TXeXP1_A="" EXMPL="most cars'..."/>
+ * <SmSPECIALNOUN# XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_NOMINATIVE="po9" TXeXP1_B="" TxEXP="any" TXeXP1_A="" EXMPL="take any of the books you like"/>
+ *
+ * WD1= first word of the concepter. (4 are the most words a concepter can have: will have been written).
+ * TXeXP1_B= first word BEFORE the concept.
+ * WD1A= first word AFTER the concepter.
+ * EXMPL= first word in the MIDDLE of the concepter.
+ * TXeXP1_B="." denotes any word.
+ * TXeXP1_B="" denotes no word.
+ *
+ * ABBREVIATIONS FOR LESS STORAGE:
+ * ind=indicative,
+ * imp=imperative,
+ * sub=subjunctive,
+ * pre=present,
+ * past=past,
+ * fut=future,
+ * act=active,
+ * pass=passive,
+ * iper=imperfect,
+ * per=perfect,
+ * ins=instant,
+ * int=interval,
+ * ning=noninterogative,
+ * ing=interogative,
+ * aff=affirmative,
+ * neg=negative,
+ * sin=singular,
+ * plu=plural,
+ * 1=first,
+ * 2=second,
+ * 3=third,
+ *
+ * def=definite,
+ * idef=indefinte,
+ *
+ * IF the rules are ordered per ssemasia, THEN we can have the same order
+ * in all languages. 2004.08.29
+-->
+
+<SMvERB>
+<!-- every mv can have these instances -->
+<!-- PRESENT -->
+<!-- 1) I write | γράφω -->
+<SMvERB001 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,1" LGcPT="vrb001" TxEXP="trmVrb01" EXMPL="γράφω"/>
+<SMvERB002 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,2" LGcPT="vrb002" TxEXP="trmVrb02" EXMPL="γράφεις"/>
+<SMvERB003 SMaTTR="ind,pre,ins,act,iper,ning,aff,sin,3" LGcPT="vrb003" TxEXP="trmVrb03" EXMPL="γράφει"/>
+<SMvERB004 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,1" LGcPT="vrb004" TxEXP="trmVrb04" EXMPL="γράφουμε"/>
+<SMvERB004 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,1" LGcPT="vrb004b" TxEXP="trmVrb04b" EXMPL="γράφομε"/>
+<SMvERB005 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,2" LGcPT="vrb005" TxEXP="trmVrb05" EXMPL="γράφετε"/>
+<SMvERB006 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,3" LGcPT="vrb006" TxEXP="trmVrb06" EXMPL="γράφουν"/>
+<SMvERB006 SMaTTR="ind,pre,ins,act,iper,ning,aff,plu,3" LGcPT="vrb006b" TxEXP="trmVrb06b" EXMPL="γράφουνε"/>
+
+<SMvERB007 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,1" LGcPT="vrb007" TxEXP="δεν,trmVrb01" EXMPL="δε γράφω"/>
+<SMvERB008 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,2" LGcPT="vrb008" TxEXP="δεν,trmVrb02" EXMPL="δε γράφεις"/>
+<SMvERB009 SMaTTR="ind,pre,ins,act,iper,ning,neg,sin,3" LGcPT="vrb009" TxEXP="δεν,trmVrb03" EXMPL="δε γράφει"/>
+<SMvERB010 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,1" LGcPT="vrb010" TxEXP="δεν,trmVrb04" EXMPL="δε γράφουμε"/>
+<SMvERB010 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,1" LGcPT="vrb010b" TxEXP="δεν,trmVrb04b" EXMPL="δε γράφομε"/>
+<SMvERB011 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,2" LGcPT="vrb011" TxEXP="δεν,trmVrb05" EXMPL="δε γράφετε"/>
+<SMvERB012 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,3" LGcPT="vrb012" TxEXP="δεν,trmVrb06" EXMPL="δε γράφουν"/>
+<SMvERB012 SMaTTR="ind,pre,ins,act,iper,ning,neg,plu,3" LGcPT="vrb012b" TxEXP="δεν,trmVrb06b" EXMPL="δε γράφουνε"/>
+
+<SMvERB013 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,1" LGcPT="vrb001" TxEXP="trmVrb1;" EXMPL="γράφω;"/>
+<SMvERB014 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,2" LGcPT="vrb002" TxEXP="trmVrb2;" EXMPL="γράφεις;"/>
+<SMvERB015 SMaTTR="ind,pre,ins,act,iper,ing,aff,sin,3" LGcPT="vrb003" TxEXP="trmVrb3;" EXMPL="γράφει;"/>
+<SMvERB016 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,1" LGcPT="vrb004" TxEXP="trmVrb4;" EXMPL="γράφουμε;"/>
+<SMvERB016 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,1" LGcPT="vrb004b" TxEXP="trmVrb4b;" EXMPL="γράφομε;"/>
+<SMvERB017 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,2" LGcPT="vrb005" TxEXP="trmVrb5;" EXMPL="γράφετε;"/>
+<SMvERB018 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,3" LGcPT="vrb006" TxEXP="trmVrb6;" EXMPL="γράφουν;"/>
+<SMvERB018 SMaTTR="ind,pre,ins,act,iper,ing,aff,plu,3" LGcPT="vrb006b" TxEXP="trmVrb6b;" EXMPL="γράφουνε;"/>
+
+<SMvERB019 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,1" LGcPT="vrb007" TxEXP="δεν,trmVrb1;" EXMPL="δε γράφω;"/>
+<SMvERB020 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,2" LGcPT="vrb008" TxEXP="δεν,trmVrb2;" EXMPL="δε γράφεις;"/>
+<SMvERB021 SMaTTR="ind,pre,ins,act,iper,ing,neg,sin,3" LGcPT="vrb009" TxEXP="δεν,trmVrb3;" EXMPL="δε γράφει;"/>
+<SMvERB022 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,1" LGcPT="vrb010" TxEXP="δεν,trmVrb4;" EXMPL="δε γράφουμε;"/>
+<SMvERB022 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,1" LGcPT="vrb010b" TxEXP="δεν,trmVrb4b;" EXMPL="δε γράφομε;"/>
+<SMvERB023 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,2" LGcPT="vrb011" TxEXP="δεν,trmVrb5;" EXMPL="δε γράφετε;"/>
+<SMvERB024 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,3" LGcPT="vrb012" TxEXP="δεν,trmVrb6;" EXMPL="δε γράφουν;"/>
+<SMvERB024 SMaTTR="ind,pre,ins,act,iper,ing,neg,plu,3" LGcPT="vrb012b" TxEXP="δεν,trmVrb6b;" EXMPL="δε γράφουνε;"/>
+<!-- 2) I have written | έχω γράψει -->
+<SMvERB025 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,1" LGcPT="vrb013" TxEXP="έχω,trmVrb23" EXMPL="έχω γράψει"/>
+<SMvERB026 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,2" LGcPT="vrb014" TxEXP="έχεις,trmVrb23" EXMPL="έχεις γράψει"/>
+<SMvERB027 SMaTTR="ind,pre,ins,act,per,ning,aff,sin,3" LGcPT="vrb015" TxEXP="έχει,trmVrb23" EXMPL="έχει γράψει"/>
+<SMvERB028 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,1" LGcPT="vrb016" TxEXP="έχουμε,trmVrb23" EXMPL="έχουμε γράψει"/>
+<SMvERB029 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,2" LGcPT="vrb017" TxEXP="έχετε,trmVrb23" EXMPL="έχετε γράψει"/>
+<SMvERB030 SMaTTR="ind,pre,ins,act,per,ning,aff,plu,3" LGcPT="vrb018" TxEXP="έχουν,trmVrb23" EXMPL="έχουν γράψει"/>
+
+<SMvERB031 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,1" LGcPT="vrb019" TxEXP="δεν,έχω,trmVrb23" EXMPL="δεν έχω γράψει"/>
+<SMvERB032 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,2" LGcPT="vrb020" TxEXP="δεν,έχεις,trmVrb23" EXMPL="δεν έχεις γράψει"/>
+<SMvERB033 SMaTTR="ind,pre,ins,act,per,ning,neg,sin,3" LGcPT="vrb021" TxEXP="δεν,έχει,trmVrb23" EXMPL="δεν έχει γράψει"/>
+<SMvERB034 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,1" LGcPT="vrb022" TxEXP="δεν,έχουμε,trmVrb23" EXMPL="δεν έχουμε γράψει"/>
+<SMvERB035 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,2" LGcPT="vrb023" TxEXP="δεν,έχετε,trmVrb23" EXMPL="δεν έχετε γράψει"/>
+<SMvERB036 SMaTTR="ind,pre,ins,act,per,ning,neg,plu,3" LGcPT="vrb024" TxEXP="δεν,έχουν,trmVrb23" EXMPL="δεν έχουν γράψει"/>
+
+<SMvERB037 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,1" LGcPT="vrb013" TxEXP="έχω,trmVrb23;" EXMPL="έχω γράψει;"/>
+<SMvERB038 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,2" LGcPT="vrb014" TxEXP="έχεις,trmVrb23;" EXMPL="έχεις γράψει;"/>
+<SMvERB039 SMaTTR="ind,pre,ins,act,per,ing,aff,sin,3" LGcPT="vrb015" TxEXP="έχει,trmVrb23;" EXMPL="έχει γράψει;"/>
+<SMvERB040 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,1" LGcPT="vrb016" TxEXP="έχουμε,trmVrb23;" EXMPL="έχουμε γράψει;"/>
+<SMvERB041 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,2" LGcPT="vrb017" TxEXP="έχετε,trmVrb23;" EXMPL="έχετε γράψει;"/>
+<SMvERB042 SMaTTR="ind,pre,ins,act,per,ing,aff,plu,3" LGcPT="vrb018" TxEXP="έχουν,trmVrb23;" EXMPL="έχουν γράψει;"/>
+
+<SMvERB043 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,1" LGcPT="vrb019" TxEXP="δεν,έχω,trmVrb23;" EXMPL="δεν έχω γράψει;"/>
+<SMvERB044 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,2" LGcPT="vrb020" TxEXP="δεν,έχεις,trmVrb23;" EXMPL="δεν έχεις γράψει;"/>
+<SMvERB045 SMaTTR="ind,pre,ins,act,per,ing,neg,sin,3" LGcPT="vrb021" TxEXP="δεν,έχει,trmVrb23;" EXMPL="δεν έχει γράψει;"/>
+<SMvERB046 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,1" LGcPT="vrb022" TxEXP="δεν,έχουμε,trmVrb23;" EXMPL="δεν έχουμε γράψει;"/>
+<SMvERB047 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,2" LGcPT="vrb023" TxEXP="δεν,έχετε,trmVrb23;" EXMPL="δεν έχετε γράψει;"/>
+<SMvERB048 SMaTTR="ind,pre,ins,act,per,ing,neg,plu,3" LGcPT="vrb024" TxEXP="δεν,έχουν,trmVrb23;" EXMPL="δεν έχουν γράψει;"/>
+<!-- 3) I am written | γράφομαι -->
+<SMvERB049 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb025" TxEXP="trmVrb28" EXMPL="γράφομαι"/>
+<SMvERB050 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb026" TxEXP="trmVrb29" EXMPL="γράφεσαι"/>
+<SMvERB051 SMaTTR="ind,pre,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb027" TxEXP="trmVrb30" EXMPL="γράφεται"/>
+<SMvERB052 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb028" TxEXP="trmVrb31" EXMPL="γραφόμαστε"/>
+<SMvERB053 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb029" TxEXP="trmVrb32" EXMPL="γράφεστε"/>
+<SMvERB054 SMaTTR="ind,pre,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb030" TxEXP="trmVrb33" EXMPL="γράφονται"/>
+
+<SMvERB055 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb031" TxEXP="δεν,trmVrb28" EXMPL="δε γράφομαι"/>
+<SMvERB056 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb032" TxEXP="δεν,trmVrb29" EXMPL="δε γράφεσαι"/>
+<SMvERB057 SMaTTR="ind,pre,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb033" TxEXP="δεν,trmVrb30" EXMPL="δε γράφεται"/>
+<SMvERB058 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb034" TxEXP="δεν,trmVrb31" EXMPL="δε γραφόμαστε"/>
+<SMvERB059 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb035" TxEXP="δεν,trmVrb32" EXMPL="δε γράφεστε"/>
+<SMvERB060 SMaTTR="ind,pre,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb036" TxEXP="δεν,trmVrb32" EXMPL="δε γράφονται"/>
+
+<SMvERB061 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb025" TxEXP="trmVrb28;" EXMPL="γράφομαι;"/>
+<SMvERB062 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb026" TxEXP="trmVrb29;" EXMPL="γράφεσαι;"/>
+<SMvERB063 SMaTTR="ind,pre,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb027" TxEXP="trmVrb30;" EXMPL="γράφεται;"/>
+<SMvERB064 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb028" TxEXP="trmVrb31;" EXMPL="γραφόμαστε;"/>
+<SMvERB065 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb029" TxEXP="trmVrb32;" EXMPL="γράφεστε;"/>
+<SMvERB066 SMaTTR="ind,pre,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb030" TxEXP="trmVrb33;" EXMPL="γράφονται;"/>
+
+<SMvERB067 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb031" TxEXP="δεν,trmVrb28;" EXMPL="δε γράφομαι;"/>
+<SMvERB068 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb032" TxEXP="δεν,trmVrb29;" EXMPL="δε γράφεσαι;"/>
+<SMvERB069 SMaTTR="ind,pre,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb033" TxEXP="δεν,trmVrb30;" EXMPL="δε γράφεται;"/>
+<SMvERB070 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb034" TxEXP="δεν,trmVrb31;" EXMPL="δε γραφόμαστε;"/>
+<SMvERB071 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb035" TxEXP="δεν,trmVrb32;" EXMPL="δε γράφεστε;"/>
+<SMvERB072 SMaTTR="ind,pre,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb036" TxEXP="δεν,trmVrb33;" EXMPL="δε γράφονται;"/>
+<!-- 4) I have been written | έχω γραφτεί -->
+<SMvERB073 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,1" LGcPT="vrb037" TxEXP="έχω,trmVrb49" EXMPL="έχω γραφτεί"/>
+<SMvERB074 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,2" LGcPT="vrb038" TxEXP="έχεις,trmVrb49" EXMPL="έχεις γραφτεί"/>
+<SMvERB075 SMaTTR="ind,pre,ins,pass,per,ning,aff,sin,3" LGcPT="vrb039" TxEXP="έχει,trmVrb49" EXMPL="έχει γραφτεί"/>
+<SMvERB076 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,1" LGcPT="vrb040" TxEXP="έχουμε,trmVrb49" EXMPL="έχουμε γραφτεί"/>
+<SMvERB077 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,2" LGcPT="vrb041" TxEXP="έχετε,trmVrb49" EXMPL="έχετε γραφτεί"/>
+<SMvERB078 SMaTTR="ind,pre,ins,pass,per,ning,aff,plu,3" LGcPT="vrb042" TxEXP="έχουν,trmVrb49" EXMPL="έχουν γραφτεί"/>
+
+<SMvERB079 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,1" LGcPT="vrb043" TxEXP="δεν,trmVrb49" EXMPL="δεν έχω γραφτεί"/>
+<SMvERB080 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,2" LGcPT="vrb044" TxEXP="δεν,trmVrb49" EXMPL="δεν έχεις γραφτεί"/>
+<SMvERB081 SMaTTR="ind,pre,ins,pass,per,ning,neg,sin,3" LGcPT="vrb045" TxEXP="δεν,trmVrb49" EXMPL="δεν έχει γραφτεί"/>
+<SMvERB082 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,1" LGcPT="vrb046" TxEXP="δεν,trmVrb49" EXMPL="δεν έχουμε γραφτεί"/>
+<SMvERB083 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,2" LGcPT="vrb047" TxEXP="δεν,trmVrb49" EXMPL="δεν έχετε γραφτεί"/>
+<SMvERB084 SMaTTR="ind,pre,ins,pass,per,ning,neg,plu,3" LGcPT="vrb048" TxEXP="δεν,trmVrb49" EXMPL="δεν έχουν γραφτεί"/>
+
+<SMvERB085 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,1" LGcPT="vrb037" TxEXP="έχω,trmVrb49" EXMPL="έχω γραφτεί"/>
+<SMvERB086 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,2" LGcPT="vrb038" TxEXP="έχεις,trmVrb49" EXMPL="έχεις γραφτεί"/>
+<SMvERB087 SMaTTR="ind,pre,ins,pass,per,ing,aff,sin,3" LGcPT="vrb039" TxEXP="έχει,trmVrb49" EXMPL="έχει γραφτεί"/>
+<SMvERB088 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,1" LGcPT="vrb040" TxEXP="έχουμε,trmVrb49" EXMPL="έχουμε γραφτεί"/>
+<SMvERB089 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,2" LGcPT="vrb041" TxEXP="έχετε,trmVrb49" EXMPL="έχετε γραφτεί"/>
+<SMvERB090 SMaTTR="ind,pre,ins,pass,per,ing,aff,plu,3" LGcPT="vrb042" TxEXP="έχουν,trmVrb49" EXMPL="έχουν γραφτεί"/>
+
+<SMvERB091 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,1" LGcPT="vrb043" TxEXP="δεν,trmVrb49" EXMPL="δεν έχω γραφτεί"/>
+<SMvERB092 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,2" LGcPT="vrb044" TxEXP="δεν,trmVrb49" EXMPL="δεν έχεις γραφτεί"/>
+<SMvERB093 SMaTTR="ind,pre,ins,pass,per,ing,neg,sin,3" LGcPT="vrb045" TxEXP="δεν,trmVrb49" EXMPL="δεν έχει γραφτεί"/>
+<SMvERB094 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,1" LGcPT="vrb046" TxEXP="δεν,trmVrb49" EXMPL="δεν έχουμε γραφτεί"/>
+<SMvERB095 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,2" LGcPT="vrb047" TxEXP="δεν,trmVrb49" EXMPL="δεν έχετε γραφτεί"/>
+<SMvERB096 SMaTTR="ind,pre,ins,pass,per,ing,neg,plu,3" LGcPT="vrb048" TxEXP="δεν,trmVrb49" EXMPL="δεν έχουν γραφτεί"/>
+<!-- 5) I am writting | γράφω -->
+<SMvERB097 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,1" LGcPT="vrb001" TxEXP="trmVrb01" EXMPL="γράφω"/>
+<SMvERB098 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,2" LGcPT="vrb002" TxEXP="trmVrb02" EXMPL="γράφεις"/>
+<SMvERB099 SMaTTR="ind,pre,int,act,iper,ning,aff,sin,3" LGcPT="vrb003" TxEXP="trmVrb03" EXMPL="γράφει"/>
+<SMvERB100 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,1" LGcPT="vrb004" TxEXP="trmVrb04" EXMPL="γράφουμε"/>
+<SMvERB100 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,1" LGcPT="vrb004b" TxEXP="trmVrb04b" EXMPL="γράφομε"/>
+<SMvERB101 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,2" LGcPT="vrb005" TxEXP="trmVrb05" EXMPL="γράφετε"/>
+<SMvERB102 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,3" LGcPT="vrb006" TxEXP="trmVrb06" EXMPL="γράφουν"/>
+<SMvERB102 SMaTTR="ind,pre,int,act,iper,ning,aff,plu,3" LGcPT="vrb006b" TxEXP="trmVrb06b" EXMPL="γράφουνε"/>
+
+<SMvERB103 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,1" LGcPT="vrb007" TxEXP="δεν,trmVrb01" EXMPL="δε γράφω"/>
+<SMvERB104 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,2" LGcPT="vrb008" TxEXP="δεν,trmVrb02" EXMPL="δε γράφεις"/>
+<SMvERB105 SMaTTR="ind,pre,int,act,iper,ning,neg,sin,3" LGcPT="vrb009" TxEXP="δεν,trmVrb03" EXMPL="δε γράφει"/>
+<SMvERB116 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,1" LGcPT="vrb010" TxEXP="δεν,trmVrb04" EXMPL="δε γράφουμε"/>
+<SMvERB116 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,1" LGcPT="vrb010b" TxEXP="δεν,trmVrb04b" EXMPL="δε γράφομε"/>
+<SMvERB117 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,2" LGcPT="vrb011" TxEXP="δεν,trmVrb05" EXMPL="δε γράφετε"/>
+<SMvERB118 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,3" LGcPT="vrb012" TxEXP="δεν,trmVrb06" EXMPL="δε γράφουν"/>
+<SMvERB118 SMaTTR="ind,pre,int,act,iper,ning,neg,plu,3" LGcPT="vrb012b" TxEXP="δεν,trmVrb06b" EXMPL="δε γράφουνε"/>
+
+<SMvERB119 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,1" LGcPT="vrb001" TxEXP="trmVrb1;" EXMPL="γράφω;"/>
+<SMvERB110 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,2" LGcPT="vrb002" TxEXP="trmVrb2;" EXMPL="γράφεις;"/>
+<SMvERB111 SMaTTR="ind,pre,int,act,iper,ing,aff,sin,3" LGcPT="vrb003" TxEXP="trmVrb3;" EXMPL="γράφει;"/>
+<SMvERB112 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,1" LGcPT="vrb004" TxEXP="trmVrb4;" EXMPL="γράφουμε;"/>
+<SMvERB112 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,1" LGcPT="vrb004b" TxEXP="trmVrb4b;" EXMPL="γράφομε;"/>
+<SMvERB113 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,2" LGcPT="vrb005" TxEXP="trmVrb5;" EXMPL="γράφετε;"/>
+<SMvERB114 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,3" LGcPT="vrb006" TxEXP="trmVrb6;" EXMPL="γράφουν;"/>
+<SMvERB114 SMaTTR="ind,pre,int,act,iper,ing,aff,plu,3" LGcPT="vrb006b" TxEXP="trmVrb6b;" EXMPL="γράφουνε;"/>
+
+<SMvERB115 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,1" LGcPT="vrb007" TxEXP="δεν,trmVrb1;" EXMPL="δε γράφω;"/>
+<SMvERB116 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,2" LGcPT="vrb008" TxEXP="δεν,trmVrb2;" EXMPL="δε γράφεις;"/>
+<SMvERB117 SMaTTR="ind,pre,int,act,iper,ing,neg,sin,3" LGcPT="vrb009" TxEXP="δεν,trmVrb3;" EXMPL="δε γράφει;"/>
+<SMvERB118 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,1" LGcPT="vrb010" TxEXP="δεν,trmVrb4;" EXMPL="δε γράφουμε;"/>
+<SMvERB118 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,1" LGcPT="vrb010b" TxEXP="δεν,trmVrb4b;" EXMPL="δε γράφομε;"/>
+<SMvERB119 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,2" LGcPT="vrb011" TxEXP="δεν,trmVrb5;" EXMPL="δε γράφετε;"/>
+<SMvERB120 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,3" LGcPT="vrb012" TxEXP="δεν,trmVrb6;" EXMPL="δε γράφουν;"/>
+<SMvERB120 SMaTTR="ind,pre,int,act,iper,ing,neg,plu,3" LGcPT="vrb012b" TxEXP="δεν,trmVrb6b;" EXMPL="δε γράφουνε;"/>
+<!-- 6) I have been writing | έχω γραμμένο-->
+<SMvERB121 SMaTTR="ind,pre,int,act,per,ning,aff,sin,1" LGcPT="vrb049" TxEXP="έχω,trmVrb54c" EXMPL="έχω γραμμένο"/>
+<SMvERB122 SMaTTR="ind,pre,int,act,per,ning,aff,sin,2" LGcPT="vrb050" TxEXP="έχεις,trmVrb54c" EXMPL="έχεις γραμμένο"/>
+<SMvERB123 SMaTTR="ind,pre,int,act,per,ning,aff,sin,3" LGcPT="vrb051" TxEXP="έχει,trmVrb54c" EXMPL="έχει γραμμένο"/>
+<SMvERB124 SMaTTR="ind,pre,int,act,per,ning,aff,plu,1" LGcPT="vrb052" TxEXP="έχουμε,trmVrb54c" EXMPL="έχουμε γραμμένο"/>
+<SMvERB125 SMaTTR="ind,pre,int,act,per,ning,aff,plu,2" LGcPT="vrb053" TxEXP="έχετε,trmVrb54c" EXMPL="έχετε γραμμένο"/>
+<SMvERB126 SMaTTR="ind,pre,int,act,per,ning,aff,plu,3" LGcPT="vrb054" TxEXP="έχουν,trmVrb54c" EXMPL="έχουν γραμμένο"/>
+
+<SMvERB127 SMaTTR="ind,pre,int,act,per,ning,neg,sin,1" LGcPT="vrb055" TxEXP="δεν,έχω,trmVrb54c" EXMPL="δεν έχω γραμμένο"/>
+<SMvERB128 SMaTTR="ind,pre,int,act,per,ning,neg,sin,2" LGcPT="vrb056" TxEXP="δεν,έχεις,trmVrb54c" EXMPL="δεν έχεις γραμμένο"/>
+<SMvERB129 SMaTTR="ind,pre,int,act,per,ning,neg,sin,3" LGcPT="vrb057" TxEXP="δεν,έχει,trmVrb54c" EXMPL="δεν έχει γραμμένο"/>
+<SMvERB130 SMaTTR="ind,pre,int,act,per,ning,neg,plu,1" LGcPT="vrb058" TxEXP="δεν,έχουμε,trmVrb54c" EXMPL="δεν έχουμε γραμμένο"/>
+<SMvERB131 SMaTTR="ind,pre,int,act,per,ning,neg,plu,2" LGcPT="vrb059" TxEXP="δεν,έχετε,trmVrb54c" EXMPL="δεν έχετε γραμμένο"/>
+<SMvERB132 SMaTTR="ind,pre,int,act,per,ning,neg,plu,3" LGcPT="vrb060" TxEXP="δεν,έχουν,trmVrb54c" EXMPL="δεν έχουν γραμμένο"/>
+
+<SMvERB133 SMaTTR="ind,pre,int,act,per,ing,aff,sin,1" LGcPT="vrb049" TxEXP="έχω,trmVrb54c;" EXMPL="έχω γραμμένο;"/>
+<SMvERB134 SMaTTR="ind,pre,int,act,per,ing,aff,sin,2" LGcPT="vrb050" TxEXP="έχεις,trmVrb54c;" EXMPL="έχεις γραμμένο;"/>
+<SMvERB135 SMaTTR="ind,pre,int,act,per,ing,aff,sin,3" LGcPT="vrb051" TxEXP="έχει,trmVrb54c;" EXMPL="έχει γραμμένο;"/>
+<SMvERB136 SMaTTR="ind,pre,int,act,per,ing,aff,plu,1" LGcPT="vrb052" TxEXP="έχουμε,trmVrb54c;" EXMPL="έχουμε γραμμένο;"/>
+<SMvERB137 SMaTTR="ind,pre,int,act,per,ing,aff,plu,2" LGcPT="vrb053" TxEXP="έχετε,trmVrb54c;" EXMPL="έχετε γραμμένο;"/>
+<SMvERB138 SMaTTR="ind,pre,int,act,per,ing,aff,plu,3" LGcPT="vrb054" TxEXP="έχουν,trmVrb54c;" EXMPL="έχουν γραμμένο;"/>
+
+<SMvERB139 SMaTTR="ind,pre,int,act,per,ing,neg,sin,1" LGcPT="vrb055" TxEXP="δεν,έχω,trmVrb54c;" EXMPL="δεν έχω γραμμένο;"/>
+<SMvERB140 SMaTTR="ind,pre,int,act,per,ing,neg,sin,2" LGcPT="vrb056" TxEXP="δεν,έχεις,trmVrb54c;" EXMPL="δεν έχεις γραμμένο;"/>
+<SMvERB141 SMaTTR="ind,pre,int,act,per,ing,neg,sin,3" LGcPT="vrb057" TxEXP="δεν,έχει,trmVrb54c;" EXMPL="δεν έχει γραμμένο;"/>
+<SMvERB142 SMaTTR="ind,pre,int,act,per,ing,neg,plu,1" LGcPT="vrb058" TxEXP="δεν,έχουμε,trmVrb54c;" EXMPL="δεν έχουμε γραμμένο;"/>
+<SMvERB143 SMaTTR="ind,pre,int,act,per,ing,neg,plu,2" LGcPT="vrb059" TxEXP="δεν,έχετε,trmVrb54c;" EXMPL="δεν έχετε γραμμένο;"/>
+<SMvERB144 SMaTTR="ind,pre,int,act,per,ing,neg,plu,3" LGcPT="vrb060" TxEXP="δεν,έχουν,trmVrb54c;" EXMPL="δεν έχουν γραμμένο;"/>
+<!-- 7) I am being written | γράφομαι -->
+<SMvERB145 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,1" LGcPT="vrb025" TxEXP="trmVrb28" EXMPL="γράφομαι"/>
+<SMvERB146 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,2" LGcPT="vrb026" TxEXP="trmVrb29" EXMPL="γράφεσαι"/>
+<SMvERB147 SMaTTR="ind,pre,int,pass,iper,ning,aff,sin,3" LGcPT="vrb027" TxEXP="trmVrb30" EXMPL="γράφεται"/>
+<SMvERB148 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,1" LGcPT="vrb028" TxEXP="trmVrb31" EXMPL="γραφόμαστε"/>
+<SMvERB149 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,2" LGcPT="vrb029" TxEXP="trmVrb32" EXMPL="γράφεστε"/>
+<SMvERB150 SMaTTR="ind,pre,int,pass,iper,ning,aff,plu,3" LGcPT="vrb030" TxEXP="trmVrb33" EXMPL="γράφονται"/>
+
+<SMvERB151 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,1" LGcPT="vrb031" TxEXP="δεν,trmVrb28" EXMPL="δε γράφομαι"/>
+<SMvERB152 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,2" LGcPT="vrb032" TxEXP="δεν,trmVrb29" EXMPL="δε γράφεσαι"/>
+<SMvERB153 SMaTTR="ind,pre,int,pass,iper,ning,neg,sin,3" LGcPT="vrb033" TxEXP="δεν,trmVrb30" EXMPL="δε γράφεται"/>
+<SMvERB154 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,1" LGcPT="vrb034" TxEXP="δεν,trmVrb31" EXMPL="δε γραφόμαστε"/>
+<SMvERB155 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,2" LGcPT="vrb035" TxEXP="δεν,trmVrb32" EXMPL="δε γράφεστε"/>
+<SMvERB156 SMaTTR="ind,pre,int,pass,iper,ning,neg,plu,3" LGcPT="vrb036" TxEXP="δεν,trmVrb32" EXMPL="δε γράφονται"/>
+
+<SMvERB157 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,1" LGcPT="vrb025" TxEXP="trmVrb28;" EXMPL="γράφομαι;"/>
+<SMvERB157 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,2" LGcPT="vrb026" TxEXP="trmVrb29;" EXMPL="γράφεσαι;"/>
+<SMvERB159 SMaTTR="ind,pre,int,pass,iper,ing,aff,sin,3" LGcPT="vrb027" TxEXP="trmVrb30;" EXMPL="γράφεται;"/>
+<SMvERB160 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,1" LGcPT="vrb028" TxEXP="trmVrb31;" EXMPL="γραφόμαστε;"/>
+<SMvERB161 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,2" LGcPT="vrb029" TxEXP="trmVrb32;" EXMPL="γράφεστε;"/>
+<SMvERB162 SMaTTR="ind,pre,int,pass,iper,ing,aff,plu,3" LGcPT="vrb030" TxEXP="trmVrb33;" EXMPL="γράφονται;"/>
+
+<SMvERB163 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,1" LGcPT="vrb031" TxEXP="δεν,trmVrb28;" EXMPL="δε γράφομαι;"/>
+<SMvERB164 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,2" LGcPT="vrb032" TxEXP="δεν,trmVrb29;" EXMPL="δε γράφεσαι;"/>
+<SMvERB165 SMaTTR="ind,pre,int,pass,iper,ing,neg,sin,3" LGcPT="vrb033" TxEXP="δεν,trmVrb30;" EXMPL="δε γράφεται;"/>
+<SMvERB166 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,1" LGcPT="vrb034" TxEXP="δεν,trmVrb31;" EXMPL="δε γραφόμαστε;"/>
+<SMvERB167 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,2" LGcPT="vrb035" TxEXP="δεν,trmVrb32;" EXMPL="δε γράφεστε;"/>
+<SMvERB168 SMaTTR="ind,pre,int,pass,iper,ing,neg,plu,3" LGcPT="vrb036" TxEXP="δεν,trmVrb33;" EXMPL="δε γράφονται;"/>
+<!-- 8) I have being written | είμαι γραμμένος -->
+<SMvERB169 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,1" LGcPT="vrb061" TxEXP="είμαι,trmVrb54" EXMPL="είμαι γραμμένος"/>
+<SMvERB170 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,2" LGcPT="vrb062" TxEXP="είσαι,trmVrb54" EXMPL="είσαι γραμμένος"/>
+<SMvERB171 SMaTTR="ind,pre,int,pass,per,ning,aff,sin,3" LGcPT="vrb063" TxEXP="είναι,trmVrb54" EXMPL="είναι γραμμένος"/>
+<SMvERB172 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,1" LGcPT="vrb064" TxEXP="είμαστε,trmVrb54d" EXMPL="είμαστε γραμμένοι"/>
+<SMvERB173 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,2" LGcPT="vrb065" TxEXP="είστε,trmVrb54d" EXMPL="είστε γραμμένοι"/>
+<SMvERB174 SMaTTR="ind,pre,int,pass,per,ning,aff,plu,3" LGcPT="vrb066" TxEXP="είναι,trmVrb54d" EXMPL="είναι γραμμένοι"/>
+
+<SMvERB175 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,1" LGcPT="vrb067" TxEXP="δεν,είμαι,trmVrb54" EXMPL="δεν είμαι γραμμένος"/>
+<SMvERB176 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,2" LGcPT="vrb068" TxEXP="δεν,είσαι,trmVrb54" EXMPL="δεν είσαι γραμμένος"/>
+<SMvERB177 SMaTTR="ind,pre,int,pass,per,ning,neg,sin,3" LGcPT="vrb069" TxEXP="δεν,είναι,trmVrb54" EXMPL="δεν είναι γραμμένος"/>
+<SMvERB178 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,1" LGcPT="vrb070" TxEXP="δεν,είμαστε,trmVrb54d" EXMPL="δεν είμαστε γραμμένοι"/>
+<SMvERB179 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,2" LGcPT="vrb071" TxEXP="δεν,είστε,trmVrb54d" EXMPL="δεν είστε γραμμένοι"/>
+<SMvERB180 SMaTTR="ind,pre,int,pass,per,ning,neg,plu,3" LGcPT="vrb072" TxEXP="δεν,είναι,trmVrb54d" EXMPL="δεν είναι γραμμένοι"/>
+
+<SMvERB181 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,1" LGcPT="vrb061" TxEXP="είμαι,trmVrb54;" EXMPL="είμαι γραμμένος;"/>
+<SMvERB182 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,2" LGcPT="vrb062" TxEXP="είσαι,trmVrb54;" EXMPL="είσαι γραμμένος;"/>
+<SMvERB183 SMaTTR="ind,pre,int,pass,per,ing,aff,sin,3" LGcPT="vrb063" TxEXP="είναι,trmVrb54;" EXMPL="είναι γραμμένος;"/>
+<SMvERB184 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,1" LGcPT="vrb064" TxEXP="είμαστε,trmVrb54d;" EXMPL="είμαστε γραμμένοι;"/>
+<SMvERB185 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,2" LGcPT="vrb065" TxEXP="είστε,trmVrb54d;" EXMPL="είστε γραμμένοι;"/>
+<SMvERB186 SMaTTR="ind,pre,int,pass,per,ing,aff,plu,3" LGcPT="vrb066" TxEXP="είναι,trmVrb54d;" EXMPL="είναι γραμμένοι;"/>
+
+<SMvERB187 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,1" LGcPT="vrb067" TxEXP="δεν,είμαι,trmVrb54;" EXMPL="δεν είμαι γραμμένος;"/>
+<SMvERB188 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,2" LGcPT="vrb068" TxEXP="δεν,είσαι,trmVrb54;" EXMPL="δεν είσαι γραμμένος;"/>
+<SMvERB189 SMaTTR="ind,pre,int,pass,per,ing,neg,sin,3" LGcPT="vrb069" TxEXP="δεν,είναι,trmVrb54;" EXMPL="δεν είναι γραμμένος;"/>
+<SMvERB190 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,1" LGcPT="vrb070" TxEXP="δεν,είμαστε,trmVrb54d;" EXMPL="δεν είμαστε γραμμένοι;"/>
+<SMvERB191 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,2" LGcPT="vrb071" TxEXP="δεν,είστε,trmVrb54d;" EXMPL="δεν είστε γραμμένοι;"/>
+<SMvERB192 SMaTTR="ind,pre,int,pass,per,ing,neg,plu,3" LGcPT="vrb072" TxEXP="δεν,είναι,trmVrb54d;" EXMPL="δεν είναι γραμμένοι;"/>
+<!-- PAST -->
+<!-- 9) I wrote | έγραψα -->
+<SMvERB193 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,1" LGcPT="vrb073" TxEXP="trmVrb14" EXMPL="έγραψα"/>
+<SMvERB194 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,2" LGcPT="vrb074" TxEXP="trmVrb15" EXMPL="έγραψες"/>
+<SMvERB195 SMaTTR="ind,past,ins,act,iper,ning,aff,sin,3" LGcPT="vrb075" TxEXP="trmVrb16" EXMPL="έγραψε"/>
+<SMvERB196 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,1" LGcPT="vrb076" TxEXP="trmVrb17" EXMPL="γράψαμε"/>
+<SMvERB197 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,2" LGcPT="vrb077" TxEXP="trmVrb18" EXMPL="γράψατε"/>
+<SMvERB198 SMaTTR="ind,past,ins,act,iper,ning,aff,plu,3" LGcPT="vrb078" TxEXP="trmVrb19" EXMPL="έγραψαν"/>
+
+<SMvERB199 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,1" LGcPT="vrb079" TxEXP="δεν,trmVrb14" EXMPL="δεν έγραψα"/>
+<SMvERB200 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,2" LGcPT="vrb080" TxEXP="δεν,trmVrb15" EXMPL="δεν έγραψες"/>
+<SMvERB201 SMaTTR="ind,past,ins,act,iper,ning,neg,sin,3" LGcPT="vrb081" TxEXP="δεν,trmVrb16" EXMPL="δεν έγραψε"/>
+<SMvERB202 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,1" LGcPT="vrb082" TxEXP="δεν,trmVrb17" EXMPL="δε γράψαμε"/>
+<SMvERB203 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,2" LGcPT="vrb083" TxEXP="δεν,trmVrb18" EXMPL="δε γράψατε"/>
+<SMvERB204 SMaTTR="ind,past,ins,act,iper,ning,neg,plu,3" LGcPT="vrb084" TxEXP="δεν,trmVrb19" EXMPL="δεν έγραψαν"/>
+
+<SMvERB205 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,1" LGcPT="vrb073" TxEXP="trmVrb14;" EXMPL="έγραψα;"/>
+<SMvERB206 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,2" LGcPT="vrb074" TxEXP="trmVrb15;" EXMPL="έγραψες;"/>
+<SMvERB207 SMaTTR="ind,past,ins,act,iper,ing,aff,sin,3" LGcPT="vrb075" TxEXP="trmVrb16;" EXMPL="έγραψε;"/>
+<SMvERB208 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,1" LGcPT="vrb076" TxEXP="trmVrb17;" EXMPL="γράψαμε;"/>
+<SMvERB209 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,2" LGcPT="vrb077" TxEXP="trmVrb18;" EXMPL="γράψατε;"/>
+<SMvERB210 SMaTTR="ind,past,ins,act,iper,ing,aff,plu,3" LGcPT="vrb078" TxEXP="trmVrb19;" EXMPL="έγραψαν;"/>
+
+<SMvERB211 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,1" LGcPT="vrb079" TxEXP="δεν,trmVrb14;" EXMPL="δεν έγραψα;"/>
+<SMvERB212 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,2" LGcPT="vrb080" TxEXP="δεν,trmVrb15;" EXMPL="δεν έγραψες;"/>
+<SMvERB213 SMaTTR="ind,past,ins,act,iper,ing,neg,sin,3" LGcPT="vrb081" TxEXP="δεν,trmVrb16;" EXMPL="δεν έγραψε;"/>
+<SMvERB214 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,1" LGcPT="vrb082" TxEXP="δεν,trmVrb17;" EXMPL="δε γράψαμε;"/>
+<SMvERB215 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,2" LGcPT="vrb083" TxEXP="δεν,trmVrb18;" EXMPL="δε γράψατε;"/>
+<SMvERB216 SMaTTR="ind,past,ins,act,iper,ing,neg,plu,3" LGcPT="vrb084" TxEXP="δεν,trmVrb19;" EXMPL="δεν έγραψαν;"/>
+<!-- 10) I had written | είχα γράψει -->
+<SMvERB217 SMaTTR="ind,past,ins,act,per,ning,aff,sin,1" LGcPT="vrb085" TxEXP="είχα,trmVrb23" EXMPL="είχα γράψει"/>
+<SMvERB218 SMaTTR="ind,past,ins,act,per,ning,aff,sin,2" LGcPT="vrb086" TxEXP="είχες,trmVrb23" EXMPL="είχες γράψει"/>
+<SMvERB219 SMaTTR="ind,past,ins,act,per,ning,aff,sin,3" LGcPT="vrb087" TxEXP="είχε,trmVrb23" EXMPL="είχε γράψει"/>
+<SMvERB220 SMaTTR="ind,past,ins,act,per,ning,aff,plu,1" LGcPT="vrb088" TxEXP="είχαμε,trmVrb23" EXMPL="είχαμε γράψει"/>
+<SMvERB221 SMaTTR="ind,past,ins,act,per,ning,aff,plu,2" LGcPT="vrb089" TxEXP="είχατε,trmVrb23" EXMPL="είχατε γράψει"/>
+<SMvERB222 SMaTTR="ind,past,ins,act,per,ning,aff,plu,3" LGcPT="vrb090" TxEXP="είχαν,trmVrb23" EXMPL="είχαν γράψει"/>
+
+<SMvERB223 SMaTTR="ind,past,ins,act,per,ning,neg,sin,1" LGcPT="vrb091" TxEXP="δεν,είχα,trmVrb23" EXMPL="δεν είχα γράψει"/>
+<SMvERB224 SMaTTR="ind,past,ins,act,per,ning,neg,sin,2" LGcPT="vrb092" TxEXP="δεν,είχες,trmVrb23" EXMPL="δεν είχες γράψει"/>
+<SMvERB225 SMaTTR="ind,past,ins,act,per,ning,neg,sin,3" LGcPT="vrb093" TxEXP="δεν,είχε,trmVrb23" EXMPL="δεν είχε γράψει"/>
+<SMvERB226 SMaTTR="ind,past,ins,act,per,ning,neg,plu,1" LGcPT="vrb094" TxEXP="δεν,είχαμε,trmVrb23" EXMPL="δεν είχαμε γράψει"/>
+<SMvERB227 SMaTTR="ind,past,ins,act,per,ning,neg,plu,2" LGcPT="vrb095" TxEXP="δεν,είχατε,trmVrb23" EXMPL="δεν είχατε γράψει"/>
+<SMvERB228 SMaTTR="ind,past,ins,act,per,ning,neg,plu,3" LGcPT="vrb096" TxEXP="δεν,είχαν,trmVrb23" EXMPL="δεν είχαν γράψει"/>
+
+<SMvERB229 SMaTTR="ind,past,ins,act,per,ing,aff,sin,1" LGcPT="vrb085" TxEXP="είχα,trmVrb23;" EXMPL="είχα γράψει;"/>
+<SMvERB230 SMaTTR="ind,past,ins,act,per,ing,aff,sin,2" LGcPT="vrb086" TxEXP="είχες,trmVrb23;" EXMPL="είχες γράψει;"/>
+<SMvERB231 SMaTTR="ind,past,ins,act,per,ing,aff,sin,3" LGcPT="vrb087" TxEXP="είχε,trmVrb23;" EXMPL="είχε γράψει;"/>
+<SMvERB232 SMaTTR="ind,past,ins,act,per,ing,aff,plu,1" LGcPT="vrb088" TxEXP="είχαμε,trmVrb23;" EXMPL="είχαμε γράψει;"/>
+<SMvERB233 SMaTTR="ind,past,ins,act,per,ing,aff,plu,2" LGcPT="vrb089" TxEXP="είχατε,trmVrb23;" EXMPL="είχατε γράψει;"/>
+<SMvERB234 SMaTTR="ind,past,ins,act,per,ing,aff,plu,3" LGcPT="vrb090" TxEXP="είχαν,trmVrb23;" EXMPL="είχαν γράψει;"/>
+
+<SMvERB235 SMaTTR="ind,past,ins,act,per,ing,neg,sin,1" LGcPT="vrb091" TxEXP="δεν,είχα,trmVrb23;" EXMPL="δεν είχα γράψει;"/>
+<SMvERB236 SMaTTR="ind,past,ins,act,per,ing,neg,sin,2" LGcPT="vrb092" TxEXP="δεν,είχες,trmVrb23;" EXMPL="δεν είχες γράψει;"/>
+<SMvERB237 SMaTTR="ind,past,ins,act,per,ing,neg,sin,3" LGcPT="vrb093" TxEXP="δεν,είχε,trmVrb23;" EXMPL="δεν είχε γράψει;"/>
+<SMvERB238 SMaTTR="ind,past,ins,act,per,ing,neg,plu,1" LGcPT="vrb094" TxEXP="δεν,είχαμε,trmVrb23;" EXMPL="δεν είχαμε γράψει;"/>
+<SMvERB239 SMaTTR="ind,past,ins,act,per,ing,neg,plu,2" LGcPT="vrb095" TxEXP="δεν,είχατε,trmVrb23;" EXMPL="δεν είχατε γράψει;"/>
+<SMvERB240 SMaTTR="ind,past,ins,act,per,ing,neg,plu,3" LGcPT="vrb096" TxEXP="δεν,είχαν,trmVrb23;" EXMPL="δεν είχαν γράψει;"/>
+<!-- 11) I was written | γράφτηκα -->
+<SMvERB241 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb097" TxEXP="trmVrb41" EXMPL="γράφτηκα"/>
+<SMvERB242 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb098" TxEXP="trmVrb42" EXMPL="γράφτηκες"/>
+<SMvERB243 SMaTTR="ind,past,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb099" TxEXP="trmVrb43" EXMPL="γράφτηκε"/>
+<SMvERB244 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb100" TxEXP="trmVrb44" EXMPL="γραφτήκαμε"/>
+<SMvERB245 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb101" TxEXP="trmVrb45" EXMPL="γραφτήκατε"/>
+<SMvERB246 SMaTTR="ind,past,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb102" TxEXP="trmVrb46" EXMPL="γράφτηκαν"/>
+
+<SMvERB247 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb103" TxEXP="δεν,trmVrb41" EXMPL="δε γράφτηκα"/>
+<SMvERB248 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb104" TxEXP="δεν,trmVrb42" EXMPL="δε γράφτηκες"/>
+<SMvERB249 SMaTTR="ind,past,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb105" TxEXP="δεν,trmVrb43" EXMPL="δε γράφτηκε"/>
+<SMvERB250 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb106" TxEXP="δεν,trmVrb44" EXMPL="δε γραφτήκαμε"/>
+<SMvERB251 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb107" TxEXP="δεν,trmVrb45" EXMPL="δε γραφτήκατε"/>
+<SMvERB252 SMaTTR="ind,past,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb108" TxEXP="δεν,trmVrb46" EXMPL="δε γράφτηκαν"/>
+
+<SMvERB253 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb097" TxEXP="trmVrb41;" EXMPL="γράφτηκα;"/>
+<SMvERB254 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb098" TxEXP="trmVrb42;" EXMPL="γράφτηκες;"/>
+<SMvERB255 SMaTTR="ind,past,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb099" TxEXP="trmVrb43;" EXMPL="γράφτηκε;"/>
+<SMvERB256 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb100" TxEXP="trmVrb44;" EXMPL="γραφτήκαμε;"/>
+<SMvERB257 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb101" TxEXP="trmVrb45;" EXMPL="γραφτήκατε;"/>
+<SMvERB258 SMaTTR="ind,past,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb102" TxEXP="trmVrb46;" EXMPL="γράφτηκαν;"/>
+
+<SMvERB259 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb103" TxEXP="δεν,trmVrb41;" EXMPL="δε γράφτηκα;"/>
+<SMvERB260 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb104" TxEXP="δεν,trmVrb42;" EXMPL="δε γράφτηκες;"/>
+<SMvERB261 SMaTTR="ind,past,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb105" TxEXP="δεν,trmVrb43;" EXMPL="δε γράφτηκε;"/>
+<SMvERB262 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb106" TxEXP="δεν,trmVrb44;" EXMPL="δε γραφτήκαμε;"/>
+<SMvERB263 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb107" TxEXP="δεν,trmVrb45;" EXMPL="δε γραφτήκατε;"/>
+<SMvERB264 SMaTTR="ind,past,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb108" TxEXP="δεν,trmVrb46;" EXMPL="δε γράφτηκαν;"/>
+<!-- 12) I had been written | είχα γραφτεί -->
+<SMvERB265 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,1" LGcPT="vrb109" TxEXP="είχα,trmVrb49" EXMPL="είχα γραφτεί"/>
+<SMvERB266 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,2" LGcPT="vrb110" TxEXP="είχες,trmVrb49" EXMPL="είχα γραφτεί"/>
+<SMvERB267 SMaTTR="ind,past,ins,pass,per,ning,aff,sin,3" LGcPT="vrb111" TxEXP="είχε,trmVrb49" EXMPL="είχα γραφτεί"/>
+<SMvERB268 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,1" LGcPT="vrb112" TxEXP="είχαμε,trmVrb49" EXMPL="είχα γραφτεί"/>
+<SMvERB269 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,2" LGcPT="vrb113" TxEXP="είχατε,trmVrb49" EXMPL="είχα γραφτεί"/>
+<SMvERB270 SMaTTR="ind,past,ins,pass,per,ning,aff,plu,3" LGcPT="vrb114" TxEXP="είχαν,trmVrb49" EXMPL="είχα γραφτεί"/>
+
+<SMvERB271 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,1" LGcPT="vrb115" TxEXP="δεν,είχα,trmVrb49" EXMPL="δεν είχα γραφτεί"/>
+<SMvERB272 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,2" LGcPT="vrb116" TxEXP="δεν,είχες,trmVrb49" EXMPL="δεν είχες γραφτεί"/>
+<SMvERB273 SMaTTR="ind,past,ins,pass,per,ning,neg,sin,3" LGcPT="vrb117" TxEXP="δεν,είχε,trmVrb49" EXMPL="δεν είχε γραφτεί"/>
+<SMvERB274 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,1" LGcPT="vrb118" TxEXP="δεν,είχαμε,trmVrb49" EXMPL="δεν είχαμε γραφτεί"/>
+<SMvERB275 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,2" LGcPT="vrb119" TxEXP="δεν,είχατε,trmVrb49" EXMPL="δεν είχατε γραφτεί"/>
+<SMvERB276 SMaTTR="ind,past,ins,pass,per,ning,neg,plu,3" LGcPT="vrb120" TxEXP="δεν,είχαν,trmVrb49" EXMPL="δεν είχαν γραφτεί"/>
+
+<SMvERB277 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,1" LGcPT="vrb109" TxEXP="είχα,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+<SMvERB278 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,2" LGcPT="vrb110" TxEXP="είχες,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+<SMvERB279 SMaTTR="ind,past,ins,pass,per,ing,aff,sin,3" LGcPT="vrb111" TxEXP="είχε,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+<SMvERB280 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,1" LGcPT="vrb112" TxEXP="είχαμε,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+<SMvERB281 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,2" LGcPT="vrb113" TxEXP="είχατε,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+<SMvERB282 SMaTTR="ind,past,ins,pass,per,ing,aff,plu,3" LGcPT="vrb114" TxEXP="είχαν,trmVrb49;" EXMPL="είχα γραφτεί;"/>
+
+<SMvERB283 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,1" LGcPT="vrb115" TxEXP="δεν,είχα,trmVrb49;" EXMPL="δεν είχα γραφτεί;"/>
+<SMvERB284 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,2" LGcPT="vrb116" TxEXP="δεν,είχες,trmVrb49;" EXMPL="δεν είχες γραφτεί;"/>
+<SMvERB285 SMaTTR="ind,past,ins,pass,per,ing,neg,sin,3" LGcPT="vrb117" TxEXP="δεν,είχε,trmVrb49;" EXMPL="δεν είχε γραφτεί;"/>
+<SMvERB286 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,1" LGcPT="vrb118" TxEXP="δεν,είχαμε,trmVrb49;" EXMPL="δεν είχαμε γραφτεί;"/>
+<SMvERB287 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,2" LGcPT="vrb119" TxEXP="δεν,είχατε,trmVrb49;" EXMPL="δεν είχατε γραφτεί;"/>
+<SMvERB288 SMaTTR="ind,past,ins,pass,per,ing,neg,plu,3" LGcPT="vrb120" TxEXP="δεν,είχαν,trmVrb49;" EXMPL="δεν είχαν γραφτεί;"/>
+<!-- 13) I was writing | έγραφα -->
+<SMvERB289 SMaTTR="ind,past,int,act,iper,ning,aff,sin,1" LGcPT="vrb121" TxEXP="trmVrb08" EXMPL="έγραφα"/>
+<SMvERB290 SMaTTR="ind,past,int,act,iper,ning,aff,sin,2" LGcPT="vrb122" TxEXP="trmVrb09" EXMPL="έγραφες"/>
+<SMvERB291 SMaTTR="ind,past,int,act,iper,ning,aff,sin,3" LGcPT="vrb123" TxEXP="trmVrb10" EXMPL="έγραφε"/>
+<SMvERB292 SMaTTR="ind,past,int,act,iper,ning,aff,plu,1" LGcPT="vrb124" TxEXP="trmVrb11" EXMPL="γράφαμε"/>
+<SMvERB293 SMaTTR="ind,past,int,act,iper,ning,aff,plu,2" LGcPT="vrb125" TxEXP="trmVrb12" EXMPL="γράφατε"/>
+<SMvERB294 SMaTTR="ind,past,int,act,iper,ning,aff,plu,3" LGcPT="vrb126" TxEXP="trmVrb13" EXMPL="έγραφαν"/>
+
+<SMvERB295 SMaTTR="ind,past,int,act,iper,ning,neg,sin,1" LGcPT="vrb127" TxEXP="δεν,trmVrb08" EXMPL="δεν έγραφα"/>
+<SMvERB296 SMaTTR="ind,past,int,act,iper,ning,neg,sin,2" LGcPT="vrb128" TxEXP="δεν,trmVrb09" EXMPL="δεν έγραφες"/>
+<SMvERB297 SMaTTR="ind,past,int,act,iper,ning,neg,sin,3" LGcPT="vrb129" TxEXP="δεν,trmVrb10" EXMPL="δεν έγραφε"/>
+<SMvERB298 SMaTTR="ind,past,int,act,iper,ning,neg,plu,1" LGcPT="vrb130" TxEXP="δεν,trmVrb11" EXMPL="δε γράφαμε"/>
+<SMvERB299 SMaTTR="ind,past,int,act,iper,ning,neg,plu,2" LGcPT="vrb131" TxEXP="δεν,trmVrb12" EXMPL="δε γράφατε"/>
+<SMvERB300 SMaTTR="ind,past,int,act,iper,ning,neg,plu,3" LGcPT="vrb132" TxEXP="δεν,trmVrb13" EXMPL="δεν έγραφαν"/>
+
+<SMvERB301 SMaTTR="ind,past,int,act,iper,ing,aff,sin,1" LGcPT="vrb121" TxEXP="trmVrb8;" EXMPL="έγραφα;"/>
+<SMvERB302 SMaTTR="ind,past,int,act,iper,ing,aff,sin,2" LGcPT="vrb122" TxEXP="trmVrb9;" EXMPL="έγραφες;"/>
+<SMvERB303 SMaTTR="ind,past,int,act,iper,ing,aff,sin,3" LGcPT="vrb123" TxEXP="trmVrb10;" EXMPL="έγραφε;"/>
+<SMvERB304 SMaTTR="ind,past,int,act,iper,ing,aff,plu,1" LGcPT="vrb124" TxEXP="trmVrb11;" EXMPL="γράφαμε;"/>
+<SMvERB305 SMaTTR="ind,past,int,act,iper,ing,aff,plu,2" LGcPT="vrb125" TxEXP="trmVrb12;" EXMPL="γράφατε;"/>
+<SMvERB306 SMaTTR="ind,past,int,act,iper,ing,aff,plu,3" LGcPT="vrb126" TxEXP="trmVrb13;" EXMPL="έγραφαν;"/>
+
+<SMvERB307 SMaTTR="ind,past,int,act,iper,ing,neg,sin,1" LGcPT="vrb127" TxEXP="δεν,trmVrb8;" EXMPL="δεν έγραφα;"/>
+<SMvERB308 SMaTTR="ind,past,int,act,iper,ing,neg,sin,2" LGcPT="vrb128" TxEXP="δεν,trmVrb9;" EXMPL="δεν έγραφες;"/>
+<SMvERB309 SMaTTR="ind,past,int,act,iper,ing,neg,sin,3" LGcPT="vrb129" TxEXP="δεν,trmVrb10;" EXMPL="δεν έγραφε;"/>
+<SMvERB310 SMaTTR="ind,past,int,act,iper,ing,neg,plu,1" LGcPT="vrb130" TxEXP="δεν,trmVrb11;" EXMPL="δε γράφαμε;"/>
+<SMvERB311 SMaTTR="ind,past,int,act,iper,ing,neg,plu,2" LGcPT="vrb131" TxEXP="δεν,trmVrb12;" EXMPL="δε γράφατε;"/>
+<SMvERB312 SMaTTR="ind,past,int,act,iper,ing,neg,plu,3" LGcPT="vrb132" TxEXP="δεν,trmVrb13;" EXMPL="δεν έγραφαν;"/>
+<!-- 14) I had been writing | είχα γραμμένο -->
+<SMvERB313 SMaTTR="ind,past,int,act,per,ning,aff,sin,1" LGcPT="vrb133" TxEXP="trmVrb54c" EXMPL="είχα γραμμένο"/>
+<SMvERB314 SMaTTR="ind,past,int,act,per,ning,aff,sin,2" LGcPT="vrb134" TxEXP="trmVrb54c" EXMPL="είχες γραμμένο"/>
+<SMvERB315 SMaTTR="ind,past,int,act,per,ning,aff,sin,3" LGcPT="vrb135" TxEXP="trmVrb54c" EXMPL="είχε γραμμένο"/>
+<SMvERB316 SMaTTR="ind,past,int,act,per,ning,aff,plu,1" LGcPT="vrb136" TxEXP="trmVrb54c" EXMPL="είχαμε γραμμένο"/>
+<SMvERB317 SMaTTR="ind,past,int,act,per,ning,aff,plu,2" LGcPT="vrb137" TxEXP="trmVrb54c" EXMPL="είχατε γραμμένο"/>
+<SMvERB318 SMaTTR="ind,past,int,act,per,ning,aff,plu,3" LGcPT="vrb138" TxEXP="trmVrb54c" EXMPL="είχαν γραμμένο"/>
+
+<SMvERB319 SMaTTR="ind,past,int,act,per,ning,neg,sin,1" LGcPT="vrb139" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχα γραμμένο"/>
+<SMvERB320 SMaTTR="ind,past,int,act,per,ning,neg,sin,2" LGcPT="vrb140" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχες γραμμένο"/>
+<SMvERB321 SMaTTR="ind,past,int,act,per,ning,neg,sin,3" LGcPT="vrb141" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχε γραμμένο"/>
+<SMvERB322 SMaTTR="ind,past,int,act,per,ning,neg,plu,1" LGcPT="vrb142" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχαμε γραμμένο"/>
+<SMvERB323 SMaTTR="ind,past,int,act,per,ning,neg,plu,2" LGcPT="vrb143" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχατε γραμμένο"/>
+<SMvERB324 SMaTTR="ind,past,int,act,per,ning,neg,plu,3" LGcPT="vrb144" TxEXP="δεν,trmVrb54c" EXMPL="δεν είχαν γραμμένο"/>
+
+<SMvERB325 SMaTTR="ind,past,int,act,per,ing,aff,sin,1" LGcPT="vrb133" TxEXP="trmVrb54c;" EXMPL="είχα γραμμένο;"/>
+<SMvERB326 SMaTTR="ind,past,int,act,per,ing,aff,sin,2" LGcPT="vrb134" TxEXP="trmVrb54c;" EXMPL="είχες γραμμένο;"/>
+<SMvERB327 SMaTTR="ind,past,int,act,per,ing,aff,sin,3" LGcPT="vrb135" TxEXP="trmVrb54c;" EXMPL="είχε γραμμένο;"/>
+<SMvERB328 SMaTTR="ind,past,int,act,per,ing,aff,plu,1" LGcPT="vrb136" TxEXP="trmVrb54c;" EXMPL="είχαμε γραμμένο;"/>
+<SMvERB329 SMaTTR="ind,past,int,act,per,ing,aff,plu,2" LGcPT="vrb137" TxEXP="trmVrb54c;" EXMPL="είχατε γραμμένο;"/>
+<SMvERB330 SMaTTR="ind,past,int,act,per,ing,aff,plu,3" LGcPT="vrb138" TxEXP="trmVrb54c;" EXMPL="είχαν γραμμένο;"/>
+
+<SMvERB331 SMaTTR="ind,past,int,act,per,ing,neg,sin,1" LGcPT="vrb139" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχα γραμμένο;"/>
+<SMvERB332 SMaTTR="ind,past,int,act,per,ing,neg,sin,2" LGcPT="vrb140" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχες γραμμένο;"/>
+<SMvERB333 SMaTTR="ind,past,int,act,per,ing,neg,sin,3" LGcPT="vrb141" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχε γραμμένο;"/>
+<SMvERB334 SMaTTR="ind,past,int,act,per,ing,neg,plu,1" LGcPT="vrb142" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχαμε γραμμένο;"/>
+<SMvERB335 SMaTTR="ind,past,int,act,per,ing,neg,plu,2" LGcPT="vrb143" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχατε γραμμένο;"/>
+<SMvERB336 SMaTTR="ind,past,int,act,per,ing,neg,plu,3" LGcPT="vrb144" TxEXP="δεν,trmVrb54c;" EXMPL="δεν είχαν γραμμένο;"/>
+<!-- 15) I was being written | γραφόμουνα -->
+<SMvERB337 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,1" LGcPT="vrb145" TxEXP="trmVrb35" EXMPL="γραφόμουν"/>
+<SMvERB338 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,2" LGcPT="vrb146" TxEXP="trmVrb36" EXMPL="γραφόσουν"/>
+<SMvERB339 SMaTTR="ind,past,int,pass,iper,ning,aff,sin,3" LGcPT="vrb147" TxEXP="trmVrb37" EXMPL="γραφόταν"/>
+<SMvERB340 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,1" LGcPT="vrb148" TxEXP="trmVrb38" EXMPL="γραφόμαστε"/>
+<SMvERB341 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,2" LGcPT="vrb149" TxEXP="trmVrb39" EXMPL="γραφόσαστε"/>
+<SMvERB342 SMaTTR="ind,past,int,pass,iper,ning,aff,plu,3" LGcPT="vrb150" TxEXP="trmVrb40" EXMPL="γράφονταν"/>
+
+<SMvERB343 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,1" LGcPT="vrb151" TxEXP="δεν,trmVrb35" EXMPL="δεν γραφόμουν"/>
+<SMvERB344 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,2" LGcPT="vrb152" TxEXP="δεν,trmVrb36" EXMPL="δεν γραφόσουν"/>
+<SMvERB345 SMaTTR="ind,past,int,pass,iper,ning,neg,sin,3" LGcPT="vrb153" TxEXP="δεν,trmVrb37" EXMPL="δεν γραφόταν"/>
+<SMvERB346 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,1" LGcPT="vrb154" TxEXP="δεν,trmVrb38" EXMPL="δεν γραφόμαστε"/>
+<SMvERB347 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,2" LGcPT="vrb155" TxEXP="δεν,trmVrb39" EXMPL="δεν γραφόσαστε"/>
+<SMvERB348 SMaTTR="ind,past,int,pass,iper,ning,neg,plu,3" LGcPT="vrb156" TxEXP="δεν,trmVrb40" EXMPL="δεν γράφονταν"/>
+
+<SMvERB349 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,1" LGcPT="vrb145" TxEXP="trmVrb35;" EXMPL="γραφόμουν;"/>
+<SMvERB350 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,2" LGcPT="vrb146" TxEXP="trmVrb36;" EXMPL="γραφόσουν;"/>
+<SMvERB351 SMaTTR="ind,past,int,pass,iper,ing,aff,sin,3" LGcPT="vrb147" TxEXP="trmVrb37;" EXMPL="γραφόταν;"/>
+<SMvERB352 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,1" LGcPT="vrb148" TxEXP="trmVrb38;" EXMPL="γραφόμαστε;"/>
+<SMvERB353 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,2" LGcPT="vrb149" TxEXP="trmVrb39;" EXMPL="γραφόσαστε;"/>
+<SMvERB354 SMaTTR="ind,past,int,pass,iper,ing,aff,plu,3" LGcPT="vrb150" TxEXP="trmVrb40;" EXMPL="γράφονταν;"/>
+
+<SMvERB355 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,1" LGcPT="vrb151" TxEXP="δεν,trmVrb35;" EXMPL="δεν γραφόμουν;"/>
+<SMvERB356 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,2" LGcPT="vrb152" TxEXP="δεν,trmVrb36;" EXMPL="δεν γραφόσουν;"/>
+<SMvERB357 SMaTTR="ind,past,int,pass,iper,ing,neg,sin,3" LGcPT="vrb153" TxEXP="δεν,trmVrb37;" EXMPL="δεν γραφόταν;"/>
+<SMvERB358 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,1" LGcPT="vrb154" TxEXP="δεν,trmVrb38;" EXMPL="δεν γραφόμαστε;"/>
+<SMvERB359 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,2" LGcPT="vrb155" TxEXP="δεν,trmVrb39;" EXMPL="δεν γραφόσαστε;"/>
+<SMvERB360 SMaTTR="ind,past,int,pass,iper,ing,neg,plu,3" LGcPT="vrb156" TxEXP="δεν,trmVrb40;" EXMPL="δεν γράφονταν;"/>
+<!-- 16) I had being written | ήμουν γραμμένος -->
+<SMvERB361 SMaTTR="ind,past,int,pass,per,ning,aff,sin,1" LGcPT="vrb157" TxEXP="ήμουν,trmVrb54" EXMPL="ήμουν γραμμένος"/>
+<SMvERB362 SMaTTR="ind,past,int,pass,per,ning,aff,sin,2" LGcPT="vrb158" TxEXP="ήσουν,trmVrb54" EXMPL="ήσουν γραμμένος"/>
+<SMvERB363 SMaTTR="ind,past,int,pass,per,ning,aff,sin,3" LGcPT="vrb159" TxEXP="ήταν,trmVrb54" EXMPL="ήταν γραμμένος"/>
+<SMvERB364 SMaTTR="ind,past,int,pass,per,ning,aff,plu,1" LGcPT="vrb160" TxEXP="ήμασταν,trmVrb54d" EXMPL="ήμασταν γραμμένοι"/>
+<SMvERB365 SMaTTR="ind,past,int,pass,per,ning,aff,plu,2" LGcPT="vrb161" TxEXP="ήσασταν,trmVrb54d" EXMPL="ήσασταν γραμμένοι"/>
+<SMvERB366 SMaTTR="ind,past,int,pass,per,ning,aff,plu,3" LGcPT="vrb162" TxEXP="ήταν,trmVrb54d" EXMPL="ήταν γραμμένοι"/>
+
+<SMvERB367 SMaTTR="ind,past,int,pass,per,ning,neg,sin,1" LGcPT="vrb163" TxEXP="δεν,ήμουν,trmVrb54" EXMPL="δεν ήμουν γραμμένος"/>
+<SMvERB368 SMaTTR="ind,past,int,pass,per,ning,neg,sin,2" LGcPT="vrb164" TxEXP="δεν,ήσουν,trmVrb54" EXMPL="δεν ήσουν γραμμένος"/>
+<SMvERB369 SMaTTR="ind,past,int,pass,per,ning,neg,sin,3" LGcPT="vrb165" TxEXP="δεν,ήταν,trmVrb54" EXMPL="δεν ήταν γραμμένος"/>
+<SMvERB370 SMaTTR="ind,past,int,pass,per,ning,neg,plu,1" LGcPT="vrb166" TxEXP="δεν,ήμασταν,trmVrb54d" EXMPL="δεν ήμασταν γραμμένοι"/>
+<SMvERB371 SMaTTR="ind,past,int,pass,per,ning,neg,plu,2" LGcPT="vrb167" TxEXP="δεν,ήσασταν,trmVrb54d" EXMPL="δεν ήσασταν γραμμένοι"/>
+<SMvERB372 SMaTTR="ind,past,int,pass,per,ning,neg,plu,3" LGcPT="vrb168" TxEXP="δεν,ήταν,trmVrb54d" EXMPL="δεν ήταν γραμμένοι"/>
+
+<SMvERB373 SMaTTR="ind,past,int,pass,per,ing,aff,sin,1" LGcPT="vrb157" TxEXP="ήμουν,trmVrb54;" EXMPL="ήμουν γραμμένος;"/>
+<SMvERB374 SMaTTR="ind,past,int,pass,per,ing,aff,sin,2" LGcPT="vrb158" TxEXP="ήσουν,trmVrb54;" EXMPL="ήσουν γραμμένος;"/>
+<SMvERB375 SMaTTR="ind,past,int,pass,per,ing,aff,sin,3" LGcPT="vrb159" TxEXP="ήταν,trmVrb54;" EXMPL="ήταν γραμμένος;"/>
+<SMvERB376 SMaTTR="ind,past,int,pass,per,ing,aff,plu,1" LGcPT="vrb160" TxEXP="ήμασταν,trmVrb54d;" EXMPL="ήμασταν γραμμένοι;"/>
+<SMvERB377 SMaTTR="ind,past,int,pass,per,ing,aff,plu,2" LGcPT="vrb161" TxEXP="ήσασταν,trmVrb54d;" EXMPL="ήσασταν γραμμένοι;"/>
+<SMvERB378 SMaTTR="ind,past,int,pass,per,ing,aff,plu,3" LGcPT="vrb162" TxEXP="ήταν,trmVrb54d;" EXMPL="ήταν γραμμένοι;"/>
+
+<SMvERB379 SMaTTR="ind,past,int,pass,per,ing,neg,sin,1" LGcPT="vrb163" TxEXP="δεν,ήμουν,trmVrb54;" EXMPL="δεν ήμουν γραμμένος;"/>
+<SMvERB380 SMaTTR="ind,past,int,pass,per,ing,neg,sin,2" LGcPT="vrb164" TxEXP="δεν,ήσουν,trmVrb54;" EXMPL="δεν ήσουν γραμμένος;"/>
+<SMvERB381 SMaTTR="ind,past,int,pass,per,ing,neg,sin,3" LGcPT="vrb165" TxEXP="δεν,ήταν,trmVrb54;" EXMPL="δεν ήταν γραμμένος;"/>
+<SMvERB382 SMaTTR="ind,past,int,pass,per,ing,neg,plu,1" LGcPT="vrb166" TxEXP="δεν,ήμασταν,trmVrb54d;" EXMPL="δεν ήμασταν γραμμένοι;"/>
+<SMvERB383 SMaTTR="ind,past,int,pass,per,ing,neg,plu,2" LGcPT="vrb167" TxEXP="δεν,ήσασταν,trmVrb54d;" EXMPL="δεν ήσασταν γραμμένοι;"/>
+<SMvERB384 SMaTTR="ind,past,int,pass,per,ing,neg,plu,3" LGcPT="vrb168" TxEXP="δεν,ήταν,trmVrb54d;" EXMPL="δεν ήταν γραμμένοι;"/>
+<!-- FUTURE -->
+<!-- 17) I will write | θα γράψω -->
+<SMvERB385 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,1" LGcPT="vrb169" TxEXP="θα,trmVrb20" EXMPL="θα γράψω"/>
+<SMvERB386 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,2" LGcPT="vrb170" TxEXP="θα,trmVrb21" EXMPL="θα γράψεις"/>
+<SMvERB387 SMaTTR="ind,fut,ins,act,iper,ning,aff,sin,3" LGcPT="vrb171" TxEXP="θα,trmVrb22" EXMPL="θα γράψει"/>
+<SMvERB388 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,1" LGcPT="vrb172" TxEXP="θα,trmVrb23" EXMPL="θα γράψουμε"/>
+<SMvERB389 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,2" LGcPT="vrb173" TxEXP="θα,trmVrb24" EXMPL="θα γράψετε"/>
+<SMvERB390 SMaTTR="ind,fut,ins,act,iper,ning,aff,plu,3" LGcPT="vrb174" TxEXP="θα,trmVrb25" EXMPL="θα γράψουν"/>
+
+<SMvERB391 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,1" LGcPT="vrb175" TxEXP="δεν,θα,trmVrb20" EXMPL="δεν θα γράψω"/>
+<SMvERB392 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,2" LGcPT="vrb176" TxEXP="δεν,θα,trmVrb21" EXMPL="δεν θα γράψεις"/>
+<SMvERB393 SMaTTR="ind,fut,ins,act,iper,ning,neg,sin,3" LGcPT="vrb177" TxEXP="δεν,θα,trmVrb23" EXMPL="δεν θα γράψει"/>
+<SMvERB394 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,1" LGcPT="vrb178" TxEXP="δεν,θα,trmVrb23" EXMPL="δεν θα γράψουμε"/>
+<SMvERB395 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,2" LGcPT="vrb179" TxEXP="δεν,θα,trmVrb24" EXMPL="δεν θα γράψετε"/>
+<SMvERB396 SMaTTR="ind,fut,ins,act,iper,ning,neg,plu,3" LGcPT="vrb180" TxEXP="δεν,θα,trmVrb25" EXMPL="δεν θα γράψουν"/>
+
+<SMvERB397 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,1" LGcPT="vrb169" TxEXP="θα,trmVrb20;" EXMPL="θα γράψω;"/>
+<SMvERB398 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,2" LGcPT="vrb170" TxEXP="θα,trmVrb21;" EXMPL="θα γράψεις;"/>
+<SMvERB399 SMaTTR="ind,fut,ins,act,iper,ing,aff,sin,3" LGcPT="vrb171" TxEXP="θα,trmVrb23;" EXMPL="θα γράψει;"/>
+<SMvERB400 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,1" LGcPT="vrb172" TxEXP="θα,trmVrb23;" EXMPL="θα γράψουμε;"/>
+<SMvERB401 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,2" LGcPT="vrb173" TxEXP="θα,trmVrb24;" EXMPL="θα γράψετε;"/>
+<SMvERB402 SMaTTR="ind,fut,ins,act,iper,ing,aff,plu,3" LGcPT="vrb174" TxEXP="θα,trmVrb25;" EXMPL="θα γράψουν;"/>
+
+<SMvERB403 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,1" LGcPT="vrb175" TxEXP="δεν,θα,trmVrb20;" EXMPL="δεν θα γράψω;"/>
+<SMvERB404 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,2" LGcPT="vrb176" TxEXP="δεν,θα,trmVrb21;" EXMPL="δεν θα γράψεις;"/>
+<SMvERB405 SMaTTR="ind,fut,ins,act,iper,ing,neg,sin,3" LGcPT="vrb177" TxEXP="δεν,θα,trmVrb23;" EXMPL="δεν θα γράψει;"/>
+<SMvERB406 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,1" LGcPT="vrb178" TxEXP="δεν,θα,trmVrb23;" EXMPL="δεν θα γράψουμε;"/>
+<SMvERB407 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,2" LGcPT="vrb179" TxEXP="δεν,θα,trmVrb24;" EXMPL="δεν θα γράψετε;"/>
+<SMvERB408 SMaTTR="ind,fut,ins,act,iper,ing,neg,plu,3" LGcPT="vrb180" TxEXP="δεν,θα,trmVrb25;" EXMPL="δεν θα γράψουν;"/>
+<!-- 18) I will have written | θα έχω γράψει -->
+<SMvERB409 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,1" LGcPT="vrb181" TxEXP="θα,έχω,trmVrb23" EXMPL="θα έχω γράψει"/>
+<SMvERB410 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,2" LGcPT="vrb182" TxEXP="θα,έχεις,trmVrb23" EXMPL="θα έχεις γράψει"/>
+<SMvERB411 SMaTTR="ind,fut,ins,act,per,ning,aff,sin,3" LGcPT="vrb183" TxEXP="θα,έχει,trmVrb23" EXMPL="θα έχει γράψει"/>
+<SMvERB412 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,1" LGcPT="vrb184" TxEXP="θα,έχουμε,trmVrb23" EXMPL="θα έχουμε γράψει"/>
+<SMvERB413 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,2" LGcPT="vrb185" TxEXP="θα,έχετε,trmVrb23" EXMPL="θα έχετε γράψει"/>
+<SMvERB414 SMaTTR="ind,fut,ins,act,per,ning,aff,plu,3" LGcPT="vrb186" TxEXP="θα,έχουν,trmVrb23" EXMPL="θα έχουν γράψει"/>
+
+<SMvERB415 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,1" LGcPT="vrb187" TxEXP="δε,θα,έχω,trmVrb23" EXMPL="δε θα έχω γράψει"/>
+<SMvERB416 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,2" LGcPT="vrb188" TxEXP="δε,θα,έχεις,trmVrb23" EXMPL="δε θα έχεις γράψει"/>
+<SMvERB417 SMaTTR="ind,fut,ins,act,per,ning,neg,sin,3" LGcPT="vrb189" TxEXP="δε,θα,έχει,trmVrb23" EXMPL="δε θα έχει γράψει"/>
+<SMvERB418 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,1" LGcPT="vrb190" TxEXP="δε,θα,έχουμε,trmVrb23" EXMPL="δε θα έχουμε γράψει"/>
+<SMvERB419 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,2" LGcPT="vrb191" TxEXP="δε,θα,έχετε,trmVrb23" EXMPL="δε θα έχετε γράψει"/>
+<SMvERB420 SMaTTR="ind,fut,ins,act,per,ning,neg,plu,3" LGcPT="vrb192" TxEXP="δε,θα,έχουν,trmVrb23" EXMPL="δε θα έχουν γράψει"/>
+
+<SMvERB421 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,1" LGcPT="vrb181" TxEXP="θα,έχω,trmVrb23;" EXMPL="θα έχω γράψει;"/>
+<SMvERB422 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,2" LGcPT="vrb182" TxEXP="θα,έχεις,trmVrb23;" EXMPL="θα έχεις γράψει;"/>
+<SMvERB423 SMaTTR="ind,fut,ins,act,per,ing,aff,sin,3" LGcPT="vrb183" TxEXP="θα,έχει,trmVrb23;" EXMPL="θα έχει γράψει;"/>
+<SMvERB424 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,1" LGcPT="vrb184" TxEXP="θα,έχουμε,trmVrb23;" EXMPL="θα έχουμε γράψει;"/>
+<SMvERB425 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,2" LGcPT="vrb185" TxEXP="θα,έχετε,trmVrb23;" EXMPL="θα έχετε γράψει;"/>
+<SMvERB426 SMaTTR="ind,fut,ins,act,per,ing,aff,plu,3" LGcPT="vrb186" TxEXP="θα,έχουν,trmVrb23;" EXMPL="θα έχουν γράψει;"/>
+
+<SMvERB427 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,1" LGcPT="vrb187" TxEXP="δε,θα,έχω,trmVrb23;" EXMPL="δε θα έχω γράψει;"/>
+<SMvERB428 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,2" LGcPT="vrb188" TxEXP="δε,θα,έχεις,trmVrb23;" EXMPL="δε θα έχεις γράψει;"/>
+<SMvERB429 SMaTTR="ind,fut,ins,act,per,ing,neg,sin,3" LGcPT="vrb189" TxEXP="δε,θα,έχει,trmVrb23;" EXMPL="δε θα έχει γράψει;"/>
+<SMvERB430 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,1" LGcPT="vrb190" TxEXP="δε,θα,έχουμε,trmVrb23;" EXMPL="δε θα έχουμε γράψει;"/>
+<SMvERB431 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,2" LGcPT="vrb191" TxEXP="δε,θα,έχετε,trmVrb23;" EXMPL="δε θα έχετε γράψει;"/>
+<SMvERB432 SMaTTR="ind,fut,ins,act,per,ing,neg,plu,3" LGcPT="vrb192" TxEXP="δε,θα,έχουν,trmVrb23;" EXMPL="δε θα έχουν γράψει;"/>
+<!-- 19) I will be written | θα γραφτώ -->
+<SMvERB433 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,1" LGcPT="vrb193" TxEXP="θα,trmVrb47" EXMPL="θα γραφτώ"/>
+<SMvERB434 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,2" LGcPT="vrb194" TxEXP="θα,trmVrb48" EXMPL="θα γραφτείς"/>
+<SMvERB435 SMaTTR="ind,fut,ins,pass,iper,ning,aff,sin,3" LGcPT="vrb195" TxEXP="θα,trmVrb49" EXMPL="θα γραφτεί"/>
+<SMvERB436 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,1" LGcPT="vrb196" TxEXP="θα,trmVrb50" EXMPL="θα γραφτούμε"/>
+<SMvERB437 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,2" LGcPT="vrb197" TxEXP="θα,trmVrb51" EXMPL="θα γραφτείτε"/>
+<SMvERB438 SMaTTR="ind,fut,ins,pass,iper,ning,aff,plu,3" LGcPT="vrb198" TxEXP="θα,trmVrb52" EXMPL="θα γραφτούν"/>
+
+<SMvERB439 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,1" LGcPT="vrb199" TxEXP="δε,θα,trmVrb47" EXMPL="δε θα γραφτώ"/>
+<SMvERB440 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,2" LGcPT="vrb200" TxEXP="δε,θα,trmVrb48" EXMPL="δε θα γραφτείς"/>
+<SMvERB441 SMaTTR="ind,fut,ins,pass,iper,ning,neg,sin,3" LGcPT="vrb201" TxEXP="δε,θα,trmVrb49" EXMPL="δε θα γραφτεί"/>
+<SMvERB442 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,1" LGcPT="vrb202" TxEXP="δε,θα,trmVrb50" EXMPL="δε θα γραφτούμε"/>
+<SMvERB443 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,2" LGcPT="vrb203" TxEXP="δε,θα,trmVrb51" EXMPL="δε θα γραφτείτε"/>
+<SMvERB444 SMaTTR="ind,fut,ins,pass,iper,ning,neg,plu,3" LGcPT="vrb204" TxEXP="δε,θα,trmVrb52" EXMPL="δε θα γραφτούν"/>
+
+<SMvERB445 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,1" LGcPT="vrb193" TxEXP="θα,trmVrb47;" EXMPL="θα γραφτώ;"/>
+<SMvERB446 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,2" LGcPT="vrb194" TxEXP="θα,trmVrb48;" EXMPL="θα γραφτείς;"/>
+<SMvERB447 SMaTTR="ind,fut,ins,pass,iper,ing,aff,sin,3" LGcPT="vrb195" TxEXP="θα,trmVrb49;" EXMPL="θα γραφτεί;"/>
+<SMvERB448 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,1" LGcPT="vrb196" TxEXP="θα,trmVrb50;" EXMPL="θα γραφτούμε;"/>
+<SMvERB449 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,2" LGcPT="vrb197" TxEXP="θα,trmVrb51;" EXMPL="θα γραφτείτε;"/>
+<SMvERB450 SMaTTR="ind,fut,ins,pass,iper,ing,aff,plu,3" LGcPT="vrb198" TxEXP="θα,trmVrb52;" EXMPL="θα γραφτούν;"/>
+
+<SMvERB451 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,1" LGcPT="vrb199" TxEXP="δε,θα,trmVrb47;" EXMPL="δε θα γραφτώ;"/>
+<SMvERB452 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,2" LGcPT="vrb200" TxEXP="δε,θα,trmVrb48;" EXMPL="δε θα γραφτείς;"/>
+<SMvERB453 SMaTTR="ind,fut,ins,pass,iper,ing,neg,sin,3" LGcPT="vrb201" TxEXP="δε,θα,trmVrb49;" EXMPL="δε θα γραφτεί;"/>
+<SMvERB454 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,1" LGcPT="vrb202" TxEXP="δε,θα,trmVrb50;" EXMPL="δε θα γραφτούμε;"/>
+<SMvERB455 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,2" LGcPT="vrb203" TxEXP="δε,θα,trmVrb51;" EXMPL="δε θα γραφτείτε;"/>
+<SMvERB456 SMaTTR="ind,fut,ins,pass,iper,ing,neg,plu,3" LGcPT="vrb204" TxEXP="δε,θα,trmVrb52;" EXMPL="δε θα γραφτούν;"/>
+<!-- 20) I will have been written | θα έχω γραφτεί -->
+<SMvERB457 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,1" LGcPT="vrb205" TxEXP="θα,έχω,trmVrb49" EXMPL="θα έχω γραφτεί"/>
+<SMvERB458 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,2" LGcPT="vrb206" TxEXP="θα,έχεις,trmVrb49" EXMPL="θα έχεις γραφτεί"/>
+<SMvERB459 SMaTTR="ind,fut,ins,pass,per,ning,aff,sin,3" LGcPT="vrb207" TxEXP="θα,έχει,trmVrb49" EXMPL="θα έχει γραφτεί"/>
+<SMvERB460 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,1" LGcPT="vrb208" TxEXP="θα,έχουμε,trmVrb49" EXMPL="θα έχουμε γραφτεί"/>
+<SMvERB461 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,2" LGcPT="vrb209" TxEXP="θα,έχετε,trmVrb49" EXMPL="θα έχετε γραφτεί"/>
+<SMvERB462 SMaTTR="ind,fut,ins,pass,per,ning,aff,plu,3" LGcPT="vrb210" TxEXP="θα,έχουν,trmVrb49" EXMPL="θα έχουν γραφτεί"/>
+
+<SMvERB463 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,1" LGcPT="vrb211" TxEXP="δε,θα,έχω,trmVrb49" EXMPL="δε θα έχω γραφτεί"/>
+<SMvERB464 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,2" LGcPT="vrb212" TxEXP="δε,θα,έχεις,trmVrb49" EXMPL="δε θα έχεις γραφτεί"/>
+<SMvERB465 SMaTTR="ind,fut,ins,pass,per,ning,neg,sin,3" LGcPT="vrb213" TxEXP="δε,θα,έχει,trmVrb49" EXMPL="δε θα έχει γραφτεί"/>
+<SMvERB466 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,1" LGcPT="vrb214" TxEXP="δε,θα,έχουμε,trmVrb49" EXMPL="δε θα έχουμε γραφτεί"/>
+<SMvERB467 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,2" LGcPT="vrb215" TxEXP="δε,θα,έχετε,trmVrb49" EXMPL="δε θα έχετε γραφτεί"/>
+<SMvERB468 SMaTTR="ind,fut,ins,pass,per,ning,neg,plu,3" LGcPT="vrb216" TxEXP="δε,θα,έχουν,trmVrb49" EXMPL="δε θα έχουν γραφτεί"/>
+
+<SMvERB469 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,1" LGcPT="vrb205" TxEXP="θα,έχω,trmVrb49;" EXMPL="θα έχω γραφτεί;"/>
+<SMvERB470 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,2" LGcPT="vrb206" TxEXP="θα,έχεις,trmVrb49;" EXMPL="θα έχεις γραφτεί;"/>
+<SMvERB471 SMaTTR="ind,fut,ins,pass,per,ing,aff,sin,3" LGcPT="vrb207" TxEXP="θα,έχει,trmVrb49;" EXMPL="θα έχει γραφτεί;"/>
+<SMvERB472 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,1" LGcPT="vrb208" TxEXP="θα,έχουμε,trmVrb49;" EXMPL="θα έχουμε γραφτεί;"/>
+<SMvERB473 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,2" LGcPT="vrb209" TxEXP="θα,έχετε,trmVrb49;" EXMPL="θα έχετε γραφτεί;"/>
+<SMvERB474 SMaTTR="ind,fut,ins,pass,per,ing,aff,plu,3" LGcPT="vrb210" TxEXP="θα,έχουν,trmVrb49;" EXMPL="θα έχουν γραφτεί;"/>
+
+<SMvERB475 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,1" LGcPT="vrb211" TxEXP="δε,θα,έχω,trmVrb49;" EXMPL="δε θα έχω γραφτεί;"/>
+<SMvERB476 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,2" LGcPT="vrb212" TxEXP="δε,θα,έχεις,trmVrb49;" EXMPL="δε θα έχεις γραφτεί;"/>
+<SMvERB477 SMaTTR="ind,fut,ins,pass,per,ing,neg,sin,3" LGcPT="vrb213" TxEXP="δε,θα,έχει,trmVrb49;" EXMPL="δε θα έχει γραφτεί;"/>
+<SMvERB478 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,1" LGcPT="vrb214" TxEXP="δε,θα,έχουμε,trmVrb49;" EXMPL="δε θα έχουμε γραφτεί;"/>
+<SMvERB479 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,2" LGcPT="vrb215" TxEXP="δε,θα,έχετε,trmVrb49;" EXMPL="δε θα έχετε γραφτεί;"/>
+<SMvERB480 SMaTTR="ind,fut,ins,pass,per,ing,neg,plu,3" LGcPT="vrb216" TxEXP="δε,θα,έχουν,trmVrb49;" EXMPL="δε θα έχουν γραφτεί;"/>
+<!-- 21) I will be writing | θα γράφω -->
+<SMvERB481 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,1" LGcPT="vrb217" TxEXP="θα,trmVrb01" EXMPL="θα γράφω"/>
+<SMvERB482 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,2" LGcPT="vrb218" TxEXP="θα,trmVrb02" EXMPL="θα γράφεις"/>
+<SMvERB483 SMaTTR="ind,fut,int,act,iper,ning,aff,sin,3" LGcPT="vrb219" TxEXP="θα,trmVrb03" EXMPL="θα γράφει"/>
+<SMvERB484 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,1" LGcPT="vrb220" TxEXP="θα,trmVrb04" EXMPL="θα γράφουμε"/>
+<SMvERB485 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,2" LGcPT="vrb221" TxEXP="θα,trmVrb05" EXMPL="θα γράφετε"/>
+<SMvERB486 SMaTTR="ind,fut,int,act,iper,ning,aff,plu,3" LGcPT="vrb222" TxEXP="θα,trmVrb06" EXMPL="θα γράφουν"/>
+
+<SMvERB487 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,1" LGcPT="vrb223" TxEXP="δε,θα,trmVrb01" EXMPL="δε θα γράφω"/>
+<SMvERB488 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,2" LGcPT="vrb224" TxEXP="δε,θα,trmVrb02" EXMPL="δε θα γράφεις"/>
+<SMvERB489 SMaTTR="ind,fut,int,act,iper,ning,neg,sin,3" LGcPT="vrb225" TxEXP="δε,θα,trmVrb03" EXMPL="δε θα γράφει"/>
+<SMvERB490 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,1" LGcPT="vrb226" TxEXP="δε,θα,trmVrb04" EXMPL="δε θα γράφουμε"/>
+<SMvERB491 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,2" LGcPT="vrb227" TxEXP="δε,θα,trmVrb05" EXMPL="δε θα γράφετε"/>
+<SMvERB492 SMaTTR="ind,fut,int,act,iper,ning,neg,plu,3" LGcPT="vrb228" TxEXP="δε,θα,trmVrb06" EXMPL="δε θα γράφουν"/>
+
+<SMvERB493 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,1" LGcPT="vrb217" TxEXP="θα,trmVrb1;" EXMPL="θα γράφω;"/>
+<SMvERB494 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,2" LGcPT="vrb218" TxEXP="θα,trmVrb2;" EXMPL="θα γράφεις;"/>
+<SMvERB495 SMaTTR="ind,fut,int,act,iper,ing,aff,sin,3" LGcPT="vrb219" TxEXP="θα,trmVrb3;" EXMPL="θα γράφει;"/>
+<SMvERB496 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,1" LGcPT="vrb220" TxEXP="θα,trmVrb4;" EXMPL="θα γράφουμε;"/>
+<SMvERB497 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,2" LGcPT="vrb221" TxEXP="θα,trmVrb5;" EXMPL="θα γράφετε;"/>
+<SMvERB498 SMaTTR="ind,fut,int,act,iper,ing,aff,plu,3" LGcPT="vrb222" TxEXP="θα,trmVrb6;" EXMPL="θα γράφουν;"/>
+
+<SMvERB499 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,1" LGcPT="vrb223" TxEXP="δε,θα,trmVrb1;" EXMPL="δε θα γράφω;"/>
+<SMvERB500 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,2" LGcPT="vrb224" TxEXP="δε,θα,trmVrb2;" EXMPL="δε θα γράφεις;"/>
+<SMvERB501 SMaTTR="ind,fut,int,act,iper,ing,neg,sin,3" LGcPT="vrb225" TxEXP="δε,θα,trmVrb3;" EXMPL="δε θα γράφει;"/>
+<SMvERB502 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,1" LGcPT="vrb226" TxEXP="δε,θα,trmVrb4;" EXMPL="δε θα γράφουμε;"/>
+<SMvERB503 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,2" LGcPT="vrb227" TxEXP="δε,θα,trmVrb5;" EXMPL="δε θα γράφετε;"/>
+<SMvERB504 SMaTTR="ind,fut,int,act,iper,ing,neg,plu,3" LGcPT="vrb228" TxEXP="δε,θα,trmVrb6;" EXMPL="δε θα γράφουν;"/>
+<!-- 22) I will have been writing | θα έχω γραμμένο -->
+<SMvERB505 SMaTTR="ind,fut,int,act,per,ning,aff,sin,1" LGcPT="vrb229" TxEXP="θα,έχω,trmVrb54c" EXMPL="θα έχω γραμμένο"/>
+<SMvERB506 SMaTTR="ind,fut,int,act,per,ning,aff,sin,2" LGcPT="vrb230" TxEXP="θα,έχεις,trmVrb54c" EXMPL="θα έχεις γραμμένο"/>
+<SMvERB507 SMaTTR="ind,fut,int,act,per,ning,aff,sin,3" LGcPT="vrb231" TxEXP="θα,έχει,trmVrb54c" EXMPL="θα έχει γραμμένο"/>
+<SMvERB508 SMaTTR="ind,fut,int,act,per,ning,aff,plu,1" LGcPT="vrb232" TxEXP="θα,έχουμε,trmVrb54c" EXMPL="θα έχουμε γραμμένο"/>
+<SMvERB509 SMaTTR="ind,fut,int,act,per,ning,aff,plu,2" LGcPT="vrb233" TxEXP="θα,έχετε,trmVrb54c" EXMPL="θα έχετε γραμμένο"/>
+<SMvERB510 SMaTTR="ind,fut,int,act,per,ning,aff,plu,3" LGcPT="vrb234" TxEXP="θα,έχουν,trmVrb54c" EXMPL="θα έχουν γραμμένο"/>
+
+<SMvERB511 SMaTTR="ind,fut,int,act,per,ning,neg,sin,1" LGcPT="vrb235" TxEXP="δε,θα,έχω,trmVrb54c" EXMPL="δε θα έχω γραμμένο"/>
+<SMvERB512 SMaTTR="ind,fut,int,act,per,ning,neg,sin,2" LGcPT="vrb236" TxEXP="δε,θα,έχεις,trmVrb54c" EXMPL="δε θα έχεις γραμμένο"/>
+<SMvERB513 SMaTTR="ind,fut,int,act,per,ning,neg,sin,3" LGcPT="vrb237" TxEXP="δε,θα,έχει,trmVrb54c" EXMPL="δε θα έχει γραμμένο"/>
+<SMvERB514 SMaTTR="ind,fut,int,act,per,ning,neg,plu,1" LGcPT="vrb238" TxEXP="δε,θα,έχουμε,trmVrb54c" EXMPL="δε θα έχουμε γραμμένο"/>
+<SMvERB515 SMaTTR="ind,fut,int,act,per,ning,neg,plu,2" LGcPT="vrb239" TxEXP="δε,θα,έχετε,trmVrb54c" EXMPL="δε θα έχετε γραμμένο"/>
+<SMvERB516 SMaTTR="ind,fut,int,act,per,ning,neg,plu,3" LGcPT="vrb240" TxEXP="δε,θα,έχουν,trmVrb54c" EXMPL="δε θα έχουν γραμμένο"/>
+
+<SMvERB517 SMaTTR="ind,fut,int,act,per,ing,aff,sin,1" LGcPT="vrb229" TxEXP="θα,έχω,trmVrb54c;" EXMPL="θα έχω γραμμένο;"/>
+<SMvERB518 SMaTTR="ind,fut,int,act,per,ing,aff,sin,2" LGcPT="vrb230" TxEXP="θα,έχεις,trmVrb54c;" EXMPL="θα έχεις γραμμένο;"/>
+<SMvERB519 SMaTTR="ind,fut,int,act,per,ing,aff,sin,3" LGcPT="vrb231" TxEXP="θα,έχει,trmVrb54c;" EXMPL="θα έχει γραμμένο;"/>
+<SMvERB520 SMaTTR="ind,fut,int,act,per,ing,aff,plu,1" LGcPT="vrb232" TxEXP="θα,έχουμε,trmVrb54c;" EXMPL="θα έχουμε γραμμένο;"/>
+<SMvERB521 SMaTTR="ind,fut,int,act,per,ing,aff,plu,2" LGcPT="vrb233" TxEXP="θα,έχετε,trmVrb54c;" EXMPL="θα έχετε γραμμένο;"/>
+<SMvERB522 SMaTTR="ind,fut,int,act,per,ing,aff,plu,3" LGcPT="vrb234" TxEXP="θα,έχουν,trmVrb54c;" EXMPL="θα έχουν γραμμένο;"/>
+
+<SMvERB523 SMaTTR="ind,fut,int,act,per,ing,neg,sin,1" LGcPT="vrb235" TxEXP="δε,θα,έχω,trmVrb54c;" EXMPL="δε θα έχω γραμμένο;"/>
+<SMvERB524 SMaTTR="ind,fut,int,act,per,ing,neg,sin,2" LGcPT="vrb236" TxEXP="δε,θα,έχεις,trmVrb54c;" EXMPL="δε θα έχεις γραμμένο;"/>
+<SMvERB525 SMaTTR="ind,fut,int,act,per,ing,neg,sin,3" LGcPT="vrb237" TxEXP="δε,θα,έχει,trmVrb54c;" EXMPL="δε θα έχει γραμμένο;"/>
+<SMvERB526 SMaTTR="ind,fut,int,act,per,ing,neg,plu,1" LGcPT="vrb238" TxEXP="δε,θα,έχουμε,trmVrb54c;" EXMPL="δε θα έχουμε γραμμένο;"/>
+<SMvERB527 SMaTTR="ind,fut,int,act,per,ing,neg,plu,2" LGcPT="vrb239" TxEXP="δε,θα,έχετε,trmVrb54c;" EXMPL="δε θα έχετε γραμμένο;"/>
+<SMvERB528 SMaTTR="ind,fut,int,act,per,ing,neg,plu,3" LGcPT="vrb240" TxEXP="δε,θα,έχουν,trmVrb54c;" EXMPL="δε θα έχουν γραμμένο;"/>
+<!-- 23) I will being written | θα γράφομαι -->
+<SMvERB529 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,1" LGcPT="vrb241" TxEXP="θα,trmVrb28" EXMPL="θα γράφομαι"/>
+<SMvERB530 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,2" LGcPT="vrb242" TxEXP="θα,trmVrb29" EXMPL="θα γράφεσαι"/>
+<SMvERB531 SMaTTR="ind,fut,int,pass,iper,ning,aff,sin,3" LGcPT="vrb243" TxEXP="θα,trmVrb30" EXMPL="θα γράφεται"/>
+<SMvERB532 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,1" LGcPT="vrb244" TxEXP="θα,trmVrb31" EXMPL="θα γραφόμαστε"/>
+<SMvERB533 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,2" LGcPT="vrb245" TxEXP="θα,trmVrb32" EXMPL="θα γράφεστε"/>
+<SMvERB534 SMaTTR="ind,fut,int,pass,iper,ning,aff,plu,3" LGcPT="vrb246" TxEXP="θα,trmVrb33" EXMPL="θα γράφονται"/>
+
+<SMvERB535 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,1" LGcPT="vrb247" TxEXP="δε,θα,trmVrb28" EXMPL="δε θα γράφομαι"/>
+<SMvERB536 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,2" LGcPT="vrb248" TxEXP="δε,θα,trmVrb29" EXMPL="δε θα γράφεσαι"/>
+<SMvERB537 SMaTTR="ind,fut,int,pass,iper,ning,neg,sin,3" LGcPT="vrb249" TxEXP="δε,θα,trmVrb30" EXMPL="δε θα γράφεται"/>
+<SMvERB538 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,1" LGcPT="vrb250" TxEXP="δε,θα,trmVrb31" EXMPL="δε θα γραφόμαστε"/>
+<SMvERB539 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,2" LGcPT="vrb251" TxEXP="δε,θα,trmVrb32" EXMPL="δε θα γράφεστε"/>
+<SMvERB540 SMaTTR="ind,fut,int,pass,iper,ning,neg,plu,3" LGcPT="vrb252" TxEXP="δε,θα,trmVrb33" EXMPL="δε θα γράφονται"/>
+
+<SMvERB541 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,1" LGcPT="vrb241" TxEXP="θα,trmVrb28;" EXMPL="θα γράφομαι;"/>
+<SMvERB542 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,2" LGcPT="vrb242" TxEXP="θα,trmVrb29;" EXMPL="θα γράφεσαι;"/>
+<SMvERB543 SMaTTR="ind,fut,int,pass,iper,ing,aff,sin,3" LGcPT="vrb243" TxEXP="θα,trmVrb30;" EXMPL="θα γράφεται;"/>
+<SMvERB544 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,1" LGcPT="vrb244" TxEXP="θα,trmVrb31;" EXMPL="θα γραφόμαστε;"/>
+<SMvERB545 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,2" LGcPT="vrb245" TxEXP="θα,trmVrb32;" EXMPL="θα γράφεστε;"/>
+<SMvERB546 SMaTTR="ind,fut,int,pass,iper,ing,aff,plu,3" LGcPT="vrb246" TxEXP="θα,trmVrb33;" EXMPL="θα γράφονται;"/>
+
+<SMvERB547 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,1" LGcPT="vrb247" TxEXP="δε,θα,trmVrb28;" EXMPL="δε θα γράφομαι;"/>
+<SMvERB548 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,2" LGcPT="vrb248" TxEXP="δε,θα,trmVrb29;" EXMPL="δε θα γράφεσαι;"/>
+<SMvERB549 SMaTTR="ind,fut,int,pass,iper,ing,neg,sin,3" LGcPT="vrb249" TxEXP="δε,θα,trmVrb30;" EXMPL="δε θα γράφεται;"/>
+<SMvERB550 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,1" LGcPT="vrb250" TxEXP="δε,θα,trmVrb31;" EXMPL="δε θα γραφόμαστε;"/>
+<SMvERB551 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,2" LGcPT="vrb251" TxEXP="δε,θα,trmVrb32;" EXMPL="δε θα γράφεστε;"/>
+<SMvERB552 SMaTTR="ind,fut,int,pass,iper,ing,neg,plu,3" LGcPT="vrb252" TxEXP="δε,θα,trmVrb33;" EXMPL="δε θα γράφονται;"/>
+<!-- 24) I will have being written | θα είμαι γραμμένος -->
+<SMvERB553 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,1" LGcPT="vrb253" TxEXP="θα,είμαι,trmVrb54" EXMPL="θα είμαι γραμμένος"/>
+<SMvERB554 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,2" LGcPT="vrb254" TxEXP="θα,είσαι,trmVrb29" EXMPL="θα είσαι γραμμένος"/>
+<SMvERB555 SMaTTR="ind,fut,int,pass,per,ning,aff,sin,3" LGcPT="vrb255" TxEXP="θα,είναι,trmVrb29" EXMPL="θα είναι γραμμένος"/>
+<SMvERB556 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,1" LGcPT="vrb256" TxEXP="θα,είμαστε,trmVrb29d" EXMPL="θα είμαστε γραμμένοι"/>
+<SMvERB557 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,2" LGcPT="vrb257" TxEXP="θα,είσαστε,trmVrb29d" EXMPL="θα είσαστε γραμμένοι"/>
+<SMvERB558 SMaTTR="ind,fut,int,pass,per,ning,aff,plu,3" LGcPT="vrb258" TxEXP="θα,είναι,trmVrb29d" EXMPL="θα είναι γραμμένοι"/>
+
+<SMvERB559 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,1" LGcPT="vrb259" TxEXP="δε,θα,είμαι,trmVrb54" EXMPL="δε θα είμαι γραμμένος"/>
+<SMvERB560 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,2" LGcPT="vrb260" TxEXP="δε,θα,είσαι,trmVrb29" EXMPL="δε θα είσαι γραμμένος"/>
+<SMvERB561 SMaTTR="ind,fut,int,pass,per,ning,neg,sin,3" LGcPT="vrb261" TxEXP="δε,θα,είναι,trmVrb29" EXMPL="δε θα είναι γραμμένος"/>
+<SMvERB562 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,1" LGcPT="vrb262" TxEXP="δε,θα,είμαστε,trmVrb29d" EXMPL="δε θα είμαστε γραμμένοι"/>
+<SMvERB563 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,2" LGcPT="vrb263" TxEXP="δε,θα,είσαστε,trmVrb29d" EXMPL="δε θα είσαστε γραμμένοι"/>
+<SMvERB564 SMaTTR="ind,fut,int,pass,per,ning,neg,plu,3" LGcPT="vrb264" TxEXP="δε,θα,είναι,trmVrb29d" EXMPL="δε θα είναι γραμμένοι"/>
+
+<SMvERB565 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,1" LGcPT="vrb253" TxEXP="θα,είμαι,trmVrb54;" EXMPL="θα είμαι γραμμένος;"/>
+<SMvERB566 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,2" LGcPT="vrb254" TxEXP="θα,είσαι,trmVrb29;" EXMPL="θα είσαι γραμμένος;"/>
+<SMvERB567 SMaTTR="ind,fut,int,pass,per,ing,aff,sin,3" LGcPT="vrb255" TxEXP="θα,είναι,trmVrb29;" EXMPL="θα είναι γραμμένος;"/>
+<SMvERB568 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,1" LGcPT="vrb256" TxEXP="θα,είμαστε,trmVrb29d;" EXMPL="θα είμαστε γραμμένοι;"/>
+<SMvERB560 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,2" LGcPT="vrb257" TxEXP="θα,είσαστε,trmVrb29d;" EXMPL="θα είσαστε γραμμένοι;"/>
+<SMvERB570 SMaTTR="ind,fut,int,pass,per,ing,aff,plu,3" LGcPT="vrb258" TxEXP="θα,είναι,trmVrb29d;" EXMPL="θα είναι γραμμένοι;"/>
+
+<SMvERB571 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,1" LGcPT="vrb259" TxEXP="δε,θα,είμαι,trmVrb54;" EXMPL="δε θα είμαι γραμμένος;"/>
+<SMvERB572 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,2" LGcPT="vrb260" TxEXP="δε,θα,είσαι,trmVrb29;" EXMPL="δε θα είσαι γραμμένος;"/>
+<SMvERB573 SMaTTR="ind,fut,int,pass,per,ing,neg,sin,3" LGcPT="vrb261" TxEXP="δε,θα,είναι,trmVrb29;" EXMPL="δε θα είναι γραμμένος;"/>
+<SMvERB574 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,1" LGcPT="vrb262" TxEXP="δε,θα,είμαστε,trmVrb29d;" EXMPL="δε θα είμαστε γραμμένοι;"/>
+<SMvERB575 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,2" LGcPT="vrb263" TxEXP="δε,θα,είσαστε,trmVrb29d;" EXMPL="δε θα είσαστε γραμμένοι;"/>
+<SMvERB576 SMaTTR="ind,fut,int,pass,per,ing,neg,plu,3" LGcPT="vrb264" TxEXP="δε,θα,είναι,trmVrb29d;" EXMPL="δε θα είναι γραμμένοι;"/>
+</SMvERB>
+
+
+<SmNOUN>
+<SmNOUN01 SMaTTR="generic,sin,mas" LGcPT="nnCsNm01" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="δρόμος"/>
+<SmNOUN02 SMaTTR="generic,sin,fem" LGcPT="nnCsNm01" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="νίκη"/>
+<SmNOUN03 SMaTTR="generic,sin,neu" LGcPT="nnCsNm01" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="παιδί"/>
+<SmNOUN04 SMaTTR="generic,plu,mas" LGcPT="nnCsNm02" TXeXP1_B="" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="δρόμοι"/>
+<SmNOUN05 SMaTTR="generic,plu,fem" LGcPT="nnCsNm02" TXeXP1_B="" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="νίκες"/>
+<SmNOUN06 SMaTTR="generic,plu,neu" LGcPT="nnCsNm02" TXeXP1_B="" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="παιδιά"/>
+
+<SmNOUN07 SMaTTR="individual,sin,mas" LGcPT="nnCsNm03" TXeXP1_B="" TxEXP="ο,trmNnCsNm1" TXeXP1_A="" EXMPL="ο δρόμος"/>
+<SmNOUN08 SMaTTR="individual,sin,fem" LGcPT="nnCsNm04" TXeXP1_B="" TxEXP="η,trmNnCsNm1" TXeXP1_A="" EXMPL="η νίκη"/>
+<SmNOUN09 SMaTTR="individual,sin,neu" LGcPT="nnCsNm05" TXeXP1_B="" TxEXP="το,trmNnCsNm1" TXeXP1_A="" EXMPL="το παιδί"/>
+<SmNOUN10 SMaTTR="individual,plu,mas" LGcPT="nnCsNm06" TXeXP1_B="" TxEXP="οι,trmNnCsNm2" TXeXP1_A="" EXMPL="οι δρόμοι"/>
+<SmNOUN11 SMaTTR="individual,plu,fem" LGcPT="nnCsNm06" TXeXP1_B="" TxEXP="οι,trmNnCsNm2" TXeXP1_A="" EXMPL="οι νίκες"/>
+<SmNOUN12 SMaTTR="individual,plu,neu" LGcPT="nnCsNm07" TXeXP1_B="" TxEXP="τα,trmNnCsNm2" TXeXP1_A="" EXMPL="τα παιδιά"/>
+
+<SmNOUN13 SMaTTR="random,sin,mas" LGcPT="nnCsNm08" TXeXP1_B="" TxEXP="ένας,trmNnCsNm1" TXeXP1_A="" EXMPL="ένας δρόμος"/>
+<SmNOUN13 SMaTTR="random,sin,mas" LGcPT="nnGn16" TXeXP1_B="" TxEXP="ενός,trmNnCsNm3" TXeXP1_A="" EXMPL="ενός δρόμου"/>
+<SmNOUN13 SMaTTR="random,sin,mas" LGcPT="nnAc26" TXeXP1_B="" TxEXP="έναν,trmNnCsNm5" TXeXP1_A="" EXMPL="έναν δρόμο"/>
+<SmNOUN13 SMaTTR="random,sin,mas" LGcPT="nnVc29" TXeXP1_B="" TxEXP="trmNnCsNm7" TXeXP1_A="" EXMPL="δρόμε"/>
+
+<SmNOUN14 SMaTTR="random,sin,fem" LGcPT="nnCsNm09" TXeXP1_B="" TxEXP="μια,trmNnCsNm1" TXeXP1_A="" EXMPL="μια νίκη"/>
+
+<SmNOUN15 SMaTTR="random,sin,neu" LGcPT="nnCsNm10" TXeXP1_B="" TxEXP="ένα,trmNnCsNm1" TXeXP1_A="" EXMPL="ένα παιδί"/>
+<SmNOUN15 SMaTTR="random,sin,neu" LGcPT="nnGn16" TXeXP1_B="" TxEXP="ενός,trmNnCsNm3" TXeXP1_A="" EXMPL="ενός παιδιού"/>
+<SmNOUN15 SMaTTR="random,sin,neu" LGcPT="nnAc28" TXeXP1_B="" TxEXP="ένα,trmNnCsNm1" TXeXP1_A="" EXMPL="ένα παιδί"/>
+<SmNOUN15 SMaTTR="random,sin,neu" LGcPT="nnVc29" TXeXP1_B="" TxEXP="trmNnCsNm1" TXeXP1_A="" EXMPL="παιδί"/>
+
+<SmNOUN16 SMaTTR="random,plu,mas" LGcPT="nnCsNm02" TXeXP1_B="quantifier" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="κάποιοι δρόμοι"/>
+<SmNOUN17 SMaTTR="random,plu,fem" LGcPT="nnCsNm02" TXeXP1_B="quantifier" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="κάποιες νίκες"/>
+<SmNOUN18 SMaTTR="random,plu,neu" LGcPT="nnCsNm02" TXeXP1_B="quantifier" TxEXP="trmNnCsNm2" TXeXP1_A="" EXMPL="κάποια παιδιά"/>
+
+<SmNOUN19 SMaTTR="positive" LGcPT="nnAj01" TXeXP1_B="" TxEXP="trmNnAj1" TXeXP1_A=""/>
+<SmNOUN19 SMaTTR="positive" LGcPT="nnAv01" TXeXP1_B="" TxEXP="trmNnAv1" TXeXP1_A=""/>
+<SmNOUN20 SMaTTR="comparative" LGcPT="nnAj02" TXeXP1_B="" TxEXP="" TXeXP1_A=""/>
+<SmNOUN21 SMaTTR="superlative" LGcPT="nnAj03" TXeXP1_B="" TxEXP="" TXeXP1_A=""/>
+</SmNOUN>
+
+
+<SmCONJUNCTION>
+<!-- <SmCONJUNCTION XCPTR="" ARGS="" XCPT="" LGcPT="#" TXeXP1_B="..." TxEXP="..." TXeXP1_A="..." EXMPL=""/>
+ * ARGS= the order of the arguments of the semasial-conjunction as we use them in a ssemasia.
+ *
+ * CASES: mv, mo, ms
+-->
+<!-- SmCONJUNCTION SMvERB -->
+<SmCONJUNCTION XCPT="sm_argumenteino" ARGS="1:Process-or-relation@hknu.symb-14,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A=""/>
+<SmCONJUNCTION XCPT="sm_subjecteino" ARGS="1:Process-or-relation@hknu.symb-14,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="2,nominative" TxEXP="" TXeXP1_A="1,verb"/>
+<SmCONJUNCTION XCPT="sm_objecteino" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb" TxEXP="" TXeXP1_A="2,nominative|accusative" EXMPL="accusative in case of special-noun"/>
+<SmCONJUNCTION XCPT="sm_objecteino2" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb" TxEXP="" TXeXP1_A="2,accusative" TXeXP1_B="sm_object"/>
+<SmCONJUNCTION XCPT="sm_agenteino" ARGS="1:Process@hknu.symb-15,2:Entity@hknu.symb-7@" XCPT="" LGcPT="c032" TXeXP1_B="1,verb" TxEXP="by" TXeXP1_A="2,nominative"/>
+<SmCONJUNCTION XCPT="sm_subjectcomplementeino" ARGS="1:Relation@hknu.symb-16,2:Entity@hknu.symb-7@" XCPT="" LGcPT="" TXeXP1_B="1,verb.relation" TxEXP="" TXeXP1_A="2,mscomplement"/>
+
+<SmCONJUNCTION XCPT="parteino" ARGS="1:Entity@hknu.symb-7@,2:Part@" XCPT="" LGcPT="" TXeXP1_B="2,nominative" TxEXP="" TXeXP1_A="1,genitive" EXMPL="η μηχανή του αυτοκινήτου"/>
+<SmCONJUNCTION XCPT="Properteino@hknu.symb-24#1@" ARGS="1:Entity@hknu.symb-7@,2:property@" XCPT="" LGcPT="" TXeXP1_B="2,adjective" TXeXP1_A="1,nominative" EXMPL="a domestic animal"/>
+
+<SmCONJUNCTION XCPT="attribute" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" XCPT="Corelaton.Attribute@" LGcPT="c114" TxEXP="with" EXMPL="- he is a lawyer with a sports background. [wn 2.0]"/>
+<SmCONJUNCTION XCPT="attribute.mo" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" XCPT="Corelaton.Attribute@" LGcPT="c068" TXeXP1_B="2,nominative" TxEXP="από" TXeXP1_A="1,nominative" EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="att.absence" ARGS="1:Entity@hknu.symb-7@,2:Attribute@" XCPT="Corelaton.Absence@" LGcPT="c116" TxEXP="without" EXMPL="- #S:The children #V:climbed #O:the mountain #without=absense: fear."/>
+<SmCONJUNCTION XCPT="att.external" ARGS="1:Entity@hknu.symb-7@,2:attribute@" XCPT="" LGcPT="" TxEXP="" EXMPL="entity, attribute"/>
+<SmCONJUNCTION XCPT="att.ext.environment" ARGS="1:Entity@hknu.symb-7@,2:attribute@" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="att.ext.env.causality" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="att.ext.env.caus.condition.ms" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="if" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+  <SmCONJUNCTION XCPT="att.ext.env.caus.condition.ms" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="if...then" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="att.ext.env.caus.conditionon" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="att.ext.env.caus.cond.cause" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="att.ext.env.caus.cond.effect" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cause, effect"/>
+<SmCONJUNCTION XCPT="att.ext.env.creator" ARGS="1:Entity@hknu.symb-7@,2:creator@" XCPT="Corelaton.Creator@"/>
+<SmCONJUNCTION XCPT="att.ext.env.debt" ARGS="1:Entity@hknu.symb-7@,2:debt@" XCPT="Corelaton.Debt@"/>
+<SmCONJUNCTION XCPT="att.ext.env.mariage" ARGS="1:person@,2:hasband@|wife@" XCPT="Corelaton.Mariage@"/>
+<SmCONJUNCTION XCPT="att.ext.env.evaluation" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.evaluation@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL="evaluator, evaluatance, unit-of-evaluation, result"/>
+<SmCONJUNCTION XCPT="att.ext.env.eva.measurement" ARGS="1:Entity@hknu.symb-7@,2:unit@,3:result@" XCPT="Corelaton.Measurement@"/>
+<SmCONJUNCTION XCPT="att.ext.env.eva.similarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:common-att@" XCPT="Corelaton.Similarity@"/>
+<SmCONJUNCTION XCPT="att.ext.env.eva.unsimilarity" ARGS="1:Entity@hknu.symb-7@,2:att.env@,3:non-common-att@" XCPT="Corelaton.Unsimilarity@"/>
+<SmCONJUNCTION XCPT="att.ext.env.generic" ARGS="1:specific@hknu.symb-7@,2:generic@" XCPT="corelaton.generic@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmCONJUNCTION XCPT="att.ext.env.place." ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place@" LGcPT="." TxEXP="" TXeXP1_A="" EXMPL="entity, place"/>
+<SmCONJUNCTION XCPT="att.ext.env.place.accross.mv" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place.accross@" LGcPT="." TxEXP="" TXeXP1_A="vbtcomplement"/>
+<SmCONJUNCTION XCPT="att.ext.env.place.accross.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place.accross@" LGcPT="." TxEXP="" TXeXP1_A="vbtcomplement"/>
+<SmCONJUNCTION XCPT="att.ext.env.place.accross.ms" ARGS="1:Entity@hknu.symb-7@,2" XCPT="corelaton.place.accross@" LGcPT="." TxEXP="" TXeXP1_A="vbtcomplement"/>
+<SmCONJUNCTION XCPT="att.ext.whole" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="entity, whole"/>
+<SmCONJUNCTION XCPT="att.ext.whole.mo" ARGS="1:Entity@hknu.symb-7@,2:Whole@" XCPT="" LGcPT="c068" TXeXP1_B="1,nominative" TxEXP="of" TXeXP1_A="2,nominative" EXMPL="the engine of the car"/>
+<SmCONJUNCTION XCPT="att.ext.whole.possesion.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TxEXP="of" TXeXP1_A="whole@=owner@" EXMPL="the book of George"/>
+<SmCONJUNCTION XCPT="att.ext.whole.possesion.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TXeXP1_B="" TxEXP="possesiveCase" TXeXP1_A="entity" EXMPL="the George's book"/>
+<SmCONJUNCTION XCPT="att.internal" ARGS="1:Entity@hknu.symb-7@,2:part@" XCPT="" LGcPT="" TxEXP="" EXMPL="entity, part"/>
+<SmCONJUNCTION XCPT="att.internal.mo" ARGS="1:Entity@hknu.symb-7@,2:Part@" XCPT="" LGcPT="" TXeXP1_B="2,nominative" TxEXP="" TXeXP1_A="1,genitive" EXMPL="η μηχανή του αυτοκινήτου"/>
+<SmCONJUNCTION XCPT="att.int.property.mv" ARGS="1:doing@,2:property@" XCPT="" LGcPT="" TxEXP="adverb" EXMPL="I run quickly"/>
+<SmCONJUNCTION XCPT="att.int.property.mo" ARGS="1:Entity@hknu.symb-7@,2:property@" XCPT="" LGcPT="" TXeXP1_B="2,adjective" TXeXP1_A="1,nominative" EXMPL="a domestic animal"/>
+<SmCONJUNCTION XCPT="att.int.prop.content.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="c068" TXeXP1_B="Entity@hknu.symb-7@" TxEXP="of" TXeXP1_A="content@" EXMPL="a vase of flowers"/>
+<SmCONJUNCTION XCPT="att.int.prop.order.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TxEXP="ordinal" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="att.int.prop.quantity.mo" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="" TxEXP="number" TXeXP1_A="entity" EXMPL="the third child"/>
+<SmCONJUNCTION XCPT="att.int.prop.quant.about.mv" ARGS="1:Entity@hknu.symb-7@,2" XCPT="" LGcPT="about" TxEXP="about" TXeXP1_A="quantity" EXMPL="Improvement in the economy has reduced unemployment about 5% in 1988."/>
+<SmCONJUNCTION XCPT="att.int.prop.time" ARGS="1:Entity@hknu.symb-7@,2:time@" XCPT="corelaton.time@" LGcPT="" TxEXP="" TXeXP1_A="" EXMPL="entity, time"/>
+<SmCONJUNCTION XCPT="att.manner" ARGS="1:Doing@,2:Attribute@" XCPT="Corelaton.Manner@" LGcPT="051" TxEXP="how" TXeXP1_A="sentencer" EXMPL="- #S:These negotiations #V:will determine #how=manner: this area is to be governed."/>
+<SmCONJUNCTION XCPT="att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c032" TxEXP="by" EXMPL="- #S:Ross #V:annoys #O:Walter #by=accompaniment: turning pages too quickly."/>
+<SmCONJUNCTION XCPT="att.man.accompaniment" ARGS="1:Doing@,2:Attribute@(accompaniment)" XCPT="Corelaton.Accompaniment" LGcPT="c055" TxEXP="in" EXMPL="- #S:Correlative conjunctions #VS:always appear #in=accompaniment: pairs."/>
+<SmCONJUNCTION XCPT="att.man.instument" ARGS="1:Doing@,2:Instrument@" XCPT="Corelaton.Instrument@" LGcPT="c114" TxEXP="with" EXMPL="- cover the child with a blanket. [wn 2.0]" >/
+</SmCONJUNCTION>
+
+
+<SmSPECIALNOUN>
+<SmSPECIALNOUN01 XCPT="Human.A@" SMaTTR="concrete,sin,any" SPECIAL_NOMINATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="I write"/>
+<SmSPECIALNOUN01 XCPT="Human.A@" SMaTTR="concrete,sin,any" SPECIAL_ACCUSATIVE="me" TXeXP1_B="" TxEXP="me" TXeXP1_A="" EXMPL="I saw them before they saw me"/>
+<SmSPECIALNOUN01 XCPT="Human.A@" SMaTTR="concrete,sin,any" SPECIAL_POSSESSIVE="mine" TXeXP1_B="" TxEXP="mine" TXeXP1_A="" EXMPL="The smallest gift is mine"/>
+<SmSPECIALNOUN01 XCPT="Human.A@" SMaTTR="concrete,sin,any" SPECIAL_ADJECTIVE="my" TXeXP1_B="" TxEXP="my" TXeXP1_A="" EXMPL="My brother is a research associate"/>
+<SmSPECIALNOUN02 XCPT="Human.A@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="we write"/>
+<SmSPECIALNOUN02 XCPT="Human.A@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="us" TXeXP1_B="" TxEXP="us" TXeXP1_A="" EXMPL="Bullets were spatting down on us. [wn 2.0]"/>
+<SmSPECIALNOUN02 XCPT="Human.A@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="ours" TXeXP1_B="" TxEXP="ours" TXeXP1_A="" EXMPL="Their roles are paralleled by ours. [wn 2.0]"/>
+<SmSPECIALNOUN02 XCPT="Human.A@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="our" TXeXP1_B="" TxEXP="our" TXeXP1_A="" EXMPL="Alaska is our northernmost state. [wn 2.0]"/>
+<SmSPECIALNOUN03 XCPT="Human.A@" SMaTTR="intensive,sin,any" SPECIAL_NOMINATIVE="myself" TXeXP1_B="" TxEXP="myself" TXeXP1_A="" EXMPL="I myself believe that aliens should abduct my sister."/>
+<SmSPECIALNOUN04 XCPT="Human.A@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="ourselves" TXeXP1_B="" TxEXP="ourselves" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN05 XCPT="Human.A@" SMaTTR="reflexive,sin,any" SPECIAL_ACCUSATIVE="myself" TXeXP1_B="" TxEXP="myself" TXeXP1_A="" EXMPL="I found myself in a difficult situation. [wn 2.0]"/>
+<SmSPECIALNOUN06 XCPT="Human.A@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="ourselves" TXeXP1_B="" TxEXP="ourselves" TXeXP1_A="" EXMPL="we enjoyed ourselves very much. [wn 2.0]"/>
+
+<SmSPECIALNOUN07 XCPT="Human.B@" SMaTTR="concrete,sin,any" SPECIAL_NOMINATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="you will be safe here. [wn 2.0]"/>
+<SmSPECIALNOUN07 XCPT="Human.B@" SMaTTR="concrete,sin,any" SPECIAL_ACCUSATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="Age creeps up on you. [wn 2.0]"/>
+<SmSPECIALNOUN07 XCPT="Human.B@" SMaTTR="concrete,sin,any" SPECIAL_POSSESSIVE="yours" TXeXP1_B="" TxEXP="yours" TXeXP1_A="" EXMPL="my opinion differs from yours. [wn 2.0]"/>
+<SmSPECIALNOUN07 XCPT="Human.B@" SMaTTR="concrete,sin,any" SPECIAL_ADJECTIVE="your" TXeXP1_B="" TxEXP="your" TXeXP1_A="" EXMPL="Check your coat at the door. [wn 2.0]"/>
+<SmSPECIALNOUN08 XCPT="Human.B@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="you are a clever men"/>
+<SmSPECIALNOUN08 XCPT="Human.B@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="I'll see you later. [wn 2.0]"/>
+<SmSPECIALNOUN08 XCPT="Human.B@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="yours" TXeXP1_B="" TxEXP="yours" TXeXP1_A="" EXMPL="my opinion differs from yours. [wn 2.0]"/>
+<SmSPECIALNOUN08 XCPT="Human.B@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="your" TXeXP1_B="" TxEXP="your" TXeXP1_A="" EXMPL="are your people still alive? [wn 2.0]"/>
+<SmSPECIALNOUN09 XCPT="Human.B@" SMaTTR="intensive,sin,any" SPECIAL_NOMINATIVE="yourself" TXeXP1_B="" TxEXP="yourself" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN10 XCPT="Human.B@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="yourselves" TXeXP1_B="" TxEXP="yourselves" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN11 XCPT="Human.B@" SMaTTR="reflexive,sin,any" SPECIAL_ACCUSATIVE="yourself" TXeXP1_B="" TxEXP="yourself" TXeXP1_A="" EXMPL="you should acquaint yourself with your new computer. [wn 2.0]"/>
+<SmSPECIALNOUN12 XCPT="Human.B@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="yourselves" TXeXP1_B="" TxEXP="yourselves" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN13 XCPT="Human.C@" SMaTTR="concrete,sin,mas" SPECIAL_NOMINATIVE="he" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="after that failure he lost his confidence. [wn 2.0]"/>
+<SmSPECIALNOUN13 XCPT="Human.C@" SMaTTR="concrete,sin,mas" SPECIAL_ACCUSATIVE="him" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="alcohol brought him to an untimely end. [wn 2.0]"/>
+<SmSPECIALNOUN13 XCPT="Human.C@" SMaTTR="concrete,sin,mas" SPECIAL_POSSESSIVE="his" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="the burden of decision was his. [wn 2.0]"/>
+<SmSPECIALNOUN13 XCPT="Human.C@" SMaTTR="concrete,sin,mas" SPECIAL_ADJECTIVE="his" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="a member of his own faith contradicted him. [wn 2.0]"/>
+<SmSPECIALNOUN14 XCPT="Human.C@" SMaTTR="concrete,sin,fem" SPECIAL_NOMINATIVE="she" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="after all, she is your boss, so invite her. [wn 2.0]"/>
+<SmSPECIALNOUN14 XCPT="Human.C@" SMaTTR="concrete,sin,fem" SPECIAL_ACCUSATIVE="her" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="What makes her do this way? [wn 2.0]"/>
+<SmSPECIALNOUN14 XCPT="Human.C@" SMaTTR="concrete,sin,fem" SPECIAL_POSSESSIVE="hers" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="his portion was larger than hers. [wn 2.0]"/>
+<SmSPECIALNOUN14 XCPT="Human.C@" SMaTTR="concrete,sin,fem" SPECIAL_ADJECTIVE="her" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="This paper will add to her reputation. [wn 2.0]"/>
+<SmSPECIALNOUN15 XCPT="Human.C@" SMaTTR="concrete,sin,neu" SPECIAL_NOMINATIVE="it" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="a bird will not learn its song unless it hears it at an early age. [wn 2.0]"/>
+<SmSPECIALNOUN15 XCPT="Human.C@" SMaTTR="concrete,sin,neu" SPECIAL_ACCUSATIVE="it" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="a bird will not learn its song unless it hears it at an early age. [wn 2.0]"/>
+<SmSPECIALNOUN15 XCPT="Human.C@" SMaTTR="concrete,sin,neu" SPECIAL_POSSESSIVE="its" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="its was a brief and intense courtship. [wn 2.0]"/>
+<SmSPECIALNOUN15 XCPT="Human.C@" SMaTTR="concrete,sin,neu" SPECIAL_ADJECTIVE="its" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="a point is defined by its coordinates. [wn 2.0]"/>
+<SmSPECIALNOUN16 XCPT="Human.C@" SMaTTR="concrete,plu,any" SPECIAL_NOMINATIVE="" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="every morning they exchanged polite hellos. [wn 2.0]"/>
+<SmSPECIALNOUN16 XCPT="Human.C@" SMaTTR="concrete,plu,any" SPECIAL_ACCUSATIVE="them" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="a bomb scare led them to evacuate the building. [wn 2.0]"/>
+<SmSPECIALNOUN16 XCPT="Human.C@" SMaTTR="concrete,plu,any" SPECIAL_POSSESSIVE="theirs" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="theirs was a house filled with laughter. [wn 2.0]"/>
+<SmSPECIALNOUN16 XCPT="Human.C@" SMaTTR="concrete,plu,any" SPECIAL_ADJECTIVE="their" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="cowboys know not to squat with their spurs on. [wn 2.0]"/>
+<SmSPECIALNOUN17 XCPT="Human.C@" SMaTTR="intensive,sin,mas" SPECIAL_NOMINATIVE="himself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN18 XCPT="Human.C@" SMaTTR="intensive,sin,fem" SPECIAL_NOMINATIVE="herself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN19 XCPT="Human.C@" SMaTTR="intensive,sin,neu" SPECIAL_NOMINATIVE="itself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="the law itself was unclear on that point. [wn 2.0]"/>
+<SmSPECIALNOUN20 XCPT="Human.C@" SMaTTR="intensive,plu,any" SPECIAL_NOMINATIVE="themselves" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN21 XCPT="Human.C@" SMaTTR="reflexive,sin,mas" SPECIAL_ACCUSATIVE="himself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="he had no clear picture of himself or his world. [wn 2.0]"/>
+<SmSPECIALNOUN22 XCPT="Human.C@" SMaTTR="reflexive,sin,fem" SPECIAL_ACCUSATIVE="herself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="She covered herself with glory. [wn 2.0]"/>
+<SmSPECIALNOUN23 XCPT="Human.C@" SMaTTR="reflexive,sin,neu" SPECIAL_ACCUSATIVE="itself" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="this unpleasant situation isn't going to work itself out. [wn 2.0]"/>
+<SmSPECIALNOUN24 XCPT="Human.C@" SMaTTR="reflexive,plu,any" SPECIAL_ACCUSATIVE="themselves" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL="Some plants reseed themselves indefinitely. [wn 2.0]"/>
+
+<SmSPECIALNOUN25 XCPT="Human@" SMaTTR="def.near,sin" SPECIAL_NOMINATIVE="this" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN26 XCPT="Human@" SMaTTR="def.near,plu" SPECIAL_NOMINATIVE="these" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN27 XCPT="Human@" SMaTTR="def.far,sin" SPECIAL_NOMINATIVE="that" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN28 XCPT="Human@" SMaTTR="def.far,plu" SPECIAL_NOMINATIVE="those" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="interrogative,any" SPECIAL_NOMINATIVE="who" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="interrogative,any" SPECIAL_NOMINATIVE="which" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="interrogative,any" SPECIAL_ACCUSATIVE="whom" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="interrogative,any" SPECIAL_ACCUSATIVE="which" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+<SmSPECIALNOUN XCPT="Human@" SMaTTR="interrogative,any" SPECIAL_POSSESSIVE="whose" TXeXP1_B="" TxEXP="" TXeXP1_A="" EXMPL=""/>
+
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_NOMINATIVE="p9" TXeXP1_B="" TxEXP="οποιοσδήποτε,οποιαδήποτε,οποιοδήποτε" TXeXP1_A="" EXMPL="take any of the books you like"/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.any,any" SPECIAL_ADJECTIVE="p9" TXeXP1_B="" TxEXP="οποιοσδήποτε,οποιαδήποτε,οποιοδήποτε" TXeXP1_A="" EXMPL="not any milk is left. [wn 2.0]"/>
+<SmSPECIALNOUN XCPT="Quantity@hknu.symb-18@" SMaTTR="idef.every,any" SPECIAL_ADJECTIVE="p9" TXeXP1_B="" TxEXP="κάθε" TXeXP1_A="" EXMPL="not any milk is left. [wn 2.0]"/>
+
+</SmSPECIALNOUN>

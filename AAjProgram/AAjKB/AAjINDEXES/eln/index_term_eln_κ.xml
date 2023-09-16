@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRMNL [
+ <!ELEMENT TRMNL EMPTY>
+ <!ATTLIST TRMNL TxEXP CDATA #REQUIRED>
+ <!ATTLIST TRMNL TRMNLtYPE CDATA	#REQUIRED>
+ <!ATTLIST TRMNL XCPT CDATA #REQUIRED>
+ <!ATTLIST TRMNL NAME CDATA #IMPLIED>
+]>
+<!--
+ * @since 2008.04.10
+ * @author HoKoNoUmo
+ * This file has been created by the machine.
+ * Contains the LG-CONCEPT-TERMS of the stored xConcepts.
+ * The xConcept-files contain ONLY the lgCptNames.
+-->
+<TRMNL TxEXP="καταστάσεις" TRMNLtYPE="trmNnCb5" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="καταστάσεις" TRMNLtYPE="trmNnCb7" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="καταστάσεων" TRMNLtYPE="trmNnCb6" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="καταστάσεως" TRMNLtYPE="trmNnCb2b" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="κατάσταση" TRMNLtYPE="trmNnCb1" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="κατάσταση" TRMNLtYPE="trmNnCb3" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="κατάστασης" TRMNLtYPE="trmNnCb2a" XCPT="Relation@hknu.symb-16@" NAME="κατάσταση"/>
+<TRMNL TxEXP="κόμβε" TRMNLtYPE="trmNnCsA4" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβο" TRMNLtYPE="trmNnCsA3" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβοι" TRMNLtYPE="trmNnCsA5" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβος" TRMNLtYPE="trmNnCsA1" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβου" TRMNLtYPE="trmNnCsA2" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβους" TRMNLtYPE="trmNnCsA7" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>
+<TRMNL TxEXP="κόμβων" TRMNLtYPE="trmNnCsA6" XCPT="Tree-network's-node@hknu.symb-11@" NAME="κόμβος"/>

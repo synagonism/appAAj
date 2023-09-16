@@ -1,0 +1,5 @@
+bad,worse,worst
+far,further|farther,furhest|farthest
+good,better,best
+little,less,least
+many,more,most

@@ -1,0 +1,24 @@
+kb_sAuthor=HoKoNoUmo
+
+#XBRAINWORLDVIEW= SHORTNAME; DESCRIPTION;	DIRECTORY(FullName);
+XBrainWorldview=LangoEln;Worldview of Greek Language;LangoEln;
+XBrainWorldview=LangoEngUK;Worldview of UK-ENGLISH Language;LangoEngUK;
+XBrainWorldview=LangoEngUS;Worldview of US-ENGLISH Language;LangoEngUS;
+XBrainWorldview=OntologySUMO;Worldview of the SUMO ontology;OntologySUMO;
+XBrainWorldview=hknu;Worldview of Nikos Kaseluris;HoKoNoUmo;
+
+#XBRAINSUBWORLDVIEW= SHORTNAME; DESCRIPTION;	DIRECTORY(FullName); LAST-ID; INTERNALS;
+XBrainSubWorldview=hknu.earth;Entities (places/towns) of the Earth;HoKoNoUmo/Earth;0;0;
+XBrainSubWorldview=hknu.economy;Economic concepts;HoKoNoUmo/Economy;0;0;
+XBrainSubWorldview=hknu.hbody;Related to human body;HoKoNoUmo/HumanBody;0;0;
+XBrainSubWorldview=hknu.it;Information Technology;HoKoNoUmo/InfoTech;1;0;
+XBrainSubWorldview=hknu.it.soft;InfoTech software;HoKoNoUmo/InfoTech/Software;0;0;
+XBrainSubWorldview=hknu.lango;Human Natural Language;HoKoNoUmo/Language;0;0;
+XBrainSubWorldview=hknu.meta;Meta-Concept;HoKoNoUmo/MetaBConcept;2;1;
+XBrainSubWorldview=hknu.soc;Human society concepts;HoKoNoUmo/Society;0;0;
+XBrainSubWorldview=hknu.soc.homo;Anyone of the mankind;HoKoNoUmo/Society/Homo;0;0;
+XBrainSubWorldview=hknu.source;Any human information source;HoKoNoUmo/Source;0;0;
+XBrainSubWorldview=hknu.symb;Holds the most general concepts;HoKoNoUmo/Symban;24;3;
+
+#EMPTY-FrNUMBERS: emptyFrNUMBER@hknu.it=[14, 19]
+emptyFrNUMBER@hknu.symb=[1, 10, 19]

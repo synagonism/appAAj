@@ -1,0 +1,26 @@
+1. Entity's-relation@hknu.symb-1@
+2.
+3. Entity_generic@hknu.symb-3@
+4. Concept-and-referent@hknu.symb-4@
+5. Entity_individual@hknu.symb-5@
+6. SubWorldview_conceptual@hknu.symb-6@
+7. Entity@hknu.symb-7@
+8. Entity's-structure@hknu.symb-8@
+9. Entity's-partition@hknu.symb-9@
+10. Entity's-non-attribute@hknu.symb-10@
+11. Tree-network's-node@hknu.symb-11@
+12. Person@hknu.symb-12@
+13. Non-process-or-relation@hknu.symb-13@
+14. Process-or-relation@hknu.symb-14@
+15. Process@hknu.symb-15@
+16. Relation@hknu.symb-16@
+17. Naming@hknu.symb-17@
+18. Quantity@hknu.symb-18@
+19. Entity's-non-attribute-relation@hknu.symb-19@
+20. Entity's-attribute-relation@hknu.symb-20@
+21. Entity's-attribute@hknu.symb-21@
+22. Number@hknu.symb-22@
+23. Quantiteino@hknu.symb-23@
+24. Parteino@hknu.symb-24@
+25. Entity's-relator@hknu.symb-25@
+26. Commonness-in-entity's-relation@hknu.symb-26@

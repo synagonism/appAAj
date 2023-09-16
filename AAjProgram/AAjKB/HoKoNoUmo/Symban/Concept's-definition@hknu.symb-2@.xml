@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.06.27" CREATED="2000.04.09" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION LASTmOD="2000.04.26" AUTHOR="HoKoNoUmo">
+** analytic-definition: ?????
+REFINO_DEFINITION is the IDENTIFICATION thinking-process of the concept, by DISTIGUISHING it from known ones.
+We express it in statements. [2000.11.09]
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.06.27" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.06.27" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Definition of concept" TRMrULE="rlEngTrmNnCs11" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eng>
+<eln LASTmOD="2001.06.14" CREATED="2000.11.12" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Ορισμός έννοιας" TRMrULE="rlElnTrmNnCs51d1" CREATED="2000.11.12" AUTHOR="HoKoNoUmo"/>
+</eln>
+</REFINO_NAME>
+
+<REFINO_ENVIRONMENT LASTmOD="2009.04.13" CREATED="2001.03.05" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="BConcept@hknu.meta-1@" LASTmOD="2001.03.05" CREATED="2001.03.05" AUTHOR="HoKoNoUmo"/>
+</REFINO_ENVIRONMENT>
+</XCONCEPT>

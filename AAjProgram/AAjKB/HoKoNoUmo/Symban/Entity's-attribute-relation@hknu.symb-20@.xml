@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<XCONCEPT LASTiNTfRnUMBER="0" INTEGRATED="no" LASTmOD="2009.10.25" CREATED="2006.10.22" AUTHOR="HoKoNoUmo">
+
+<REFINO_DEFINITION>
+<DEFINITION_ATTRIBUTE_START CREATION="y" CREATED="2009.10.20" AUTHOR="HoKoNoUmo">
+<EngMainName TxEXP="Entity's attribute relation" MOSTuSED="1" TRMrULE="rlEngTrmNnCs4b11" CREATED="2009.10.20" AUTHOR="HoKoNoUmo"/>
+<Description_eng CREATED="2009.10.20" AUTHOR="HoKoNoUmo">
+The relation of an entity and one of its attributes.
+</Description_eng>
+</DEFINITION_ATTRIBUTE_START>
+</REFINO_DEFINITION>
+
+<REFINO_NAME LASTmOD="2009.10.19" CREATED="2000.03.14" AUTHOR="HoKoNoUmo">
+<eng LASTmOD="2009.10.19" CREATED="2000.10.25" AUTHOR="HoKoNoUmo">
+<Name_NounCase TxEXP="Entity's attribute relation" TRMrULE="rlEngTrmNnCs4b11" CREATED="2006.10.22" AUTHOR="HoKoNoUmo"/>
+<Name_NounCase TxEXP="Attributefino" TRMrULE="rlEngTrmNnCs12" CREATED="2006.10.22" AUTHOR="HoKoNoUmo"/>
+</eng>
+</REFINO_NAME>
+
+<REFINO_WHOLE CREATED="2009.10.26" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity's-structure@hknu.symb-8@" GENERICiNHERITOR="Entity's-structure@hknu.symb-8@/Entity@hknu.symb-7@" CREATED="2009.10.26" AUTHOR="HoKoNoUmo"/>
+</REFINO_WHOLE>
+
+<REFINO_GENERIC CREATED="2006.10.22" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Relation@hknu.symb-16@" CREATED="2006.10.22" AUTHOR="HoKoNoUmo"/>
+</REFINO_GENERIC>
+
+<REFINO_SPECIFIC LASTmOD="2008.12.12" CREATED="2008.12.12" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Parteino@hknu.symb-24@" CREATED="2008.12.12" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Quantiteino@hknu.symb-23@" CREATED="2008.12.12" AUTHOR="HoKoNoUmo"/>
+</REFINO_SPECIFIC>
+
+<REFINO_ARGUMENT CREATED="2009.10.25" AUTHOR="HoKoNoUmo">
+<XCPT FRnAME="Entity@hknu.symb-7@" CREATED="2009.10.25" AUTHOR="HoKoNoUmo"/>
+<XCPT FRnAME="Entity's-attribute@hknu.symb-21@" CREATED="2009.10.25" AUTHOR="HoKoNoUmo"/>
+</REFINO_ARGUMENT>
+
+</XCONCEPT>
